@@ -1,0 +1,160 @@
+<!doctype html>
+<html class="no-js" ng-app="eliteAdmin">
+<head>
+    <meta charset="utf-8">
+    <title>Elite Schedule Admin</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--<link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.united.min.css"/>-->
+    <link rel="stylesheet" href="./angular-toastr-1.4.1/angular-toastr.css">
+</head>
+<body>
+<div  ng-controller="MyCtrl">
+    <!--<div data-ng-include="'app/layout/shell.html'"></div>-->
+    <button ng-click="clickMe()" >click</button>
+
+</div>
+
+
+<!-- Vendor Scripts -->
+<script src="../lib/angular/angular.js"></script>
+<script src="./angular-toastr-1.4.1/angular-toastr.tpls.js"></script>
+<script src="./ufsToasterSvc.js"></script>
+
+
+<script>
+
+    angular.module('eliteAdmin',[ 'toastr', 'ufs-common-toaster'])
+            .controller("MyCtrl", function($scope,/* toastr, toastrConfig,*/ ufsToasterSvc) {
+        console.debug("inside controller")
+                //console.debug("toastr ", toastr)
+
+//                toastrConfig.autoDismiss = false;
+//                toastrConfig.allowHtml = true;
+//                toastrConfig.positionClass ='toast-bottom-right';
+//                toastrConfig.newestOnTop = false;
+                ufsToasterSvc.toaster.success('Hello world!', 'Toastr fun!');
+                var cnt = 0;
+
+
+            $scope.clickMe = function() {
+                console.debug("onclick scope = ", $scope)
+                cnt ++;
+
+                ufsToasterSvc.toaster.error('more toaster'+cnt, 'Toastr fun!');
+                ufsToasterSvc.toaster.info('<input type="checkbox" checked> Success!' + cnt, 'With HTML');
+
+//                toastr.error('more toaster'+cnt, 'Toastr fun!',
+//                        { closeHtml: '<button>&times;</button>' });
+//
+//                toastr.info('<input type="checkbox" checked> Success!' + cnt, 'With HTML', {
+//                    allowHtml: true,
+//                    closeButton: true,
+//                    closeHtml: '<button>&times;</button>',
+//                    positionClass: 'toast-bottom-right'
+//                });
+            }
+    });
+
+    /**
+     * Usage:
+     *      1. import   "angular-toastr.tpls.js",
+     *                  "ufsToasterSvc.js"
+     *                  "angular-toastr.css"
+     *      2. inject the ufs-common-toaster and toastr  into your app module
+     *              angular.module('app',[ 'toastr', 'ufs-common-toaster'])
+     *      3. inject ufsToasterSvc into the
+     *              app.controller("MyCtrl", function($scope, ufsToasterSvc)
+     *      4. to display the toast, use:
+     *                  ufsToasterSvc.toaster.info()
+     *                  ufsToasterSvc.toaster.warning()
+     *                  ufsToasterSvc.toaster.success()
+     *                  ufsToasterSvc.toaster.error()
+     *
+     *
+     */
+//    angular.module('ufs-common-toaster', [])
+//            .factory('ufsToasterSvc', function(toastr, toastrConfig) {
+//
+//        // config the toaster configuration.
+//        toastrConfig.autoDismiss = true;
+//        toastrConfig.allowHtml = true;
+//        toastrConfig.positionClass ='toast-bottom-right';
+//        toastrConfig.newestOnTop = false;
+//
+//        var service = {
+//            toaster: toastr
+//        };
+//        return service;
+//    });
+
+//    angular.module('eliteAdmin').config(function(toastrConfig) {
+//        angular.extend(toastrConfig, {
+//            allowHtml: false,
+//            autoDismiss: false,
+//            closeButton: false,
+//            closeHtml: '<button>&times;</button>',
+//            containerId: 'toast-container',
+//            extendedTimeOut: 1000,
+//            iconClasses: {
+//                error: 'toast-error',
+//                info: 'toast-info',
+//                success: 'toast-success',
+//                warning: 'toast-warning'
+//            },
+//            maxOpened: 0,
+//            messageClass: 'toast-message',
+//            newestOnTop: true,
+//            onHidden: null,
+//            onShown: null,
+//            positionClass: 'toast-top-right',
+//            preventDuplicates: false,
+//            preventOpenDuplicates: false,
+//            progressBar: false,
+//            tapToDismiss: true,
+//            target: 'body',
+//            templates: {
+//                toast: 'directives/toast/toast.html',
+//                progressbar: 'directives/progressbar/progressbar.html'
+//            },
+//            timeOut: 5000,
+//            titleClass: 'toast-title',
+//            toastClass: 'toast'
+//        });
+//    });
+
+
+//    angular.module('eliteAdmin').directive("ufsLoadingSpinner", function() {
+//        var directive = {
+//
+//            restrict: 'E',
+//            scope: {
+//                show: "=",
+//                msg: '='
+//            },
+//
+//            controller: function($scope) {
+//                //$scope.displayLoading = true;
+//                $scope.spinnerOptions = {
+//                    radius: 30,
+//                    lines: 8,
+//                    length: 0,
+//                    width: 30,
+//                    speed: 1.7,
+//                    corners: 1.0,
+//                    trail: 100,
+//                    color: '#428bca'
+//                };
+//            },
+//
+//            template:  '<div ng-show="show" class="page-splash"> ' +
+//                       '        <div data-spinner="spinnerOptions"></div>' +
+//                       '        <div class="page-splash-message">{{msg}}</div>' +
+//                       '        </div>'
+//        };
+//        return directive;
+//    });
+</script>
+</body>
+</html>

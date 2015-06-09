@@ -1,0 +1,83 @@
+<!doctype html>
+<html class="no-js" ng-app="eliteAdmin">
+<head>
+    <meta charset="utf-8">
+    <title>Elite Schedule Admin</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--<link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.united.min.css"/>-->
+    <link rel="stylesheet" href="loading-spinner.css">
+</head>
+<body>
+<div  ng-controller="MyCtrl">
+    <!--<div data-ng-include="'app/layout/shell.html'"></div>-->
+    <button ng-click="clickMe()" >click</button>
+    <ufs-loading-spinner msg="loadingmsg" show="showOverlay"></ufs-loading-spinner>
+    <button style="height: 100px; width:100px" ng-click="clickMe()" >click</button>
+</div>
+
+
+<!-- Vendor Scripts -->
+<script src="../lib/angular/angular.min.js"></script>
+<script src="./spin.js/spin.js"></script>
+<!--<script src="lib/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>-->
+
+<!-- inject:js -->
+<script src="../app/app-overlay.js"></script>
+<script src="./spinner.directive.js"></script>
+<script src="./ufsLoadingSpinner.js"></script>
+
+<script>
+
+    angular.module('eliteAdmin').controller("MyCtrl", function($scope) {
+        console.debug("inside controller")
+            $scope.loadingmsg = "please wait...";
+            $scope.showOverlay = false;
+
+            $scope.clickMe = function() {
+                console.debug("onclick scope = ", $scope)
+                $scope.loadingmsg = "wait more...";
+                $scope.showOverlay = true;
+
+                setTimeout(function() {
+                    $scope.showOverlay = false;
+                    console.debug("timeout");
+                    $scope.$apply();
+                }, 10000);
+            }
+    })
+
+//    angular.module('eliteAdmin').directive("ufsLoadingSpinner", function() {
+//        var directive = {
+//
+//            restrict: 'E',
+//            scope: {
+//                show: "=",
+//                msg: '='
+//            },
+//
+//            controller: function($scope) {
+//                //$scope.displayLoading = true;
+//                $scope.spinnerOptions = {
+//                    radius: 30,
+//                    lines: 8,
+//                    length: 0,
+//                    width: 30,
+//                    speed: 1.7,
+//                    corners: 1.0,
+//                    trail: 100,
+//                    color: '#428bca'
+//                };
+//            },
+//
+//            template:  '<div ng-show="show" class="page-splash"> ' +
+//                       '        <div data-spinner="spinnerOptions"></div>' +
+//                       '        <div class="page-splash-message">{{msg}}</div>' +
+//                       '        </div>'
+//        };
+//        return directive;
+//    });
+</script>
+</body>
+</html>

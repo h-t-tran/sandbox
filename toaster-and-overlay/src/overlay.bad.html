@@ -1,0 +1,68 @@
+<!doctype html>
+<html class="no-js" ng-app="eliteAdmin">
+<head>
+    <meta charset="utf-8">
+    <title>Elite Schedule Admin</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.united.min.css"/>
+    <link rel="stylesheet" href="../styles/main.css">
+</head>
+<body>
+
+
+<div  ng-controller="MyCtrl">
+    <!--<div data-ng-include="'app/layout/shell.html'"></div>-->
+    <div ng-show="displayLoading" class="page-splash dissolve-animation">
+        <div data-spinner="spinnerOptions"></div>
+        <div class="page-splash-message page-splash-message-subtle">waiting...</div>
+    </div>
+</div>
+
+
+<!-- Vendor Scripts -->
+<script src="../lib/angular/angular.min.js"></script>
+<!--<script src="lib/angular-route/angular-route.min.js"></script>-->
+<!--<script src="lib/lodash/dist/lodash.min.js"></script>-->
+<!--<script src="lib/moment/min/moment.min.js"></script>-->
+<script src="../lib/spin.js/spin.js"></script>
+<!--<script src="../lib/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>-->
+
+<!-- inject:js -->
+<script src="../app/app-overlay.js"></script>
+<script src="../app/directives/spinner.directive.js"></script>
+<!--<script src="app/home/home.controller.js"></script>-->
+<!--<script src="app/games/edit-game.controller.js"></script>-->
+<!--<script src="app/games/games-initial-data.service.js"></script>-->
+<!--<script src="app/games/games.controller.js"></script>-->
+<!--<script src="app/layout/shell.controller.js"></script>-->
+<!--<script src="app/league-home/league-home.controller.js"></script>-->
+<!--<script src="app/leagues/leagues.controller.js"></script>-->
+<!--<script src="app/services/app-spinner.service.js"></script>-->
+<!--<script src="app/services/dialogs.service.js"></script>-->
+<!--<script src="app/services/elite-api.service.js"></script>-->
+<!--<script src="app/teams/edit-team.controller.js"></script>-->
+<!--<script src="app/teams/teams.controller.js"></script>-->
+<!--<script src="app/shared/confirm-modal.controller.js"></script>-->
+<!-- endinject -->
+
+<script>
+
+    angular.module('eliteAdmin').controller("MyCtrl", function($scope) {
+        console.debug("inside controller")
+        $scope.displayLoading = true;
+        $scope.spinnerOptions = {
+            radius: 40,
+            lines: 8,
+            length: 0,
+            width: 30,
+            speed: 1.7,
+            corners: 1.0,
+            trail: 100,
+            color: '#428bca'
+        };
+    })
+</script>
+</body>
+</html>
