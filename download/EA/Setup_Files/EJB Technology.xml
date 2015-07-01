@@ -1,0 +1,1394 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<MDG.Technology version="1.0">
+	<Documentation	id="EJB36047533"
+			name="Enterprise Java Beans"
+			version="1.0 Beta"
+			notes=" "/>
+	<UMLProfiles>
+<UMLProfile profiletype="uml2">
+	<Documentation id="36047533-1" name="UML Profile for EJB" version="1.0" notes="UML Profile for EJB"/>
+	<Content>
+		<Stereotypes>
+			<Stereotype name="EJBCreateMethod" notes="Indicates that the operation represents an EJB Create Method.">
+				<AppliesTo>
+					<Apply type="Operation"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="EJBRoleNames" type="" description="A comma-delimited list of strings designating the security roles that may invoke the operation." unit="" values="" default=""/>
+					<Tag name="EJBTransAttribute" type="" description="Defines the transaction management policy for the operation." unit="" values="NotSupported | Supports | Required | RequiresNew | Mandatory | Never" default=""/>
+					<Tag name="throws" type="" description="" unit="" values="" default="RemoteException, CreateException"/>
+				</TaggedValues>
+				<Constraints/>
+			</Stereotype>
+			<Stereotype name="EJBFinderMethod" notes="Indicates that the operation represents an EJB Finder Method.">
+				<AppliesTo>
+					<Apply type="Operation"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="EJBRoleNames" type="" description="A comma-delimited list of strings designating the security roles that may invoke the operation." unit="" values="" default=""/>
+					<Tag name="EJBTransAttribute" type="" description="Defines the transaction management policy for the operation." unit="" values="NotSupported | Supports | Required | RequiresNew | Mandatory | Never" default=""/>
+					<Tag name="throws" type="" description="" unit="" values="" default="RemoteException, FinderException"/>
+				</TaggedValues>
+				<Constraints/>
+			</Stereotype>
+			<Stereotype name="EJBRemoteMethod" notes="Indicates that the operation represents an EJB Remote Method.">
+				<AppliesTo>
+					<Apply type="Operation"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="EJBRoleNames" type="" description="A comma-delimited list of strings designating the security roles that may invoke the operation." unit="" values="" default=""/>
+					<Tag name="EJBTransAttribute" type="" description="Defines the transaction management policy for the operation." unit="" values="NotSupported | Supports | Required | RequiresNew | Mandatory | Never" default=""/>
+					<Tag name="throws" type="" description="" unit="" values="" default="RemoteException"/>
+				</TaggedValues>
+				<Constraints/>
+			</Stereotype>
+			<Stereotype name="EJBEntityHomeInterface" notes="Indicates that the class represents an EJB Entity Home.">
+				<AppliesTo>
+					<Apply type="Interface"/>
+				</AppliesTo>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			<Stereotype name="EJBRemoteInterface" notes="Indicates that the class represents an EJB Remote Interface.">
+				<AppliesTo>
+					<Apply type="Interface"/>
+				</AppliesTo>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			<Stereotype name="EJBSessionHomeInterface" notes="Indicates that the class represents an EJB Session Home.">
+				<AppliesTo>
+					<Apply type="Interface"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="EJBSessionType" type="" description="Indicates whether or not the EJB Session Bean maintains state." unit="" values="Stateful | Stateless" default=""/>
+				</TaggedValues>
+				<Constraints/>
+			</Stereotype>
+			<Stereotype name="EJBPrimaryKey" notes="Indicates that the supplier of the dependency represents the EJB 
+Primary Key class for the EJB Entity Home represented by the client.">
+				<AppliesTo>
+					<Apply type="Dependency"/>
+				</AppliesTo>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			<Stereotype name="EJBCmpField" notes="Indicates that the attribute represents a container-managed field for an
+EJB Entity Bean with container-managed persistence.">
+				<AppliesTo>
+					<Apply type="Attribute"/>
+				</AppliesTo>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			<Stereotype name="EJBPrimaryKeyField" notes="Indicates that the attribute is the primary key field for an EJB Entity 
+Bean with container-managed persistence.">
+				<AppliesTo>
+					<Apply type="Attribute"/>
+				</AppliesTo>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			<Stereotype name="EJBRealizeHome" notes="Indicates the supplier of the dependency represents an EJB Home 
+Interface for the EJB Implementation class represented by the client.">
+				<AppliesTo>
+					<Apply type="Dependency"/>
+				</AppliesTo>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			<Stereotype name="EJBRealizeRemote" notes="Indicates the supplier of the dependency represents an EJB Remote
+Interface for the EJB Implementation class represented by the client.">
+				<AppliesTo>
+					<Apply type="Dependency"/>
+				</AppliesTo>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			<Stereotype name="EJBImplementation" notes="Indicates that the class describes an EJB Implementation class.">
+				<AppliesTo>
+					<Apply type="Class"/>
+				</AppliesTo>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			<Stereotype name="EJBSessionBean" notes="Indicates that the package represents an EJB Session Bean.">
+				<AppliesTo>
+					<Apply type="Package"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="EJBEnvEntries" type="" description="A comma-delimited list of tuples, designating the environment entries used by the EJB Enterprise Bean." unit="" values="" default=""/>
+					<Tag name="EJBNameInJAR" type="" description="The name used for the EJB Enterprise Bean in the EJB-JAR." unit="" values="" default=""/>
+					<Tag name="EJBReferences" type="" description="A comma-delimited list of tuples, designating the other EJB Enterprise Beans referenced by the EJB Enterprise Bean." unit="" values="" default=""/>
+					<Tag name="EJBResources" type="" description="A comma-delimited list of tuples, designating the resource factories used by the EJB Enterprise Bean." unit="" values="" default=""/>
+					<Tag name="EJBSecurityRoles" type="" description="A comma-delimited list of tuples, designating the role names that may invoke ALL operations on the EJB Enterprise Bean." unit="" values="" default=""/>
+					<Tag name="EJBTransType" type="" description="Indicates whether the transactions of the EJB Session Bean are managed by the EJB Session Bean or its container." unit="" values="Bean | Container" default=""/>
+				</TaggedValues>
+				<Constraints/>
+			</Stereotype>
+			<Stereotype name="EJBEntityBean" notes="Indicates that the package represents an EJB Entity Bean.">
+				<AppliesTo>
+					<Apply type="Package"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="EJBEnvEntries" type="" description="A comma-delimited list of tuples, designating the environment entries used by the EJB Enterprise Bean." unit="" values="" default=""/>
+					<Tag name="EJBNameInJAR" type="" description="The name used for the EJB Enterprise Bean in the EJB-JAR." unit="" values="" default=""/>
+					<Tag name="EJBReferences" type="" description="A comma-delimited list of tuples, designating the other EJB Enterprise Beans referenced by the EJB Enterprise Bean." unit="" values="" default=""/>
+					<Tag name="EJBResources" type="" description="A comma-delimited list of tuples, designating the resource factories used by the EJB Enterprise Bean." unit="" values="" default=""/>
+					<Tag name="EJBSecurityRoles" type="" description="A comma-delimited list of tuples, designating the role names that may invoke ALL operations on the EJB Enterprise Bean." unit="" values="" default=""/>
+					<Tag name="EJBPersistenceType" type="" description="Indicates whether the persistence of the EJB Entity Bean is managed by the EJB Entity Bean or its container." unit="" values="Bean | Container" default=""/>
+					<Tag name="EJBReentrant" type="" description="Indicates whether or not the EJB Entity Bean can be called reentrantly." unit="" values="true | false" default=""/>
+				</TaggedValues>
+				<Constraints/>
+			</Stereotype>
+			<Stereotype name="EJB-JAR" notes="Indicates that package represents an EJB-JAR.">
+				<AppliesTo>
+					<Apply type="Package"/>
+				</AppliesTo>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			<Stereotype name="EJBDescriptor" notes="Indicates that the component represents an EJB Deployment Descriptor.">
+				<AppliesTo>
+					<Apply type="Component"/>
+				</AppliesTo>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			<Stereotype name="EJBClientJAR" notes="Indicates that the client of the dependeny represents an ejb-client-jar
+for the EJB-JAR represented by the supplier of the dependency.">
+				<AppliesTo>
+					<Apply type="Dependency"/>
+				</AppliesTo>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			<Stereotype name="EJBAccess" notes="Indicates that the association defines a security role name relationship 
+between an Actor and an EJB Enterprise Bean.">
+				<AppliesTo>
+					<Apply type="Association"/>
+				</AppliesTo>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+			<Stereotype name="EJBReference" notes="Indicates that the navigable end of the association represents a 
+referenced EJB Enterprise Bean.">
+				<AppliesTo>
+					<Apply type="Association"/>
+				</AppliesTo>
+				<TaggedValues/>
+				<Constraints/>
+			</Stereotype>
+		</Stereotypes>
+	</Content>
+</UMLProfile>
+	</UMLProfiles>
+	<UMLPatterns>
+		<UMLPattern>
+<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3" timestamp="2004-06-28 16:32:22">
+	<XMI.header>
+		<XMI.documentation>
+			<XMI.exporter>Enterprise Architect</XMI.exporter>
+			<XMI.exporterVersion>2.5</XMI.exporterVersion>
+		</XMI.documentation>
+	</XMI.header>
+	<XMI.content>
+		<UML:Model name="EA Model" xmi.id="MX_EAID_FCDD4ADF_D5CD_474f_8CCD_AF97A1CDF7EF">
+			<UML:Namespace.ownedElement>
+				<UML:Interface name="SessionHome" xmi.id="EAID_7BC6061C_4B1D_43bc_9987_441A2798167C" visibility="public" namespace="EAPK_FCDD4ADF_D5CD_474f_8CCD_AF97A1CDF7EF" isRoot="false" isLeaf="false" isAbstract="true">
+					<UML:ModelElement.stereotype>
+						<UML:Stereotype name="EJBSessionHomeInterface"/>
+					</UML:ModelElement.stereotype>
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="isSpecification" value="false"/>
+						<UML:TaggedValue tag="ea_stype" value="Interface"/>
+						<UML:TaggedValue tag="ea_ntype" value="0"/>
+						<UML:TaggedValue tag="version" value="1.0"/>
+						<UML:TaggedValue tag="package" value="EAPK_FCDD4ADF_D5CD_474f_8CCD_AF97A1CDF7EF"/>
+						<UML:TaggedValue tag="date_created" value="2004-06-28 14:45:43"/>
+						<UML:TaggedValue tag="date_modified" value="2004-06-28 16:31:56"/>
+						<UML:TaggedValue tag="genfile" value="C:\Documents and Settings\Owner\My Documents\EA Models\Test EJB Technology\Session\SessionHome.java"/>
+						<UML:TaggedValue tag="genlinks" value="Implements=EJBHome;"/>
+						<UML:TaggedValue tag="gentype" value="Java"/>
+						<UML:TaggedValue tag="header1" value="import javax.ejb.*;
+import java.rmi.*;"/>
+						<UML:TaggedValue tag="tagged" value="0"/>
+						<UML:TaggedValue tag="package_name" value="Session"/>
+						<UML:TaggedValue tag="phase" value="1.0"/>
+						<UML:TaggedValue tag="author" value="Neil Capey"/>
+						<UML:TaggedValue tag="complexity" value="1"/>
+						<UML:TaggedValue tag="genlinks" value="Implements=EJBHome;"/>
+						<UML:TaggedValue tag="status" value="Proposed"/>
+						<UML:TaggedValue tag="stereotype" value="EJBSessionHomeInterface"/>
+						<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=0;HSwimLanes=0;BorderStyle=0;"/>
+					</UML:ModelElement.taggedValue>
+					<UML:Classifier.feature>
+						<UML:Operation name="create" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="EJBCreateMethod"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="type" value="SessionRemote"/>
+								<UML:TaggedValue tag="const" value="false"/>
+								<UML:TaggedValue tag="stereotype" value="EJBCreateMethod"/>
+								<UML:TaggedValue tag="synchronised" value="0"/>
+								<UML:TaggedValue tag="concurrency" value="Sequential"/>
+								<UML:TaggedValue tag="position" value="0"/>
+								<UML:TaggedValue tag="returnarray" value="0"/>
+								<UML:TaggedValue tag="pure" value="0"/>
+								<UML:TaggedValue tag="ea_guid" value="{A888E7E9-CEEC-4b5e-89F3-942D7EC2B613}"/>
+								<UML:TaggedValue tag="throws" value="RemoteException, CreateException" xmi.id="EAID_447848AE_6095_4a00_9EE9_5B297B5CDC92">
+									<XMI.extension xmi.extender="Enterprise Architect 2.5">
+										<UML:Comment name="Default: RemoteException, CreateException
+"/>
+									</XMI.extension>
+								</UML:TaggedValue>
+							</UML:ModelElement.taggedValue>
+							<UML:BehavioralFeature.parameter>
+								<UML:Parameter kind="return" visibility="public">
+									<UML:Parameter.type>
+										<UML:Classifier xmi.idref="EAID_29353B45_E20C_4104_9AF2_004409CCCE2F"/>
+									</UML:Parameter.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="pos" value="0"/>
+										<UML:TaggedValue tag="type" value="SessionRemote"/>
+										<UML:TaggedValue tag="const" value="0"/>
+										<UML:TaggedValue tag="classifier" value="EAID_29353B45_E20C_4104_9AF2_004409CCCE2F"/>
+										<UML:TaggedValue tag="ea_guid" value="{A888E7E9-CEEC-4b5e-89F3-942D7EC2B613}"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Parameter.defaultValue>
+										<UML:Expression/>
+									</UML:Parameter.defaultValue>
+								</UML:Parameter>
+							</UML:BehavioralFeature.parameter>
+						</UML:Operation>
+					</UML:Classifier.feature>
+				</UML:Interface>
+				<UML:Dependency client="EAID_7BC6061C_4B1D_43bc_9987_441A2798167C" supplier="EAID_29353B45_E20C_4104_9AF2_004409CCCE2F" xmi.id="EAID_D2E1C2D9_14E1_42d2_B6E7_A53364060521" visibility="public">
+					<UML:ModelElement.stereotype>
+						<UML:Stereotype name="instantiate"/>
+					</UML:ModelElement.stereotype>
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="style" value="3"/>
+						<UML:TaggedValue tag="ea_type" value="Dependency"/>
+						<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+						<UML:TaggedValue tag="linemode" value="3"/>
+						<UML:TaggedValue tag="seqno" value="0"/>
+						<UML:TaggedValue tag="stereotype" value="instantiate"/>
+						<UML:TaggedValue tag="headStyle" value="0"/>
+						<UML:TaggedValue tag="lineStyle" value="0"/>
+						<UML:TaggedValue tag="src_visibility" value="Public"/>
+						<UML:TaggedValue tag="src_isOrdered" value="false"/>
+						<UML:TaggedValue tag="src_isNavigable" value="false"/>
+						<UML:TaggedValue tag="dst_visibility" value="Public"/>
+						<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+						<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+					</UML:ModelElement.taggedValue>
+				</UML:Dependency>
+				<UML:Dependency client="EAID_50145F0B_2746_417f_A181_249F177FEF72" supplier="EAID_7BC6061C_4B1D_43bc_9987_441A2798167C" xmi.id="EAID_EAAB199E_AB95_4a6d_9E49_2FF2F2A3E0EA" visibility="public">
+					<UML:ModelElement.stereotype>
+						<UML:Stereotype name="EJBRealizeHome"/>
+					</UML:ModelElement.stereotype>
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="style" value="3"/>
+						<UML:TaggedValue tag="ea_type" value="Dependency"/>
+						<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+						<UML:TaggedValue tag="linemode" value="3"/>
+						<UML:TaggedValue tag="seqno" value="0"/>
+						<UML:TaggedValue tag="stereotype" value="EJBRealizeHome"/>
+						<UML:TaggedValue tag="headStyle" value="0"/>
+						<UML:TaggedValue tag="lineStyle" value="0"/>
+						<UML:TaggedValue tag="conditional" value="«EJBRealizeHome»"/>
+						<UML:TaggedValue tag="src_visibility" value="Public"/>
+						<UML:TaggedValue tag="src_isOrdered" value="false"/>
+						<UML:TaggedValue tag="src_isNavigable" value="false"/>
+						<UML:TaggedValue tag="dst_visibility" value="Public"/>
+						<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+						<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+						<UML:TaggedValue tag="privatedata5" value="EDGE=4;SX=0;SY=0;EX=0;EY=0;"/>
+						<UML:TaggedValue tag="mb" value="«EJBRealizeHome»"/>
+					</UML:ModelElement.taggedValue>
+				</UML:Dependency>
+				<UML:Interface name="SessionRemote" xmi.id="EAID_29353B45_E20C_4104_9AF2_004409CCCE2F" visibility="public" namespace="EAPK_FCDD4ADF_D5CD_474f_8CCD_AF97A1CDF7EF" isRoot="false" isLeaf="false" isAbstract="true">
+					<UML:ModelElement.stereotype>
+						<UML:Stereotype name="EJBRemoteInterface"/>
+					</UML:ModelElement.stereotype>
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="isSpecification" value="false"/>
+						<UML:TaggedValue tag="ea_stype" value="Interface"/>
+						<UML:TaggedValue tag="ea_ntype" value="0"/>
+						<UML:TaggedValue tag="version" value="1.0"/>
+						<UML:TaggedValue tag="package" value="EAPK_FCDD4ADF_D5CD_474f_8CCD_AF97A1CDF7EF"/>
+						<UML:TaggedValue tag="date_created" value="2004-06-28 14:46:28"/>
+						<UML:TaggedValue tag="date_modified" value="2004-06-28 14:53:15"/>
+						<UML:TaggedValue tag="genfile" value="C:\Documents and Settings\Owner\My Documents\EA Models\Test EJB Technology\Session\SessionRemote.java"/>
+						<UML:TaggedValue tag="genlinks" value="Implements=EJBObject;"/>
+						<UML:TaggedValue tag="gentype" value="Java"/>
+						<UML:TaggedValue tag="header1" value="import javax.ejb.*;
+"/>
+						<UML:TaggedValue tag="tagged" value="0"/>
+						<UML:TaggedValue tag="package_name" value="Session"/>
+						<UML:TaggedValue tag="phase" value="1.0"/>
+						<UML:TaggedValue tag="author" value="Neil Capey"/>
+						<UML:TaggedValue tag="complexity" value="1"/>
+						<UML:TaggedValue tag="genlinks" value="Implements=EJBObject;"/>
+						<UML:TaggedValue tag="status" value="Proposed"/>
+						<UML:TaggedValue tag="stereotype" value="EJBRemoteInterface"/>
+						<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=0;HSwimLanes=0;BorderStyle=0;"/>
+					</UML:ModelElement.taggedValue>
+				</UML:Interface>
+				<UML:Dependency client="EAID_50145F0B_2746_417f_A181_249F177FEF72" supplier="EAID_29353B45_E20C_4104_9AF2_004409CCCE2F" xmi.id="EAID_EA83C8E5_F2AA_46e0_BC2F_069C3B18A7DE" visibility="public">
+					<UML:ModelElement.stereotype>
+						<UML:Stereotype name="EJBRealizeRemote"/>
+					</UML:ModelElement.stereotype>
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="style" value="3"/>
+						<UML:TaggedValue tag="ea_type" value="Dependency"/>
+						<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+						<UML:TaggedValue tag="linemode" value="3"/>
+						<UML:TaggedValue tag="seqno" value="0"/>
+						<UML:TaggedValue tag="stereotype" value="EJBRealizeRemote"/>
+						<UML:TaggedValue tag="headStyle" value="0"/>
+						<UML:TaggedValue tag="lineStyle" value="0"/>
+						<UML:TaggedValue tag="conditional" value="«EJBRealizeRemote»"/>
+						<UML:TaggedValue tag="src_visibility" value="Public"/>
+						<UML:TaggedValue tag="src_isOrdered" value="false"/>
+						<UML:TaggedValue tag="src_isNavigable" value="false"/>
+						<UML:TaggedValue tag="dst_visibility" value="Public"/>
+						<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+						<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+						<UML:TaggedValue tag="privatedata5" value="EDGE=4;SX=0;SY=0;EX=0;EY=0;"/>
+						<UML:TaggedValue tag="mb" value="«EJBRealizeRemote»"/>
+					</UML:ModelElement.taggedValue>
+				</UML:Dependency>
+				<UML:Class name="SessionImplementation" xmi.id="EAID_50145F0B_2746_417f_A181_249F177FEF72" visibility="public" namespace="EAPK_FCDD4ADF_D5CD_474f_8CCD_AF97A1CDF7EF" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+					<UML:ModelElement.stereotype>
+						<UML:Stereotype name="EJBImplementation"/>
+					</UML:ModelElement.stereotype>
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="isSpecification" value="false"/>
+						<UML:TaggedValue tag="ea_stype" value="Class"/>
+						<UML:TaggedValue tag="ea_ntype" value="0"/>
+						<UML:TaggedValue tag="version" value="1.0"/>
+						<UML:TaggedValue tag="package" value="EAPK_FCDD4ADF_D5CD_474f_8CCD_AF97A1CDF7EF"/>
+						<UML:TaggedValue tag="date_created" value="2004-06-28 14:49:01"/>
+						<UML:TaggedValue tag="date_modified" value="2004-06-28 16:24:22"/>
+						<UML:TaggedValue tag="genfile" value="C:\Documents and Settings\Owner\My Documents\EA Models\Test EJB Technology\Session\SessionImplementation.java"/>
+						<UML:TaggedValue tag="genlinks" value="Implements=SessionBean;"/>
+						<UML:TaggedValue tag="gentype" value="Java"/>
+						<UML:TaggedValue tag="header1" value="import javax.ejb.*;
+"/>
+						<UML:TaggedValue tag="tagged" value="0"/>
+						<UML:TaggedValue tag="package_name" value="Session"/>
+						<UML:TaggedValue tag="phase" value="1.0"/>
+						<UML:TaggedValue tag="author" value="Neil Capey"/>
+						<UML:TaggedValue tag="complexity" value="1"/>
+						<UML:TaggedValue tag="genlinks" value="Implements=SessionBean;"/>
+						<UML:TaggedValue tag="status" value="Proposed"/>
+						<UML:TaggedValue tag="stereotype" value="EJBImplementation"/>
+						<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=0;HSwimLanes=0;BorderStyle=0;"/>
+					</UML:ModelElement.taggedValue>
+					<UML:Classifier.feature>
+						<UML:Operation name="ejbCreate" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="type" value="void"/>
+								<UML:TaggedValue tag="const" value="false"/>
+								<UML:TaggedValue tag="synchronised" value="0"/>
+								<UML:TaggedValue tag="concurrency" value="Sequential"/>
+								<UML:TaggedValue tag="position" value="0"/>
+								<UML:TaggedValue tag="returnarray" value="0"/>
+								<UML:TaggedValue tag="pure" value="0"/>
+								<UML:TaggedValue tag="ea_guid" value="{11410C3E-6687-47d8-AC3B-19E1784A606B}"/>
+							</UML:ModelElement.taggedValue>
+							<UML:BehavioralFeature.parameter>
+								<UML:Parameter kind="return" visibility="public">
+									<UML:Parameter.type>
+										<UML:Classifier xmi.idref="eaxmiid0"/>
+									</UML:Parameter.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="pos" value="0"/>
+										<UML:TaggedValue tag="type" value="void"/>
+										<UML:TaggedValue tag="const" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{11410C3E-6687-47d8-AC3B-19E1784A606B}"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Parameter.defaultValue>
+										<UML:Expression/>
+									</UML:Parameter.defaultValue>
+								</UML:Parameter>
+							</UML:BehavioralFeature.parameter>
+						</UML:Operation>
+						<UML:Operation name="ejbActivate" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="type" value="void"/>
+								<UML:TaggedValue tag="const" value="false"/>
+								<UML:TaggedValue tag="synchronised" value="0"/>
+								<UML:TaggedValue tag="concurrency" value="Sequential"/>
+								<UML:TaggedValue tag="position" value="1"/>
+								<UML:TaggedValue tag="returnarray" value="0"/>
+								<UML:TaggedValue tag="pure" value="0"/>
+								<UML:TaggedValue tag="ea_guid" value="{46594335-0FD1-4c0e-A3F9-15A6EDB2403E}"/>
+							</UML:ModelElement.taggedValue>
+							<UML:BehavioralFeature.parameter>
+								<UML:Parameter kind="return" visibility="public">
+									<UML:Parameter.type>
+										<UML:Classifier xmi.idref="eaxmiid0"/>
+									</UML:Parameter.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="pos" value="0"/>
+										<UML:TaggedValue tag="type" value="void"/>
+										<UML:TaggedValue tag="const" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{46594335-0FD1-4c0e-A3F9-15A6EDB2403E}"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Parameter.defaultValue>
+										<UML:Expression/>
+									</UML:Parameter.defaultValue>
+								</UML:Parameter>
+							</UML:BehavioralFeature.parameter>
+						</UML:Operation>
+						<UML:Operation name="ejbPassivate" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="type" value="void"/>
+								<UML:TaggedValue tag="const" value="false"/>
+								<UML:TaggedValue tag="synchronised" value="0"/>
+								<UML:TaggedValue tag="concurrency" value="Sequential"/>
+								<UML:TaggedValue tag="position" value="2"/>
+								<UML:TaggedValue tag="returnarray" value="0"/>
+								<UML:TaggedValue tag="pure" value="0"/>
+								<UML:TaggedValue tag="ea_guid" value="{3A24C91E-C208-4d90-B237-897FA6A54F44}"/>
+							</UML:ModelElement.taggedValue>
+							<UML:BehavioralFeature.parameter>
+								<UML:Parameter kind="return" visibility="public">
+									<UML:Parameter.type>
+										<UML:Classifier xmi.idref="eaxmiid0"/>
+									</UML:Parameter.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="pos" value="0"/>
+										<UML:TaggedValue tag="type" value="void"/>
+										<UML:TaggedValue tag="const" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{3A24C91E-C208-4d90-B237-897FA6A54F44}"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Parameter.defaultValue>
+										<UML:Expression/>
+									</UML:Parameter.defaultValue>
+								</UML:Parameter>
+							</UML:BehavioralFeature.parameter>
+						</UML:Operation>
+						<UML:Operation name="ejbRemove" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="type" value="void"/>
+								<UML:TaggedValue tag="const" value="false"/>
+								<UML:TaggedValue tag="synchronised" value="0"/>
+								<UML:TaggedValue tag="concurrency" value="Sequential"/>
+								<UML:TaggedValue tag="position" value="3"/>
+								<UML:TaggedValue tag="returnarray" value="0"/>
+								<UML:TaggedValue tag="pure" value="0"/>
+								<UML:TaggedValue tag="ea_guid" value="{50EAF8D2-6858-4631-A395-643F58433BCF}"/>
+							</UML:ModelElement.taggedValue>
+							<UML:BehavioralFeature.parameter>
+								<UML:Parameter kind="return" visibility="public">
+									<UML:Parameter.type>
+										<UML:Classifier xmi.idref="eaxmiid0"/>
+									</UML:Parameter.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="pos" value="0"/>
+										<UML:TaggedValue tag="type" value="void"/>
+										<UML:TaggedValue tag="const" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{50EAF8D2-6858-4631-A395-643F58433BCF}"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Parameter.defaultValue>
+										<UML:Expression/>
+									</UML:Parameter.defaultValue>
+								</UML:Parameter>
+							</UML:BehavioralFeature.parameter>
+						</UML:Operation>
+						<UML:Operation name="setSessionContext" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="type" value="void"/>
+								<UML:TaggedValue tag="const" value="false"/>
+								<UML:TaggedValue tag="synchronised" value="0"/>
+								<UML:TaggedValue tag="concurrency" value="Sequential"/>
+								<UML:TaggedValue tag="position" value="4"/>
+								<UML:TaggedValue tag="returnarray" value="0"/>
+								<UML:TaggedValue tag="pure" value="0"/>
+								<UML:TaggedValue tag="ea_guid" value="{DF0E91DF-FF8B-49b2-B829-E97DF8D347B3}"/>
+							</UML:ModelElement.taggedValue>
+							<UML:BehavioralFeature.parameter>
+								<UML:Parameter kind="return" visibility="public">
+									<UML:Parameter.type>
+										<UML:Classifier xmi.idref="eaxmiid0"/>
+									</UML:Parameter.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="pos" value="0"/>
+										<UML:TaggedValue tag="type" value="void"/>
+										<UML:TaggedValue tag="const" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{DF0E91DF-FF8B-49b2-B829-E97DF8D347B3}"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Parameter.defaultValue>
+										<UML:Expression/>
+									</UML:Parameter.defaultValue>
+								</UML:Parameter>
+								<UML:Parameter name="arg" kind="in" visibility="public">
+									<UML:Parameter.type>
+										<UML:Classifier xmi.idref="eaxmiid1"/>
+									</UML:Parameter.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="pos" value="0"/>
+										<UML:TaggedValue tag="type" value="SessionContext"/>
+										<UML:TaggedValue tag="const" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{A643276C-56B6-42ce-937D-22F4B3E60B8B}"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Parameter.defaultValue>
+										<UML:Expression/>
+									</UML:Parameter.defaultValue>
+								</UML:Parameter>
+							</UML:BehavioralFeature.parameter>
+						</UML:Operation>
+					</UML:Classifier.feature>
+				</UML:Class>
+			</UML:Namespace.ownedElement>
+		</UML:Model>
+		<UML:TaggedValue tag="EJBSessionType" xmi.id="EAID_3A8BB633_85CC_4eaf_89E8_634D5EC75562" value="#NOTES#Values: Stateful | Stateless
+
+Description: Indicates whether or not the EJB Session Bean maintains state.
+" modelElement="EAID_7BC6061C_4B1D_43bc_9987_441A2798167C"/>
+		<UML:Diagram name="Session" xmi.id="EAID_BA71FFD5_2561_434f_B6D4_16995E601147" diagramType="ClassDiagram" owner="EAPK_BA71FFD5_2561_434f_B6D4_16995E601147" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="documentation" value="UML Profile for EJB"/>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="Neil Capey"/>
+				<UML:TaggedValue tag="created_date" value="2004-06-16 14:41:27"/>
+				<UML:TaggedValue tag="modified_date" value="2004-06-28 14:54:38"/>
+				<UML:TaggedValue tag="package" value="EAPK_FCDD4ADF_D5CD_474f_8CCD_AF97A1CDF7EF"/>
+				<UML:TaggedValue tag="type" value="Logical"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;names=false;color=0;bold=false;fcol=0;;cls=0;SW1=402;SW2=398;"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;DocSize.cx=827;DocSize.cy=1169;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;"/>
+				<UML:TaggedValue tag="styleex" value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;SuppressFOC=0;TDurLow=0;TDurHigh=100;TDurUnit=;TDurHide=0;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=476;Top=185;Right=695;Bottom=316;" subject="EAID_50145F0B_2746_417f_A181_249F177FEF72" seqno="1" style="DUID=E76159C3;"/>
+				<UML:DiagramElement geometry="Left=112;Top=342;Right=245;Bottom=432;" subject="EAID_29353B45_E20C_4104_9AF2_004409CCCE2F" seqno="2" style="DUID=065BD264;"/>
+				<UML:DiagramElement geometry="Left=58;Top=87;Right=302;Bottom=177;" subject="EAID_7BC6061C_4B1D_43bc_9987_441A2798167C" seqno="3" style="DUID=DC72B0E1;"/>
+				<UML:DiagramElement geometry="EDGE=3;SX=0;SY=0;EX=0;EY=0;$LLB=;LLT=;LMT=;LMB=CX=114:CY=15:OX=124:OY=4:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:;LRT=;LRB=;Path=426:-387$;" subject="EAID_EA83C8E5_F2AA_46e0_BC2F_069C3B18A7DE" style="Mode=3;EOID=065BD264;SOID=E76159C3;Hidden=0;"/>
+				<UML:DiagramElement geometry="EDGE=1;SX=0;SY=0;EX=0;EY=0;$LLB=;LLT=;LMT=;LMB=CX=105:CY=15:OX=88:OY=-22:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:;LRT=;LRB=;Path=424:-132$;" subject="EAID_EAAB199E_AB95_4a6d_9E49_2FF2F2A3E0EA" style="Mode=3;EOID=DC72B0E1;SOID=E76159C3;Hidden=0;"/>
+				<UML:DiagramElement geometry="EDGE=3;$LLB=;LLT=;LMT=;LMB=CX=71:CY=15:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:;LRT=;LRB=;Path=;" subject="EAID_D2E1C2D9_14E1_42d2_B6E7_A53364060521" style="Mode=3;EOID=065BD264;SOID=DC72B0E1;Hidden=0;"/>
+				<UML:DiagramElement geometry="width=402;" subject="EAID_77DF9C3A_C7C2_4525_BE48_F1FAC14965F3" style="swimlane;name=Specification Elements;class=;partition=1;description=OE0={7BC6061C-4B1D-43bc-9987-441A2798167C}:OE1={29353B45-E20C-4104-9AF2-004409CCCE2F}:;"/>
+				<UML:DiagramElement geometry="width=398;" subject="EAID_9F52E2C0_4B9E_43ed_8154_CE44DC0B2B71" style="swimlane;name=Realization Elements;class=;partition=2;description=OE0={50145F0B-2746-417f-A181-249F177FEF72}:;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+	</XMI.content>
+	<XMI.difference/>
+	<XMI.extensions xmi.extender="Enterprise Architect 2.5">
+		<EAStub xmi.id="EAID_7BC6061C_4B1D_43bc_9987_441A2798167C" name="SessionHome" UMLType="Interface"/>
+		<EAStub xmi.id="EAID_29353B45_E20C_4104_9AF2_004409CCCE2F" name="SessionRemote" UMLType="Interface"/>
+		<EAStub xmi.id="EAID_50145F0B_2746_417f_A181_249F177FEF72" name="SessionImplementation" UMLType="Class"/>
+		<UMLPattern name="Session Bean Pattern" category="EJB Patterns" version="1.0" notes="UML Profile for EJB">
+			<UMLPattern.PromptList>
+				<Element name="SessionHome:Interface" guid="EAID_7BC6061C_4B1D_43bc_9987_441A2798167C" id="195" prompt="yes" link="no"/>
+				<Element name="SessionImplementation:Class" guid="EAID_50145F0B_2746_417f_A181_249F177FEF72" id="197" prompt="yes" link="no"/>
+				<Element name="SessionRemote:Interface" guid="EAID_29353B45_E20C_4104_9AF2_004409CCCE2F" id="196" prompt="yes" link="no"/>
+			</UMLPattern.PromptList>
+		</UMLPattern>
+	</XMI.extensions>
+</XMI>
+		</UMLPattern>
+		<UMLPattern>
+<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3" timestamp="2004-06-28 16:41:07">
+	<XMI.header>
+		<XMI.documentation>
+			<XMI.exporter>Enterprise Architect</XMI.exporter>
+			<XMI.exporterVersion>2.5</XMI.exporterVersion>
+		</XMI.documentation>
+	</XMI.header>
+	<XMI.content>
+		<UML:Model name="EA Model" xmi.id="MX_EAID_CA545E8A_11B1_4225_8DEE_1D5EE52FA9B0">
+			<UML:Namespace.ownedElement>
+				<UML:Class name="Table" xmi.id="EAID_F1B15449_A97F_4974_94A5_B57FD45CDBFE" visibility="public" namespace="EAPK_CA545E8A_11B1_4225_8DEE_1D5EE52FA9B0" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+					<UML:ModelElement.stereotype>
+						<UML:Stereotype name="table"/>
+					</UML:ModelElement.stereotype>
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="isSpecification" value="false"/>
+						<UML:TaggedValue tag="ea_stype" value="Class"/>
+						<UML:TaggedValue tag="ea_ntype" value="0"/>
+						<UML:TaggedValue tag="version" value="1.0"/>
+						<UML:TaggedValue tag="package" value="EAPK_CA545E8A_11B1_4225_8DEE_1D5EE52FA9B0"/>
+						<UML:TaggedValue tag="date_created" value="2004-06-17 13:28:35"/>
+						<UML:TaggedValue tag="date_modified" value="2004-06-28 14:40:41"/>
+						<UML:TaggedValue tag="genfile" value="C:\Documents and Settings\Owner\My Documents\EA Models\Test EJB Technology\Entity\Table.java"/>
+						<UML:TaggedValue tag="gentype" value="MSAccess"/>
+						<UML:TaggedValue tag="tagged" value="0"/>
+						<UML:TaggedValue tag="package_name" value="Entity"/>
+						<UML:TaggedValue tag="phase" value="1.0"/>
+						<UML:TaggedValue tag="author" value="Neil Capey"/>
+						<UML:TaggedValue tag="complexity" value="1"/>
+						<UML:TaggedValue tag="product_name" value="MSAccess"/>
+						<UML:TaggedValue tag="status" value="Proposed"/>
+						<UML:TaggedValue tag="stereotype" value="table"/>
+						<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=0;HSwimLanes=0;BorderStyle=0;"/>
+					</UML:ModelElement.taggedValue>
+				</UML:Class>
+				<UML:Class name="PrimaryKey" xmi.id="EAID_3853BAB6_0B31_40f5_BAA0_D0D49C4AFBE6" visibility="public" namespace="EAPK_CA545E8A_11B1_4225_8DEE_1D5EE52FA9B0" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="isSpecification" value="false"/>
+						<UML:TaggedValue tag="ea_stype" value="Class"/>
+						<UML:TaggedValue tag="ea_ntype" value="0"/>
+						<UML:TaggedValue tag="version" value="1.0"/>
+						<UML:TaggedValue tag="package" value="EAPK_CA545E8A_11B1_4225_8DEE_1D5EE52FA9B0"/>
+						<UML:TaggedValue tag="date_created" value="2004-06-28 14:18:31"/>
+						<UML:TaggedValue tag="date_modified" value="2004-06-28 16:21:35"/>
+						<UML:TaggedValue tag="genfile" value="C:\Documents and Settings\Owner\My Documents\EA Models\Test EJB Technology\Entity\PrimaryKey.java"/>
+						<UML:TaggedValue tag="gentype" value="Java"/>
+						<UML:TaggedValue tag="tagged" value="0"/>
+						<UML:TaggedValue tag="package_name" value="Entity"/>
+						<UML:TaggedValue tag="phase" value="1.0"/>
+						<UML:TaggedValue tag="author" value="Neil Capey"/>
+						<UML:TaggedValue tag="complexity" value="1"/>
+						<UML:TaggedValue tag="status" value="Proposed"/>
+						<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=0;HSwimLanes=0;BorderStyle=0;"/>
+					</UML:ModelElement.taggedValue>
+					<UML:Classifier.feature>
+						<UML:Operation name="hashCode" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="type" value="int"/>
+								<UML:TaggedValue tag="const" value="false"/>
+								<UML:TaggedValue tag="synchronised" value="0"/>
+								<UML:TaggedValue tag="concurrency" value="Sequential"/>
+								<UML:TaggedValue tag="position" value="0"/>
+								<UML:TaggedValue tag="returnarray" value="0"/>
+								<UML:TaggedValue tag="pure" value="0"/>
+								<UML:TaggedValue tag="ea_guid" value="{4729B000-5943-4f51-86DC-8897C0CFF47F}"/>
+							</UML:ModelElement.taggedValue>
+							<UML:BehavioralFeature.parameter>
+								<UML:Parameter kind="return" visibility="public">
+									<UML:Parameter.type>
+										<UML:Classifier xmi.idref="eaxmiid0"/>
+									</UML:Parameter.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="pos" value="0"/>
+										<UML:TaggedValue tag="type" value="int"/>
+										<UML:TaggedValue tag="const" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{4729B000-5943-4f51-86DC-8897C0CFF47F}"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Parameter.defaultValue>
+										<UML:Expression/>
+									</UML:Parameter.defaultValue>
+								</UML:Parameter>
+							</UML:BehavioralFeature.parameter>
+						</UML:Operation>
+						<UML:Operation name="equals" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="type" value="boolean"/>
+								<UML:TaggedValue tag="const" value="false"/>
+								<UML:TaggedValue tag="synchronised" value="0"/>
+								<UML:TaggedValue tag="concurrency" value="Sequential"/>
+								<UML:TaggedValue tag="position" value="1"/>
+								<UML:TaggedValue tag="returnarray" value="0"/>
+								<UML:TaggedValue tag="pure" value="0"/>
+								<UML:TaggedValue tag="ea_guid" value="{469446FB-6998-42aa-BB4D-CB8F633B8F5C}"/>
+							</UML:ModelElement.taggedValue>
+							<UML:BehavioralFeature.parameter>
+								<UML:Parameter kind="return" visibility="public">
+									<UML:Parameter.type>
+										<UML:Classifier xmi.idref="eaxmiid1"/>
+									</UML:Parameter.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="pos" value="0"/>
+										<UML:TaggedValue tag="type" value="boolean"/>
+										<UML:TaggedValue tag="const" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{469446FB-6998-42aa-BB4D-CB8F633B8F5C}"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Parameter.defaultValue>
+										<UML:Expression/>
+									</UML:Parameter.defaultValue>
+								</UML:Parameter>
+								<UML:Parameter name="arg" kind="in" visibility="public">
+									<UML:Parameter.type>
+										<UML:Classifier xmi.idref="eaxmiid2"/>
+									</UML:Parameter.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="pos" value="0"/>
+										<UML:TaggedValue tag="type" value="Object"/>
+										<UML:TaggedValue tag="const" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{0F389FB5-9CF9-4f58-B9ED-9A50F038465B}"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Parameter.defaultValue>
+										<UML:Expression/>
+									</UML:Parameter.defaultValue>
+								</UML:Parameter>
+							</UML:BehavioralFeature.parameter>
+						</UML:Operation>
+					</UML:Classifier.feature>
+				</UML:Class>
+				<UML:Dependency client="EAID_516D89E3_89BA_40b9_A290_5880E8D37DCD" supplier="EAID_3853BAB6_0B31_40f5_BAA0_D0D49C4AFBE6" xmi.id="EAID_7E9EB4F9_D1C3_4ed4_A76E_7AA7077EBE16" visibility="public">
+					<UML:ModelElement.stereotype>
+						<UML:Stereotype name="EJBPrimaryKey"/>
+					</UML:ModelElement.stereotype>
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="style" value="3"/>
+						<UML:TaggedValue tag="ea_type" value="Dependency"/>
+						<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+						<UML:TaggedValue tag="linemode" value="3"/>
+						<UML:TaggedValue tag="seqno" value="0"/>
+						<UML:TaggedValue tag="stereotype" value="EJBPrimaryKey"/>
+						<UML:TaggedValue tag="headStyle" value="0"/>
+						<UML:TaggedValue tag="lineStyle" value="0"/>
+						<UML:TaggedValue tag="conditional" value="«EJBPrimaryKey»"/>
+						<UML:TaggedValue tag="src_visibility" value="Public"/>
+						<UML:TaggedValue tag="src_isOrdered" value="false"/>
+						<UML:TaggedValue tag="src_isNavigable" value="false"/>
+						<UML:TaggedValue tag="dst_visibility" value="Public"/>
+						<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+						<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+						<UML:TaggedValue tag="mb" value="«EJBPrimaryKey»"/>
+					</UML:ModelElement.taggedValue>
+				</UML:Dependency>
+				<UML:Interface name="HomeInterface" xmi.id="EAID_516D89E3_89BA_40b9_A290_5880E8D37DCD" visibility="public" namespace="EAPK_CA545E8A_11B1_4225_8DEE_1D5EE52FA9B0" isRoot="false" isLeaf="false" isAbstract="true">
+					<UML:ModelElement.stereotype>
+						<UML:Stereotype name="EJBEntityHomeInterface"/>
+					</UML:ModelElement.stereotype>
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="isSpecification" value="false"/>
+						<UML:TaggedValue tag="ea_stype" value="Interface"/>
+						<UML:TaggedValue tag="ea_ntype" value="0"/>
+						<UML:TaggedValue tag="version" value="1.0"/>
+						<UML:TaggedValue tag="package" value="EAPK_CA545E8A_11B1_4225_8DEE_1D5EE52FA9B0"/>
+						<UML:TaggedValue tag="date_created" value="2004-06-28 14:21:01"/>
+						<UML:TaggedValue tag="date_modified" value="2004-06-28 16:22:03"/>
+						<UML:TaggedValue tag="genfile" value="C:\Documents and Settings\Owner\My Documents\EA Models\Test EJB Technology\Entity\HomeInterface.java"/>
+						<UML:TaggedValue tag="genlinks" value="Implements=EJBHome;"/>
+						<UML:TaggedValue tag="gentype" value="Java"/>
+						<UML:TaggedValue tag="header1" value="import javax.ejb.*;
+import java.rmi.*;
+"/>
+						<UML:TaggedValue tag="tagged" value="0"/>
+						<UML:TaggedValue tag="package_name" value="Entity"/>
+						<UML:TaggedValue tag="phase" value="1.0"/>
+						<UML:TaggedValue tag="author" value="Neil Capey"/>
+						<UML:TaggedValue tag="complexity" value="1"/>
+						<UML:TaggedValue tag="genlinks" value="Implements=EJBHome;"/>
+						<UML:TaggedValue tag="status" value="Proposed"/>
+						<UML:TaggedValue tag="stereotype" value="EJBEntityHomeInterface"/>
+						<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=0;HSwimLanes=0;BorderStyle=0;"/>
+					</UML:ModelElement.taggedValue>
+					<UML:Classifier.feature>
+						<UML:Operation name="create" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="EJBCreateMethod"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="type" value="RemoteInterface"/>
+								<UML:TaggedValue tag="const" value="false"/>
+								<UML:TaggedValue tag="stereotype" value="EJBCreateMethod"/>
+								<UML:TaggedValue tag="synchronised" value="0"/>
+								<UML:TaggedValue tag="concurrency" value="Sequential"/>
+								<UML:TaggedValue tag="position" value="0"/>
+								<UML:TaggedValue tag="returnarray" value="0"/>
+								<UML:TaggedValue tag="pure" value="0"/>
+								<UML:TaggedValue tag="ea_guid" value="{9935E4FF-2576-43d0-A5C4-1DA8856A1506}"/>
+								<UML:TaggedValue tag="throws" value="RemoteException, CreateException" xmi.id="EAID_3B1AF95B_CEBD_40ba_A30B_04502DA2B1FB">
+									<XMI.extension xmi.extender="Enterprise Architect 2.5">
+										<UML:Comment name="Default: RemoteException, CreateException
+"/>
+									</XMI.extension>
+								</UML:TaggedValue>
+							</UML:ModelElement.taggedValue>
+							<UML:BehavioralFeature.parameter>
+								<UML:Parameter kind="return" visibility="public">
+									<UML:Parameter.type>
+										<UML:Classifier xmi.idref="EAID_F78414F9_2995_464c_BC5D_CC7DDFBD9098"/>
+									</UML:Parameter.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="pos" value="0"/>
+										<UML:TaggedValue tag="type" value="RemoteInterface"/>
+										<UML:TaggedValue tag="const" value="0"/>
+										<UML:TaggedValue tag="classifier" value="EAID_F78414F9_2995_464c_BC5D_CC7DDFBD9098"/>
+										<UML:TaggedValue tag="ea_guid" value="{9935E4FF-2576-43d0-A5C4-1DA8856A1506}"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Parameter.defaultValue>
+										<UML:Expression/>
+									</UML:Parameter.defaultValue>
+								</UML:Parameter>
+							</UML:BehavioralFeature.parameter>
+						</UML:Operation>
+						<UML:Operation name="findByPrimaryKey" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="EJBFinderMethod"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="type" value="RemoteInterface"/>
+								<UML:TaggedValue tag="const" value="false"/>
+								<UML:TaggedValue tag="stereotype" value="EJBFinderMethod"/>
+								<UML:TaggedValue tag="synchronised" value="0"/>
+								<UML:TaggedValue tag="concurrency" value="Sequential"/>
+								<UML:TaggedValue tag="position" value="1"/>
+								<UML:TaggedValue tag="returnarray" value="0"/>
+								<UML:TaggedValue tag="pure" value="0"/>
+								<UML:TaggedValue tag="ea_guid" value="{05080FE5-B549-4233-9458-A403F2B8328A}"/>
+								<UML:TaggedValue tag="throws" value="RemoteException, FinderException" xmi.id="EAID_BAE55ED7_0052_47c5_8452_EAF69D596B39">
+									<XMI.extension xmi.extender="Enterprise Architect 2.5">
+										<UML:Comment name="Default: RemoteException, FinderException
+"/>
+									</XMI.extension>
+								</UML:TaggedValue>
+							</UML:ModelElement.taggedValue>
+							<UML:BehavioralFeature.parameter>
+								<UML:Parameter kind="return" visibility="public">
+									<UML:Parameter.type>
+										<UML:Classifier xmi.idref="EAID_F78414F9_2995_464c_BC5D_CC7DDFBD9098"/>
+									</UML:Parameter.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="pos" value="0"/>
+										<UML:TaggedValue tag="type" value="RemoteInterface"/>
+										<UML:TaggedValue tag="const" value="0"/>
+										<UML:TaggedValue tag="classifier" value="EAID_F78414F9_2995_464c_BC5D_CC7DDFBD9098"/>
+										<UML:TaggedValue tag="ea_guid" value="{05080FE5-B549-4233-9458-A403F2B8328A}"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Parameter.defaultValue>
+										<UML:Expression/>
+									</UML:Parameter.defaultValue>
+								</UML:Parameter>
+								<UML:Parameter name="arg" kind="in" visibility="public">
+									<UML:Parameter.type>
+										<UML:Classifier xmi.idref="EAID_3853BAB6_0B31_40f5_BAA0_D0D49C4AFBE6"/>
+									</UML:Parameter.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="pos" value="0"/>
+										<UML:TaggedValue tag="type" value="PrimaryKey"/>
+										<UML:TaggedValue tag="const" value="0"/>
+										<UML:TaggedValue tag="classifier" value="EAID_3853BAB6_0B31_40f5_BAA0_D0D49C4AFBE6"/>
+										<UML:TaggedValue tag="ea_guid" value="{9AAA176C-8408-49a2-8A42-0A66EAE92912}"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Parameter.defaultValue>
+										<UML:Expression/>
+									</UML:Parameter.defaultValue>
+								</UML:Parameter>
+							</UML:BehavioralFeature.parameter>
+						</UML:Operation>
+					</UML:Classifier.feature>
+				</UML:Interface>
+				<UML:Dependency client="EAID_516D89E3_89BA_40b9_A290_5880E8D37DCD" supplier="EAID_F78414F9_2995_464c_BC5D_CC7DDFBD9098" xmi.id="EAID_A5C805FE_63D9_4ebc_8707_5C7F404C841E" visibility="public">
+					<UML:ModelElement.stereotype>
+						<UML:Stereotype name="instantiate"/>
+					</UML:ModelElement.stereotype>
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="style" value="3"/>
+						<UML:TaggedValue tag="ea_type" value="Dependency"/>
+						<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+						<UML:TaggedValue tag="linemode" value="3"/>
+						<UML:TaggedValue tag="seqno" value="0"/>
+						<UML:TaggedValue tag="stereotype" value="instantiate"/>
+						<UML:TaggedValue tag="headStyle" value="0"/>
+						<UML:TaggedValue tag="lineStyle" value="0"/>
+						<UML:TaggedValue tag="src_visibility" value="Public"/>
+						<UML:TaggedValue tag="src_isOrdered" value="false"/>
+						<UML:TaggedValue tag="src_isNavigable" value="false"/>
+						<UML:TaggedValue tag="dst_visibility" value="Public"/>
+						<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+						<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+					</UML:ModelElement.taggedValue>
+				</UML:Dependency>
+				<UML:Dependency client="EAID_AC3910DE_CA87_4f2f_A2F5_1853A5B21BE5" supplier="EAID_516D89E3_89BA_40b9_A290_5880E8D37DCD" xmi.id="EAID_A0EEEEA1_571A_4338_816B_05420300EEA3" visibility="public">
+					<UML:ModelElement.stereotype>
+						<UML:Stereotype name="EJBRealizeHome"/>
+					</UML:ModelElement.stereotype>
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="style" value="3"/>
+						<UML:TaggedValue tag="ea_type" value="Dependency"/>
+						<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+						<UML:TaggedValue tag="linemode" value="3"/>
+						<UML:TaggedValue tag="seqno" value="0"/>
+						<UML:TaggedValue tag="stereotype" value="EJBRealizeHome"/>
+						<UML:TaggedValue tag="headStyle" value="0"/>
+						<UML:TaggedValue tag="lineStyle" value="0"/>
+						<UML:TaggedValue tag="conditional" value="«EJBRealizeHome»"/>
+						<UML:TaggedValue tag="src_visibility" value="Public"/>
+						<UML:TaggedValue tag="src_isOrdered" value="false"/>
+						<UML:TaggedValue tag="src_isNavigable" value="false"/>
+						<UML:TaggedValue tag="dst_visibility" value="Public"/>
+						<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+						<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+						<UML:TaggedValue tag="privatedata5" value="EDGE=4;SX=2;SY=0;EX=1;EY=0;"/>
+						<UML:TaggedValue tag="mb" value="«EJBRealizeHome»"/>
+					</UML:ModelElement.taggedValue>
+				</UML:Dependency>
+				<UML:Interface name="RemoteInterface" xmi.id="EAID_F78414F9_2995_464c_BC5D_CC7DDFBD9098" visibility="public" namespace="EAPK_CA545E8A_11B1_4225_8DEE_1D5EE52FA9B0" isRoot="false" isLeaf="false" isAbstract="true">
+					<UML:ModelElement.stereotype>
+						<UML:Stereotype name="EJBRemoteInterface"/>
+					</UML:ModelElement.stereotype>
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="isSpecification" value="false"/>
+						<UML:TaggedValue tag="ea_stype" value="Interface"/>
+						<UML:TaggedValue tag="ea_ntype" value="0"/>
+						<UML:TaggedValue tag="version" value="1.0"/>
+						<UML:TaggedValue tag="package" value="EAPK_CA545E8A_11B1_4225_8DEE_1D5EE52FA9B0"/>
+						<UML:TaggedValue tag="date_created" value="2004-06-28 14:25:48"/>
+						<UML:TaggedValue tag="date_modified" value="2004-06-28 16:23:01"/>
+						<UML:TaggedValue tag="genfile" value="C:\Documents and Settings\Owner\My Documents\EA Models\Test EJB Technology\Entity\RemoteInterface.java"/>
+						<UML:TaggedValue tag="genlinks" value="Implements=EJBObject;"/>
+						<UML:TaggedValue tag="gentype" value="Java"/>
+						<UML:TaggedValue tag="header1" value="import javax.ejb.*;
+"/>
+						<UML:TaggedValue tag="tagged" value="0"/>
+						<UML:TaggedValue tag="package_name" value="Entity"/>
+						<UML:TaggedValue tag="phase" value="1.0"/>
+						<UML:TaggedValue tag="author" value="Neil Capey"/>
+						<UML:TaggedValue tag="complexity" value="1"/>
+						<UML:TaggedValue tag="genlinks" value="Implements=EJBObject;"/>
+						<UML:TaggedValue tag="status" value="Proposed"/>
+						<UML:TaggedValue tag="stereotype" value="EJBRemoteInterface"/>
+						<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=0;HSwimLanes=0;BorderStyle=0;"/>
+					</UML:ModelElement.taggedValue>
+				</UML:Interface>
+				<UML:Dependency client="EAID_AC3910DE_CA87_4f2f_A2F5_1853A5B21BE5" supplier="EAID_F78414F9_2995_464c_BC5D_CC7DDFBD9098" xmi.id="EAID_B64FBBBE_793C_41f9_B084_313D5F30418D" visibility="public">
+					<UML:ModelElement.stereotype>
+						<UML:Stereotype name="EJBRealizeRemote"/>
+					</UML:ModelElement.stereotype>
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="style" value="3"/>
+						<UML:TaggedValue tag="ea_type" value="Dependency"/>
+						<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+						<UML:TaggedValue tag="linemode" value="3"/>
+						<UML:TaggedValue tag="seqno" value="0"/>
+						<UML:TaggedValue tag="stereotype" value="EJBRealizeRemote"/>
+						<UML:TaggedValue tag="headStyle" value="0"/>
+						<UML:TaggedValue tag="lineStyle" value="0"/>
+						<UML:TaggedValue tag="conditional" value="«EJBRealizeRemote»"/>
+						<UML:TaggedValue tag="src_visibility" value="Public"/>
+						<UML:TaggedValue tag="src_isOrdered" value="false"/>
+						<UML:TaggedValue tag="src_isNavigable" value="false"/>
+						<UML:TaggedValue tag="dst_visibility" value="Public"/>
+						<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+						<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+						<UML:TaggedValue tag="privatedata5" value="EDGE=4;SX=0;SY=0;EX=0;EY=0;"/>
+						<UML:TaggedValue tag="mb" value="«EJBRealizeRemote»"/>
+					</UML:ModelElement.taggedValue>
+				</UML:Dependency>
+				<UML:Class name="Implementation" xmi.id="EAID_AC3910DE_CA87_4f2f_A2F5_1853A5B21BE5" visibility="public" namespace="EAPK_CA545E8A_11B1_4225_8DEE_1D5EE52FA9B0" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+					<UML:ModelElement.stereotype>
+						<UML:Stereotype name="EJBImplementation"/>
+					</UML:ModelElement.stereotype>
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="isSpecification" value="false"/>
+						<UML:TaggedValue tag="ea_stype" value="Class"/>
+						<UML:TaggedValue tag="ea_ntype" value="0"/>
+						<UML:TaggedValue tag="version" value="1.0"/>
+						<UML:TaggedValue tag="package" value="EAPK_CA545E8A_11B1_4225_8DEE_1D5EE52FA9B0"/>
+						<UML:TaggedValue tag="date_created" value="2004-06-28 14:27:39"/>
+						<UML:TaggedValue tag="date_modified" value="2004-06-28 16:21:42"/>
+						<UML:TaggedValue tag="genfile" value="C:\Documents and Settings\Owner\My Documents\EA Models\Test EJB Technology\Entity\Implementation.java"/>
+						<UML:TaggedValue tag="genlinks" value="Implements=EntityBean;"/>
+						<UML:TaggedValue tag="gentype" value="Java"/>
+						<UML:TaggedValue tag="header1" value="import javax.ejb.*;
+"/>
+						<UML:TaggedValue tag="tagged" value="0"/>
+						<UML:TaggedValue tag="package_name" value="Entity"/>
+						<UML:TaggedValue tag="phase" value="1.0"/>
+						<UML:TaggedValue tag="author" value="Neil Capey"/>
+						<UML:TaggedValue tag="complexity" value="1"/>
+						<UML:TaggedValue tag="genlinks" value="Implements=EntityBean;"/>
+						<UML:TaggedValue tag="status" value="Proposed"/>
+						<UML:TaggedValue tag="stereotype" value="EJBImplementation"/>
+						<UML:TaggedValue tag="persistence" value="Persistent"/>
+						<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=0;HSwimLanes=0;BorderStyle=0;"/>
+					</UML:ModelElement.taggedValue>
+					<UML:Classifier.feature>
+						<UML:Operation name="ejbCreate" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="type" value="PrimaryKey"/>
+								<UML:TaggedValue tag="const" value="false"/>
+								<UML:TaggedValue tag="synchronised" value="0"/>
+								<UML:TaggedValue tag="concurrency" value="Sequential"/>
+								<UML:TaggedValue tag="position" value="0"/>
+								<UML:TaggedValue tag="returnarray" value="0"/>
+								<UML:TaggedValue tag="pure" value="0"/>
+								<UML:TaggedValue tag="ea_guid" value="{47DD6740-F91E-4dd9-BBFF-015B69F58B55}"/>
+							</UML:ModelElement.taggedValue>
+							<UML:BehavioralFeature.parameter>
+								<UML:Parameter kind="return" visibility="public">
+									<UML:Parameter.type>
+										<UML:Classifier xmi.idref="EAID_3853BAB6_0B31_40f5_BAA0_D0D49C4AFBE6"/>
+									</UML:Parameter.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="pos" value="0"/>
+										<UML:TaggedValue tag="type" value="PrimaryKey"/>
+										<UML:TaggedValue tag="const" value="0"/>
+										<UML:TaggedValue tag="classifier" value="EAID_3853BAB6_0B31_40f5_BAA0_D0D49C4AFBE6"/>
+										<UML:TaggedValue tag="ea_guid" value="{47DD6740-F91E-4dd9-BBFF-015B69F58B55}"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Parameter.defaultValue>
+										<UML:Expression/>
+									</UML:Parameter.defaultValue>
+								</UML:Parameter>
+							</UML:BehavioralFeature.parameter>
+						</UML:Operation>
+						<UML:Operation name="ejbPostCreate" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="type" value="void"/>
+								<UML:TaggedValue tag="const" value="false"/>
+								<UML:TaggedValue tag="synchronised" value="0"/>
+								<UML:TaggedValue tag="concurrency" value="Sequential"/>
+								<UML:TaggedValue tag="position" value="1"/>
+								<UML:TaggedValue tag="returnarray" value="0"/>
+								<UML:TaggedValue tag="pure" value="0"/>
+								<UML:TaggedValue tag="ea_guid" value="{9CA54C49-520B-4645-94A8-1DD2D10B5C66}"/>
+							</UML:ModelElement.taggedValue>
+							<UML:BehavioralFeature.parameter>
+								<UML:Parameter kind="return" visibility="public">
+									<UML:Parameter.type>
+										<UML:Classifier xmi.idref="eaxmiid3"/>
+									</UML:Parameter.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="pos" value="0"/>
+										<UML:TaggedValue tag="type" value="void"/>
+										<UML:TaggedValue tag="const" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{9CA54C49-520B-4645-94A8-1DD2D10B5C66}"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Parameter.defaultValue>
+										<UML:Expression/>
+									</UML:Parameter.defaultValue>
+								</UML:Parameter>
+							</UML:BehavioralFeature.parameter>
+						</UML:Operation>
+						<UML:Operation name="findByPrimaryKey" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="type" value="void"/>
+								<UML:TaggedValue tag="const" value="false"/>
+								<UML:TaggedValue tag="synchronised" value="0"/>
+								<UML:TaggedValue tag="concurrency" value="Sequential"/>
+								<UML:TaggedValue tag="position" value="2"/>
+								<UML:TaggedValue tag="returnarray" value="0"/>
+								<UML:TaggedValue tag="pure" value="0"/>
+								<UML:TaggedValue tag="ea_guid" value="{1AF2D585-7560-4646-9473-EBD70FB6F96A}"/>
+							</UML:ModelElement.taggedValue>
+							<UML:BehavioralFeature.parameter>
+								<UML:Parameter kind="return" visibility="public">
+									<UML:Parameter.type>
+										<UML:Classifier xmi.idref="eaxmiid3"/>
+									</UML:Parameter.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="pos" value="0"/>
+										<UML:TaggedValue tag="type" value="void"/>
+										<UML:TaggedValue tag="const" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{1AF2D585-7560-4646-9473-EBD70FB6F96A}"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Parameter.defaultValue>
+										<UML:Expression/>
+									</UML:Parameter.defaultValue>
+								</UML:Parameter>
+								<UML:Parameter name="arg" kind="in" visibility="public">
+									<UML:Parameter.type>
+										<UML:Classifier xmi.idref="EAID_3853BAB6_0B31_40f5_BAA0_D0D49C4AFBE6"/>
+									</UML:Parameter.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="pos" value="0"/>
+										<UML:TaggedValue tag="type" value="PrimaryKey"/>
+										<UML:TaggedValue tag="const" value="0"/>
+										<UML:TaggedValue tag="classifier" value="EAID_3853BAB6_0B31_40f5_BAA0_D0D49C4AFBE6"/>
+										<UML:TaggedValue tag="ea_guid" value="{B9421C95-56E8-4c43-B9CB-0E1E78D20D6F}"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Parameter.defaultValue>
+										<UML:Expression/>
+									</UML:Parameter.defaultValue>
+								</UML:Parameter>
+							</UML:BehavioralFeature.parameter>
+						</UML:Operation>
+						<UML:Operation name="ejbActivate" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="type" value="void"/>
+								<UML:TaggedValue tag="const" value="false"/>
+								<UML:TaggedValue tag="synchronised" value="0"/>
+								<UML:TaggedValue tag="concurrency" value="Sequential"/>
+								<UML:TaggedValue tag="position" value="3"/>
+								<UML:TaggedValue tag="returnarray" value="0"/>
+								<UML:TaggedValue tag="pure" value="0"/>
+								<UML:TaggedValue tag="ea_guid" value="{19D9AAB0-CF8C-4966-BC6F-C8623D93FCEE}"/>
+							</UML:ModelElement.taggedValue>
+							<UML:BehavioralFeature.parameter>
+								<UML:Parameter kind="return" visibility="public">
+									<UML:Parameter.type>
+										<UML:Classifier xmi.idref="eaxmiid3"/>
+									</UML:Parameter.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="pos" value="0"/>
+										<UML:TaggedValue tag="type" value="void"/>
+										<UML:TaggedValue tag="const" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{19D9AAB0-CF8C-4966-BC6F-C8623D93FCEE}"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Parameter.defaultValue>
+										<UML:Expression/>
+									</UML:Parameter.defaultValue>
+								</UML:Parameter>
+							</UML:BehavioralFeature.parameter>
+						</UML:Operation>
+						<UML:Operation name="ejbPassivate" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="type" value="void"/>
+								<UML:TaggedValue tag="const" value="false"/>
+								<UML:TaggedValue tag="synchronised" value="0"/>
+								<UML:TaggedValue tag="concurrency" value="Sequential"/>
+								<UML:TaggedValue tag="position" value="4"/>
+								<UML:TaggedValue tag="returnarray" value="0"/>
+								<UML:TaggedValue tag="pure" value="0"/>
+								<UML:TaggedValue tag="ea_guid" value="{7C348044-3729-4cd9-945E-FF1393E4740D}"/>
+							</UML:ModelElement.taggedValue>
+							<UML:BehavioralFeature.parameter>
+								<UML:Parameter kind="return" visibility="public">
+									<UML:Parameter.type>
+										<UML:Classifier xmi.idref="eaxmiid3"/>
+									</UML:Parameter.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="pos" value="0"/>
+										<UML:TaggedValue tag="type" value="void"/>
+										<UML:TaggedValue tag="const" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{7C348044-3729-4cd9-945E-FF1393E4740D}"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Parameter.defaultValue>
+										<UML:Expression/>
+									</UML:Parameter.defaultValue>
+								</UML:Parameter>
+							</UML:BehavioralFeature.parameter>
+						</UML:Operation>
+						<UML:Operation name="ejbLoad" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="type" value="void"/>
+								<UML:TaggedValue tag="const" value="false"/>
+								<UML:TaggedValue tag="synchronised" value="0"/>
+								<UML:TaggedValue tag="concurrency" value="Sequential"/>
+								<UML:TaggedValue tag="position" value="5"/>
+								<UML:TaggedValue tag="returnarray" value="0"/>
+								<UML:TaggedValue tag="pure" value="0"/>
+								<UML:TaggedValue tag="ea_guid" value="{77EA2891-9AF7-410f-B5E1-4E1547227492}"/>
+							</UML:ModelElement.taggedValue>
+							<UML:BehavioralFeature.parameter>
+								<UML:Parameter kind="return" visibility="public">
+									<UML:Parameter.type>
+										<UML:Classifier xmi.idref="eaxmiid3"/>
+									</UML:Parameter.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="pos" value="0"/>
+										<UML:TaggedValue tag="type" value="void"/>
+										<UML:TaggedValue tag="const" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{77EA2891-9AF7-410f-B5E1-4E1547227492}"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Parameter.defaultValue>
+										<UML:Expression/>
+									</UML:Parameter.defaultValue>
+								</UML:Parameter>
+							</UML:BehavioralFeature.parameter>
+						</UML:Operation>
+						<UML:Operation name="ejbRemove" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="type" value="void"/>
+								<UML:TaggedValue tag="const" value="false"/>
+								<UML:TaggedValue tag="synchronised" value="0"/>
+								<UML:TaggedValue tag="concurrency" value="Sequential"/>
+								<UML:TaggedValue tag="position" value="6"/>
+								<UML:TaggedValue tag="returnarray" value="0"/>
+								<UML:TaggedValue tag="pure" value="0"/>
+								<UML:TaggedValue tag="ea_guid" value="{1529F774-DA36-4bb4-B551-20B9A52C2047}"/>
+							</UML:ModelElement.taggedValue>
+							<UML:BehavioralFeature.parameter>
+								<UML:Parameter kind="return" visibility="public">
+									<UML:Parameter.type>
+										<UML:Classifier xmi.idref="eaxmiid3"/>
+									</UML:Parameter.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="pos" value="0"/>
+										<UML:TaggedValue tag="type" value="void"/>
+										<UML:TaggedValue tag="const" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{1529F774-DA36-4bb4-B551-20B9A52C2047}"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Parameter.defaultValue>
+										<UML:Expression/>
+									</UML:Parameter.defaultValue>
+								</UML:Parameter>
+							</UML:BehavioralFeature.parameter>
+						</UML:Operation>
+						<UML:Operation name="ejbStore" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="type" value="void"/>
+								<UML:TaggedValue tag="const" value="false"/>
+								<UML:TaggedValue tag="synchronised" value="0"/>
+								<UML:TaggedValue tag="concurrency" value="Sequential"/>
+								<UML:TaggedValue tag="position" value="7"/>
+								<UML:TaggedValue tag="returnarray" value="0"/>
+								<UML:TaggedValue tag="pure" value="0"/>
+								<UML:TaggedValue tag="ea_guid" value="{123B9DCC-ADE3-48fe-BE13-F701696176BA}"/>
+							</UML:ModelElement.taggedValue>
+							<UML:BehavioralFeature.parameter>
+								<UML:Parameter kind="return" visibility="public">
+									<UML:Parameter.type>
+										<UML:Classifier xmi.idref="eaxmiid3"/>
+									</UML:Parameter.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="pos" value="0"/>
+										<UML:TaggedValue tag="type" value="void"/>
+										<UML:TaggedValue tag="const" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{123B9DCC-ADE3-48fe-BE13-F701696176BA}"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Parameter.defaultValue>
+										<UML:Expression/>
+									</UML:Parameter.defaultValue>
+								</UML:Parameter>
+							</UML:BehavioralFeature.parameter>
+						</UML:Operation>
+						<UML:Operation name="setEntityContext" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="type" value="void"/>
+								<UML:TaggedValue tag="const" value="false"/>
+								<UML:TaggedValue tag="synchronised" value="0"/>
+								<UML:TaggedValue tag="concurrency" value="Sequential"/>
+								<UML:TaggedValue tag="position" value="8"/>
+								<UML:TaggedValue tag="returnarray" value="0"/>
+								<UML:TaggedValue tag="pure" value="0"/>
+								<UML:TaggedValue tag="ea_guid" value="{660B6AF8-74C3-4c4b-B4D7-B70B2659B4EC}"/>
+							</UML:ModelElement.taggedValue>
+							<UML:BehavioralFeature.parameter>
+								<UML:Parameter kind="return" visibility="public">
+									<UML:Parameter.type>
+										<UML:Classifier xmi.idref="eaxmiid3"/>
+									</UML:Parameter.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="pos" value="0"/>
+										<UML:TaggedValue tag="type" value="void"/>
+										<UML:TaggedValue tag="const" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{660B6AF8-74C3-4c4b-B4D7-B70B2659B4EC}"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Parameter.defaultValue>
+										<UML:Expression/>
+									</UML:Parameter.defaultValue>
+								</UML:Parameter>
+								<UML:Parameter name="arg" kind="in" visibility="public">
+									<UML:Parameter.type>
+										<UML:Classifier xmi.idref="eaxmiid4"/>
+									</UML:Parameter.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="pos" value="0"/>
+										<UML:TaggedValue tag="type" value="EntityContext"/>
+										<UML:TaggedValue tag="const" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{A6D06574-E45C-4ea5-A31A-7C30C725B74F}"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Parameter.defaultValue>
+										<UML:Expression/>
+									</UML:Parameter.defaultValue>
+								</UML:Parameter>
+							</UML:BehavioralFeature.parameter>
+						</UML:Operation>
+						<UML:Operation name="unsetEntityContext" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="type" value="void"/>
+								<UML:TaggedValue tag="const" value="false"/>
+								<UML:TaggedValue tag="synchronised" value="0"/>
+								<UML:TaggedValue tag="concurrency" value="Sequential"/>
+								<UML:TaggedValue tag="position" value="9"/>
+								<UML:TaggedValue tag="returnarray" value="0"/>
+								<UML:TaggedValue tag="pure" value="0"/>
+								<UML:TaggedValue tag="ea_guid" value="{50774F6B-F79F-4d34-8264-D0A10748B549}"/>
+							</UML:ModelElement.taggedValue>
+							<UML:BehavioralFeature.parameter>
+								<UML:Parameter kind="return" visibility="public">
+									<UML:Parameter.type>
+										<UML:Classifier xmi.idref="eaxmiid3"/>
+									</UML:Parameter.type>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="pos" value="0"/>
+										<UML:TaggedValue tag="type" value="void"/>
+										<UML:TaggedValue tag="const" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{50774F6B-F79F-4d34-8264-D0A10748B549}"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Parameter.defaultValue>
+										<UML:Expression/>
+									</UML:Parameter.defaultValue>
+								</UML:Parameter>
+							</UML:BehavioralFeature.parameter>
+						</UML:Operation>
+					</UML:Classifier.feature>
+				</UML:Class>
+			</UML:Namespace.ownedElement>
+		</UML:Model>
+		<UML:Diagram name="Entity" xmi.id="EAID_127E3C95_5E4D_4ec5_A238_8FF035AEB0EB" diagramType="ClassDiagram" owner="EAPK_127E3C95_5E4D_4ec5_A238_8FF035AEB0EB" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="documentation" value="UML Profile for EJB"/>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="Neil Capey"/>
+				<UML:TaggedValue tag="created_date" value="2004-06-16 14:48:35"/>
+				<UML:TaggedValue tag="modified_date" value="2004-06-28 16:33:21"/>
+				<UML:TaggedValue tag="package" value="EAPK_CA545E8A_11B1_4225_8DEE_1D5EE52FA9B0"/>
+				<UML:TaggedValue tag="type" value="Logical"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;names=false;color=0;bold=false;fcol=0;;cls=0;SW1=394;SW2=397;"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;DocSize.cx=827;DocSize.cy=1169;ShowDetails=0;Orientation=P;Zoom=105;ShowTags=0;OpParams=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;"/>
+				<UML:TaggedValue tag="styleex" value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;SuppressFOC=0;TDurLow=0;TDurHigh=100;TDurUnit=;TDurHide=0;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=499;Top=239;Right=721;Bottom=435;" subject="EAID_AC3910DE_CA87_4f2f_A2F5_1853A5B21BE5" seqno="1" style="DUID=5963D8AE;"/>
+				<UML:DiagramElement geometry="Left=134;Top=429;Right=252;Bottom=519;" subject="EAID_F78414F9_2995_464c_BC5D_CC7DDFBD9098" seqno="2" style="DUID=168CD564;"/>
+				<UML:DiagramElement geometry="Left=18;Top=225;Right=368;Bottom=315;" subject="EAID_516D89E3_89BA_40b9_A290_5880E8D37DCD" seqno="3" style="DUID=18606191;"/>
+				<UML:DiagramElement geometry="Left=122;Top=55;Right=265;Bottom=125;" subject="EAID_3853BAB6_0B31_40f5_BAA0_D0D49C4AFBE6" seqno="4" style="DUID=7D1D19DB;"/>
+				<UML:DiagramElement geometry="Left=496;Top=479;Right=724;Bottom=549;" subject="EAID_F1B15449_A97F_4974_94A5_B57FD45CDBFE" seqno="5" style="DUID=548F28F7;"/>
+				<UML:DiagramElement geometry="EDGE=4;SX=0;SY=0;EX=0;EY=0;$LLB=;LLT=;LMT=;LMB=CX=114:CY=15:OX=19:OY=1:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:;LRT=;LRB=;Path=418:-474$;" subject="EAID_B64FBBBE_793C_41f9_B084_313D5F30418D" style="Mode=3;EOID=168CD564;SOID=5963D8AE;Hidden=0;"/>
+				<UML:DiagramElement geometry="EDGE=4;SX=2;SY=0;EX=1;EY=0;$LLB=;LLT=;LMT=;LMB=CX=105:CY=15:OX=24:OY=-20:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:;LRT=;LRB=;Path=441:-269$;" subject="EAID_A0EEEEA1_571A_4338_816B_05420300EEA3" style="Mode=3;EOID=18606191;SOID=5963D8AE;Hidden=0;"/>
+				<UML:DiagramElement geometry="EDGE=3;$LLB=;LLT=;LMT=;LMB=CX=71:CY=15:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:;LRT=;LRB=;Path=;" subject="EAID_A5C805FE_63D9_4ebc_8707_5C7F404C841E" style="Mode=3;EOID=168CD564;SOID=18606191;Hidden=0;"/>
+				<UML:DiagramElement geometry="EDGE=1;$LLB=;LLT=;LMT=;LMB=CX=95:CY=15:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:;LRT=;LRB=;Path=;" subject="EAID_7E9EB4F9_D1C3_4ed4_A76E_7AA7077EBE16" style="Mode=3;EOID=7D1D19DB;SOID=18606191;Hidden=0;"/>
+				<UML:DiagramElement geometry="width=394;" subject="EAID_F2C3E086_E48A_4f33_B95D_C80D4AE4368A" style="swimlane;name=Specification Elements;class=;partition=1;description=OE0={3853BAB6-0B31-40f5-BAA0-D0D49C4AFBE6}:OE1={516D89E3-89BA-40b9-A290-5880E8D37DCD}:OE2={F78414F9-2995-464c-BC5D-CC7DDFBD9098}:;"/>
+				<UML:DiagramElement geometry="width=397;" subject="EAID_FB2FBFB7_6048_48b1_9FFB_358F6A9A9870" style="swimlane;name=Realization Elements;class=;partition=2;description=OE0={F1B15449-A97F-4974-94A5-B57FD45CDBFE}:OE1={AC3910DE-CA87-4f2f-A2F5-1853A5B21BE5}:;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+	</XMI.content>
+	<XMI.difference/>
+	<XMI.extensions xmi.extender="Enterprise Architect 2.5">
+		<EAStub xmi.id="EAID_516D89E3_89BA_40b9_A290_5880E8D37DCD" name="HomeInterface" UMLType="Interface"/>
+		<EAStub xmi.id="EAID_3853BAB6_0B31_40f5_BAA0_D0D49C4AFBE6" name="PrimaryKey" UMLType="Class"/>
+		<EAStub xmi.id="EAID_F78414F9_2995_464c_BC5D_CC7DDFBD9098" name="RemoteInterface" UMLType="Interface"/>
+		<EAStub xmi.id="EAID_AC3910DE_CA87_4f2f_A2F5_1853A5B21BE5" name="Implementation" UMLType="Class"/>
+		<UMLPattern name="Entity Bean Pattern" category="EJB Patterns" version="1.0" notes="UML Profile for EJB">
+			<UMLPattern.PromptList>
+				<Element name="HomeInterface:Interface" guid="EAID_516D89E3_89BA_40b9_A290_5880E8D37DCD" id="192" prompt="yes" link="no"/>
+				<Element name="Implementation:Class" guid="EAID_AC3910DE_CA87_4f2f_A2F5_1853A5B21BE5" id="194" prompt="yes" link="no"/>
+				<Element name="PrimaryKey:Class" guid="EAID_3853BAB6_0B31_40f5_BAA0_D0D49C4AFBE6" id="191" prompt="yes" link="no"/>
+				<Element name="RemoteInterface:Interface" guid="EAID_F78414F9_2995_464c_BC5D_CC7DDFBD9098" id="193" prompt="yes" link="no"/>
+				<Element name="Table:Class" guid="EAID_F1B15449_A97F_4974_94A5_B57FD45CDBFE" id="168" prompt="yes" link="no"/>
+			</UMLPattern.PromptList>
+		</UMLPattern>
+	</XMI.extensions>
+</XMI>
+		</UMLPattern>
+	</UMLPatterns>
+	<CodeModules>
+		<CodeModule language="Java" notes="">
+			<CodeTemplates>
+		<RefData version="1.0" exporter="EA.25">
+			<DataSet name="Java_Code_Template" table="t_template" filter="TemplateType='#TemplateType#' and TemplateName='#TemplateName#' and Style='#Style#'">
+				<DataRow>
+					<Column name="TemplateID" value="{BD266285-1DF0-41db-8FE5-ADDA258EC208}"/>
+					<Column name="TemplateType" value="Java_Code_Template"/>
+					<Column name="TemplateName" value="Class Body"/>
+					<Column name="Style" value="CS=EJBImplementation;"/>
+					<Column name="Template" value="%if elemType == &quot;Interface&quot;%
+%PI=&quot;\n\n&quot;%
+{
+%list=&quot;InnerClass&quot; @separator=&quot;\n\n&quot; @indent=&quot;\t&quot;%
+%list=&quot;Attribute&quot; @separator=&quot;\n&quot; @indent=&quot;\t&quot;%
+%list=&quot;Operation&quot; @separator=&quot;\n\n&quot; @indent=&quot;\t&quot;%
+}
+%endTemplate%
+
+%PI=&quot;\n\n&quot;%
+{
+%list=&quot;InnerClass&quot; @separator=&quot;\n\n&quot; @indent=&quot;\t&quot;%
+%list=&quot;Attribute&quot; @separator=&quot;\n&quot; @indent=&quot;\t&quot;%
+
+$ops=&quot;&quot;
+%if genOptGenConstructor == &quot;T&quot; and classHasConstructor != &quot;T&quot;%
+$ops+=&quot;\tpublic &quot;+%className%+&quot;(){\n\n\t}&quot;
+%endIf%
+
+$ops
+%list=&quot;Operation&quot; @separator=&quot;\n\n&quot; @indent=&quot;\t&quot;%
+}"/>
+				</DataRow>
+			</DataSet>
+		</RefData>
+			</CodeTemplates>
+		</CodeModule>
+	</CodeModules>
+</MDG.Technology>

@@ -1,0 +1,65 @@
+/***
+* IE6 Only CSS
+***/
+
+
+.transparentPNG,
+#headerSearch,
+#logo A,
+#navbar
+{
+  behavior: url('assets/js/iepngfix.htc');
+}
+.content-row {margin-top:40px;}
+#logo A {
+  cursor: pointer;
+}
+
+/** Tabs **/
+  #tabs li a,
+  #tabs li a span
+  {
+    _display: inline !important; /* Otherwise the blocks mistakenly get 100% width in IE5 */
+    display: inline-block !important; /* Otherwise the blocks mistakenly get 100% width in IE6 */
+    cursor: pointer;
+  }
+	
+  #tabs
+  {
+    _width: 100% !important; /* Otherwise IE5 treats the ul as floated */
+    _w\idth: auto !important; /* Reset to auto width for IE6 */
+  }
+
+  #tabs li a
+  {
+    _background: url(../images/tabs/tab-left-ie6.png) no-repeat left -38px !important;
+  }
+
+  #tabs li a span
+  {
+    _background: url(../images/tabs/tab-right-ie6.png) no-repeat right -38px !important;
+  }
+
+  #tabs li a:hover
+  {
+    _background: url(../images/tabs/tab-left-ie6.png) no-repeat left -76px !important;
+  }
+
+  #tabs li a:hover span
+  {
+    _background: url(../images/tabs/tab-right-ie6.png) no-repeat right -76px !important;
+  }
+
+  #tabs li.ui-tabs-selected a,
+  #tabs li.ui-tabs-selected a:hover
+  {
+    _background: url(../images/tabs/tab-left-ie6.png) no-repeat left 0 !important;
+  }
+
+  #tabs li.ui-tabs-selected a span,
+  #tabs li.ui-tabs-selected a:hover span
+  {
+    _background: url(../images/tabs/tab-right-ie6.png) no-repeat right 0 !important;
+  }
+
+  

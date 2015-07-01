@@ -1,0 +1,562 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>UML tools for software development and modelling - Enterprise Architect UML modeling tool</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<link rel="stylesheet" href="assets/css/base-reset.css" type="text/css" />
+	<link rel="stylesheet" href="assets/css/grid.css" type="text/css" />
+	<!--[if lte IE 6]>
+		<link rel="stylesheet" type="text/css" href="assets/css/IE-6.css" />
+		<script language="javascript" type="text/javascript" src="assets/js/iepngfix_tilebg.js"></script>
+	<![endif]-->
+	
+	<!--[if IE]>
+		<style>
+		#navbar{width:800px;}
+		</style>
+	<![endif]-->
+
+	<script type="text/javascript" language="javascript" src="assets/js/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" language="javascript" src="assets/js/ui.core.min.js"></script>
+	<script type="text/javascript" language="javascript" src="assets/js/ui.tabs.min.js"></script>
+	<script type="text/javascript" language="javascript">
+	  $(document).ready(function() {
+	    $("#tabs > UL").tabs();
+	    $("A[href^=#]").each(function() {
+	      if ($(this).parents("#tabs-list").length == 0) {
+	        $(this).click(function() {
+	          $("#tabs").tabs('select', $(this).get(0).hash);
+	          self.scrollTo(0, 0);
+	          return false;
+	        });
+	      }
+	    });
+	  });
+	</script>
+	<meta name="Description" content="UML design and business analysis tool for modeling, documenting, reverse engineering, building and maintaining object-oriented software systems, fast and intuitive. Great features, great price." />
+</head>
+<body>
+<div id='outside'>
+<div id="custom-doc" class="yui-t7">
+	<div id="hd">
+		<div id="logo"><a rel="home" title="Home" href="http://www.sparxsystems.com"></a></div>
+		<div id="navbar">
+			<div id="primary">
+				<ul>
+					<li class='first'><a href="http://www.sparxsystems.com/products/index.html?source=regcd9">Products</a></li>
+					<li><a href="http://www.sparxsystems.com/resources/index.html?source=regcd93">Resources</a></li>
+					<li><a href="http://www.sparxsystems.com/solutions/index.html?source=regcd93">Solutions</a></li>
+					<li><a href="http://www.sparxsystems.com/cgi-bin/yabb/YaBB.cgi">Forum</a></li>
+					<li><a href="http://www.sparxsystems.com/support/index.html?source=regcd93">Support</a></li>
+					<li><a href="http://www.sparxsystems.com/partners/index.html?source=regcd93">Partners</a></li>
+					<li class='last'><a href="http://www.sparxsystems.com/registered/index.html?source=regcd93">Registered Users</a></li>
+				</ul>
+			</div>
+			<div id="secondary">
+				<ul>
+					<li class='first'><a href="http://www.sparxsystems.com/products/ea.html?source=regcd93">Enterprise Architect</a></li>
+					<li><a href="http://www.sparxsystems.com/uml-tutorial.html?source=regcd93">UML Tutorial</a></li>
+					<li><a href="http://www.sparxsystems.com/about.html?source=regcd93">About Us</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div id="bd">
+		<div class="yui-g index-banner">
+			<h1><img src="assets/images/EA-banner-logo.png" border="0" class="transparentPNG" alt='Enterprise Architect' width='52' height='53' />Enterprise <span>Architect</span> 
+			</h1>
+			<h3>Thank you for purchasing Enterprise Architect 9.3 on CD</h3>
+			<p>
+			Enterprise Architect is a comprehensive, full lifecycle, analysis, design and construction tool. Enterprise Architect supports software development from early requirements gathering, through the analysis stages, design models, testing and finally maintenance and re-use. Enterprise Architect supports all 14 UML 2.4 diagram types, numerous software languages and a wealth of high-end features. 
+			</p>
+			<div class='cta-buttons'>
+				<div align="left"><a href='Setup_Files/easetupfull.exe'><img src='assets/images/install-button.png' alt='Install' /></a>
+			  </div>
+			</div>
+      <ul class='ticked-list'>
+				<li>A free read-only edition called <a href='Setup_Files/EALite.exe'>EA Lite</a> allows stakeholders to view the progress of projects </li>
+				<li>All projects created in the trial version are compatible with the fully licensed version</li>
+			</ul>
+	        
+		</div>
+		
+		<div class="yui-gb content-row">
+			<div id="tabs">
+				<ul id="tabs-list">
+					<li><a href="#integration"><span>MDG Integration</span></a></li>
+					<li><a href="#technology"><span>MDG Technology</span></a></li>
+					<li><a href="#link"><span>MDG Link</span></a></li>
+					<li><a href="#resources"><span>Resources</span></a></li>
+					<li><a href="#info"><span>Info</span></a></li>
+					<li><a href="#contact"><span>Contact</span></a></li>
+				</ul>
+				<div class='clear' style='height:0px;background-color:white;border-left:1px solid #cccccc;border-right:1px solid #cccccc;'></div>
+				
+                	
+                		<div id="integration" class="tab">
+				<div class='section-intro'>
+	                  	<h2>MDG Integration</h2>
+	                  	<p>
+						<strong>Model Driven Generation (MDG) Integration</strong> products tightly integrate Enterprise Architect, UML and related modeling standards with popular 
+						Integrated Development Environments (IDEs) such as Visual Studio, Eclipse and Teamcenter Systems Engineering. This gives you powerful 
+						visualization tools and traceability right inside your IDE! 
+						</p>
+					</div>
+					<div class='topic-container'>
+						<div class='text left'>
+							<h2>Visual Studio Integration</h2>
+							<p>
+							Sparx Systems brings the power of Enterprise Architect and UML 2.4 to Visual Studio. The Integration allows developers to navigate the 
+							UML model directly within Visual Studio, perform MDA transformations to fast-track development, generate high quality rich text and web 
+							based reports. 
+							</p>
+						</div>
+						<div class="buttons right">
+							<a href="http://www.sparxsystems.com/products/mdg_integrate.html?source=regcd93" class="buttonRO"><span>Learn More</span></a>
+							<a href="http://www.sparxsystems.com/products/mdg_integrate_purchase.html?source=regcd93" class="buttonRO"><span>Buy Online</span></a>
+							<a href="Setup_Files/VSIntegrate.exe" class="buttonRO"><span>Install</span></a>
+						</div>
+                     
+					</div>  
+					<div class='topic-container'>
+					<div class='text left'>
+						<h2>Eclipse Integration</h2>
+						<p>
+						The MDG Integration for Eclipse seamlessly integrates Enterprise Architect and UML 2.4 into the Eclipse environment, providing users with the ability to navigate and refine the development model. 
+						The Integration allows Eclipse users to use the built-in model discussion forum for easy communication and assist with collaboration. 
+						</p>
+					</div>
+					<div class="buttons right">
+					<a href="http://www.sparxsystems.com/products/mdg_integration_for_eclipse.html?source=regcd93" class="buttonRO"><span>Learn More</span></a>
+					<a href="http://www.sparxsystems.com/products/mdg/link/eclipse/purchase.html?source=regcd93" class="buttonRO"><span>Buy Online</span></a>
+					<a href="Setup_Files/EAEclipse_Integration.exe" class="buttonRO"><span>Install</span></a>
+					</div>
+                      
+					</div>  
+					<div class='topic-container'>
+						<div class='text left'>
+							<h2>TcSE Integration</h2>
+							<p>
+							The MDG Integration for TcSE seamlessly integrates Enterprise Architect and UML 2.4 models with the Teamcenter Systems Engineering PLM environment. The Integration allows users to integrate UML software designs, Business processes and SysML system models with product specifications and requirements in Teamcenter Systems Engineering. 
+							</p>
+						</div>
+						<div class="buttons right"> <a href="http://www.sparxsystems.com/products/mdg/int/tcse/index.html?source=regcd93" class="buttonRO"><span>Learn More</span></a> <a href="http://www.sparxsystems.com/products/mdg/int/tcse/purchase.html?source=regcd93" class="buttonRO"><span>Buy Online</span></a></div>
+					</div>  
+                </div>
+                
+                            
+				<div id="technology" class="tab">
+					<div class='section-intro'>
+						<h2>MDG Technology</h2>             	
+						<p><strong>Model Driven Generation (MDG) Technologies</strong> extend Enterprise Architect's core modeling capabilities to domain specific languages, UML profiles and frameworks such as Zachman Framework, TOGAF, DoDAF-MODAF, SysML, DDS and many more. MDG 	Technologies not only expand available modeling notations for Enterprise Architect, but can also provide validation rules, code round-trip engineering, model patterns etc. for specific domains and technologies.</p>
+					</div>
+                 	
+                 	<div class='topic-container'>
+                 		<div class='text left'>
+	                      <h2>Zachman Framework Technology</h2>
+	                      <p>
+							Sparx Systems' new MDG Technology underpins the organizational viewpoints and structures of the Zachman Framework with great depth, breadth and modeling integrity. Sparx Systems Enterprise Architect models are based on the UML 2.4 standard, with extensions for requirements modeling, testing, project management, mind mapping, and much more.
+	                      </p>
+                 		</div>
+                 		<div class="buttons right">
+						<a href="http://www.sparxsystems.com/products/mdg/tech/zachman/index.html?source=regcd93" class="buttonRO"><span>Learn More</span></a>
+						<a href="http://www.sparxsystems.com/products/mdg/tech/zachman/purchase.html?source=regcd93" class="buttonRO"><span>Buy Online</span></a>
+						<a href="Setup_Files/EAZachman.exe" class="buttonRO"><span>Install</span></a>
+						</div>
+                 	</div>
+                 	<div class='topic-container'>
+                 		<div class='text left'>
+	                      <h2>SysML Technology</h2>
+	                      <p>
+							The MDG Technology for SysML together with Enterprise Architect gives a powerful, low-cost modeling solution for Systems Engineering. 
+							This integrated modeling environment includes advanced modeling capabilities and the ability to specify system requirements with 
+							powerful modeling support.
+							</p>
+                 		</div>
+						<div class="buttons right">
+						<a href="http://www.sparxsystems.com/products/sysml.html?source=regcd93" class="buttonRO"><span>Learn More</span></a>
+						<a href="http://www.sparxsystems.com/products/mdg/tech/sysml/purchase.html?source=regcd93" class="buttonRO"><span>Buy Online</span></a>
+						<a href="Setup_Files/EASYSML.exe" class="buttonRO"><span>Install</span></a>
+						</div>
+                    </div>
+                    
+                    <div class='topic-container'>
+                 		<div class='text left'>
+	                      <h2>DDS Technology</h2>
+	                      <p>
+							MDG Technology for DDS ensures a powerful environment for designing complex data-centric publish-subscribe services for real-time applications. 
+							The team-based modeling environment allows users to automatically generate executable code for RTIDDS implementations. 
+							</p>
+                 		</div>
+                      <div class="buttons right">
+					  <a href="http://www.sparxsystems.com/products/mdg/tech/dds/index.html?source=regcd93" class="buttonRO"><span>Learn More</span></a>
+					  <a href="http://www.sparxsystems.com/products/mdg/tech/dds/purchase.html?source=regcd93" class="buttonRO"><span>Buy Online</span></a>
+					  <a href="Setup_Files/EADDS.exe" class="buttonRO"><span>Install</span></a> </div>
+                    </div>
+                    
+                    <div class='topic-container'>
+                 		<div class='text left'>
+	                      <h2>TOGAF Technology</h2>
+	                      <p>
+							Sparx Systems equips Enterprise Architect users with a model-based framework for implementing architectures using the TOGAF-8 Architecture Development Method. Tightly integrated with Enterprise Architect, 
+							MDG Technology for TOGAF extends UML 2.4 to support The Open Group's approach to information systems architecture.  
+							</p>
+                 		</div>
+                      <div class="buttons right"> <a href="http://www.sparxsystems.com/products/mdg/tech/togaf/index.html?source=regcd93" class="buttonRO"><span>Learn More</span></a> <a href="http://www.sparxsystems.com/products/mdg/tech/togaf/purchase.html?source=regcd93" class="buttonRO"><span>Buy Online</span></a> <a href="Setup_Files/EATOGAF.exe" class="buttonRO"><span>Install</span></a> </div>
+                    </div>
+                    
+                    <div class='topic-container'>
+                 		<div class='text left'>
+	                      <h2>UPDM Technology</h2>
+	                      <p>
+							MDG Technology for UPDM integrates tightly with Sparx Systems Enterprise Architect and provides a model-based framework for planning, 
+							designing and implementing Unified Profile for DoDAF and MODAF (UPDM) architectures.   
+							</p>
+                 		</div>
+                      <div class="buttons right"> <a href="http://www.sparxsystems.com/products/mdg/tech/updm/index.html?source=regcd93" class="buttonRO"><span>Learn More</span></a> <a href="http://www.sparxsystems.com/products/mdg/tech/updm/purchase.html?source=regcd93" class="buttonRO"><span>Buy Online</span></a> <a href="Setup_Files/UPDM2.exe" class="buttonRO"><span>Install</span></a> </div>
+                    </div>
+                    <div class='topic-container'>
+                 		<div class='text left'>
+	                      <h2>Python Technology</h2>
+	                      <p>
+							MDG Technology for Python adds round-trip code engineering support for the Python language to Enterprise Architect versions 4.5, 4.51 and 5.0.
+							</p>
+                 		</div>
+                      <div class="buttons right"> <a href="http://www.sparxsystems.com/resources/mdg_tech/index.html?source=regcd93" class="buttonRO"><span>More Info</span></a> <a href="Setup_Files/EAPython.exe" class="buttonRO free"><span>Install</span></a> </div>
+                    </div>
+                    <div class='topic-container'>
+                 		<div class='text left'>
+	                      <h2>CORBA Technology</h2>
+	                      <p>
+							The MDG Technology file for CORBA allows the user to generate CORBA IDL stubs from existing Enterprise Architect class diagram elements.
+							 The MDG Technology for CORBA adds support for IDL to Enterprise Architect.
+							</p>
+
+                 		</div>
+                      <div class="buttons right"> <a href="http://www.sparxsystems.com/resources/mdg_tech/index.html?source=regcd93" class="buttonRO"><span>More Info</span></a> <a href="Setup_Files/EACORBA.exe" class="buttonRO free"><span>Install</span></a> </div>
+                    </div>
+                    <div class='topic-container'>
+                 		<div class='text left'>
+	                      <h2>Enterprise Java Beans Technology</h2>
+	                      <p>
+							MDG Technology for EJB allows the user to model EJB entities and sessions, complete with UML profiles for modeling, patterns and Code Management. 
+							</p>
+
+                 		</div>
+                      <div class="buttons right"> <a href="http://www.sparxsystems.com/resources/mdg_tech/index.html?source=regcd93" class="buttonRO"><span>More Info</span></a> <a href="Setup_Files/EJB Technology.xml" class="buttonRO free"><span>Install</span></a> </div>
+                    </div>
+                    <div class='topic-container'>
+                 		<div class='text left'>
+	                      <h2>Testing Technology</h2>
+	                      <p>
+							MDG Technology for Testing gives the ability to rapidly model a wide range of testing procedures including component testing, SUT, Test Cases and more... 
+							</p>
+
+                 		</div>
+                      <div class="buttons right"> <a href="http://www.sparxsystems.com/resources/mdg_tech/index.html?source=regcd93" class="buttonRO"><span>More Info</span></a> <a href="Setup_Files/Testing Technology.xml" class="buttonRO free"><span>Install</span></a> </div>
+                    </div>
+                    
+                    
+				</div>
+				<div id="link" class="tab">
+                	<div class='section-intro'>
+                		<h2>MDG Link</h2>
+		                  <p><strong>Model Driven Generation (MDG) Link</strong> add-ins provide application bridges between Enterprise Architect and popular third-party development tools including Visual Studio .NET, Eclipse, DOORS and Visio. This helps to achieve traceability across tools, efficient navigation from your model to code and synchronization of changes over time.
+		                  </p>
+                	</div>
+                	
+                	<div class='topic-container'>
+                 		<div class='text left'>
+	                      <h2>Visual Studio Link</h2>
+	                      <p>
+The MDG Link for Visual Studio .NET provides a lightweight bridge between Enterprise Architect and Visual Studio .NET. Navigation between Enterprise Architect and Visual Studio .NET is enhanced with simple key 
+combinations that take the user directly from an Enterprise Architect model to its corresponding code in Visual Studio .NET. 
+							</p>
+
+                 		</div>
+                      <div class="buttons right"> <a href="http://www.sparxsystems.com/products/mdg_vs.html?source=regcd93" class="buttonRO"><span>Learn More</span></a> <a href="http://www.sparxsystems.com/products/mdg/link/vs/purchase.html?source=regcd93" class="buttonRO"><span>Buy Online</span></a> <a href="Setup_Files/EAVSBridge.exe" class="buttonRO"><span>Install</span></a> </div>
+                    </div>
+                	<div class='topic-container'>
+                 		<div class='text left'>
+	                      <h2>Eclipse Link</h2>
+	                      <p>
+The MDG Link for Eclipse provides a lightweight bridge between Enterprise Architect and Eclipse. Navigation between Enterprise Architect and Eclipse is enhanced with 
+simple key combinations that take the user directly from an Enterprise Architect model to its corresponding code in Eclipse. 
+							</p>
+
+                 		</div>
+                      <div class="buttons right"> <a href="http://www.sparxsystems.com/products/mdg_eclipse.html?source=regcd93" class="buttonRO"><span>Learn More</span></a> <a href="http://www.sparxsystems.com/products/mdg_purchase.html?source=regcd93" class="buttonRO"><span>Buy Online</span></a> <a href="Setup_Files/EAEclipse.exe" class="buttonRO"><span>Install</span></a> </div>
+                    </div>
+                	<div class='topic-container'>
+                 		<div class='text left'>
+	                      <h2>DOORS Link</h2>
+	                      <p>
+The MDG Link for DOORS provides a lightweight bridge for Sparx Systems' Enterprise Architect and Telelogic's DOORS. 
+DOORS users can now incorporate requirements with the power of UML to fully integrate the software development process.  
+							</p>
+
+                 		</div>
+                      <div class="buttons right"> <a href="http://www.sparxsystems.com/products/mdg_doors.html?source=regcd93" class="buttonRO"><span>Learn More</span></a> <a href="http://www.sparxsystems.com/products/mdg_doors_purchase.html?source=regcd93" class="buttonRO"><span>Buy Online</span></a> <a href="Setup_Files/EADOORS.exe" class="buttonRO"><span>Install</span></a> </div>
+                    </div>
+                	<div class='topic-container'>
+                 		<div class='text left'>
+	                      <h2>Visio Link</h2>
+	                      <p>
+The MDG Link for Visio allows the user to import diagrams created within Visio into an Enterprise Architect model.   
+							</p>
+
+                 		</div>
+                      <div class="buttons right"> <a href="http://www.sparxsystems.com/resources/mdg_tech/index.html?source=regcd93" class="buttonRO"><span>More Info</span></a> <a href="Setup_Files/VisioImporter.exe" class="buttonRO free"><span>Install</span></a> </div>
+                    </div>
+                </div>
+                
+                <div id='resources' class='tab'>
+                	<div class='section-intro'>
+                	<h2>Resources</h2>
+                	
+                	<ul class='resources'>
+                	<li class='pdf'><a href='assets/files/pdf/EAReviewersGuide.pdf'>Enterprise Architect Reviewer's Guide</a></li>
+                        <li class="weburl1"><a href="http://community.sparxsystems.com/?source=regcd93">The Sparx Systems Enterprise Architect Community Site provides a central location to publish resources and share experiences</a></li>
+                	<li><h3>Case Studies</h3>
+                		<ul>
+                			<li class='pdf'><a href='assets/files/pdf/EFFORTS_Case_Study.pdf'>A Model Based Approach for IT Projects - Efforts</a></li>
+                			<li class='pdf'><a href='assets/files/pdf/DMV_Case_Study.pdf'>Systems Redesign with Enterprise Architect - DMV</a></li>
+                			<li class='pdf'><a href='assets/files/pdf/ESRI_Case_Study.pdf'>Modeling Location Based Service Delivery Systems - ESRI</a></li>
+                			<li class='pdf'><a href='assets/files/pdf/BAE_Case_Study.pdf'>Migrating the Royal Navy command and control system - BAE Systems</a></li>
+                			<li class='pdf'><a href='assets/files/pdf/LSST_Case_Study.pdf'>Designing the Large Synoptic Survey Telescope - LSST Corporation</a></li>
+                			<li class='pdf'><a href='assets/files/pdf/AD4_Case_Study.pdf'>Applying MDA to Air Traffic Management Systems - AD4 Project</a></li>
+                			<li class='pdf'><a href='assets/files/pdf/SGB_Case_Study.pdf'>Visualizing the St.George Bank enterprise IT model - St.George Bank</a></li>
+                			<li class='pdf'><a href='assets/files/pdf/Smart_Freight_Case_Study.pdf'>Smart Freight Process Model - Port of Melbourne</a></li>
+                			<li class='pdf'><a href='assets/files/pdf/IAG_Case_Study.pdf'>Developing an Enterprise-wide Architecture - Insurance Australia Group</a></li>
+                			<li class='pdf'><a href='assets/files/pdf/GeoSciMLEACaseStudy.pdf'>Developing the GeoSciML interoperability standard - Geoscience Australia and CSIRO</a></li>
+                			<li class='pdf'><a href='assets/files/pdf/Cannonic_IBS.pdf'>Model Drive Your Business - Canonic Corp</a></li>
+                			<li class='pdf'><a href='assets/files/pdf/RealizingCMMIusingEnterpriseArchitect.pdf'>CMMI meets UML - iITa</a></li>
+                		</ul>
+                	</li>
+                	<li><h3>White Papers</h3>
+                		<ul>
+                			<li class='doc'>
+                				<a href='assets/files/pdf/cabig_model_harmonization.doc'>Crosscutting Model Harmonization</a><br />
+								Steven D. Sandberg
+								Robert R. Freimuth, Ph.D.
+								Christopher G. Chute, M.D., Dr.P.H.
+							</li>
+                			<li class='pdf'><a href='assets/files/pdf/UML_Tutorial_Part_1_Introduction.pdf'>UML Tutorial - Structure</a></li>
+                			<li class='pdf'><a href='assets/files/pdf/UML_Tutorial_Part_2_Introduction.pdf'>UML Tutorial - Behavior</a></li>
+                			<li class='pdf'><a href='assets/files/pdf/businessProcessModelTutorial.pdf'>The Business Process Model</a></li>
+                			<li class='pdf'><a href='assets/files/pdf/EA_Deployment.pdf'>Deployment of Enterprise Architect</a></li>
+                			<li class='pdf'><a href='assets/files/pdf/MDA%20Tool.pdf'>MDA Overview</a></li>
+                			<li class='pdf'><a href='assets/files/pdf/Working_with_the_RTF_generator.pdf'>Rich-Text (RTF) Reporting</a></li>
+                			<li class='pdf'><a href='assets/files/pdf/Version_Control.pdf'>Version Control Integration</a></li>
+                			<li class='pdf'><a href='assets/files/pdf/Requirements_Management_in_Enterprise_Architect.pdf'>Requirements Management</a></li>
+                		</ul>
+                	</li>
+                	<li><h3>Datasheets</h3>
+                		<ul>
+                			<li class='pdf'><a href='assets/files/datasheets/enterprise_architect.pdf'>Enterprise Architect</a></li>
+                			<li class='pdf'><a href='assets/files/datasheets/dds.pdf'>DDS</a></li>
+                			<li class='pdf'><a href='assets/files/datasheets/updm.pdf'>UPDM</a></li>
+                			<li class='pdf'><a href='assets/files/datasheets/eclipse.pdf'>Eclipse</a></li>
+                			<li class='pdf'><a href='assets/files/datasheets/sysml.pdf'>SysML</a></li>
+                			<li class='pdf'><a href='assets/files/datasheets/tcse.pdf'>TcSE</a></li>
+                			<li class='pdf'><a href='assets/files/datasheets/togaf.pdf'>TOGAF</a></li>
+                			<li class='pdf'><a href='assets/files/datasheets/visual_studio.pdf'>Visual Studio</a></li>
+                			<li class='pdf'><a href='assets/files/datasheets/zachman_framework.pdf'>Zachman Framework</a></li>
+                			<li class='pdf'><a href='assets/files/datasheets/bpmn.pdf'>BPMN</a></li>
+                		</ul>
+                	</li>
+                	<li><h3>Demonstrations Online</h3>
+                		<ul>
+                			                			<li class="demo">
+                				<h4><a href="http://www.sparxsystems.com/resources/demos/getting-started.html?source=regcd93">Getting
+ Started</a></h4>
+                				<p>A series of videos that help to introduce Enterprise Architect and get you up to speed.  The videos include a comprehensive 45 minute introductory walk through and discussion of Enterprise Architect in the Software Development Lifecycle.</p>
+                			</li>
+                                        <li class="demo">
+                				<h4><a href="http://www.sparxsystems.com/resources/demos/index.html?source=regcd93">All 
+Demonstrations</a></h4>
+                				<p>Videos and walk-throughs to help you get up to speed fast and leverage the full power of Enterprise Architect in your daily work.</p>
+                			</li>
+                                        <li class="demo">
+                				<h4><a href="http://www.sparxsystems.com/resources/demos/requirements-management.html?source=regcd93">Requirements
+ Management</a></h4>
+                				<p>A Video series that examines Requirements Management in Enterprise Architect, including traceability and 
+requirements modeling.</p>
+                			</li>
+                                        <li class="demo">
+                				<h4><a href="http://www.sparxsystems.com/resources/demos/version-control.html?source=regcd93">Version
+ Control</a></h4>
+                				<p>Learn how to configure Enterprise Architect and connect your Version Control System.  Videos include setting up CVS, Subversion and TFS.  </p>
+                			</li>
+                                        <li class="demo">
+                				<h4><a href="http://www.sparxsystems.com/resources/demos/integration.html?source=regcd93">Integration
+ (Eclipse, Visual Studio, TFS)</a></h4>
+                				<p>Learn how to integrate Enterprise Architect with your favorite IDE.  Topics cover Eclipse, Visual Studio and Team 
+Foundation Server. </p>
+                			</li>                			
+                                        <li class="demo">
+                				<h4><a href="http://www.sparxsystems.com/resources/demos/code-engineering-and-debug-workbench.html?source=regcd93">Code
+ Engineering  and the Debug Workbench</a></h4>
+                				<p>Learn how to write, visualize and debug code in Enterprise Architect, using Java, ASP.NET and C#.</p>
+                			</li>                			
+                                        <li class="demo">
+                				<h4><a href="http://www.sparxsystems.com/resources/demos/modeling-productivity-tools.html?source=regcd93">Modeling   Productivity Tools</a></h4>
+                				<p>Examine a number of Modeling Productivity Tools including Model Transformations, Pan &amp; Zoom, HTML Generation, Sequence Diagrams and much more.</p>
+                			</li>
+                                        <li class="demo">
+                				<h4><a href="http://www.sparxsystems.com/resources/demos/technologies-and-architectural-frameworks.html?source=regcd93">Technologies and Architectural Frameworks</a></h4>
+                				<p>This video series looks at a number of Technologies and Architectural Frameworks.  Topics include SysML, the Zachman Framework and TOGAF.</p>
+                			</li>
+                			
+                  			
+                		</ul>
+                	</li>
+                        <li><h3>Demonstrations on CD</h3>
+                		<ul>
+                			<li class='demo'>
+                				<h4><a href='assets/files/Demonstrations/TO_20070330%20EA%20Overview%20d2.htm'>EA Overview</a></h4>
+                				<p>The 10 minute guide to Enterprise Architect, from Requirements Management and Business Process Modeling to MDA and Code Engineering... </p>
+                			</li>
+
+                			<li class='demo'>
+                				<h4><a href='assets/files/Demonstrations/EA_TalkThrougha.htm'>EA Overview</a></h4>
+                				<p>An introductory walk through and discussion of Enterprise Architect in the Software Development Lifecycle</p>
+                			</li>
+                			<li class='demo'>
+                				<h4><a href='assets/files/Demonstrations/TO_20060309%20Installing%20EA.htm'>Installing EA</a></h4>
+                				<p>Demonstrates installation of Enterprise Architect and how to get started with the Example Model</p>
+                			</li>
+                			<li class='demo'>
+                				<h4><a href='assets/files/Demonstrations/TO_20060120%20-%20Basic%20Use%20Case2.htm'>Basic Use Case Demonstration</a></h4>
+                				<p>A guide to constructing a Use Case model in under 30 seconds, including use cases, notes and issues</p>
+                			</li>
+                			<li class='demo'>
+                				<h4><a href='assets/files/Demonstrations/TO_20060918%20HTML%20Generator3.htm'>HTML Generator</a></h4>
+                				<p>New in Enterprise Architect 6.5 - Enterprise Architect 6.5 updated HTML Documentation Generator overview</p>
+                			</li>
+                			<li class='demo'>
+                				<h4><a href='assets/files/Demonstrations/TO_20060202%20Debugging%20J%2003.htm'>Debugging Java</a></h4>
+                				<p>Importing, debugging and running Java source code in Enterprise Architect, and automatic generation of sequence diagrams</p>
+                			</li>
+                			<li class='demo'>
+                				<h4><a href='assets/files/Demonstrations/TO_20080411_MDG_Integration_VS.htm'>Microsoft Visual Studio Integration</a></h4>
+                				<p>MDG Integration for Visual Studio - From concept to code</p>
+                			</li>
+                			
+                		</ul>
+                	</li>
+                	</ul>
+                	</div>
+                </div>
+				<div id='info' class='tab'>
+					<div class='section-intro'>
+						<h3>System Requirements</h3>
+						<p>
+						Native support for Microsoft® Windows 7, Windows Vista, Windows 2008, Windows 2003, Windows XP or Windows 2000. Mac/Linux  users can install Enterprise Architect under WINE or CodeWeavers CrossOver.						 </p>
+					  <h3>Registering the Trial Version</h3>
+						<p>
+						The trial version cannot be registered - only the full version. Therefore when purchasing Enterprise Architect, you will need to download the full version and install it, then register it with your registration key. 
+						You will receive registration information at the time of purchase. This will include a username and password for the registered user area of our web site, a link to download the full version and your registration keys.
+						 </p>
+						<h3>Transferring Projects from the Trial Version to a Registered Version</h3>
+						<p>
+						Please ensure that you have your .EAP files in a secure location when you to remove your trial version. To open the project with a registered version of Enterprise Architect, go to the File | Open menu and select your project from its new location.
+						</p>
+					</div>
+				</div>
+				<div id='contact' class='tab'>
+					<div class='section-intro'>
+						<h2>Contact Us</h2>
+						<p>
+                                                  Registered users can access priority support at the <a href="http://www.sparxsystems.com/registered/reg_support.html?source=regcd93">Registered Users Support</a> page.
+                                                </p>
+                                                <p>
+                                                  Bug reports can be submitted from the <a href="http://www.sparxsystems.com/registered/reg_bug_report.html?source=regcd93">Registered Users Bug Report</a> page.
+                                                </p>
+						<p>
+						Sparx Systems can be contacted at the following email addresses: 
+						</p>
+						<p style='line-height:18px;'>
+						  <strong>Sales and Purchase Enquiries:</strong> <a href='mailto:sales@sparxsystems.com'>sales@sparxsystems.com</a><br />
+						  <strong>General Enquiries:</strong> <a href='mailto:sparks@sparxsystems.com'>sparks@sparxsystems.com</a><br />
+                                                  <strong>Support Enquiries:</strong> <a href='mailto:support@sparxsystems.com'>support@sparxsystems.com</a><br />
+						</p>
+					</div>
+				</div>
+              </div>
+		</div>
+		<div class='clear-block'>&nbsp;</div>
+	</div>
+
+	<div id="ft">
+    	<div class="ft-links">
+	        <ul>
+	            <li class="category"><a href="http://www.sparxsystems.com/products/index.html?source=regcd93">Products</a></li>
+	            <li><a href="http://www.sparxsystems.com/products/ea/index.html?source=regcd93">Enterprise Architect</a></li>
+	            <li><a href="http://www.sparxsystems.com/products/mdg/int/eclipse/index.html?source=regcd93">Eclipse Integration</a></li>
+	            <li><a href="http://www.sparxsystems.com/products/mdg/int/vs/index.html?source=regcd93">Visual Studio Integration</a></li>
+	            <li><a href="http://www.sparxsystems.com/products/mdg/tech/updm/index.html?source=regcd93">UPDM Technology</a></li>
+	            <li><a href="http://www.sparxsystems.com/products/mdg/tech/sysml/index.html?source=regcd93">SysML Technology</a></li>
+	            <li><a href="http://www.sparxsystems.com/products/mdg/tech/dds/index.html?source=regcd93">DDS Technology</a></li>
+	            <li><a href="http://www.sparxsystems.com/products/mdg/link/doors/index.html?source=regcd93">DOORS Link</a></li>
+	            <li><a href="http://www.sparxsystems.com/products/3rdparty.html?source=regcd93">Additional Addins</a></li>
+	        </ul>
+	        <ul>
+	            <li class="category"><a href="http://www.sparxsystems.com/platforms/uml.html?source=regcd93">UML at a Glance</a></li>
+	            <li><a href="http://www.sparxsystems.com/platforms/uml.html?source=regcd93">UML</a></li>
+	            <li><a href="http://www.sparxsystems.com/platforms/uml_tool.html?source=regcd93">UML Tools</a></li>
+	            <li><a href="http://www.sparxsystems.com/platforms/php_uml.html?source=regcd93">PHP UML Modeling</a></li>
+	            <li><a href="http://www.sparxsystems.com/platforms/business_process_modeling.html?source=regcd93">Business Process Modeling</a></li>
+	            <li><a href="http://www.sparxsystems.com/platforms/mda_tool.html?source=regcd93">Model Driven Architecture</a></li>
+	            <li><a href="http://www.sparxsystems.com/platforms/requirements_management.html?source=regcd93">Requirements Management</a></li>
+	            <li><a href="http://www.sparxsystems.com/platforms/software_development.html?source=regcd93">Software Development</a></li>
+	        </ul>
+	        <ul>
+	            <li class="category"><a href="http://www.sparxsystems.com/solutions/index.html?source=regcd93">Solutions</a></li>
+	            <li><a href="http://www.sparxsystems.com/solutions/corporate.html?source=regcd93">Corporate</a></li>
+	            <li><a href="http://www.sparxsystems.com/solutions/government.html?source=regcd93">Government</a></li>
+	            <li><a href="http://www.sparxsystems.com/solutions/sme.html?source=regcd93">Small/Medium Enterprise</a></li>
+	            <li><a href="http://www.sparxsystems.com/solutions/professionals.html?source=regcd93">IT Professionals</a></li>
+	            <li><a href="http://www.sparxsystems.com/solutions/trainers.html?source=regcd93">Trainers</a></li>
+	            <li><a href="http://www.sparxsystems.com/solutions/academic.html?source=regcd93">Academic</a></li>
+	        </ul>
+	        <ul>
+	            <li class="category"><a href="http://www.sparxsystems.com/resources/index.html?source=regcd93">Resources</a></li>
+	            <li><a href="http://www.sparxsystems.com/resources/uml2_tutorial/index.html?source=regcd93">UML 2.0 Tutorial</a></li>
+	            <li><a href="http://www.sparxsystems.com/resources/mdg_tech/index.html?source=regcd93">MDG Technologies</a></li>
+	            <li><a href="http://www.sparxsystems.com/resources/corporate/index.html?source=regcd93">Corporate Resources</a></li>
+	            <li><a href="http://www.sparxsystems.com/resources/developers/index.html?source=regcd93">Developer Resources</a></li>
+	            <li><a href="http://www.sparxsystems.com/press/index.html?source=regcd93">Media Resources</a></li>
+	        </ul>
+	        <ul>
+	            <li class="category"><a href="http://www.sparxsystems.com/support/index.html?source=regcd93">Support</a></li>
+	            <li><a href="http://www.sparxsystems.com/uml_tool_guide/index.html?source=regcd93">Online Manual</a></li>
+	            <li><a href="http://www.sparxsystems.com/cgi-bin/yabb/YaBB.cgi">User Forum</a></li>
+	            <li><a href="http://www.sparxsystems.com/support/bug_report.html?source=regcd93">Report a Bug</a></li>
+	            <li><a href="http://www.sparxsystems.com/support/feature_request.html?source=regcd93">Feature Request</a></li>
+	            <li><a href="http://www.sparxsystems.com/support/change_email.html?source=regcd93">Change Your Email</a></li>
+	        </ul>
+	        <ul>
+	            <li class="category"><a href="http://www.sparxsystems.com/partners/index.html?source=regcd93">Global Partners</a></li>
+	            <li><a href="http://www.sparxsystems.com/partners/trainers.html?source=regcd93">Trainers</a></li>
+	            <li><a href="http://www.sparxsystems.com/partners/vars.html?source=regcd93">Value Added Resellers</a></li>
+	            <li><a href="http://www.sparxsystems.com/partners/resellers.html?source=regcd93">Resellers</a></li>
+	            <li><a href="http://www.sparxsystems.com/partners/sistercompanies.html?source=regcd93">Sister Companies</a></li>
+	            <li><a href="http://www.sparxsystems.com/partners/technical.html?source=regcd93">Technical Partners</a></li>
+	            <li><a href="http://www.sparxsystems.com/partners/standards.html?source=regcd93">Standards Organizations</a></li>
+	        </ul>
+    	</div>
+    	<div class="ft-copyright">
+	        <p>
+	        &copy;2000 - 2011 Sparx Systems Pty Ltd. All rights Reserved.
+	        &nbsp;|&nbsp;<a href='http://www.sparxsystems.com/legal.html?source=regcd93'>Legal</a>
+	        &nbsp;|&nbsp;<a href='http://www.sparxsystems.com/privacy.html?source=regcd93'>Privacy</a>
+			    &nbsp;|&nbsp;<a href='http://www.sparxsystems.com/sitemap.html?source=regcd93'>Site map</a>
+	        </p>
+    	</div>
+	</div>
+</div>
+</div>
+</body>
+</html>
