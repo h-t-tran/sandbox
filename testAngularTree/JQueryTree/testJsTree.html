@@ -67,36 +67,84 @@
                 console.log(data.selected);
             });
 
+
             //////////////////////////////////////
             //
+            var flag = false;
             $('#jstree_demo2').jstree({
                 "core": {
 
                     "animation": 0,
                     "check_callback": true,
                     //"themes": {"stripes": true},
-                    'data':  [
+
+                    'data' : function (obj, callback) {
+                        console.debug("getting data")
+                        if(flag == false) {
+                            callback.call(this, [
+                                { id : "demo_root_1", text : "BookmarkS", type : "root",
+                                    children : [
+                                    ]
+                                },
+                                { id : "demo_root_2", text : "SketcheS", type : "root" }
+
+                            ]);
+                            flag = ! flag;
+                        }
+                        else {
+                            flag = ! flag;
+                            callback.call(this, [
+                                {
+                                    id: "demo_root_1", text: "BookmarkS", type: "root",
+                                    children: [
+                                        "Child 1",
+                                        "Child 1.5",
+                                        {
+                                            id: "1234",
+                                            text: "Child 1.6",
+                                            children: [
+                                                {id: "demo_child_1.6a", text: "children one", type: "file"}
+                                            ]
+                                        },
+
+                                        {
+                                            id: "demo_child_1",
+                                            text: "Child 2",
+                                            children: [
+                                                {id: "demo_child_2", text: "One more", type: "file"},
+                                                {id: "demo_child_3", text: "One more 2", type: "file"}
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {id: "demo_root_2", text: "SketcheS", type: "root"}
+
+                            ]);
+                        }
+                    },
+
+                    'data2':  [
                                         { id : "demo_root_1", text : "Bookmarks", type : "root",
                                             children : [
-                                                "Child 1",
-                                                "Child 1.5",
-                                                {
-                                                    id : "1234",
-                                                    text : "Child 1.6",
-                                                    children : [
-                                                        { id : "demo_child_1.6a", text : "children one", type : "file" }
-                                                    ]
-                                                },
-
-                                                {
-                                                    id : "demo_child_1",
-                                                    text : "Child 2",
-                                                    children :
-                                                            [
-                                                                { id : "demo_child_2", text : "One more", type : "file" },
-                                                                { id : "demo_child_3", text : "One more 2", type : "file" }
-                                                            ]
-                                                }
+//                                                "Child 1",
+//                                                "Child 1.5",
+//                                                {
+//                                                    id : "1234",
+//                                                    text : "Child 1.6",
+//                                                    children : [
+//                                                        { id : "demo_child_1.6a", text : "children one", type : "file" }
+//                                                    ]
+//                                                },
+//
+//                                                {
+//                                                    id : "demo_child_1",
+//                                                    text : "Child 2",
+//                                                    children :
+//                                                            [
+//                                                                { id : "demo_child_2", text : "One more", type : "file" },
+//                                                                { id : "demo_child_3", text : "One more 2", type : "file" }
+//                                                            ]
+//                                                }
                                             ]
                                         },
                                         { id : "demo_root_2", text : "Sketches", type : "root" }
@@ -134,7 +182,17 @@
         }
 
         function getData() {
+            var tree = $('#jstree_demo2').jstree(true);
+            console.debug("tree ", tree);
+            //console.debug("defaults.core.data = ", tree.defaults.core.data)
+            tree.check_all();
+            tree.show_stripes();
+            tree.refresh();
+        }
 
+        function getData2() {
+            var tree = $('#jstree_demo2').jstree(true);
+            tree.hide_stripes();
         }
     </script>
 </head>
@@ -142,5 +200,6 @@
 <div id="jstree_demo" style="margin-top:1em; min-height:200px; "></div>
 <div id="jstree_demo2" style="margin-top:1em; min-height:200px; "></div>
 <button class="btn btn-default" type="submit" onclick="getData()">Build Tree</button>
+<button class="btn btn-default" type="submit" onclick="getData2()">Build Tree</button>
 </body>
 </html>
