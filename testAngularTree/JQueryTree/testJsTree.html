@@ -4,22 +4,27 @@
     <meta charset="UTF-8">
     <title></title>
 
-    <script src="http://static.jstree.com/3.1.1/assets/jquery-1.10.2.min.js"></script>
-    <script src="http://static.jstree.com/3.1.1/assets/jquery.address-1.6.js"></script>
+    <!--<script src="http://static.jstree.com/3.1.1/assets/jquery-1.10.2.min.js"></script>-->
+    <!--<script src="http://static.jstree.com/3.1.1/assets/jquery.address-1.6.js"></script>-->
     <!--<script src="http://static.jstree.com/3.1.1/assets/vakata.js"></script>-->
-    <script src="http://static.jstree.com/3.1.1/assets/dist/jstree.min.js"></script>
+    <!--<script src="http://static.jstree.com/3.1.1/assets/dist/jstree.min.js"></script>-->
 
-    <link rel="stylesheet" href="http://static.jstree.com/3.1.1/assets/bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="http://static.jstree.com/3.1.1/assets/dist/themes/default/style.min.css" />
-    <!--<link rel="stylesheet" href="http://static.jstree.com/3.1.1/assets/docs.css" />-->
+    <script src="./dist/jquery.min.js"></script>
+    <script src="./dist/jstree.min.js"></script>
+    <!--<script src="./dist/bootstrap.min.css"></script>-->
+
+    <!--<link rel="stylesheet" href="http://static.jstree.com/3.1.1/assets/bootstrap/css/bootstrap.min.css" />-->
+
+    <link rel="stylesheet" href="./dist/themes/default/style.min.css" />
 
     <script>
         function buildTree() {
             $('#jstree_demo').jstree({
                 "core": {
+
                     "animation": 0,
                     "check_callback": true,
-                    "themes": {"stripes": true},
+                    //"themes": {"stripes": true},
                     'data': {
                         'url': function (node) {
                             return node.id === '#' ?
@@ -36,6 +41,7 @@
                         "max_depth": 4,
                         "valid_children": ["root"]
                     },
+                    // use to specify the icon, must be "root"
                     "root": {
                         "icon": "./static/tree_icon.png",
                         "valid_children": ["default"]
@@ -44,24 +50,97 @@
                         "valid_children": ["default", "file"]
                     },
                     "file": {
-                        "icon": "glyphicon glyphicon-file",
+                        "icon": "./static/file.png", // "glyphicon glyphicon-file",
                         "valid_children": []
                     }
                 },
                 "plugins": [
                     "contextmenu",
                     "dnd", "search",
-                        "checkbox",
-                    "state", "types", "wholerow"
+                    "checkbox",
+                    "state", "types"
+                    //, "wholerow"
                 ]
             });
 
-            //$('#jstree_demo').jstree.defaults.contextmenu.select_node = false;
+            $('#jstree_demo').on("changed.jstree", function (e, data) {
+                console.log(data.selected);
+            });
+
+            //////////////////////////////////////
+            //
+            $('#jstree_demo2').jstree({
+                "core": {
+
+                    "animation": 0,
+                    "check_callback": true,
+                    //"themes": {"stripes": true},
+                    'data':  [
+                                        { id : "demo_root_1", text : "Bookmarks", type : "root",
+                                            children : [
+                                                "Child 1",
+                                                "Child 1.5",
+                                                {
+                                                    id : "1234",
+                                                    text : "Child 1.6",
+                                                    children : [
+                                                        { id : "demo_child_1.6a", text : "children one", type : "file" }
+                                                    ]
+                                                },
+
+                                                {
+                                                    id : "demo_child_1",
+                                                    text : "Child 2",
+                                                    children :
+                                                            [
+                                                                { id : "demo_child_2", text : "One more", type : "file" },
+                                                                { id : "demo_child_3", text : "One more 2", type : "file" }
+                                                            ]
+                                                }
+                                            ]
+                                        },
+                                        { id : "demo_root_2", text : "Sketches", type : "root" }
+                            ]
+
+
+                },
+                "types": {
+                    "#": {
+                        "max_children": 1,
+                        "max_depth": 4,
+                        "valid_children": ["root"]
+                    },
+                    // use to specify the icon, must be "root"
+                    "root": {
+                        "icon": "./static/tree_icon.png",
+                        "valid_children": ["default"]
+                    },
+                    "default": {
+                        "valid_children": ["default", "file"]
+                    },
+                    "file": {
+                        "icon": "./static/file.png", // "glyphicon glyphicon-file",
+                        "valid_children": []
+                    }
+                },
+                "plugins": [
+                    "contextmenu",
+                    "dnd", "search",
+                    "checkbox",
+                    "state", "types"
+                    //, "wholerow"
+                ]
+            });
+        }
+
+        function getData() {
+
         }
     </script>
 </head>
 <body onload="buildTree()">
-    <div id="jstree_demo" style="margin-top:1em; min-height:200px; "></div>
-
+<div id="jstree_demo" style="margin-top:1em; min-height:200px; "></div>
+<div id="jstree_demo2" style="margin-top:1em; min-height:200px; "></div>
+<button class="btn btn-default" type="submit" onclick="getData()">Build Tree</button>
 </body>
 </html>
