@@ -1,0 +1,19 @@
+<ul class="menu">
+    <li ng-repeat="mi in menuItems">
+        <div ng-show="mi.isVisible">
+            <div style="height:2.5em">&nbsp;</div>
+            <a href="#" ng-click="onCut(mi.label)">{{mi.label}}</a>
+        </div>
+    </li>
+
+    <!--<li class="title">Subject Actions:</li>-->
+    <li>
+        <div style="height:2.5em">&nbsp;</div>
+        <a href="#" ng-click="onCut()">{{cutText}}</a>
+    </li>
+    <li  ng-show="false">
+        <div style="height:2.5em">&nbsp;</div>
+        <a href="#" ng-click="onCut()">{{pasteText}}</a>
+    </li>
+    <!--<li>Paste</li>-->
+</ul>

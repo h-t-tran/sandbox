@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+    <script src="http://static.jstree.com/3.1.1/assets/jquery-1.10.2.min.js"></script>
+    <script src="http://static.jstree.com/3.1.1/assets/jquery.address-1.6.js"></script>
+    <!--<script src="http://static.jstree.com/3.1.1/assets/vakata.js"></script>-->
+    <script src="http://static.jstree.com/3.1.1/assets/dist/jstree.min.js"></script>
+
+    <link rel="stylesheet" href="http://static.jstree.com/3.1.1/assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="http://static.jstree.com/3.1.1/assets/dist/themes/default/style.min.css" />
+    <!--<link rel="stylesheet" href="http://static.jstree.com/3.1.1/assets/docs.css" />-->
+
+    <script>
+        function buildTree() {
+            $('#jstree_demo').jstree({
+                "core": {
+                    "animation": 0,
+                    "check_callback": true,
+                    "themes": {"stripes": true},
+                    'data': {
+                        'url': function (node) {
+                            return node.id === '#' ?
+                                    'ajax_demo_roots.json' : 'ajax_demo_children.json';
+                        },
+                        'data': function (node) {
+                            return {'id': node.id};
+                        }
+                    }
+                },
+                "types": {
+                    "#": {
+                        "max_children": 1,
+                        "max_depth": 4,
+                        "valid_children": ["root"]
+                    },
+                    "root": {
+                        "icon": "./static/tree_icon.png",
+                        "valid_children": ["default"]
+                    },
+                    "default": {
+                        "valid_children": ["default", "file"]
+                    },
+                    "file": {
+                        "icon": "glyphicon glyphicon-file",
+                        "valid_children": []
+                    }
+                },
+                "plugins": [
+                    "contextmenu",
+                    "dnd", "search",
+                        "checkbox",
+                    "state", "types", "wholerow"
+                ]
+            });
+
+            //$('#jstree_demo').jstree.defaults.contextmenu.select_node = false;
+        }
+    </script>
+</head>
+<body onload="buildTree()">
+    <div id="jstree_demo" style="margin-top:1em; min-height:200px; "></div>
+
+</body>
+</html>
