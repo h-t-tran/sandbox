@@ -5,42 +5,45 @@
     <title></title>
 
     <link rel="stylesheet" href="./assets/jsTree/themes/default/style.min.css" />
+    <link href="./assets/isLoading/css/style.css" rel="stylesheet">
+    <link href="assets/bootstrap2.3.1/js/bootstrap-combined.min.css" rel="stylesheet">
 
+    <style>
+
+    </style>
     <script>
 
 
-
-        var tocSvc;
         var toc;
 
         function buildTree() {
 
             //////////////////////////////////////
             //
-            //var flag = false;
-            //$.jstree.defaults.contextmenu.select_node = true;
-            //console.debug("$.jstree.defaults.contextmenu ", $.jstree.defaults.contextmenu);
 
-            tocSvc = new TocSvc();
+            var tocLoader = new TocLoader( $('#container-wrapper'));
+            var tocSvc = new TocSvc();
             toc = new Toc({
-                jquery : $,
-                treeAnchorDiv : $("#jstree_demo2"),
-                tocSvc : tocSvc
+                jquery           : $,
+                treeAnchorDiv   : $("#treeAnchor"),
+                tocSvc          : tocSvc,
+                tocLoader       : tocLoader
             });
+            //showLoading("Loading...");
             toc.initialize();
             toc.getAllBookmarks();
 
             // this event happens first
-            $('#jstree_demo2').on("loaded.jstree", function (e, data) {
+            $('#treeAnchor').on("loaded.jstree", function (e, data) {
                 console.log("loaded.jstree 2");
             });
 
             // this event happens once ajax returns
-            $('#jstree_demo2').on("ready.jstree", function (e, data) {
+            $('#treeAnchor').on("ready.jstree", function (e, data) {
                 console.log("ready.jstree 2");
             });
 
-            $('#jstree_demo2').on("show_contextmenu.jstree", function (event, data) {
+            $('#treeAnchor').on("show_contextmenu.jstree", function (event, data) {
 
                 var node = data.node;
                 console.log("show_contextmenu.jstree node ", node);
@@ -49,24 +52,39 @@
                 console.log("node payload ", payload)
             });
 
-
-
         }
 
         function getData() {
+            //showLoading("Loading...");
             toc.getAllBookmarks();
         }
 
+        function showLoading(text) {
+            $( "#container-wrapper" ).isLoading({
+                text:       text,
+                position:   "overlay"
+            });
+        }
+
+        function hideLoader() {
+            $( "#container-wrapper" ).isLoading( "hide" );
+        }
     </script>
 </head>
 <body onload="buildTree()">
-    <div id="jstree_demo2" style="margin-top:1em; min-height:200px; "></div>
+<div id="container-wrapper">
+    <div id="treeAnchor" style="margin-top:1em; min-height:200px; "></div>
     <button class="btn btn-default" type="submit" onclick="getData()">Build Tree</button>
+</div>
+
 </body>
 
 
-<script src="./assets/jquery.min.js"></script>
-<script src="./assets/jsTree/jstree.min.js"></script>
-<script src="./toc.js"></script>
-<script src="./tocSvc.js"></script>
+    <script src="./assets/jquery.min.js"></script>
+    <script src="./assets/jsTree/jstree.min.js"></script>
+    <script src="./assets/isLoading/jquery.isloading.js" type="text/javascript"></script>
+
+    <script src="./toc.js"></script>
+    <script src="./tocSvc.js"></script>
+    <script src="./tocLoader.js"></script>
 </html>

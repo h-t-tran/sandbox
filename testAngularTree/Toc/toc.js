@@ -1,17 +1,4 @@
 function Toc(args) {
-    //Object.defineProperty(this, "foo", {
-    //    get: function() {
-    //        console.debug("foo-get");
-    //        return "foo-get"
-    //    },
-    //    set: function(val) {
-    //        console.debug("foo-set");
-    //    },
-    //    _test: 789,
-    //    _treeAnchorDiv : args.treeAnchorDiv,
-    //    _$ : args.jquery
-    //
-    //});
 
     console.debug("Toc ctor args ", args);
     this._treeAnchorDiv = args.treeAnchorDiv;
@@ -19,6 +6,8 @@ function Toc(args) {
     this._tocSvc = args.tocSvc;
     this._flag = false;
     this._tree = null;
+    this._loader = args.tocLoader;
+
     // build the initial empty tree
     this._bookmarkJsonPayload =
             [
@@ -27,13 +16,13 @@ function Toc(args) {
                     text : "Bookmarks (loading...)",
                     type : "root",
                     children : []
-                },
-                {
-                    id : "sketch_root",
-                    text : "Sketches (loading...)",
-                    type : "root",
-                    children : []
                 }
+                //, {
+                //    id : "sketch_root",
+                //    text : "Sketches (loading...)",
+                //    type : "root",
+                //    children : []
+                //}
             ];
 
 
@@ -71,14 +60,14 @@ function Toc(args) {
                 },
                 // use to specify the icon, must be "root"
                 "root": {
-                    "icon": "./assets/tree_icon.png",
+                    "icon": "./assets/favorite.png",
                     "valid_children": ["default"]
                 },
                 "default": {
                     "valid_children": ["default", "file"]
                 },
                 "file": {
-                    "icon": "./assets/file.png", // "glyphicon glyphicon-file",
+                    "icon": "./assets/File-icon.png", // "glyphicon glyphicon-file",
                     "valid_children": []
                 }
             },
@@ -101,10 +90,14 @@ function Toc(args) {
      * retrieve all bookmarks and refresh the tree.
      */
     this.getAllBookmarks = function() {
+
+        self._loader.show("Loading bookmarks...");
         this._tocSvc.getAllBookmarks(function(jsonPayload) {
             console.debug("got bookmark json payload ", jsonPayload);
             self._bookmarkJsonPayload = jsonPayload;
             self._tree.refresh();
+
+            self._loader.hide();
         });
     }
 
@@ -129,27 +122,7 @@ function Toc(args) {
                 });
                 console.debug("menuItems = ", menuItems)
                 return menuItems;
-                //
-                //return {
-                //    "Save Bookmark...": {
-                //        label: "Save Bookmark...",
-                //        action: function (obj) {
-                //            console.debug("doCopy")
-                //        }
-                //    },
-                //    "Delete Bookmark...": {
-                //        "label": "Copy Bookmark...",
-                //        "action": function (obj) {
-                //            console.debug("doCopy")
-                //        }
-                //    },
-                //    "Copy Bookmark": {
-                //        "label": "Paste Bookmark",
-                //        "action": function (obj) {
-                //            console.debug("doPaste")
-                //        }
-                //    }
-                //};
+
             } else {
                 return {
                     "Delete ...": {

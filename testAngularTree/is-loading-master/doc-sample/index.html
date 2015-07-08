@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+	<head>
+		<title>isLoading jQuery plugin</title>
+		<!--<link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">-->
+
+        <!-- spinner spins -->
+        <!--<link href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css" rel="stylesheet">-->
+
+        <!-- spinner does not spins -->
+        <!--<link href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css" rel="stylesheet">-->
+
+        <link href="../bootstrap3.3.4/js/bootstrap-combined.min.css" rel="stylesheet">
+        <!--<link href="../font-awesome-4.3.0/css/font-awesome.css" rel="stylesheet">-->
+        <link href="./style.css" rel="stylesheet">
+        <script src="./jquery2.1.4/jquery.min.js" type="text/javascript"></script>
+
+        <!--<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>-->
+	</head>
+	<body>
+
+<!-- OVERLAY AN ELEMENT -->
+            <div id="load-overlay-elt">
+                
+                <a name="overlay-tag"></a>
+
+                <h3>Overlay on Tag</h3>
+
+                <div class="demo well" id="container-wrapper">
+                    <p class="alert" >container</p>
+                    <span class="btn">Test</span>
+                </div>
+
+                <pre class="example syntax javascript"></pre>
+
+<script>
+    var g_count = 1;
+$(function() {
+
+    // Action on Click
+    $( "#load-overlay-elt .btn" ).click(function() {
+
+        g_count ++;
+
+        showLoading("Please wait..." + g_count);
+
+//        $( "#load-overlay-elt .demo" ).isLoading({
+//                            text:       "Please wait..." + g_count,
+//                            position:   "overlay"
+//                        });
+
+        // Setup Loading plugin
+        //$( "#load-overlay-elt .demo p" ).removeClass("alert-success");
+
+        // Re-enabling event
+        setTimeout( function(){
+//            $( "#load-overlay-elt .demo" ).isLoading( "hide" );
+//            $( "#load-overlay-elt .demo p" ).html( "Content Loaded" )
+//                                        .addClass("alert-success");
+            hideLoader();
+        }, 500000 );
+
+    });
+
+    function showLoading(text) {
+        $( "#container-wrapper" ).isLoading({
+            text:       text,
+            position:   "overlay"
+        });
+    }
+
+    function hideLoader() {
+        $( "#container-wrapper" ).isLoading( "hide" );
+    }
+
+});
+</script>
+
+                
+            </div>
+<!--// OVERLAY AN ELEMENT -->
+
+		</div>
+
+        <!-- syntax highlighter -->
+        <!--<script src="http://www.codeotaku.com/_static/jquery-syntax/jquery.syntax.min.js" type="text/javascript"></script>-->
+
+		<script src="./isLoading/jquery.isloading.js" type="text/javascript"></script>
+		<!--<script>-->
+			<!--$(function() {-->
+				<!--$( ".container script" ).each( function( i, e ) {;-->
+					<!--$( e ).siblings("pre.example").html( $( e ).html().trim() ).wrapInner( "<code />" );-->
+				<!--});-->
+                <!--$.syntax();-->
+			<!--});-->
+		<!--</script>-->
+		
+	</body>
+</html>

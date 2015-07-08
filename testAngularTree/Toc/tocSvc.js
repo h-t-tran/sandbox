@@ -56,7 +56,7 @@ function TocSvc(args) {
                             }
                         ]
                     },
-                    {id: "sketch_root", text: "Sketches", type: "root"}
+                    //{id: "sketch_root", text: "Sketches", type: "root"}
 
                 ]);
         }, 1000);
