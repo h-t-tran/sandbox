@@ -4,101 +4,12 @@
     <meta charset="UTF-8">
     <title></title>
 
-    <!--<script src="http://static.jstree.com/3.1.1/assets/jquery-1.10.2.min.js"></script>-->
-    <!--<script src="http://static.jstree.com/3.1.1/assets/jquery.address-1.6.js"></script>-->
-    <!--<script src="http://static.jstree.com/3.1.1/assets/vakata.js"></script>-->
-    <!--<script src="http://static.jstree.com/3.1.1/assets/dist/jstree.min.js"></script>-->
-
-    <script src="./dist/jquery.min.js"></script>
-    <script src="./dist/jstree.min.js"></script>
-    <!--<script src="./dist/bootstrap.min.css"></script>-->
-
-    <!--<link rel="stylesheet" href="http://static.jstree.com/3.1.1/assets/bootstrap/css/bootstrap.min.css" />-->
-
-    <link rel="stylesheet" href="./dist/themes/default/style.min.css" />
+    <script src="./assets/jquery.min.js"></script>
+    <script src="./assets/jsTree/jstree.min.js"></script>
+    <link rel="stylesheet" href="./assets/jsTree/themes/default/style.min.css" />
 
     <script>
         function buildTree() {
-
-            //$.jstree.defaults.checkbox.three_state = false;  // turn off enable/disable/intermediate option
-
-            $('#jstree_demo').jstree({
-                "core": {
-
-                    "animation": 0,
-                    "check_callback": true,
-                    //"themes": {"stripes": true},
-                    'data': {
-                        'url': function (node) {
-                            return node.id === '#' ?
-                                    'ajax_demo_roots.json' : 'ajax_demo_children.json';
-                        },
-                        'data': function (node) {
-                            return {'id': node.id};
-                        }
-                    }
-                },
-                "types": {
-                    "#": {
-                        "max_children": 1,
-                        "max_depth": 4,
-                        "valid_children": ["root"]
-                    },
-                    // use to specify the icon, must be "root"
-                    "root": {
-                        "icon": "./static/tree_icon.png",
-                        "valid_children": ["default"]
-                    },
-                    "default": {
-                        "valid_children": ["default", "file"]
-                    },
-                    "file": {
-                        "icon": "./static/file.png", // "glyphicon glyphicon-file",
-                        "valid_children": []
-                    }
-                },
-                "plugins": [
-                    "contextmenu",
-                    "dnd", "search",
-                    "checkbox",
-                    "state"
-                    , "types"
-                    //, "wholerow"
-                ]
-            });
-
-            console.debug("$.jstree.defaults.checkbox ", $.jstree.defaults.checkbox);
-
-            var tree =  $('#jstree_demo').jstree();
-            tree.hide_checkboxes();
-            //tree.show_checkboxes();
-
-            $('#jstree_demo').on("changed.jstree", function (e, data) {
-                console.log(data.selected);
-            });
-
-            $('#jstree_demo').on("hover_node.jstree", function (mode, nodeArg) {
-                console.log("hover node node ", nodeArg);
-                var node = nodeArg.node;
-                var id = node.id;
-                var label = node.text;
-                console.debug("node id ", id, ", label ", label);
-                var tree = $('#jstree_demo2').jstree(true);
-                var isChecked = tree.is_checked(node);
-                var isSel = tree.is_selected(node);
-
-                console.debug(" isChecked ", isChecked, ", isSelected ", isSel);
-            });
-
-            // this event happens first
-            $('#jstree_demo').on("loaded.jstree", function (e, data) {
-                console.log("loaded.jstree");
-            });
-
-            // this event happens once ajax returns
-            $('#jstree_demo').on("ready.jstree", function (e, data) {
-                console.log("ready.jstree");
-            });
 
             //////////////////////////////////////
             //
@@ -239,7 +150,7 @@
                     },
                     // use to specify the icon, must be "root"
                     "root": {
-                        "icon": "./static/tree_icon.png",
+                        "icon": "./assets/tree_icon.png",
                         "valid_children": ["default"]
                     },
                     "default": {
@@ -300,9 +211,7 @@
     </script>
 </head>
 <body onload="buildTree()">
-<div id="jstree_demo" style="margin-top:1em; min-height:200px; "></div>
-<div id="jstree_demo2" style="margin-top:1em; min-height:200px; "></div>
-<button class="btn btn-default" type="submit" onclick="getData()">Build Tree</button>
-<button class="btn btn-default" type="submit" onclick="getData2()">Build Tree</button>
+    <div id="jstree_demo2" style="margin-top:1em; min-height:200px; "></div>
+    <button class="btn btn-default" type="submit" onclick="getData2()">Build Tree</button>
 </body>
 </html>
