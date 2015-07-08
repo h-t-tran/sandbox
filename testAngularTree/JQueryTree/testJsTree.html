@@ -19,6 +19,9 @@
 
     <script>
         function buildTree() {
+
+            //$.jstree.defaults.checkbox.three_state = false;  // turn off enable/disable/intermediate option
+
             $('#jstree_demo').jstree({
                 "core": {
 
@@ -58,20 +61,115 @@
                     "contextmenu",
                     "dnd", "search",
                     "checkbox",
-                    "state", "types"
+                    "state"
+                    , "types"
                     //, "wholerow"
                 ]
             });
+
+            console.debug("$.jstree.defaults.checkbox ", $.jstree.defaults.checkbox);
+
+            var tree =  $('#jstree_demo').jstree();
+            tree.hide_checkboxes();
+            //tree.show_checkboxes();
 
             $('#jstree_demo').on("changed.jstree", function (e, data) {
                 console.log(data.selected);
             });
 
+            $('#jstree_demo').on("hover_node.jstree", function (mode, nodeArg) {
+                console.log("hover node node ", nodeArg);
+                var node = nodeArg.node;
+                var id = node.id;
+                var label = node.text;
+                console.debug("node id ", id, ", label ", label);
+                var tree = $('#jstree_demo2').jstree(true);
+                var isChecked = tree.is_checked(node);
+                var isSel = tree.is_selected(node);
+
+                console.debug(" isChecked ", isChecked, ", isSelected ", isSel);
+            });
+
+            // this event happens first
+            $('#jstree_demo').on("loaded.jstree", function (e, data) {
+                console.log("loaded.jstree");
+            });
+
+            // this event happens once ajax returns
+            $('#jstree_demo').on("ready.jstree", function (e, data) {
+                console.log("ready.jstree");
+            });
 
             //////////////////////////////////////
             //
             var flag = false;
+            $.jstree.defaults.contextmenu.select_node = true;
+            console.debug("$.jstree.defaults.contextmenu ", $.jstree.defaults.contextmenu);
+
+            // add context menu
+            $.jstree.defaults.contextmenu.items = function(node, cb) {
+                console.log("build context menu node ", node);
+                console.log("build context menu cb ", cb);
+
+                if(node.original.isBookmark == true) {
+                    return {
+                        "Save Bookmark...": {
+                            "label": "Save Bookmark...",
+                            "action": function (obj) {
+                                console.debug("doCopy")
+                            }
+                        },
+                        "Delete Bookmark...": {
+                            "label": "Copy Bookmark...",
+                            "action": function (obj) {
+                                console.debug("doCopy")
+                            }
+                        },
+                        "Copy Bookmark": {
+                            "label": "Paste Bookmark",
+                            "action": function (obj) {
+                                console.debug("doPaste")
+                            }
+                        }
+                    };
+                } else {
+                        return {
+                            "Delete ...": {
+                                "label": "Copy...",
+                                "action": function (obj) {
+                                    console.debug("doCopy")
+                                }
+                            },
+                            "Copy ": {
+                                "label": "Paste",
+                                "action": function (obj) {
+                                    console.debug("doPaste")
+                                }
+                            }
+                        };
+
+                }
+
+            }
+
             $('#jstree_demo2').jstree({
+
+                // add context menu -works
+//                "contextmenu" : {
+//                    "items" : function ($node) {
+//                        return {
+//                            "My Copy..." : {
+//                                "label" : "Copy...",
+//                                "action" : function (obj) { console.debug("doCopy") }
+//                            },
+//                            "My Paste" : {
+//                                "label" : "Paste",
+//                                "action" : function (obj) { console.debug("doPaste") }
+//                            }
+//                        };
+//                    }
+//                },
+
                 "core": {
 
                     "animation": 0,
@@ -95,6 +193,7 @@
                             flag = ! flag;
                             callback.call(this, [
                                 {
+                                    state : { 'opened' : true, 'selected' : false },
                                     id: "demo_root_1", text: "BookmarkS", type: "root",
                                     children: [
                                         "Child 1",
@@ -111,8 +210,8 @@
                                             id: "demo_child_1",
                                             text: "Child 2",
                                             children: [
-                                                {id: "demo_child_2", text: "One more", type: "file"},
-                                                {id: "demo_child_3", text: "One more 2", type: "file"}
+                                                {id: "demo_child_2", text: "Sketche 1", type: "file", isBookmark : false },
+                                                {id: "demo_child_3", text: "Bookmark 2", type: "file", isBookmark : true }
                                             ]
                                         }
                                     ]
@@ -125,27 +224,7 @@
 
                     'data2':  [
                                         { id : "demo_root_1", text : "Bookmarks", type : "root",
-                                            children : [
-//                                                "Child 1",
-//                                                "Child 1.5",
-//                                                {
-//                                                    id : "1234",
-//                                                    text : "Child 1.6",
-//                                                    children : [
-//                                                        { id : "demo_child_1.6a", text : "children one", type : "file" }
-//                                                    ]
-//                                                },
-//
-//                                                {
-//                                                    id : "demo_child_1",
-//                                                    text : "Child 2",
-//                                                    children :
-//                                                            [
-//                                                                { id : "demo_child_2", text : "One more", type : "file" },
-//                                                                { id : "demo_child_3", text : "One more 2", type : "file" }
-//                                                            ]
-//                                                }
-                                            ]
+                                            children : [ ]
                                         },
                                         { id : "demo_root_2", text : "Sketches", type : "root" }
                             ]
@@ -173,20 +252,44 @@
                 },
                 "plugins": [
                     "contextmenu",
-                    "dnd", "search",
-                    "checkbox",
-                    "state", "types"
+                    //"dnd"
+                    //, "search",
+                    //"checkbox",
+                    "state"
+                    , "types"
                     //, "wholerow"
                 ]
             });
+
+            // this event happens first
+            $('#jstree_demo2').on("loaded.jstree", function (e, data) {
+                console.log("loaded.jstree 2");
+            });
+
+            // this event happens once ajax returns
+            $('#jstree_demo2').on("ready.jstree", function (e, data) {
+                console.log("ready.jstree 2");
+            });
+
+            $('#jstree_demo2').on("show_contextmenu.jstree", function (event, data) {
+
+                var node = data.node;
+                console.log("show_contextmenu.jstree node ", node);
+
+                var payload = node.original;
+                console.log("node payload ", payload)
+            });
+
+
+
         }
 
         function getData() {
             var tree = $('#jstree_demo2').jstree(true);
             console.debug("tree ", tree);
-            //console.debug("defaults.core.data = ", tree.defaults.core.data)
-            tree.check_all();
-            tree.show_stripes();
+            //console.debug("defaults.core.data = ", tree.defaults.core.data) // no workie
+            //tree.check_all();
+            //tree.show_stripes();
             tree.refresh();
         }
 

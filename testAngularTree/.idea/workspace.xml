@@ -34,9 +34,10 @@
       <file leaf-file-name="testJsTree.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JQueryTree/testJsTree.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3768614">
-              <caret line="91" column="42" selection-start-line="91" selection-start-column="42" selection-end-line="91" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.7090493">
+              <caret line="213" column="86" selection-start-line="213" selection-start-column="86" selection-end-line="213" selection-end-column="86" />
               <folding>
+                <element signature="e#4437#5270#0" expanded="false" />
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -749,9 +750,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JQueryTree/testJsTree.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3768614">
-          <caret line="91" column="42" selection-start-line="91" selection-start-column="42" selection-end-line="91" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.7090493">
+          <caret line="213" column="86" selection-start-line="213" selection-start-column="86" selection-end-line="213" selection-end-column="86" />
           <folding>
+            <element signature="e#4437#5270#0" expanded="false" />
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
