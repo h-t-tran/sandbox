@@ -4,12 +4,25 @@
     <meta charset="UTF-8">
     <title></title>
 
-    <script src="./assets/jquery.min.js"></script>
-    <script src="./assets/jsTree/jstree.min.js"></script>
     <link rel="stylesheet" href="./assets/jsTree/themes/default/style.min.css" />
 
     <script>
+
+
+
+        var tocSvc;
+        var toc;
+
         function buildTree() {
+
+            tocSvc = new TocSvc();
+            toc = new Toc({
+                jquery : $,
+                treeAnchorDiv : $("#jstree_demo2"),
+                tocSvc : tocSvc
+            });
+            toc.initialize();
+
 
             //////////////////////////////////////
             //
@@ -63,114 +76,90 @@
 
             }
 
-            $('#jstree_demo2').jstree({
-
-                // add context menu -works
-//                "contextmenu" : {
-//                    "items" : function ($node) {
-//                        return {
-//                            "My Copy..." : {
-//                                "label" : "Copy...",
-//                                "action" : function (obj) { console.debug("doCopy") }
-//                            },
-//                            "My Paste" : {
-//                                "label" : "Paste",
-//                                "action" : function (obj) { console.debug("doPaste") }
-//                            }
-//                        };
+//            $('#jstree_demo2').jstree({
+//
+//
+//                "core": {
+//
+//                    "animation": 0,
+//                    "check_callback": true,
+//                    //"themes": {"stripes": true},
+//
+//                    'data' : function (obj, callback) {
+//                        console.debug("getting data")
+//                        if(flag == false) {
+//                            callback.call(this, [
+//                                { id : "demo_root_1", text : "BookmarkS", type : "root",
+//                                    children : [
+//                                    ]
+//                                },
+//                                { id : "demo_root_2", text : "SketcheS", type : "root" }
+//
+//                            ]);
+//                            flag = ! flag;
+//                        }
+//                        else {
+//                            flag = ! flag;
+//                            callback.call(this, [
+//                                {
+//                                    state : { 'opened' : true, 'selected' : false },
+//                                    id: "demo_root_1", text: "BookmarkS", type: "root",
+//                                    children: [
+//                                        "Child 1",
+//                                        "Child 1.5",
+//                                        {
+//                                            id: "1234",
+//                                            text: "Child 1.6",
+//                                            children: [
+//                                                {id: "demo_child_1.6a", text: "children one", type: "file"}
+//                                            ]
+//                                        },
+//
+//                                        {
+//                                            id: "demo_child_1",
+//                                            text: "Child 2",
+//                                            children: [
+//                                                {id: "demo_child_2", text: "Sketche 1", type: "file", isBookmark : false },
+//                                                {id: "demo_child_3", text: "Bookmark 2", type: "file", isBookmark : true }
+//                                            ]
+//                                        }
+//                                    ]
+//                                },
+//                                {id: "demo_root_2", text: "SketcheS", type: "root"}
+//
+//                            ]);
+//                        }
 //                    }
 //                },
-
-                "core": {
-
-                    "animation": 0,
-                    "check_callback": true,
-                    //"themes": {"stripes": true},
-
-                    'data' : function (obj, callback) {
-                        console.debug("getting data")
-                        if(flag == false) {
-                            callback.call(this, [
-                                { id : "demo_root_1", text : "BookmarkS", type : "root",
-                                    children : [
-                                    ]
-                                },
-                                { id : "demo_root_2", text : "SketcheS", type : "root" }
-
-                            ]);
-                            flag = ! flag;
-                        }
-                        else {
-                            flag = ! flag;
-                            callback.call(this, [
-                                {
-                                    state : { 'opened' : true, 'selected' : false },
-                                    id: "demo_root_1", text: "BookmarkS", type: "root",
-                                    children: [
-                                        "Child 1",
-                                        "Child 1.5",
-                                        {
-                                            id: "1234",
-                                            text: "Child 1.6",
-                                            children: [
-                                                {id: "demo_child_1.6a", text: "children one", type: "file"}
-                                            ]
-                                        },
-
-                                        {
-                                            id: "demo_child_1",
-                                            text: "Child 2",
-                                            children: [
-                                                {id: "demo_child_2", text: "Sketche 1", type: "file", isBookmark : false },
-                                                {id: "demo_child_3", text: "Bookmark 2", type: "file", isBookmark : true }
-                                            ]
-                                        }
-                                    ]
-                                },
-                                {id: "demo_root_2", text: "SketcheS", type: "root"}
-
-                            ]);
-                        }
-                    },
-//
-//                    'data2':  [
-//                                        { id : "demo_root_1", text : "Bookmarks", type : "root",
-//                                            children : [ ]
-//                                        },
-//                                        { id : "demo_root_2", text : "Sketches", type : "root" }
-//                            ]
-
-
-                },
-                "types": {
-                    "#": {
-                        "max_children": 1,
-                        "max_depth": 4,
-                        "valid_children": ["root"]
-                    },
-                    // use to specify the icon, must be "root"
-                    "root": {
-                        "icon": "./assets/tree_icon.png",
-                        "valid_children": ["default"]
-                    },
-                    "default": {
-                        "valid_children": ["default", "file"]
-                    },
-                    "file": {
-                        "icon": "./static/file.png", // "glyphicon glyphicon-file",
-                        "valid_children": []
-                    }
-                },
-                "plugins": [
-                    "contextmenu",
-                    //"dnd"
-                    //, "search",
-                    //"checkbox",
-                    "state"
-                    , "types"
-                    //, "wholerow"
-                ]
-            });
+//                "types": {
+//                    "#": {
+//                        "max_children": 1,
+//                        "max_depth": 4,
+//                        "valid_children": ["root"]
+//                    },
+//                    // use to specify the icon, must be "root"
+//                    "root": {
+//                        "icon": "./assets/tree_icon.png",
+//                        "valid_children": ["default"]
+//                    },
+//                    "default": {
+//                        "valid_children": ["default", "file"]
+//                    },
+//                    "file": {
+//                        "icon": "./static/file.png", // "glyphicon glyphicon-file",
+//                        "valid_children": []
+//                    }
+//                },
+//                "plugins": [
+//                    "contextmenu",
+//                    //"dnd"
+//                    //, "search",
+//                    //"checkbox",
+//                    "state"
+//                    , "types"
+//                    //, "wholerow"
+//                ]
+//            });
 
             // this event happens first
             $('#jstree_demo2').on("loaded.jstree", function (e, data) {
@@ -196,12 +185,14 @@
         }
 
         function getData() {
-            var tree = $('#jstree_demo2').jstree(true);
-            console.debug("tree ", tree);
+            //var tree = $('#jstree_demo2').jstree(true);
+            //console.debug("tree ", tree);
             //console.debug("defaults.core.data = ", tree.defaults.core.data) // no workie
             //tree.check_all();
             //tree.show_stripes();
-            tree.refresh();
+            //tree.refresh();
+
+            toc.getAllBookmarks();
         }
 
         function getData2() {
@@ -212,6 +203,12 @@
 </head>
 <body onload="buildTree()">
     <div id="jstree_demo2" style="margin-top:1em; min-height:200px; "></div>
-    <button class="btn btn-default" type="submit" onclick="getData2()">Build Tree</button>
+    <button class="btn btn-default" type="submit" onclick="getData()">Build Tree</button>
 </body>
+
+
+<script src="./assets/jquery.min.js"></script>
+<script src="./assets/jsTree/jstree.min.js"></script>
+<script src="./toc.js"></script>
+<script src="./tocSvc.js"></script>
 </html>
