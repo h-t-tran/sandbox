@@ -95,8 +95,11 @@ function Toc(args) {
         this._tocSvc.getAllBookmarks(function(jsonPayload) {
             console.debug("got bookmark json payload ", jsonPayload);
             self._bookmarkJsonPayload = jsonPayload;
+
+            // for the tree to rebuild
             self._tree.refresh();
 
+            // hide the loader.
             self._loader.hide();
         });
     }
@@ -108,44 +111,58 @@ function Toc(args) {
         $.jstree.defaults.contextmenu.items = function(node, cb) {
             console.log("build context menu node ", node);
             console.log("build context menu cb ", cb);
+            var menuItems = {};
+
             var node = node;
             var org = node.original;
-            if(org.isBookmark == true) {
-                var menuItems = {};
-                $.each(org.actions, function( index, value ) {
-                    menuItems[value] = {
-                        label: value,
-                        action: function (obj) {
-                            console.debug("handler for " + value);
-                        }
-                    };
-                });
-                console.debug("menuItems = ", menuItems)
-                return menuItems;
 
-            } else {
-                return {
-                    "Delete ...": {
-                        "label": "Copy...",
-                        "action": function (obj) {
-                            console.log("doCopy obj ", obj);
-                        }
-                    },
-                    "Copy ": {
-                        "label": "Paste",
-                        "action": function (obj) {
-                            console.log("node = ", node);
-                            console.log("node.original = ", node.original);
 
-                            console.log("doPaste org.tex ", org.text);
-                            console.log("doPaste org.actions ", org.actions);
-                            console.log("doPaste org.actions[0] ", org.actions[0]);
-
-                        }
+            $.each(org.actions, function (index, value) {
+                var displayLabel = value.label;
+                menuItems[displayLabel] =  {
+                    label: displayLabel,
+                    action: function (obj) {
+                        console.debug("handler for " + displayLabel);
                     }
                 };
+            });
 
-            }
+
+            //// is this a file
+            //if(org.type == 'file') {
+            //    // if bookmark, we traverse and generate all the possible action we can perform on it.
+            //    if(org.isBookmark == true) {
+            //        $.each(org.actions, function (index, value) {
+            //            var displayLabel = value.label;
+            //            menuItems[displayLabel] =  {
+            //                label: displayLabel,
+            //                action: function (obj) {
+            //                    console.debug("handler for " + displayLabel);
+            //                }
+            //            };
+            //        });
+            //    }
+            //}
+            //else  // it is a folder
+            //{
+            //    menuItems = {
+            //        "New Folder": {
+            //            label: "New Folder...",
+            //            action: function (obj) {
+            //                console.debug("new folder");
+            //            }
+            //        },
+            //        "Delete": {
+            //            label: "Delete",
+            //            action: function (obj) {
+            //                console.debug("delete folder")
+            //
+            //            }
+            //        }
+            //    };
+            //}
+            //console.debug("menuItems = ", menuItems)
+            return menuItems;
 
         }
 

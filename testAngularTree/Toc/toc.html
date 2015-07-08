@@ -55,20 +55,9 @@
         }
 
         function getData() {
-            //showLoading("Loading...");
             toc.getAllBookmarks();
         }
 
-        function showLoading(text) {
-            $( "#container-wrapper" ).isLoading({
-                text:       text,
-                position:   "overlay"
-            });
-        }
-
-        function hideLoader() {
-            $( "#container-wrapper" ).isLoading( "hide" );
-        }
     </script>
 </head>
 <body onload="buildTree()">
