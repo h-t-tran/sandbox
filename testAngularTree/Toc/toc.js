@@ -19,24 +19,38 @@ function Toc(args) {
     this._tocSvc = args.tocSvc;
     this._flag = false;
     this._tree = null;
-    this._bookmarkJsonPayload =  [
-                { id : "demo_root_1", text : "Bookmarks", type : "root",
+    // build the initial empty tree
+    this._bookmarkJsonPayload =
+            [
+                {
+                    id : "bookmark_root",
+                    text : "Bookmarks (loading...)",
+                    type : "root",
                     children : []
                 },
-                { id : "demo_root_2", text : "Sketches", type : "root",
+                {
+                    id : "sketch_root",
+                    text : "Sketches (loading...)",
+                    type : "root",
                     children : []
                 }
-
             ];
 
 
 
     var self = this;
 
+    /**
+     * initialize the tree and all its properties
+     */
     this.initialize = function() {
         console.debug("initialize this.__treeAnchorDiv = ", this._treeAnchorDiv,
             ", _test = ", this._test);
 
+        // need to init the jsTree context menu first before creating the tree.
+        this._initCtxMenu();
+
+        // build the tree
         this._treeAnchorDiv.jstree({
             "core": {
 
@@ -47,43 +61,6 @@ function Toc(args) {
                 'data' : function (obj, callback) {
                     console.debug("getting data")
                     callback.call(this, self._bookmarkJsonPayload);
-
-                    //if(self._flag == false) {
-                    //    callback.call(this, self._bookmarkJsonPayload);
-                    //
-                    //}
-                    //else {
-                    //    callback.call(this, [
-                    //        {
-                    //            state : { 'opened' : true, 'selected' : false },
-                    //            id: "demo_root_1", text: "BookmarkS", type: "root",
-                    //            children: [
-                    //                "Child 1",
-                    //                "Child 1.5",
-                    //                {
-                    //                    id: "1234",
-                    //                    text: "Child 1.6",
-                    //                    children: [
-                    //                        {id: "demo_child_1.6a", text: "children one", type: "file"}
-                    //                    ]
-                    //                },
-                    //
-                    //                {
-                    //                    id: "demo_child_1",
-                    //                    text: "Child 2",
-                    //                    children: [
-                    //                        {id: "demo_child_2", text: "Sketche 1", type: "file", isBookmark : false },
-                    //                        {id: "demo_child_3", text: "Bookmark 2", type: "file", isBookmark : true }
-                    //                    ]
-                    //                }
-                    //            ]
-                    //        },
-                    //        {id: "demo_root_2", text: "SketcheS", type: "root"}
-                    //
-                    //    ]);
-                    //}
-
-                    self._flag = ! self._flag;
                 }
             },
             "types": {
@@ -101,7 +78,7 @@ function Toc(args) {
                     "valid_children": ["default", "file"]
                 },
                 "file": {
-                    "icon": "./static/file.png", // "glyphicon glyphicon-file",
+                    "icon": "./assets/file.png", // "glyphicon glyphicon-file",
                     "valid_children": []
                 }
             },
@@ -120,11 +97,65 @@ function Toc(args) {
         this._tree = this._treeAnchorDiv.jstree();
     }
 
+    /**
+     * retrieve all bookmarks and refresh the tree.
+     */
     this.getAllBookmarks = function() {
         this._tocSvc.getAllBookmarks(function(jsonPayload) {
             console.debug("got bookmark json payload ", jsonPayload);
             self._bookmarkJsonPayload = jsonPayload;
             self._tree.refresh();
         });
+    }
+
+    /**
+     * initialize the ctx tree.
+     */
+    this._initCtxMenu = function() {
+        $.jstree.defaults.contextmenu.items = function(node, cb) {
+            console.log("build context menu node ", node);
+            console.log("build context menu cb ", cb);
+
+            if(node.original.isBookmark == true) {
+                return {
+                    "Save Bookmark...": {
+                        "label": "Save Bookmark...",
+                        "action": function (obj) {
+                            console.debug("doCopy")
+                        }
+                    },
+                    "Delete Bookmark...": {
+                        "label": "Copy Bookmark...",
+                        "action": function (obj) {
+                            console.debug("doCopy")
+                        }
+                    },
+                    "Copy Bookmark": {
+                        "label": "Paste Bookmark",
+                        "action": function (obj) {
+                            console.debug("doPaste")
+                        }
+                    }
+                };
+            } else {
+                return {
+                    "Delete ...": {
+                        "label": "Copy...",
+                        "action": function (obj) {
+                            console.debug("doCopy")
+                        }
+                    },
+                    "Copy ": {
+                        "label": "Paste",
+                        "action": function (obj) {
+                            console.debug("doPaste")
+                        }
+                    }
+                };
+
+            }
+
+        }
+
     }
 }

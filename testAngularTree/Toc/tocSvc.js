@@ -8,7 +8,7 @@ function TocSvc(args) {
             cb([
                     {
                         state : { 'opened' : true, 'selected' : false },
-                        id: "demo_root_1", text: "BookmarkS", type: "root",
+                        id: "bookmark_root", text: "Bookmarks", type: "root",
                         children: [
                             "Child 1",
                             "Child 1.5",
@@ -30,10 +30,10 @@ function TocSvc(args) {
                             }
                         ]
                     },
-                    {id: "demo_root_2", text: "SketcheS", type: "root"}
+                    {id: "sketch_root", text: "Sketches", type: "root"}
 
                 ]);
-        }, 3000);
+        }, 1000);
     },
 
     this.createSubfolder = function(parentPath, newFolderName) {

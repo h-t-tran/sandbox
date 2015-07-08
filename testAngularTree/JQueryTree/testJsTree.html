@@ -176,24 +176,24 @@
                     "check_callback": true,
                     //"themes": {"stripes": true},
 
-                    'data' : function (obj, callback) {
+                    'data': function (obj, callback) {
                         console.debug("getting data")
-                        if(flag == false) {
-                            callback.call(this, [
-                                { id : "demo_root_1", text : "BookmarkS", type : "root",
-                                    children : [
-                                    ]
-                                },
-                                { id : "demo_root_2", text : "SketcheS", type : "root" }
-
-                            ]);
-                            flag = ! flag;
-                        }
-                        else {
-                            flag = ! flag;
+                        if (flag == false) {
                             callback.call(this, [
                                 {
-                                    state : { 'opened' : true, 'selected' : false },
+                                    id: "demo_root_1", text: "BookmarkS", type: "root",
+                                    children: []
+                                },
+                                {id: "demo_root_2", text: "SketcheS", type: "root"}
+
+                            ]);
+                            flag = !flag;
+                        }
+                        else {
+                            flag = !flag;
+                            callback.call(this, [
+                                {
+                                    state: {'opened': true, 'selected': false},
                                     id: "demo_root_1", text: "BookmarkS", type: "root",
                                     children: [
                                         "Child 1",
@@ -210,8 +210,13 @@
                                             id: "demo_child_1",
                                             text: "Child 2",
                                             children: [
-                                                {id: "demo_child_2", text: "Sketche 1", type: "file", isBookmark : false },
-                                                {id: "demo_child_3", text: "Bookmark 2", type: "file", isBookmark : true }
+                                                {
+                                                    id: "demo_child_2",
+                                                    text: "Sketche 1",
+                                                    type: "file",
+                                                    isBookmark: false
+                                                },
+                                                {id: "demo_child_3", text: "Bookmark 2", type: "file", isBookmark: true}
                                             ]
                                         }
                                     ]
@@ -220,7 +225,6 @@
 
                             ]);
                         }
-                    },
 //
 //                    'data2':  [
 //                                        { id : "demo_root_1", text : "Bookmarks", type : "root",
@@ -230,35 +234,36 @@
 //                            ]
 
 
-                },
-                "types": {
-                    "#": {
-                        "max_children": 1,
-                        "max_depth": 4,
-                        "valid_children": ["root"]
                     },
-                    // use to specify the icon, must be "root"
-                    "root": {
-                        "icon": "./static/tree_icon.png",
-                        "valid_children": ["default"]
+                    "types": {
+                        "#": {
+                            "max_children": 1,
+                            "max_depth": 4,
+                            "valid_children": ["root"]
+                        },
+                        // use to specify the icon, must be "root"
+                        "root": {
+                            "icon": "./static/tree_icon.png",
+                            "valid_children": ["default"]
+                        },
+                        "default": {
+                            "valid_children": ["default", "file"]
+                        },
+                        "file": {
+                            "icon": "./static/file.png", // "glyphicon glyphicon-file",
+                            "valid_children": []
+                        }
                     },
-                    "default": {
-                        "valid_children": ["default", "file"]
-                    },
-                    "file": {
-                        "icon": "./static/file.png", // "glyphicon glyphicon-file",
-                        "valid_children": []
-                    }
-                },
-                "plugins": [
-                    "contextmenu",
-                    //"dnd"
-                    //, "search",
-                    //"checkbox",
-                    "state"
-                    , "types"
-                    //, "wholerow"
-                ]
+                    "plugins": [
+                        "contextmenu",
+                        //"dnd"
+                        //, "search",
+                        //"checkbox",
+                        "state"
+                        , "types"
+                        //, "wholerow"
+                    ]
+                }
             });
 
             // this event happens first
