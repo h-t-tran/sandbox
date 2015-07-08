@@ -17,56 +17,9 @@
 
             //////////////////////////////////////
             //
-            var flag = false;
-            $.jstree.defaults.contextmenu.select_node = true;
-            console.debug("$.jstree.defaults.contextmenu ", $.jstree.defaults.contextmenu);
-//
-//            // add context menu
-//            $.jstree.defaults.contextmenu.items = function(node, cb) {
-//                console.log("build context menu node ", node);
-//                console.log("build context menu cb ", cb);
-//
-//                if(node.original.isBookmark == true) {
-//                    return {
-//                        "Save Bookmark...": {
-//                            "label": "Save Bookmark...",
-//                            "action": function (obj) {
-//                                console.debug("doCopy")
-//                            }
-//                        },
-//                        "Delete Bookmark...": {
-//                            "label": "Copy Bookmark...",
-//                            "action": function (obj) {
-//                                console.debug("doCopy")
-//                            }
-//                        },
-//                        "Copy Bookmark": {
-//                            "label": "Paste Bookmark",
-//                            "action": function (obj) {
-//                                console.debug("doPaste")
-//                            }
-//                        }
-//                    };
-//                } else {
-//                        return {
-//                            "Delete ...": {
-//                                "label": "Copy...",
-//                                "action": function (obj) {
-//                                    console.debug("doCopy")
-//                                }
-//                            },
-//                            "Copy ": {
-//                                "label": "Paste",
-//                                "action": function (obj) {
-//                                    console.debug("doPaste")
-//                                }
-//                            }
-//                        };
-//
-//                }
-//
-//            }
-//
+            //var flag = false;
+            //$.jstree.defaults.contextmenu.select_node = true;
+            //console.debug("$.jstree.defaults.contextmenu ", $.jstree.defaults.contextmenu);
 
             tocSvc = new TocSvc();
             toc = new Toc({
@@ -75,93 +28,7 @@
                 tocSvc : tocSvc
             });
             toc.initialize();
-return;
-
-
-            $('#jstree_demo2').jstree({
-
-
-                "core": {
-
-                    "animation": 0,
-                    "check_callback": true,
-                    //"themes": {"stripes": true},
-
-                    'data' : function (obj, callback) {
-                        console.debug("getting data")
-                        if(flag == false) {
-                            callback.call(this, [
-                                { id : "demo_root_1", text : "BookmarkS", type : "root",
-                                    children : [
-                                    ]
-                                },
-                                { id : "demo_root_2", text : "SketcheS", type : "root" }
-
-                            ]);
-                            flag = ! flag;
-                        }
-                        else {
-                            flag = ! flag;
-                            callback.call(this, [
-                                {
-                                    state : { 'opened' : true, 'selected' : false },
-                                    id: "demo_root_1", text: "BookmarkS", type: "root",
-                                    children: [
-                                        "Child 1",
-                                        "Child 1.5",
-                                        {
-                                            id: "1234",
-                                            text: "Child 1.6",
-                                            children: [
-                                                {id: "demo_child_1.6a", text: "children one", type: "file"}
-                                            ]
-                                        },
-
-                                        {
-                                            id: "demo_child_1",
-                                            text: "Child 2",
-                                            children: [
-                                                {id: "demo_child_2", text: "Sketche 1", type: "file", isBookmark : false },
-                                                {id: "demo_child_3", text: "Bookmark 2", type: "file", isBookmark : true }
-                                            ]
-                                        }
-                                    ]
-                                },
-                                {id: "demo_root_2", text: "SketcheS", type: "root"}
-
-                            ]);
-                        }
-                    }
-                },
-                "types": {
-                    "#": {
-                        "max_children": 1,
-                        "max_depth": 4,
-                        "valid_children": ["root"]
-                    },
-                    // use to specify the icon, must be "root"
-                    "root": {
-                        "icon": "./assets/tree_icon.png",
-                        "valid_children": ["default"]
-                    },
-                    "default": {
-                        "valid_children": ["default", "file"]
-                    },
-                    "file": {
-                        "icon": "./assets/file.png", // "glyphicon glyphicon-file",
-                        "valid_children": []
-                    }
-                },
-                "plugins": [
-                    "contextmenu",
-                    //"dnd"
-                    //, "search",
-                    //"checkbox",
-                    "state"
-                    , "types"
-                    //, "wholerow"
-                ]
-            });
+            toc.getAllBookmarks();
 
             // this event happens first
             $('#jstree_demo2').on("loaded.jstree", function (e, data) {
@@ -187,15 +54,9 @@ return;
         }
 
         function getData() {
-            var tree = $('#jstree_demo2').jstree(true);
-            //tree.refresh();
             toc.getAllBookmarks();
         }
 
-        function getData2() {
-            var tree = $('#jstree_demo2').jstree(true);
-            tree.hide_stripes();
-        }
     </script>
 </head>
 <body onload="buildTree()">

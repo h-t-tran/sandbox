@@ -115,40 +115,59 @@ function Toc(args) {
         $.jstree.defaults.contextmenu.items = function(node, cb) {
             console.log("build context menu node ", node);
             console.log("build context menu cb ", cb);
-
-            if(node.original.isBookmark == true) {
-                return {
-                    "Save Bookmark...": {
-                        "label": "Save Bookmark...",
-                        "action": function (obj) {
-                            console.debug("doCopy")
+            var node = node;
+            var org = node.original;
+            if(org.isBookmark == true) {
+                var menuItems = {};
+                $.each(org.actions, function( index, value ) {
+                    menuItems[value] = {
+                        label: value,
+                        action: function (obj) {
+                            console.debug("handler for " + value);
                         }
-                    },
-                    "Delete Bookmark...": {
-                        "label": "Copy Bookmark...",
-                        "action": function (obj) {
-                            console.debug("doCopy")
-                        }
-                    },
-                    "Copy Bookmark": {
-                        "label": "Paste Bookmark",
-                        "action": function (obj) {
-                            console.debug("doPaste")
-                        }
-                    }
-                };
+                    };
+                });
+                console.debug("menuItems = ", menuItems)
+                return menuItems;
+                //
+                //return {
+                //    "Save Bookmark...": {
+                //        label: "Save Bookmark...",
+                //        action: function (obj) {
+                //            console.debug("doCopy")
+                //        }
+                //    },
+                //    "Delete Bookmark...": {
+                //        "label": "Copy Bookmark...",
+                //        "action": function (obj) {
+                //            console.debug("doCopy")
+                //        }
+                //    },
+                //    "Copy Bookmark": {
+                //        "label": "Paste Bookmark",
+                //        "action": function (obj) {
+                //            console.debug("doPaste")
+                //        }
+                //    }
+                //};
             } else {
                 return {
                     "Delete ...": {
                         "label": "Copy...",
                         "action": function (obj) {
-                            console.debug("doCopy")
+                            console.log("doCopy obj ", obj);
                         }
                     },
                     "Copy ": {
                         "label": "Paste",
                         "action": function (obj) {
-                            console.debug("doPaste")
+                            console.log("node = ", node);
+                            console.log("node.original = ", node.original);
+
+                            console.log("doPaste org.tex ", org.text);
+                            console.log("doPaste org.actions ", org.actions);
+                            console.log("doPaste org.actions[0] ", org.actions[0]);
+
                         }
                     }
                 };
