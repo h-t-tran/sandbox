@@ -27,42 +27,41 @@
 <link rel="stylesheet" href="css/jquery.fileupload.css">
 </head>
 <body>
-<div class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-fixed-top .navbar-collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="https://github.com/blueimp/jQuery-File-Upload">jQuery File Upload</a>
-        </div>
-        <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-                <li><a href="https://github.com/blueimp/jQuery-File-Upload/tags">Download</a></li>
-                <li><a href="https://github.com/blueimp/jQuery-File-Upload">Source Code</a></li>
-                <li><a href="https://github.com/blueimp/jQuery-File-Upload/wiki">Documentation</a></li>
-                <li><a href="https://blueimp.net">&copy; Sebastian Tschan</a></li>
-            </ul>
-        </div>
-    </div>
-</div>
+<!--<div class="navbar navbar-default navbar-fixed-top">-->
+    <!--<div class="container">-->
+        <!--<div class="navbar-header">-->
+            <!--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-fixed-top .navbar-collapse">-->
+                <!--<span class="icon-bar"></span>-->
+                <!--<span class="icon-bar"></span>-->
+                <!--<span class="icon-bar"></span>-->
+            <!--</button>-->
+            <!--<a class="navbar-brand" href="https://github.com/blueimp/jQuery-File-Upload">jQuery File Upload</a>-->
+        <!--</div>-->
+        <!--<div class="navbar-collapse collapse">-->
+            <!--<ul class="nav navbar-nav">-->
+                <!--<li><a href="https://github.com/blueimp/jQuery-File-Upload/tags">Download</a></li>-->
+                <!--<li><a href="https://github.com/blueimp/jQuery-File-Upload">Source Code</a></li>-->
+                <!--<li><a href="https://github.com/blueimp/jQuery-File-Upload/wiki">Documentation</a></li>-->
+                <!--<li><a href="https://blueimp.net">&copy; Sebastian Tschan</a></li>-->
+            <!--</ul>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</div>-->
 <div class="container">
     <h1>jQuery File Upload Demo</h1>
-    <h2 class="lead">Basic Plus version</h2>
-    <ul class="nav nav-tabs">
-        <li><a href="basic.html">Basic</a></li>
-        <li class="active"><a href="basic-plus.html">Basic Plus</a></li>
-        <li><a href="index.html">Basic Plus UI</a></li>
-        <li><a href="angularjs.html">AngularJS</a></li>
-        <li><a href="jquery-ui.html">jQuery UI</a></li>
-    </ul>
+    <!--<h2 class="lead">Basic Plus version</h2>-->
+    <!--<ul class="nav nav-tabs">-->
+        <!--<li><a href="basic.html">Basic</a></li>-->
+        <!--<li class="active"><a href="basic-plus.html">Basic Plus</a></li>-->
+        <!--<li><a href="index.html">Basic Plus UI</a></li>-->
+        <!--<li><a href="angularjs.html">AngularJS</a></li>-->
+        <!--<li><a href="jquery-ui.html">jQuery UI</a></li>-->
+    <!--</ul>-->
     <br>
-    <blockquote>
-        <p>File Upload widget with multiple file selection, drag&amp;drop support, progress bar, validation and preview images, audio and video for jQuery.<br>
-        Supports cross-domain, chunked and resumable file uploads and client-side image resizing.<br>
-        Works with any server-side platform (PHP, Python, Ruby on Rails, Java, Node.js, Go etc.) that supports standard HTML form file uploads.</p>
-    </blockquote>
+
+    <p>
+        Click Add files... or drag the file from your desktop and drop it onto the brower.
+    </p>
     <br>
     <!-- The fileinput-button span is used to style the file input field as button -->
     <span class="btn btn-success fileinput-button">
@@ -71,30 +70,23 @@
         <!-- The file input field used as target for the file upload widget -->
         <input id="fileupload" type="file" name="files[]" >
     </span>
+    <span>&nbspSelected file:&nbsp</span>
+    <span id="selectedFileId">&nbsp</span>
     <br>
     <br>
+
+
     <!-- The global progress bar -->
     <div id="progress" class="progress">
         <div class="progress-bar progress-bar-success"></div>
     </div>
+
+    <div id="anchor"></div>
     <!-- The container for the uploaded files -->
     <div id="files" class="files"></div>
     <br>
-    <div class="panel panel-default">
-        <div class="panel-heading">
-            <h3 class="panel-title">Demo Notes</h3>
-        </div>
-        <div class="panel-body">
-            <ul>
-                <li>The maximum file size for uploads in this demo is <strong>999 KB</strong> (default file size is unlimited).</li>
-                <li>Only image files (<strong>JPG, GIF, PNG</strong>) are allowed in this demo (by default there is no file type restriction).</li>
-                <li>Uploaded files will be deleted automatically after <strong>5 minutes or less</strong> (demo files are stored in memory).</li>
-                <li>You can <strong>drag &amp; drop</strong> files from your desktop on this webpage (see <a href="https://github.com/blueimp/jQuery-File-Upload/wiki/Browser-support">Browser support</a>).</li>
-                <li>Please refer to the <a href="https://github.com/blueimp/jQuery-File-Upload">project website</a> and <a href="https://github.com/blueimp/jQuery-File-Upload/wiki">documentation</a> for more information.</li>
-                <li>Built with the <a href="http://getbootstrap.com/">Bootstrap</a> CSS framework and Icons from <a href="http://glyphicons.com/">Glyphicons</a>.</li>
-            </ul>
-        </div>
-    </div>
+    <span class="btn btn-success fileinput-button" id="uploadBtn" style="width:100px">Upload</span>
+
 </div>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <!-- The jQuery UI widget factory, can be omitted if jQuery UI is already included -->
@@ -124,6 +116,16 @@
 /*global window, $ */
 $(function () {
     'use strict';
+
+var g_uploadData = null;
+var g_uploadWidget = null;
+
+    $('#uploadBtn').on('click', function () {
+        console.debug("do upload g_uploadData ", g_uploadData);
+        console.debug("   g_uploadWidget ", g_uploadWidget);
+        g_uploadData.submit();
+    });
+
     // Change this to the location of your server-side upload handler:
     var url = window.location.hostname === 'blueimp.github.io' ?
                 '//jquery-file-upload.appspot.com/' : 'server/php/',
@@ -141,15 +143,17 @@ $(function () {
                         $this.remove();
                         data.abort();
                     });
+
+                    // NEW this is the upload.
                 data.submit().always(function () {
                     $this.remove();
                 });
             });
-    $('#fileupload').fileupload({
+    g_uploadWidget = $('#fileupload').fileupload({
         url: url,
         dataType: 'json',
         autoUpload: false,
-        acceptFileTypes: /(\.|\/)(gif|jpe?g|png)$/i,
+        acceptFileTypes: /(\.|\/)(gif|jpe?g|png|kml|kmz)$/i,
         maxFileSize: 999000,
         // Enable image resizing, except for Android and Opera,
         // which actually support image resizing, but fail to
@@ -160,25 +164,66 @@ $(function () {
         previewMaxHeight: 100,
         previewCrop: true
     }).on('fileuploadadd', function (e, data) {
+
+        g_uploadData = data;
+        // NEW data = the object created by the fileupload.js containing the submit()
+        // to do the actual upload.  It also contains the actual bytes stream.
+        //
+        // add a div inside the "files" DOM node.
+        // innerHTML of data.context is empty at this point.
+        //
         data.context = $('<div/>').appendTo('#files');
+        //console.debug("data ", data);
         $.each(data.files, function (index, file) {
-            var node = $('<p/>')
-                    .append($('<span/>').text(file.name));
-            if (!index) {
-                node
-                    .append('<br>')
-                    .append(uploadButton.clone(true).data(data));
-            }
+            var fileDom = $('#selectedFileId');
+            console.dir(fileDom);
+            fileDom[0].innerHTML = file.name + ' (' + file.size + ' bytes)';
+
+            // NEW
+            $('#anchor').empty();
+
+            //var node = $('<p/>').append(  $('<span/>').text(file.name)   );
+            var node = $('#anchor').append(  $('<span/>').text(
+            //var node = $('<p/>').append(  $('<span/>').text(
+                    "Upload file: " + file.name + ' (' + file.size + ' bytes)')   );
+
+            // NEW add the upload button.
+//            if (!index) {
+//                node
+//                    .append('<br>')
+//                    .append(uploadButton.clone(true).data(data));
+//            }
+
+            // add the thumbnail to the div we create above.
             node.appendTo(data.context);
+
+
+
         });
     }).on('fileuploadprocessalways', function (e, data) {
+
+        // NEW
+        return;
+
+
         var index = data.index,
             file = data.files[index],
             node = $(data.context.children()[index]);
+
+
+
         if (file.preview) {
             node
                 .prepend('<br>')
                 .prepend(file.preview);
+
+                // This is where you add the thumbnail.  file.preview is the thumbnail.
+                // at this point data.context innerHTML is
+                //"<div id="anchor">
+                //      <canvas width="100" height="100"></canvas>
+                //      <br>
+                //      <span>Upload file: circle.png</span>
+                // </div>"
         }
         if (file.error) {
             node
