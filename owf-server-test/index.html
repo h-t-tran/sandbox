@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html ng-app="app">
+  <title>Time Control</title>
+  <head>
+
+      <!-- CSS  -->
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../assets/ufs-common-plugins/directives/ng-range-slider/angular.rangeSlider.css" />
+    <!--<link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css"/>-->
+    <link rel="stylesheet" href="../assets/font-awesome/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="../assets/ufs-common-plugins/directives/ufs-loader/loading-spinner.css">
+    <link rel="stylesheet" href="../assets/angular-toastr/angular-toastr.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../assets/ufs-common-plugins/css/ufsCommon.css">
+
+    <style>
+
+    </style>
+
+
+    <script>
+      function onload() {
+        OWF.ready(function() {
+          init();
+        });
+        //setTimeout(init(), 2000);
+      }
+
+      function addMenu() {
+        OWF.Chrome.insertHeaderMenus({
+          items:[{
+            itemId:'menu1',
+            icon: './themes/common/images/skin/exclamation.png',
+            text: 'Menu 1',
+            menu: {
+              items: [{
+                itemId:'menu1_menuItem1',
+                icon: './themes/common/images/skin/exclamation.png',
+                text: 'Menu Item 1',
+                handler: function(sender, data) {
+                  alert('You clicked Menu Item 1 from Menu 1.');
+                }
+              }]
+            }
+          }]
+        });
+
+      }
+      function showAlertButton(noOfAlerts)
+      {
+        hideAlertButton();
+
+        OWF.Chrome.insertHeaderButtons({
+          items: [{
+            //type: 'gear',
+            xtype: 'button',
+            icon: './hoanh-alarm.png',
+            itemId: 'alert',
+            //text : "alerts",
+            tooltip: {
+              text: 'You have ' + noOfAlerts + ' Alerts!'
+            },
+
+            handler: function (sender, data) {
+              console.debug('launch alert widget');
+              hideAlertButton();
+            }
+          }]
+        });
+      }
+      function hideAlertButton() {
+        console.debug("remove header buttons");
+        try {
+          OWF.Chrome.removeHeaderButtons({
+            items:[
+              {
+                itemId:'alert'
+              }
+//              {
+//                itemId:'help'
+//              },
+//              {
+//                itemId:'gear'
+//              }
+            ]
+            });
+        } catch(e)
+        {
+          console.debug("remove buttons exception e ", e);
+        }
+      }
+
+      var isInit = false;
+      var alertCnt = 1;
+      function init() {
+        if(isInit === false) {
+          console.debug("owf is ready");
+          showAlertButton(alertCnt);
+          alertCnt ++;
+          addMenu();
+
+          setInterval(function () {
+            //hideAlertButton();
+            showAlertButton(alertCnt);
+            alertCnt ++;
+          }, 2000);
+        }
+
+        isInit = true;
+      }
+    </script>
+  </head>
+
+
+
+  <body  class="ufs ufs-light" ng-controller="mainController" onload="onload()">
+    <div>
+      <div class="outter-boundary">
+        <ufs-time-control>
+        </ufs-time-control>
+
+        <ufs-time-control-setting on-new-setting="onNewSetting(newSetting)">
+        </ufs-time-control-setting>
+
+        <ufs-loading-spinner msg="loader.loadingmsg" show="loader.showOverlay">
+        </ufs-loading-spinner>
+      </div>
+    </div>
+  </body>
+
+  <!--  3rd party scripts -->
+  <script type="text/javascript" src="../assets/jquery/jquery.min.js"></script>
+  <script type="text/javascript" src="../assets/angular/angular.min.js"></script>
+  <script type="text/javascript" src="../assets/ufs-common-plugins/directives/ng-range-slider/angular.rangeSlider.js"></script>
+  <script type="text/javascript" src="../assets/ufs-common-plugins/directives/date-time-picker/datetime-picker.js"></script>
+  <script type="text/javascript" src="../assets/ufs-common-plugins/directives/ufs-date-time-picker/ufsDateTimePicker.js"></script>
+  <script type="text/javascript" src="../assets/ufs-common-plugins/directives/ufs-loader/spin-js/spin.js"></script>
+  <script type="text/javascript" src="../assets/ufs-common-plugins/directives/ufs-loader/spinner.directive.js"></script>
+  <script type="text/javascript" src="../assets/ufs-common-plugins/directives/ufs-loader/ufsLoadingSpinner.js"></script>
+  <script type="text/javascript" src="../assets/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+  <script type="text/javascript" src="../assets/angular/angular-resource.min.js"></script>
+  <script type="text/javascript" src="../assets/angular-toastr/angular-toastr.tpls.js"></script>
+  <script type="text/javascript" src="../assets/ufs-common-plugins/services/ufsToasterSvc.js"></script>
+  <script type="text/javascript" src="../assets/ufs-common-plugins/services/ufsIwcSvc.js"></script>
+  <script type="text/javascript" src="../assets/angular/owf-widget-debug.js"></script>
+  <script type="text/javascript" src="../assets/angular/angular-owf.js"></script>
+  <script type="text/javascript" src="../assets/ufs-common-plugins/utils/owfChannels.js"></script>
+
+  <!--  Custom scripts -->
+  <script type="text/javascript" src="../js/app/app.js"></script>
+  <script type="text/javascript" src="../js/app/controllers/mainController.js"></script>
+  <script type="text/javascript" src="../js/app/directives/time-control/ufsTimeControl.js"></script>
+  <script type="text/javascript" src="../js/app/directives/time-control-setting/ufsTimeControlSetting.js"></script>
+  <script type="text/javascript" src="../js/app/filters/secToDateTimeString.js"></script>
+  <script type="text/javascript" src="../js/app/services/geoServerWfsSvc.js"></script>
+  <script type="text/javascript" src="../js/app/utils/helper.js"></script>
+  <script type="text/javascript" src="../js/app/services/ufsUtilSvc.js"></script>
+  <script type="text/javascript" src="../js/app/services/ufsRestEndPointSvc.js"></script>
+
+  <script type="text/javascript" src="https://localhost:8443/owf/js-min/owf-widget-min.js"></script>
+</html>
+
