@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dnd Src</title>
+
+    <link href="./dnd/css/dragAndDrop.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="./dnd/owf-widget-min.js"></script>
+    <script type="text/javascript" src="./dnd/jquery.js"></script>
+    <script type="text/javascript" src="./dnd/underscore.js"></script>
+    <script type="text/javascript">
+        //The location is assumed to be at /<context>/js/eventing/rpc_relay.uncompressed.html if it is not set
+        OWF.relayFile = './dnd/kernel/rpc_relay.uncompressed.html';
+
+
+        function onload() {
+
+            owfdojo.connect(document.getElementById('dragSource'),'onmousedown',this,function(e) {
+                e.preventDefault();
+                console.debug("on mouse down");
+                var data = 55;
+                if (data != null && data != '') {
+                    OWF.DragAndDrop.startDrag({
+                        dragDropLabel: "<span style='background:green'>10 items</span>" ,
+                        dragDropData: data
+                    });
+                }
+            });
+
+            owfdojo.connect(document.getElementById('dragSource2'),'onmousedown',this,function(e) {
+                e.preventDefault();
+                var data = 66;
+                if (data != null && data != '') {
+                    OWF.DragAndDrop.startDrag({
+                        dragDropLabel: "Selecting 11 items" ,
+                        dragDropData: data
+                    });
+                }
+            });
+
+/***/
+            /////////////////////////////////
+            // target
+            //////////////////////////////////
+            setTimeout(function() {
+
+                var onDragStartFunc = function () {
+                    console.debug("onDragStart")
+                    //cmp.dragging = true;
+                    //cmp.getView().addCls('ddOver');
+
+
+                    _.delay(function() {
+                        OWF.DragAndDrop.setDropEnabled(true);
+
+                        _.delay(function() {
+                            OWF.DragAndDrop.setDropEnabled(false);
+                        }, 5000);
+
+                    }, 5000);
+                };
+
+                var onDragStartFuncProxy = onDragStartFunc; //_.debounce(onDragStartFunc, 3000);
+                OWF.DragAndDrop.onDragStart(onDragStartFuncProxy);
+
+                OWF.DragAndDrop.onDragStop(function () {
+                    //cmp.dragging = false;
+                    console.debug("onDragStop")
+                    //cmp.getView().removeCls('ddOver');
+                });
+
+                OWF.DragAndDrop.onDrop(function (msg) {
+                    //this.subscribeToChannel(msg.dragDropData, false);
+                    console.debug("onDrop 1")
+                }, this);
+
+                OWF.DragAndDrop.onDrop(function (msg) {
+                    //this.subscribeToChannel(msg.dragDropData, false);
+                    console.debug("onDrop 2")
+                }, this);
+
+                var view = $('#dragSource3');
+//                view.el.on('mouseover', function (e, t, o) {
+//                    //if (cmp.dragging)
+//                    {
+//                        OWF.DragAndDrop.setDropEnabled(true);
+//                    }
+//                }, this);
+//                view.el.on('mouseout', function (e, t, o) {
+//                    //if (cmp.dragging)
+//                    {
+//                        OWF.DragAndDrop.setDropEnabled(false);
+//                    }
+//                }, this);
+            }, 2000);
+/**/
+        }
+    </script>
+
+
+</head>
+<body onload="onload()">
+    <p>Dnd Src</p>
+    <div style="background: red; height:100px; width: 100px" id="dragSource">Drag this</div>
+    <div style="background: yellow; height:100px; width: 100px" id="dragSource2">Drag this</div>
+    <div style="background: green; height:100px; width: 100px" id="dragSource3">Drop here</div>
+</body>
+</html>
