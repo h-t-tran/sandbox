@@ -18,11 +18,11 @@
         $stateProvider
             .state('home', {
                 url: '/',
-               // templateUrl: 'app/testdir/home.html',
-                controller: 'HomeCtrl',
-                controllerAs: 'homevm',
+                //templateUrl: 'app/testdir/home.html',
                 views : {
                     "masterView": {
+                        controller: 'HomeCtrl',
+                        controllerAs: 'homevm',
                         templateUrl: 'app/testdir/home.html'
                     }
                 }
@@ -33,11 +33,11 @@
                 .state('home.page1', {
                     url: '/page1',
                     //templateUrl: 'app/testdir/page1.html',
-                    controller: 'Page1Ctrl',
-                    controllerAs: 'pg1vm',
+
                     views : {
                         "tabView": {
-                            //template: '<div>Page 1 Content</div>'
+                            controller: 'Page1Ctrl',
+                            controllerAs: 'pg1vm',
                             templateUrl: 'app/testdir/page1.html'
                         }
                     }
@@ -45,10 +45,11 @@
                 .state('home.page2', {
                     url: '/page2',
                     //templateUrl: 'app/testdir/page2.html',
-                    controller: 'Page2Ctrl',
-                    controllerAs: 'pg2vm',
+
                     views : {
                         "tabView": {
+                            controller: 'Page2Ctrl',
+                            controllerAs: 'pg2vm',
                             templateUrl: 'app/testdir/page2.html'
                         }
                     }
@@ -80,7 +81,9 @@
 
     app.controller('Page1Ctrl', ['$state', '$scope', function($state, $scope) {
        console.debug("Page1 ctrl");
-        $scope.message = "hello from controller 1";
+        $scope.message = "this is $scope.message";
+
+        this.message = "this is this.message";
     }]);
 
     app.controller('Page2Ctrl', ['$state', function($state) {

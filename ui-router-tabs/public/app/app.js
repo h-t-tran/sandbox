@@ -11,7 +11,7 @@
         $stateProvider
             .state('home', {
                 url: '/',
-                templateUrl: '/app/templates/home.html',
+                templateUrl: 'app/templates/home.html',
                 controller: 'HomeController',
                 controllerAs: 'home'
             })
@@ -19,13 +19,13 @@
                 url: '/schools',
                 controller: 'AllSchoolsController',
                 controllerAs: 'schools',
-                templateUrl: '/app/templates/allSchools.html'
+                templateUrl: 'app/templates/allSchools.html'
             })
             .state('classrooms', {
                 url: '/classrooms',
                 controller: 'AllClassroomsController',
                 controllerAs: 'classrooms',
-                templateUrl: '/app/templates/allClassrooms.html',
+                templateUrl: 'app/templates/allClassrooms.html',
                 onEnter: function ($log) {
                     $log.debug('Entering the classrooms state.');
                 },
@@ -37,7 +37,7 @@
                 url: '/activities',
                 controller: 'AllActivitiesController',
                 controllerAs: 'activities',
-                templateUrl: '/app/templates/allActivities.html',
+                templateUrl: 'app/templates/allActivities.html',
                 resolve: {
                     activities: function (dataService) {
                         return dataService.getAllActivities();
@@ -54,7 +54,7 @@
             .state('classroom_parent', {
                 abstract: true,
                 url: '/classrooms/:id',
-                templateUrl: '/app/templates/classroom_parent.html',
+                templateUrl: 'app/templates/classroom_parent.html',
                 controller: 'ClassroomController',
                 controllerAs: 'classroom',
                 params: {
@@ -70,12 +70,12 @@
                 url: '/summary',
                 views: {
                     'classInfo': {
-                        templateUrl: '/app/templates/classroom.html',
+                        templateUrl: 'app/templates/classroom.html',
                         controller: 'ClassroomSummaryController',
                         controllerAs: 'classroomSummary'
                     },
                     'classMessage': {
-                        templateUrl: '/app/templates/classroom_message.html',
+                        templateUrl: 'app/templates/classroom_message.html',
                         controller: 'ClassroomMessageController',
                         controllerAs: 'classroomMessage'
                     }
@@ -85,7 +85,7 @@
                 url: '/detail/{month}',
                 views: {
                     'classInfo': {
-                        templateUrl: '/app/templates/classroomDetail.html'
+                        templateUrl: 'app/templates/classroomDetail.html'
                     }
                 }
             });
