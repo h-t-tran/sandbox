@@ -84,14 +84,18 @@
         $scope.message = "this is $scope.message";
 
         this.message = "this is this.message";
+
     }]);
 
-    app.controller('Page2Ctrl', ['$state', function($state) {
+    app.controller('Page2Ctrl', ['$state', '$scope', function($state, $scope) {
         console.debug("Page2 ctrl");
     }]);
 
-    app.controller('HomeCtrl', ['$state', function($state) {
+    app.controller('HomeCtrl', ['$state', '$scope', function($state, $scope) {
         console.debug("HomeCtrl ctrl");
+        $scope.gotopage1 = function() {
+            $state.go("home.page1");
+        }
     }]);
 
 
