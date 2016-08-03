@@ -5,5 +5,7 @@ Ext.define("MyTestApp.view.myViewportController", {
 
     onKeyPress: function() {
         console.debug("myViewportController.onKeyPress");
+        var view = this.getView();
+        var vm = view.getViewModel();
     }
 });

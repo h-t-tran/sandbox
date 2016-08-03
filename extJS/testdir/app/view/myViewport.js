@@ -4,14 +4,15 @@ Ext.define("MyTestApp.view.myViewport", {
 
     requires: [
         'Ext.panel.Panel',
-        'MyTestApp.view.myViewportController'
+        'MyTestApp.view.myViewportController',
+        'MyTestApp.view.myViewportModel'
     ],
 
     controller: 'viewport',
 
-    //viewModel : {
-    //    //type : 'myViewportViewmodel'
-    //},
+    viewModel : {
+        type : 'viewport'
+    },
 
 
     //layout : 'border',
@@ -21,7 +22,9 @@ Ext.define("MyTestApp.view.myViewport", {
             xtype: 'textfield',
             placeholder: 'click me',
             fieldLabel: 'field1',
-            value: "123",
+            bind: {
+                value: '{textvalue}'
+            },
             tooltip: 'my textbox'
         },
         {
