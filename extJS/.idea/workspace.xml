@@ -20,121 +20,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="RuleDialog.js" pinned="false" current-in-tab="false">
-        <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/view/rule/RuleDialog.js">
+      <file leaf-file-name="NrdbSvc.js" pinned="false" current-in-tab="false">
+        <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/services/NrdbSvc.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="178" column="37" selection-start-line="178" selection-start-column="37" selection-end-line="178" selection-end-column="37" />
-              <folding>
-                <marker date="1480463796882" expanded="true" signature="7049:7080" ph="..." />
-                <marker date="1480463796882" expanded="true" signature="7082:7088" ph=" " />
-                <marker date="1480463796882" expanded="true" signature="7088:7094" ph=" " />
-                <marker date="1480463796882" expanded="true" signature="7094:7100" ph=" " />
-                <marker date="1480463796882" expanded="true" signature="7202:7236" ph="..." />
-                <marker date="1480463796882" expanded="true" signature="7238:7244" ph=" " />
-                <marker date="1480463796882" expanded="true" signature="7244:7250" ph=" " />
-                <marker date="1480463796882" expanded="true" signature="7250:7256" ph=" " />
-                <marker date="1480463796882" expanded="true" signature="8869:8878" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="myViewport.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/testdir/app/view/myViewport.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="62" column="49" selection-start-line="62" selection-start-column="49" selection-end-line="62" selection-end-column="49" />
-              <folding>
-                <marker date="1480466475917" expanded="true" signature="1457:1488" ph="..." />
-                <marker date="1480466475917" expanded="true" signature="1490:1496" ph=" " />
-                <marker date="1480466475917" expanded="true" signature="1496:1502" ph=" " />
-                <marker date="1480466475917" expanded="true" signature="1502:1508" ph=" " />
-                <marker date="1480466475917" expanded="true" signature="1660:1694" ph="..." />
-                <marker date="1480466475917" expanded="true" signature="1696:1702" ph=" " />
-                <marker date="1480466475917" expanded="true" signature="1702:1708" ph=" " />
-                <marker date="1480466475917" expanded="true" signature="1708:1714" ph=" " />
-                <marker date="1480466475917" expanded="true" signature="1867:1900" ph="..." />
-                <marker date="1480466475917" expanded="true" signature="1902:1908" ph=" " />
-                <marker date="1480466475917" expanded="true" signature="1908:1914" ph=" " />
-                <marker date="1480466475917" expanded="true" signature="1914:1920" ph=" " />
-                <marker date="1480466475917" expanded="true" signature="2393:2416" ph="..." />
-                <marker date="1480466475917" expanded="true" signature="2464:2497" ph="..." />
-                <marker date="1480466475917" expanded="true" signature="2499:2505" ph=" " />
-                <marker date="1480466475917" expanded="true" signature="2505:2511" ph=" " />
-                <marker date="1480466475917" expanded="true" signature="2511:2517" ph=" " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form_03.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../books/learn/Chapter_06/form_03.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="3872">
+              <caret line="180" column="15" selection-start-line="180" selection-start-column="15" selection-end-line="180" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="form_03.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../books/learn/Chapter_06/form_03.js">
+      <file leaf-file-name="RulesController.js" pinned="false" current-in-tab="false">
+        <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/view/rule/RulesController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form_01.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../books/learn/Chapter_06/form_01.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CustomerForm01.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../books/learn/Chapter_06/appcode/view/CustomerForm01.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="77" column="10" selection-start-line="77" selection-start-column="10" selection-end-line="77" selection-end-column="10" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form_01.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../books/learn/Chapter_06/form_01.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="9" selection-end-column="83" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RuleDialogModel.js" pinned="false" current-in-tab="false">
-        <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/view/rule/RuleDialogModel.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="25" column="31" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="31" />
+            <state relative-caret-position="4642">
+              <caret line="215" column="83" selection-start-line="215" selection-start-column="83" selection-end-line="215" selection-end-column="83" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="RuleDialogController.js" pinned="false" current-in-tab="false">
-        <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/view/rule/RuleDialogController.js">
+        <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/view/rule/adddlg/RuleDialogController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+            <state relative-caret-position="1804">
+              <caret line="86" column="23" selection-start-line="86" selection-start-column="23" selection-end-line="86" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ext-all-debug.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testGrid/ext-all-debug.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyGrid.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testGrid/app/view/MyGrid.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="573">
+              <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LiveSearchGridPanel.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testGrid/ext/ux/LiveSearchGridPanel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="593">
+              <caret line="196" column="74" selection-start-line="196" selection-start-column="74" selection-end-line="196" selection-end-column="74" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testGrid.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testGrid/testGrid.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fooViewportModel.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testGrid/app/view/fooViewportModel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="395">
+              <caret line="52" column="26" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fooViewport.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testGrid/app/view/fooViewport.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="682">
+              <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Constants.js" pinned="false" current-in-tab="false">
+        <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/utils/Constants.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -152,57 +132,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/cdn/src/main/webapp/js/tests/integration/testBaseDialog/app/view/NnDialogBase.js" />
-        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/cdn/src/main/webapp/js/tests/integration/testBaseDialog/app/view/cdn/NnDialogBase.js" />
-        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/cdn/src/main/webapp/js/tests/integration/testBaseDialog/app/view/cdn/NnFormFieldEntry.js" />
-        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nodejs/Gruntfile.js" />
-        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/utils/Util.js" />
-        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/dist/nrdb.debug.js" />
-        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/view/rule/Rules.js" />
-        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/view/rule/RulesController.js" />
-        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/view/rule/RulesGrid.js" />
-        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/view/rule/RulesModel.js" />
-        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/view/main/TopSection.js" />
+        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/view/rule/RuleDialogController.js" />
+        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/view/rule/RuleDialog.js" />
+        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/view/rule/RuleDialogModel.js" />
+        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app-dev.js" />
+        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/cdn/src/main/webapp/js/non-ui/NrdbRuleGridCellFormatter.js" />
         <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/view/asset/AssetsGrid.js" />
-        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/view/asset/AssetsModel.js" />
-        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/view/reftext/RefText.js" />
-        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/view/reftext/RefTextModel.js" />
-        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/store/asset/Assets.js" />
-        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/store/rule/Rules.js" />
-        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/store/reftext/RefText.js" />
-        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app.js" />
-        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/view/asset/Assets.js" />
-        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/view/main/Main.js" />
+        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/view/reftext/RefTextGrid.js" />
+        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/target/NrdbSvc/app/utils/Constants.js" />
+        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/data/classifications.json" />
+        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/data/success-response.json" />
+        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/services/ClassificationSvc.js" />
+        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/cdn/src/main/webapp/js/ui/dialog/NnDialogBase.js" />
+        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/cdn/src/main/webapp/js/tests/integration/testBaseDialog/app/view/RuleDialog.js" />
+        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/cdn/src/main/webapp/js/tests/integration/testBaseDialog/app/view/RuleDialogModel.js" />
+        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/cdn/src/main/webapp/js/tests/integration/testBaseDialog/app/view/RuleDialogController.js" />
+        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/cdn/src/main/webapp/js/ui/NnExtApplicationBase.js" />
+        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/dist/nrdb.debug.js" />
+        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nodejs/karma.conf.js" />
+        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/tests/unit/view/rule/adddlg/RuleDialogModelSpec.js" />
+        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/test.html" />
+        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/data/configuration.json" />
+        <option value="$PROJECT_DIR$/testdir/app/view/myViewport.js" />
+        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/tests/unit/services/NrdbSvcSpec.js" />
+        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/descriptor.html" />
         <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/Application.js" />
         <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/view/main/MainContainer.js" />
-        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app-dev.js" />
-        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/dist/nn-ui-common.debug.js" />
-        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/cdn/target/cdn/js/non-ui/NrdbRuleGridCellFormatter.js" />
-        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nodejs/karma.conf.js" />
-        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/gbs/gbsUI/target/GbsUI/app/view/directories/DirectoriesController.js" />
-        <option value="$PROJECT_DIR$/testDlg/app/view/RuleDialogController.js" />
-        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/index.html" />
-        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/test/java/mil/navy/fnmoc/gis/nrdb/dao/RuleDAOImplIntegrationTest.java" />
-        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/cdn/src/main/webapp/js/non-ui/NrdbRuleGridCellFormatter.js" />
-        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/cdn/src/main/webapp/js/tests/NrdbRuleGridCellFormatterSpec.js" />
-        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/data/configuration.json" />
-        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/data/classifications.json" />
-        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/view/rule/RuleDialogController.js" />
-        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/cdn/src/main/webapp/js/ui/dialog/NnFormFieldEntry.js" />
-        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/target/NrdbSvc/app/view/utils/LevelEntry.js" />
-        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/cdn/src/main/webapp/js/ui/dialog/NnDialogBase.js" />
-        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/cdn/src/main/webapp/js/tests/integration/testBaseDialog/app/view/myViewportModel.js" />
-        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/cdn/src/main/webapp/js/tests/integration/testBaseDialog/app/view/RuleDialog.js" />
-        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/cdn/src/main/webapp/js/ui/NnTooltipTextField.js" />
-        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/target/NrdbSvc/app/utils/Constants.js" />
+        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/tests/unit/view/utils/LevelEntrySpec.js" />
         <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/view/utils/LevelEntry.js" />
-        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/view/rule/RuleDialogModel.js" />
+        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/view/utils/NrdbController.js" />
+        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/data/delete-rule-success-response.json" />
+        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/utils/Util.js" />
+        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/cdn/src/main/webapp/dist/nn-ui-common.debug.js" />
+        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/data/add-rule-success-response.json" />
+        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/data/get-single-rule-success-response.json" />
+        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/data/rules-small.json" />
+        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/store/rule/Rules.js" />
+        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/dist/nn-ui-common.debug.js" />
+        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/cdn/src/main/webapp/js/ui/grid/NNGridEx.js" />
+        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/data/rules.json" />
+        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/view/rule/RulesGrid.js" />
+        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/tests/unit/view/rule/RulesControllerSpec.js" />
+        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/view/rule/adddlg/RuleDialogModel.js" />
+        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/view/rule/adddlg/RuleDialog.js" />
         <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/utils/Constants.js" />
-        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/view/rule/RuleDialog.js" />
-        <option value="$PROJECT_DIR$/../../books/learn/Chapter_06/form_01.html" />
-        <option value="$PROJECT_DIR$/../../books/learn/Chapter_06/appcode/view/AvailableFields01.js" />
-        <option value="$PROJECT_DIR$/../../books/learn/Chapter_06/appcode/view/CustomerForm01.js" />
-        <option value="$PROJECT_DIR$/testdir/app/view/myViewport.js" />
+        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/services/NrdbSvc.js" />
+        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/view/rule/RulesController.js" />
+        <option value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/view/rule/adddlg/RuleDialogController.js" />
+        <option value="$PROJECT_DIR$/testGrid/app/view/LiveSearchGridPanel.js" />
+        <option value="$PROJECT_DIR$/testGrid/ext/ux/LiveSearchGridPanel.js" />
+        <option value="$PROJECT_DIR$/testGrid/testGrid.html" />
+        <option value="$PROJECT_DIR$/testGrid/app/view/MyGrid.js" />
       </list>
     </option>
   </component>
@@ -216,10 +196,10 @@
     <handled-path value="C:/bit9prog/dev/NITES-Next/nn-dev1/code/nodejs/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2038" />
-    <option name="y" value="17" />
-    <option name="width" value="1831" />
-    <option name="height" value="1069" />
+    <option name="x" value="121" />
+    <option name="y" value="42" />
+    <option name="width" value="1774" />
+    <option name="height" value="981" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -294,7 +274,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="testdir" />
+              <option name="myItemId" value="testGrid" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -312,11 +292,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="testdir" />
+              <option name="myItemId" value="testGrid" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="ext" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ux" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -334,7 +318,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="testdir" />
+              <option name="myItemId" value="testGrid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ext" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ux" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="extJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="extJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="extJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testGrid" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -346,6 +360,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="extJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="extJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="extJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testGrid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -353,24 +389,26 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../books/learn" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\tools\nodejs\node.exe" />
     <property name="nodejs_interpreter_path" value="C:/tools/nodejs/node" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\src\sandbox\extJS\testGrid\ext\src" />
+      <recent name="C:\bit9prog\dev\NITES-Next\nn-dev1\code\nrdb\nrdb-svc\src\main\webapp\tests\unit\view\rule" />
+      <recent name="C:\bit9prog\dev\NITES-Next\nn-dev1\code\nrdb\nrdb-svc\src\main\webapp\data" />
+      <recent name="C:\bit9prog\dev\NITES-Next\nn-dev1\code\nrdb\nrdb-svc\src\main\webapp\tests\unit\view\utils" />
+      <recent name="C:\bit9prog\dev\NITES-Next\nn-dev1\code\nrdb\nrdb-svc\src\main\webapp" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\src\sandbox\extJS\testGrid\ext" />
+      <recent name="C:\bit9prog\dev\NITES-Next\nn-dev1\code\nrdb\nrdb-svc\src\main\webapp\app\view\rule\adddlg" />
       <recent name="C:\src\sandbox\extJS\testGrid\app\view" />
       <recent name="C:\src\sandbox\extJS\testdir\app" />
       <recent name="C:\src\sandbox\extJS\testdir\app\view" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\src\books\learn\Chapter_06" />
-      <recent name="C:\bit9prog\dev\NITES-Next\nn-dev1\code\nrdb\nrdb-svc\src\main\webapp\app\view\main" />
-      <recent name="C:\bit9prog\dev\NITES-Next\nn-dev1\code\nrdb\nrdb-svc\src\main\webapp" />
-      <recent name="C:\bit9prog\dev\NITES-Next\nn-dev1\code\nrdb\nrdb-svc\src\main\webapp\app\view\rule" />
-      <recent name="C:\bit9prog\dev\NITES-Next\nn-dev1\code\cdn\src\main\webapp\js\tests\integration\testBaseDialog\app\view\cdn" />
     </key>
   </component>
   <component name="RunManager">
@@ -451,21 +489,30 @@
       <workItem from="1480316769300" duration="6222000" />
       <workItem from="1480351912381" duration="8457000" />
       <workItem from="1480360933582" duration="33819000" />
-      <workItem from="1480457716607" duration="8127000" />
+      <workItem from="1480457716607" duration="13371000" />
+      <workItem from="1480472308136" duration="47484000" />
+      <workItem from="1480687310761" duration="30656000" />
+      <workItem from="1480995503812" duration="33000" />
+      <workItem from="1480995690652" duration="22852000" />
+      <workItem from="1481045965904" duration="1011000" />
+      <workItem from="1481066085320" duration="4918000" />
+      <workItem from="1481092920652" duration="71284000" />
+      <workItem from="1481516328336" duration="275000" />
+      <workItem from="1481516817670" duration="857000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101636000" />
+    <option name="totallyTimeSpent" value="286250000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2038" y="17" width="1831" height="1069" extended-state="0" />
+    <frame x="121" y="42" width="1774" height="981" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29674572" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23690204" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34796575" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20567375" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -489,9 +536,9 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3590802" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21940929" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4496788" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20598006" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -510,428 +557,400 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/view/rule/adddlg/RuleDialog.js</url>
+          <line>126</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/view/rule/RulesController.js</url>
+          <line>73</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/view/utils/GridFormatter.js">
+    <entry file="file://$PROJECT_DIR$/testdir/app/view/myViewport.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="50" column="48" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="48" />
+        <state relative-caret-position="619">
+          <caret line="76" column="24" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/data/rules.json">
+    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/tests/unit/services/NrdbSvcSpec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="17989" column="25" selection-start-line="17989" selection-start-column="25" selection-end-line="17989" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nodejs/karma.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="60" column="67" selection-start-line="60" selection-start-column="67" selection-end-line="60" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/cdn/src/main/webapp/js/tests/integration/testBaseDialog/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/view/rule/Rules.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/view/rule/RulesController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/gbs/gbsUI/target/GbsUI/app/view/directories/DirectoriesController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="80" column="36" selection-start-line="80" selection-start-column="36" selection-end-line="80" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/ObsEntry/src/main/webapp/app/service/ObsEntryRestProxy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/ObsEntry/src/main/webapp/app/service/AjaxApi.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/ObsEntry/src/main/webapp/app/view/main/ob/ObController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/ObsEntry/src/main/webapp/app/constants/Constants.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/ObsEntry/src/main/webapp/app/view/main/shipsurface/ShipSurface.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="160" column="20" selection-start-line="160" selection-start-column="20" selection-end-line="160" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/ObsEntry/src/main/webapp/app/view/main/shipsurface/ShipSurfaceModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="81" column="22" selection-start-line="81" selection-start-column="22" selection-end-line="81" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testDlg/app/view/RuleDialogController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/test/java/mil/navy/fnmoc/gis/nrdb/dao/RuleDAOImplIntegrationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/gbs/gbsUI/src/main/webapp/descriptor.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-396">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="264">
+          <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/descriptor.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="506">
+          <caret line="23" column="61" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/cdn/src/main/webapp/js/tests/NrdbRuleGridCellFormatterSpec.js">
+    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="187" column="56" selection-start-line="187" selection-start-column="56" selection-end-line="187" selection-end-column="56" />
+        <state relative-caret-position="330">
+          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/cdn/src/main/webapp/js/non-ui/NrdbRuleGridCellFormatter.js">
+    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/view/main/Main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="149" column="0" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
+        <state relative-caret-position="179">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/gbs/gbsUI/src/main/webapp/app/store/directory/Directories.js">
+    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app-dev.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-396">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="399">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/gbs/gbsUI/target/GbsUI/app/view/directories/Directories.js">
+    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/dist/lib/owf/owf-widget-min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+        <state relative-caret-position="215">
+          <caret line="0" column="151022" selection-start-line="0" selection-start-column="151022" selection-end-line="0" selection-end-column="151047" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/gbs/gbsUI/src/main/webapp/app/view/directories/DirectoryGrid.js">
+    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/cdn/src/main/webapp/js/ui/NnExtStore.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3014">
-          <caret line="141" column="21" selection-start-line="139" selection-start-column="20" selection-end-line="141" selection-end-column="21" />
-          <folding />
+        <state relative-caret-position="-234">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/gbs/gbsUI/target/GbsUI/dist/gbs.debug.js">
+    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/cdn/target/cdn/js/ui/grid/NNGridEx.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="766" column="8" selection-start-line="766" selection-start-column="8" selection-end-line="766" selection-end-column="8" />
+        <state relative-caret-position="513">
+          <caret line="655" column="0" selection-start-line="655" selection-start-column="0" selection-end-line="656" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/gbs/gbsUI/src/main/webapp/app/view/directories/DirectoriesModel.js">
+    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/view/main/MainContainer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
+        <state relative-caret-position="352">
+          <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/data/configuration.json">
+    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="2774" column="28" selection-start-line="2774" selection-start-column="6" selection-end-line="2774" selection-end-column="28" />
+        <state relative-caret-position="132">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/data/classifications.json">
+    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/cdn/src/main/webapp/js/ui/NnExtApplicationBase.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        <state relative-caret-position="594">
+          <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/gbs/gbsUI/target/GbsUI/app/view/directories/DirectoriesModel.js">
+    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/Application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/target/NrdbSvc/app/view/utils/LevelEntry.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="98" column="46" selection-start-line="98" selection-start-column="46" selection-end-line="98" selection-end-column="46" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testDlg/app/view/NnFormFieldEntry.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1034">
-          <caret line="47" column="27" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/cdn/src/main/webapp/js/ui/dialog/NnFormFieldEntry.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-221">
-          <caret line="88" column="36" selection-start-line="88" selection-start-column="36" selection-end-line="88" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/cdn/src/main/webapp/js/tests/integration/testBaseDialog/app/view/myViewportModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-          <folding>
-            <marker date="1480459425467" expanded="true" signature="45:244" ph="{&quot;extend&quot;: 'Ext.app.ViewModel'...}" />
-            <marker date="1480459425467" expanded="true" signature="122:186" ph="{&quot;textvalue&quot;: &quot;foobar&quot;...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/cdn/src/main/webapp/js/ui/dialog/NnDialogBase.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="143" column="34" selection-start-line="143" selection-start-column="34" selection-end-line="143" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/cdn/src/main/webapp/js/tests/integration/testBaseDialog/app/view/RuleDialog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="140" column="40" selection-start-line="136" selection-start-column="24" selection-end-line="140" selection-end-column="40" />
-          <folding />
+        <state relative-caret-position="308">
+          <caret line="18" column="57" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/cdn/src/main/webapp/js/ui/NnTooltipTextField.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="67" column="16" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="59" />
-          <folding />
+        <state relative-caret-position="132">
+          <caret line="75" column="53" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/cdn/src/main/webapp/js/tests/integration/testBaseDialog/app/view/myViewportController.js">
+    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/tests/unit/view/utils/LevelEntrySpec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="29" column="17" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/target/NrdbSvc/app/utils/Constants.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="62" column="34" selection-start-line="62" selection-start-column="34" selection-end-line="62" selection-end-column="34" />
-          <folding />
+        <state relative-caret-position="619">
+          <caret line="132" column="12" selection-start-line="132" selection-start-column="12" selection-end-line="132" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/view/utils/LevelEntry.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="67" column="53" selection-start-line="67" selection-start-column="53" selection-end-line="67" selection-end-column="53" />
+        <state relative-caret-position="425">
+          <caret line="194" column="101" selection-start-line="194" selection-start-column="101" selection-end-line="194" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/gbs/gbsUI/src/main/webapp/app/utils/Util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="63" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/view/utils/NrdbController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/data/delete-rule-success-response.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/utils/Util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="98" column="32" selection-start-line="98" selection-start-column="12" selection-end-line="98" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/gbs/gbsUI/src/main/webapp/app/utils/Constants.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/cdn/src/main/webapp/dist/nn-ui-common.debug.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="1523" column="27" selection-start-line="1523" selection-start-column="27" selection-end-line="1523" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/gbs/gbsUI/src/main/webapp/app/view/directories/DirectoriesController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="72" column="15" selection-start-line="68" selection-start-column="12" selection-end-line="72" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/model/Rule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/view/rule/Rules.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="52" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/data/get-single-rule-success-response.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/data/add-rule-success-response.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/data/rules-small.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="90" column="26" selection-start-line="90" selection-start-column="26" selection-end-line="90" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/store/rule/Rules.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/dist/lib/extjs/6.0.1/ext-all-debug.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/dist/nn-ui-common.debug.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-515">
+          <caret line="1245" column="0" selection-start-line="1245" selection-start-column="0" selection-end-line="1245" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/cdn/src/main/webapp/js/ui/grid/NNGridEx.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="363" column="53" selection-start-line="363" selection-start-column="53" selection-end-line="363" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/data/configuration.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="3359" column="9" selection-start-line="3359" selection-start-column="9" selection-end-line="3359" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/view/rule/RulesGrid.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="95" column="77" selection-start-line="95" selection-start-column="77" selection-end-line="95" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/data/rules.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="154" column="0" selection-start-line="154" selection-start-column="0" selection-end-line="158" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/tests/unit/view/rule/RulesControllerSpec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/tests/unit/view/rule/adddlg/RuleDialogModelSpec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8756">
+          <caret line="402" column="19" selection-start-line="402" selection-start-column="19" selection-end-line="402" selection-end-column="19" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/view/rule/adddlg/RuleDialogModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5808">
+          <caret line="268" column="20" selection-start-line="268" selection-start-column="20" selection-end-line="268" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/view/rule/adddlg/RuleDialog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1826">
+          <caret line="87" column="34" selection-start-line="87" selection-start-column="34" selection-end-line="87" selection-end-column="34" />
+          <folding>
+            <marker date="1481429669249" expanded="true" signature="7004:7018" ph="..." />
+            <marker date="1481429669249" expanded="true" signature="7115:7121" ph=" " />
+            <marker date="1481429669249" expanded="true" signature="8861:8875" ph="..." />
+            <marker date="1481429669249" expanded="true" signature="15030:15044" ph="..." />
+            <marker date="1481429669249" expanded="true" signature="15181:15187" ph=" " />
+            <marker date="1481429669249" expanded="true" signature="15205:15211" ph=" " />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/utils/Constants.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        <state relative-caret-position="198">
+          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/view/rule/RuleDialogModel.js">
+    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/services/NrdbSvc.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="25" column="31" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="31" />
+        <state relative-caret-position="3872">
+          <caret line="180" column="15" selection-start-line="180" selection-start-column="15" selection-end-line="180" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/view/rule/RuleDialogController.js">
+    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/view/rule/RulesController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+        <state relative-caret-position="4642">
+          <caret line="215" column="83" selection-start-line="215" selection-start-column="83" selection-end-line="215" selection-end-column="83" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../books/learn/Chapter_06/form_03.html">
+    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/view/rule/adddlg/RuleDialogController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1804">
+          <caret line="86" column="23" selection-start-line="86" selection-start-column="23" selection-end-line="86" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testGrid/ext-all-debug.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testGrid/app/view/LiveSearchGridPanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testGrid/app/view/fooViewportModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="52" column="26" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testGrid/app/view/fooViewport.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testGrid/ext/ux/css/LiveSearchGridPanel.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../books/learn/Chapter_06/form_03.js">
+    <entry file="file://$PROJECT_DIR$/testGrid/ext/ux/LiveSearchGridPanel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="593">
+          <caret line="196" column="74" selection-start-line="196" selection-start-column="74" selection-end-line="196" selection-end-column="74" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../books/learn/chapter_01/myfirstapp.html">
+    <entry file="file://$PROJECT_DIR$/testGrid/testGrid.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="9" selection-end-column="72" />
+        <state relative-caret-position="220">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../books/learn/Chapter_06/form_01.html">
+    <entry file="file://$PROJECT_DIR$/testGrid/app/view/MyGrid.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="9" selection-end-column="83" />
+        <state relative-caret-position="573">
+          <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../books/learn/Chapter_06/form_01.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../books/learn/Chapter_06/appcode/view/AvailableFields01.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="178" column="17" selection-start-line="178" selection-start-column="17" selection-end-line="178" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../books/learn/Chapter_06/appcode/view/CustomerForm01.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="77" column="10" selection-start-line="77" selection-start-column="10" selection-end-line="77" selection-end-column="10" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc/src/main/webapp/app/view/rule/RuleDialog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="178" column="37" selection-start-line="178" selection-start-column="37" selection-end-line="178" selection-end-column="37" />
-          <folding>
-            <marker date="1480463796882" expanded="true" signature="7049:7080" ph="..." />
-            <marker date="1480463796882" expanded="true" signature="7082:7088" ph=" " />
-            <marker date="1480463796882" expanded="true" signature="7088:7094" ph=" " />
-            <marker date="1480463796882" expanded="true" signature="7094:7100" ph=" " />
-            <marker date="1480463796882" expanded="true" signature="7202:7236" ph="..." />
-            <marker date="1480463796882" expanded="true" signature="7238:7244" ph=" " />
-            <marker date="1480463796882" expanded="true" signature="7244:7250" ph=" " />
-            <marker date="1480463796882" expanded="true" signature="7250:7256" ph=" " />
-            <marker date="1480463796882" expanded="true" signature="8869:8878" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testdir/app/view/myViewport.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="62" column="49" selection-start-line="62" selection-start-column="49" selection-end-line="62" selection-end-column="49" />
-          <folding>
-            <marker date="1480466475917" expanded="true" signature="1457:1488" ph="..." />
-            <marker date="1480466475917" expanded="true" signature="1490:1496" ph=" " />
-            <marker date="1480466475917" expanded="true" signature="1496:1502" ph=" " />
-            <marker date="1480466475917" expanded="true" signature="1502:1508" ph=" " />
-            <marker date="1480466475917" expanded="true" signature="1660:1694" ph="..." />
-            <marker date="1480466475917" expanded="true" signature="1696:1702" ph=" " />
-            <marker date="1480466475917" expanded="true" signature="1702:1708" ph=" " />
-            <marker date="1480466475917" expanded="true" signature="1708:1714" ph=" " />
-            <marker date="1480466475917" expanded="true" signature="1867:1900" ph="..." />
-            <marker date="1480466475917" expanded="true" signature="1902:1908" ph=" " />
-            <marker date="1480466475917" expanded="true" signature="1908:1914" ph=" " />
-            <marker date="1480466475917" expanded="true" signature="1914:1920" ph=" " />
-            <marker date="1480466475917" expanded="true" signature="2393:2416" ph="..." />
-            <marker date="1480466475917" expanded="true" signature="2464:2497" ph="..." />
-            <marker date="1480466475917" expanded="true" signature="2499:2505" ph=" " />
-            <marker date="1480466475917" expanded="true" signature="2505:2511" ph=" " />
-            <marker date="1480466475917" expanded="true" signature="2511:2517" ph=" " />
-          </folding>
         </state>
       </provider>
     </entry>

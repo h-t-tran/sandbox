@@ -43,18 +43,22 @@ Ext.define("MyTestApp.view.myViewport", {
                 '</tpl></ul>'
             ),
 
+            listConfig : {
+                //itemTpl : '<span style="background-color:yellow;margin:1px">&nbsp;&nbsp;&nbsp;</span>{name} +  {name}'
+                //, displayTplxx : '{name} +  {name}'
+            },
+
             //this works for drop down items.
             tpl: '<tpl for=".">' +
                     '<div class="x-boundlist-item">' +
                         '<tpl if="name == \'Alabama\'"> ' +
                             '<span style="background-color:red;margin:1px">&nbsp;&nbsp;&nbsp;</span>' +
-                        '</tpl>' +
-                        '<tpl else if="name == \'Alaska\'"> ' +
+                        '<tpl elseif="name == \'Alaska\'"> ' +
                             '<span style="background-color:yellow;margin:1px">&nbsp;&nbsp;&nbsp;</span>' +
-                        '</tpl>' +
-                        '<tpl else if="name == \'Arizona\'"> ' +
+                        '<tpl elseif="name == \'Arizona\'"> ' +
                             '<span style="background-color:green;margin:1px">&nbsp;&nbsp;&nbsp;</span>' +
-                            //'<span>You forgot to style this</span>' +
+                        '<tpl else> ' +
+                            '<span>You forgot to style this</span>' +
                         '</tpl>' +
                         '{name}' +
                     '</div>' +
@@ -62,9 +66,17 @@ Ext.define("MyTestApp.view.myViewport", {
 
             // not rendering html in the textbox..
             displayTpl: Ext.create('Ext.XTemplate',
-                '<div><tpl for=".">',
-                '({name})',
-                '</tpl><div>'
+
+                    '<tpl for=".">' +
+                      //'<div>'+
+                        '<tpl if="name == \'Alabama\'"> ' +
+                            '({name})({name})' +
+                        '<tpl else> ' +
+                            '({name})' +
+                        '</tpl>' +
+                      // '</div>' +
+                    '</tpl>'
+
             ),
 
             displayTplxx: '<tpl for="." style="background-color:green;">' +

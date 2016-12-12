@@ -1,6 +1,6 @@
 Ext.define("Myapp.view.MyGrid", {
 
-    extend: 'Ext.grid.Panel',
+    extend: 'Ext.ux.LiveSearchGridPanel',
 
     //
     // both of these does the same thing.
