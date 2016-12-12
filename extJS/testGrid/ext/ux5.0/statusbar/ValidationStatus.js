@@ -41,10 +41,8 @@ Ext.define('Ext.ux.statusbar.ValidationStatus', {
      * the form is being submitted.
      */
     submitText : 'Saving...',
-
-    /**
-     * @private
-     */
+    
+    // private
     init : function(sb) {
         var me = this;
 
@@ -90,34 +88,29 @@ Ext.define('Ext.ux.statusbar.ValidationStatus', {
             me.basicForm.on('actionfailed', startMonitor);
         }
    },
-
-    /**
-     * @private
-     */
+    
+    // private
     startMonitoring : function() {
         this.basicForm.getFields().each(function(f) {
             f.on('validitychange', this.onFieldValidation, this);
         }, this);
     },
-
-    /**
-     * @private
-     */
+    
+    // private
     stopMonitoring : function() {
         this.basicForm.getFields().each(function(f) {
             f.un('validitychange', this.onFieldValidation, this);
         }, this);
     },
-
+    
+    // private
     onDestroy : function() {
         this.stopMonitoring();
         this.statusBar.statusEl.un('click', this.onStatusClick, this);
         this.callParent(arguments);
     },
-
-    /**
-     * @private
-     */
+    
+    // private
     onFieldValidation : function(f, isValid) {
         var me = this,
             msg;
@@ -144,9 +137,7 @@ Ext.define('Ext.ux.statusbar.ValidationStatus', {
         }
     },
 
-    /**
-     * @private
-     */
+    // private
     updateErrorList : function() {
         var me = this,
             msg,
@@ -165,10 +156,8 @@ Ext.define('Ext.ux.statusbar.ValidationStatus', {
         // reset msgEl size
         msgEl.setSize('auto', 'auto');
     },
-
-    /**
-     * @private
-     */
+    
+    // private
     getMsgEl : function() {
         var me = this,
             msgEl = me.msgEl,
@@ -189,10 +178,8 @@ Ext.define('Ext.ux.statusbar.ValidationStatus', {
         }
         return msgEl;
     },
-
-    /**
-     * @private
-     */
+    
+    // private
     showErrors : function() {
         var me = this;
 
@@ -202,9 +189,7 @@ Ext.define('Ext.ux.statusbar.ValidationStatus', {
         me.formPanel.body.on('click', me.hideErrors, me, {single:true}); // hide if the user clicks directly into the form
     },
 
-    /**
-     * @private
-     */
+    // private
     hideErrors : function() {
         var el = this.getMsgEl();
         if (el.isVisible()) {
@@ -213,10 +198,8 @@ Ext.define('Ext.ux.statusbar.ValidationStatus', {
         }
         this.formPanel.body.un('click', this.hideErrors, this);
     },
-
-    /**
-     * @private
-     */
+    
+    // private
     onStatusClick : function() {
         if (this.getMsgEl().isVisible()) {
             this.hideErrors();
