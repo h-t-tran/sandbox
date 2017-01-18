@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+
+    <link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <link href="app/app.component.css" rel="stylesheet" />
+
+    <script src="node_modules/core-js/client/shim.min.js"></script>
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+    <script src="node_modules/reflect-metadata/Reflect.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+    <script src="systemjs.config.test.js"></script>
+    <script>
+        //
+        // 1. 'app' is defined in systemjs.config.test.js which points to the location of our app.
+        //      app: 'apptestdir',
+        //    It must be called 'app'
+        // 2. in systemjs.config.test.js, we specify the bootstrap configuration.
+        //      app points to the location of the app directory.
+        // 3. In systemjs.config.test.js, add the reference to the JS that does the initial
+        //      bootstrapping of the app.
+        //        main: './main.test.js',
+        //      This defines and load the main AppModule.
+        //        platformBrowserDynamic().bootstrapModule( AppModule );
+        System.import('app').catch(function(err){ console.error(err); });
+    </script>
+</head>
+<body>
+    <my-pm-app>testing 2...</my-pm-app>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Overriding Style Values</name>
+    <Style id="blue_arrow">
+      <IconStyle>
+        <color>ffff0000</color>
+        <scale>1.4</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="1" yunits="pixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <color>ff0000ff</color>
+      </LabelStyle>
+    </Style>
+    <Placemark>
+      <name>Placemark 1</name>
+      <styleUrl>#blue_arrow
+      </styleUrl>
+      <Style>
+        <IconStyle>
+          <color>ff00ff00</color>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>
+          -119.232195463845,36.0160219116952,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

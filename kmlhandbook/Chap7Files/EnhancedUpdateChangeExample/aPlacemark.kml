@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NetworkLink xmlns="http://www.opengis.net/kml/2.2">
+  <name>My Placemark Test</name>
+  <visibility>0</visibility>
+  <description>Check the box to see the placemark</description>
+  <Link>
+    <href>http://localhost:3000/originalPlacemark.kml</href>
+    <refreshMode>onInterval</refreshMode>
+    <refreshInterval>6</refreshInterval>
+  </Link>
+</NetworkLink>

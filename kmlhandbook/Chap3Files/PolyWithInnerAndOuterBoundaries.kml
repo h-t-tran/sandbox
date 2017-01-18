@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Placemark>
+    <name>Polygon with 2 holes</name>
+    <Polygon>
+      <outerBoundaryIs>
+        <LinearRing>
+          <coordinates>
+            -122.431938278749,37.8019857095478,0
+            -122.431873068102,37.8016611830403,0
+            -122.431497938539,37.8017138829201,0
+            -122.431564485129,37.8020299537248,0
+            -122.431938278749,37.8019857095478,0
+          </coordinates>
+        </LinearRing>
+      </outerBoundaryIs>
+      <innerBoundaryIs>
+        <LinearRing>
+          <coordinates>
+            -122.431886016065,37.8019318219595,0
+            -122.431842117396,37.8017208533219,0
+            -122.431719499379,37.8017366044116,0
+            -122.431763224388,37.8019475540673,0
+            -122.431886016065,37.8019318219595,0
+          </coordinates>
+        </LinearRing>
+      </innerBoundaryIs>
+      <innerBoundaryIs>
+        <LinearRing>
+          <coordinates>
+            -122.431713379578,37.8019536360684,0
+            -122.431671885143,37.8017428837353,0
+            -122.431549296352,37.8017586463012,0
+            -122.431592641627,37.8019684859395,0
+            -122.431713379578,37.8019536360684,0
+          </coordinates>
+        </LinearRing>
+      </innerBoundaryIs>
+    </Polygon>
+  </Placemark>
+</kml>

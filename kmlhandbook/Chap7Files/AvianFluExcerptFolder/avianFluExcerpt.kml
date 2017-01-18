@@ -1,0 +1,3202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <StyleMap id="Style_13">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#Style_13n</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#Style_13h</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="Style_13n">
+      <IconStyle>
+        <scale>0.78125</scale>
+        <Icon>
+          <href>Style_13n.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <PolyStyle>
+        <color>ff000000</color>
+        <fill>1</fill>
+        <outline>0</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <bgColor>ffdcf5f5</bgColor>
+        <textColor>ff000000</textColor>
+        <text>$[description]</text>
+      </BalloonStyle>
+    </Style>
+    <Style id="Style_13h">
+      <IconStyle>
+        <scale>0.78125</scale>
+        <Icon>
+          <href>Style_13h.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ff00ffff</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <PolyStyle>
+        <color>ff000000</color>
+        <fill>1</fill>
+        <outline>0</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <bgColor>ffdcf5f5</bgColor>
+        <textColor>ff000000</textColor>
+        <text>$[description]</text>
+      </BalloonStyle>
+    </Style>
+    <Folder>
+      <name>Data</name>
+      <visibility>1</visibility>
+      <Placemark id="pm288">
+        <name>Adana</name>
+        <description>Turkey</description>
+        <TimeStamp>
+          <when>2006-01-15</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g288">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            35.49832811,37.027542491,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="pm289">
+        <name>Adiyaman</name>
+        <description>Turkey</description>
+        <TimeStamp>
+          <when>2006-01-07</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g289">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            38.25,37.75,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="pm290">
+        <name>Adiyaman</name>
+        <description>Turkey</description>
+        <TimeStamp>
+          <when>2006-01-13</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g290">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            38.287163037,37.745354829,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="pm293">
+        <name>Agri</name>
+        <description>Turkey</description>
+        <TimeStamp>
+          <when>2005-12-31</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g293">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            44.135769502,39.62933027,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="pm294">
+        <name>Agri</name>
+        <description>Turkey</description>
+        <TimeStamp>
+          <when>2005-11-25</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g294">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            42.592256972,39.834565669,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="pm295">
+        <name>Agri</name>
+        <description>Turkey</description>
+        <TimeStamp>
+          <when>2005-11-29</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g295">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            43.088015653,39.505741873,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="pm337">
+        <name>Aksaray</name>
+        <description>Turkey</description>
+        <TimeStamp>
+          <when>2006-01-07</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g337">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            33.8545596715,38.4068859713,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="pm418">
+        <name>Ankara</name>
+        <description>Turkey</description>
+        <TimeStamp>
+          <when>2006-01-06</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g418">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            31.6166667,40.1,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="pm419">
+        <name>Ankara</name>
+        <description>Turkey</description>
+        <TimeStamp>
+          <when>2006-02-02</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g419">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            32.8333333,39.9166667,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="pm420">
+        <name>Ankara</name>
+        <description>Turkey</description>
+        <TimeStamp>
+          <when>2006-01-06</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g420">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            31.3185353,40.199498471,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="pm432">
+        <name>Aydin</name>
+        <description>Turkey</description>
+        <TimeStamp>
+          <when>2006-01-09</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g432">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            28,37.75,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="pm433">
+        <name>Aydin</name>
+        <description>Turkey</description>
+        <TimeStamp>
+          <when>2006-01-10</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g433">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            27.2611111,37.8575,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="pm434">
+        <name>Aydin</name>
+        <description>Turkey</description>
+        <TimeStamp>
+          <when>2006-01-26</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g434">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            27.2611111,37.8575,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="pm435">
+        <name>Aydin</name>
+        <description>Turkey</description>
+        <TimeStamp>
+          <when>2006-01-26</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g435">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            27.955149674,37.806109888,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="pm436">
+        <name>Aydin</name>
+        <description>Turkey</description>
+        <TimeStamp>
+          <when>2006-01-16</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g436">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            27.1598311367,37.5823980732,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="pm541">
+        <name>Balikesir</name>
+        <description>Turkey</description>
+        <TimeStamp>
+          <when>2005-10-01</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g541">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            27.9667,40.0333,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="pm567">
+        <name>Batman</name>
+        <description>Turkey</description>
+        <TimeStamp>
+          <when>2006-01-18</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g567">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            41.137358903,37.824079549,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="pm568">
+        <name>Batman</name>
+        <description>Turkey</description>
+        <TimeStamp>
+          <when>2006-02-02</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g568">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            41.1373589028,37.8240795489,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="pm569">
+        <name>Batman</name>
+        <description>Turkey</description>
+        <TimeStamp>
+          <when>2006-01-11</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g569">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            41.435859428,38.143698716,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="pm570">
+        <name>Batman</name>
+        <description>Turkey</description>
+        <TimeStamp>
+          <when>2006-01-11</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g570">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            41.4358594279,38.1436987159,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="pm571">
+        <name>Batman</name>
+        <description><![CDATA[<p><b><font
+            face="Arial" color="#800000">Outbreak
+            summary</font></b></p><table
+            cellpadding="1"
+            cellspacing="1"><tr><td><b><font
+            face="Arial">ID:</font></b></td><td><font
+            face="Arial">
+            2934</font></td></tr><tr><td><b><font
+            face="Arial">Country:</font></b></td><td><font
+            face="Arial">Turkey</font></td></tr><tr><td><b><font
+            face="Arial">District:</font></b></td><td><font
+            face="Arial">Batman</font></td></tr><tr><td><b><font
+            face="Arial">Subdistrict:</font></b></td><td><font
+            face="Arial">Kozluk</font></td></tr><tr><td><b><font
+            face="Arial">Location:</font></b></td><td><font
+            face="Arial">Ulasli</font></td></tr><tr><td><b><font
+            face="Arial">Start of
+            outbreak:</font></b></td><td><font
+            face="Arial">11/01/2006</font></td></tr><tr><td><b><font
+            face="Arial">Species:</font></b></td><td><font
+            face="Arial">backyard
+            poultry</font></td></tr><tr><td><b><font
+            face="Arial">Risk:</font></b></td><td><font
+            face="Arial">
+            638</font></td></tr><tr><td><b><font
+            face="Arial">Cases:</font></b></td><td><font
+            face="Arial">
+            10</font></td></tr><tr><td><b><font
+            face="Arial">Deaths:</font></b></td><td><font
+            face="Arial">
+            10</font></td></tr><tr><td><b><font
+            face="Arial">Destroyed:</font></b></td><td><font
+            face="Arial">
+            628</font></td></tr><tr><td><b><font
+            face="Arial">Slaughtered:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Culled:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Vaccined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Examined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td>
+            <a
+            href="#http://www.oie.int/eng/info/hebdo/AIS_33.HTM#"><b><font
+            face="Arial">Source
+            report</font></b></a><b><font
+            face="Arial"><a
+            href="#http://www.oie.int/eng/info/hebdo/AIS_33.HTM#">:</a></font></b></td><td>&nbsp;</td></tr></table><p><font
+            color="#800000" face="Arial"><b>More on this
+            country's
+            outbreaks</b></font></p><p><font
+            face="Arial"><a
+            href="http://www.connotea.org/tag/AvianFlu+Turkey?num=100">News
+            bookmarked at
+            Connotea</a></font><br><font
+            face="Arial"><a
+            href="http://www.topix.net/search/?q=&quot;avian+flu&quot;+Turkey">Recent
+            news
+            </a></font><br><font
+            face="Arial"><a
+            href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=PureSearch&db=pubmed&details_term=h5n1[All
+            Fields] AND (&quot;Turkey&quot;[MeSH Terms] OR
+            Turkey[Text Word])">Articles in Pubmed</a>
+            </font></p><font
+            color="#ffffff">]]></description>
+        <TimeStamp>
+          <when>2006-01-11</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g571">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            41.4358594279,38.1436987159,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="pm572">
+        <name>Batman</name>
+        <description><![CDATA[<p><b><font
+            face="Arial" color="#800000">Outbreak
+            summary</font></b></p><table
+            cellpadding="1"
+            cellspacing="1"><tr><td><b><font
+            face="Arial">ID:</font></b></td><td><font
+            face="Arial">
+            2935</font></td></tr><tr><td><b><font
+            face="Arial">Country:</font></b></td><td><font
+            face="Arial">Turkey</font></td></tr><tr><td><b><font
+            face="Arial">District:</font></b></td><td><font
+            face="Arial">Batman</font></td></tr><tr><td><b><font
+            face="Arial">Subdistrict:</font></b></td><td><font
+            face="Arial">Kozluk</font></td></tr><tr><td><b><font
+            face="Arial">Location:</font></b></td><td><font
+            face="Arial">Uzuncayir</font></td></tr><tr><td><b><font
+            face="Arial">Start of
+            outbreak:</font></b></td><td><font
+            face="Arial">11/01/2006</font></td></tr><tr><td><b><font
+            face="Arial">Species:</font></b></td><td><font
+            face="Arial">backyard
+            poultry</font></td></tr><tr><td><b><font
+            face="Arial">Risk:</font></b></td><td><font
+            face="Arial">
+            305</font></td></tr><tr><td><b><font
+            face="Arial">Cases:</font></b></td><td><font
+            face="Arial">
+            5</font></td></tr><tr><td><b><font
+            face="Arial">Deaths:</font></b></td><td><font
+            face="Arial">
+            5</font></td></tr><tr><td><b><font
+            face="Arial">Destroyed:</font></b></td><td><font
+            face="Arial">
+            300</font></td></tr><tr><td><b><font
+            face="Arial">Slaughtered:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Culled:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Vaccined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Examined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td>
+            <a
+            href="#http://www.oie.int/eng/info/hebdo/AIS_33.HTM#"><b><font
+            face="Arial">Source
+            report</font></b></a><b><font
+            face="Arial"><a
+            href="#http://www.oie.int/eng/info/hebdo/AIS_33.HTM#">:</a></font></b></td><td>&nbsp;</td></tr></table><p><font
+            color="#800000" face="Arial"><b>More on this
+            country's
+            outbreaks</b></font></p><p><font
+            face="Arial"><a
+            href="http://www.connotea.org/tag/AvianFlu+Turkey?num=100">News
+            bookmarked at
+            Connotea</a></font><br><font
+            face="Arial"><a
+            href="http://www.topix.net/search/?q=&quot;avian+flu&quot;+Turkey">Recent
+            news
+            </a></font><br><font
+            face="Arial"><a
+            href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=PureSearch&db=pubmed&details_term=h5n1[All
+            Fields] AND (&quot;Turkey&quot;[MeSH Terms] OR
+            Turkey[Text Word])">Articles in Pubmed</a>
+            </font></p><font
+            color="#ffffff">]]></description>
+        <TimeStamp>
+          <when>2006-01-11</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g572">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            41.4358594279,38.1436987159,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="pm573">
+        <name>BATMAN</name>
+        <description><![CDATA[<p><b><font
+            face="Arial" color="#800000">Outbreak
+            summary</font></b></p><table
+            cellpadding="1"
+            cellspacing="1"><tr><td><b><font
+            face="Arial">ID:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Country:</font></b></td><td><font
+            face="Arial">Turkey</font></td></tr><tr><td><b><font
+            face="Arial">District:</font></b></td><td><font
+            face="Arial">BATMAN</font></td></tr><tr><td><b><font
+            face="Arial">Subdistrict:</font></b></td><td><font
+            face="Arial">Gercüs</font></td></tr><tr><td><b><font
+            face="Arial">Location:</font></b></td><td><font
+            face="Arial">Bogazkoy</font></td></tr><tr><td><b><font
+            face="Arial">Start of
+            outbreak:</font></b></td><td><font
+            face="Arial">05/02/2007</font></td></tr><tr><td><b><font
+            face="Arial">Species:</font></b></td><td><font
+            face="Arial">backyard
+            poultry</font></td></tr><tr><td><b><font
+            face="Arial">Risk:</font></b></td><td><font
+            face="Arial">
+            993</font></td></tr><tr><td><b><font
+            face="Arial">Cases:</font></b></td><td><font
+            face="Arial">
+            200</font></td></tr><tr><td><b><font
+            face="Arial">Deaths:</font></b></td><td><font
+            face="Arial">
+            80</font></td></tr><tr><td><b><font
+            face="Arial">Destroyed:</font></b></td><td><font
+            face="Arial">
+            793</font></td></tr><tr><td><b><font
+            face="Arial">Slaughtered:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Culled:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Vaccined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Examined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td>
+            <a
+            href="#http://www.oie.int/wahid-prod/public.php?page=single_report&pop=1&reportid=4792#"><b><font
+            face="Arial">Source
+            report</font></b></a><b><font
+            face="Arial"><a
+            href="#http://www.oie.int/wahid-prod/public.php?page=single_report&pop=1&reportid=4792#">:</a></font></b></td><td>&nbsp;</td></tr></table><p><font
+            color="#800000" face="Arial"><b>More on this
+            country's
+            outbreaks</b></font></p><p><font
+            face="Arial"><a
+            href="http://www.connotea.org/tag/AvianFlu+Turkey?num=100">News
+            bookmarked at
+            Connotea</a></font><br><font
+            face="Arial"><a
+            href="http://www.topix.net/search/?q=&quot;avian+flu&quot;+Turkey">Recent
+            news
+            </a></font><br><font
+            face="Arial"><a
+            href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=PureSearch&db=pubmed&details_term=h5n1[All
+            Fields] AND (&quot;Turkey&quot;[MeSH Terms] OR
+            Turkey[Text Word])">Articles in Pubmed</a>
+            </font></p><font
+            color="#ffffff">]]></description>
+        <TimeStamp>
+          <when>2007-02-05</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g573">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            41.307,37.643,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="pm574">
+        <name>BATMAN</name>
+        <description><![CDATA[<p><b><font
+            face="Arial" color="#800000">Outbreak
+            summary</font></b></p><table
+            cellpadding="1"
+            cellspacing="1"><tr><td><b><font
+            face="Arial">ID:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Country:</font></b></td><td><font
+            face="Arial">Turkey</font></td></tr><tr><td><b><font
+            face="Arial">District:</font></b></td><td><font
+            face="Arial">BATMAN</font></td></tr><tr><td><b><font
+            face="Arial">Subdistrict:</font></b></td><td><font
+            face="Arial">Merkez</font></td></tr><tr><td><b><font
+            face="Arial">Location:</font></b></td><td><font
+            face="Arial">Esentepe
+            Field</font></td></tr><tr><td><b><font
+            face="Arial">Start of
+            outbreak:</font></b></td><td><font
+            face="Arial">09/02/2007</font></td></tr><tr><td><b><font
+            face="Arial">Species:</font></b></td><td><font
+            face="Arial">avi</font></td></tr><tr><td><b><font
+            face="Arial">Risk:</font></b></td><td><font
+            face="Arial">
+            2</font></td></tr><tr><td><b><font
+            face="Arial">Cases:</font></b></td><td><font
+            face="Arial">
+            1</font></td></tr><tr><td><b><font
+            face="Arial">Deaths:</font></b></td><td><font
+            face="Arial">
+            1</font></td></tr><tr><td><b><font
+            face="Arial">Destroyed:</font></b></td><td><font
+            face="Arial">
+            0</font></td></tr><tr><td><b><font
+            face="Arial">Slaughtered:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Culled:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Vaccined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Examined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td>
+            <a
+            href="http://www.oie.int/wahid-prod/public.php?page=single_report&pop=1&reportid=4829#http://www.oie.int/wahid-prod/public.php?page=single_report&pop=1&reportid=4829#"><b><font
+            face="Arial">Source
+            report</font></b></a><b><font
+            face="Arial"><a
+            href="http://www.oie.int/wahid-prod/public.php?page=single_report&pop=1&reportid=4829#http://www.oie.int/wahid-prod/public.php?page=single_report&pop=1&reportid=4829#">:</a></font></b></td><td>&nbsp;</td></tr></table><p><font
+            color="#800000" face="Arial"><b>More on this
+            country's
+            outbreaks</b></font></p><p><font
+            face="Arial"><a
+            href="http://www.connotea.org/tag/AvianFlu+Turkey?num=100">News
+            bookmarked at
+            Connotea</a></font><br><font
+            face="Arial"><a
+            href="http://www.topix.net/search/?q=&quot;avian+flu&quot;+Turkey">Recent
+            news
+            </a></font><br><font
+            face="Arial"><a
+            href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=PureSearch&db=pubmed&details_term=h5n1[All
+            Fields] AND (&quot;Turkey&quot;[MeSH Terms] OR
+            Turkey[Text Word])">Articles in Pubmed</a>
+            </font></p><font
+            color="#ffffff">]]></description>
+        <TimeStamp>
+          <when>2007-02-09</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g574">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            41.1373589028,37.8240795489,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="pm575">
+        <name>BATMAN</name>
+        <description><![CDATA[<p><b><font
+            face="Arial" color="#800000">Outbreak
+            summary</font></b></p><table
+            cellpadding="1"
+            cellspacing="1"><tr><td><b><font
+            face="Arial">ID:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Country:</font></b></td><td><font
+            face="Arial">Turkey</font></td></tr><tr><td><b><font
+            face="Arial">District:</font></b></td><td><font
+            face="Arial">BATMAN</font></td></tr><tr><td><b><font
+            face="Arial">Subdistrict:</font></b></td><td><font
+            face="Arial">Merkez</font></td></tr><tr><td><b><font
+            face="Arial">Location:</font></b></td><td><font
+            face="Arial">Yavuzselim</font></td></tr><tr><td><b><font
+            face="Arial">Start of
+            outbreak:</font></b></td><td><font
+            face="Arial">07/02/2007</font></td></tr><tr><td><b><font
+            face="Arial">Species:</font></b></td><td><font
+            face="Arial">backyard
+            poultry</font></td></tr><tr><td><b><font
+            face="Arial">Risk:</font></b></td><td><font
+            face="Arial">
+            415</font></td></tr><tr><td><b><font
+            face="Arial">Cases:</font></b></td><td><font
+            face="Arial">
+            18</font></td></tr><tr><td><b><font
+            face="Arial">Deaths:</font></b></td><td><font
+            face="Arial">
+            18</font></td></tr><tr><td><b><font
+            face="Arial">Destroyed:</font></b></td><td><font
+            face="Arial">
+            397</font></td></tr><tr><td><b><font
+            face="Arial">Slaughtered:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Culled:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Vaccined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Examined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td>
+            <a
+            href="#http://www.oie.int/wahid-prod/public.php?page=single_report&pop=1&reportid=4879#"><b><font
+            face="Arial">Source
+            report</font></b></a><b><font
+            face="Arial"><a
+            href="#http://www.oie.int/wahid-prod/public.php?page=single_report&pop=1&reportid=4879#">:</a></font></b></td><td>&nbsp;</td></tr></table><p><font
+            color="#800000" face="Arial"><b>More on this
+            country's
+            outbreaks</b></font></p><p><font
+            face="Arial"><a
+            href="http://www.connotea.org/tag/AvianFlu+Turkey?num=100">News
+            bookmarked at
+            Connotea</a></font><br><font
+            face="Arial"><a
+            href="http://www.topix.net/search/?q=&quot;avian+flu&quot;+Turkey">Recent
+            news
+            </a></font><br><font
+            face="Arial"><a
+            href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=PureSearch&db=pubmed&details_term=h5n1[All
+            Fields] AND (&quot;Turkey&quot;[MeSH Terms] OR
+            Turkey[Text Word])">Articles in Pubmed</a>
+            </font></p><font
+            color="#ffffff">]]></description>
+        <TimeStamp>
+          <when>2007-02-07</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g575">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            41.1373589028,37.8240795489,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="pm576">
+        <name>BATMAN</name>
+        <description><![CDATA[<p><b><font
+            face="Arial" color="#800000">Outbreak
+            summary</font></b></p><table
+            cellpadding="1"
+            cellspacing="1"><tr><td><b><font
+            face="Arial">ID:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Country:</font></b></td><td><font
+            face="Arial">Turkey</font></td></tr><tr><td><b><font
+            face="Arial">District:</font></b></td><td><font
+            face="Arial">BATMAN</font></td></tr><tr><td><b><font
+            face="Arial">Subdistrict:</font></b></td><td><font
+            face="Arial">Merkez</font></td></tr><tr><td><b><font
+            face="Arial">Location:</font></b></td><td><font
+            face="Arial">Hilal</font></td></tr><tr><td><b><font
+            face="Arial">Start of
+            outbreak:</font></b></td><td><font
+            face="Arial">15/02/2007</font></td></tr><tr><td><b><font
+            face="Arial">Species:</font></b></td><td><font
+            face="Arial">backyard
+            poultry</font></td></tr><tr><td><b><font
+            face="Arial">Risk:</font></b></td><td><font
+            face="Arial">
+            831</font></td></tr><tr><td><b><font
+            face="Arial">Cases:</font></b></td><td><font
+            face="Arial">
+            2</font></td></tr><tr><td><b><font
+            face="Arial">Deaths:</font></b></td><td><font
+            face="Arial">
+            2</font></td></tr><tr><td><b><font
+            face="Arial">Destroyed:</font></b></td><td><font
+            face="Arial">
+            829</font></td></tr><tr><td><b><font
+            face="Arial">Slaughtered:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Culled:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Vaccined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Examined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td>
+            <a
+            href="#http://www.oie.int/wahid-prod/public.php?page=single_report&pop=1&reportid=4923#"><b><font
+            face="Arial">Source
+            report</font></b></a><b><font
+            face="Arial"><a
+            href="#http://www.oie.int/wahid-prod/public.php?page=single_report&pop=1&reportid=4923#">:</a></font></b></td><td>&nbsp;</td></tr></table><p><font
+            color="#800000" face="Arial"><b>More on this
+            country's
+            outbreaks</b></font></p><p><font
+            face="Arial"><a
+            href="http://www.connotea.org/tag/AvianFlu+Turkey?num=100">News
+            bookmarked at
+            Connotea</a></font><br><font
+            face="Arial"><a
+            href="http://www.topix.net/search/?q=&quot;avian+flu&quot;+Turkey">Recent
+            news
+            </a></font><br><font
+            face="Arial"><a
+            href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=PureSearch&db=pubmed&details_term=h5n1[All
+            Fields] AND (&quot;Turkey&quot;[MeSH Terms] OR
+            Turkey[Text Word])">Articles in Pubmed</a>
+            </font></p><font
+            color="#ffffff">]]></description>
+        <TimeStamp>
+          <when>2007-02-15</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g576">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            41.1373589028,37.8240795489,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="pm577">
+        <name>BATMAN</name>
+        <description><![CDATA[<p><b><font
+            face="Arial" color="#800000">Outbreak
+            summary</font></b></p><table
+            cellpadding="1"
+            cellspacing="1"><tr><td><b><font
+            face="Arial">ID:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Country:</font></b></td><td><font
+            face="Arial">Turkey</font></td></tr><tr><td><b><font
+            face="Arial">District:</font></b></td><td><font
+            face="Arial">BATMAN</font></td></tr><tr><td><b><font
+            face="Arial">Subdistrict:</font></b></td><td><font
+            face="Arial">Merkez</font></td></tr><tr><td><b><font
+            face="Arial">Location:</font></b></td><td><font
+            face="Arial">Oymatas</font></td></tr><tr><td><b><font
+            face="Arial">Start of
+            outbreak:</font></b></td><td><font
+            face="Arial">13/02/2007</font></td></tr><tr><td><b><font
+            face="Arial">Species:</font></b></td><td><font
+            face="Arial">backyard
+            poultry</font></td></tr><tr><td><b><font
+            face="Arial">Risk:</font></b></td><td><font
+            face="Arial">
+            2291</font></td></tr><tr><td><b><font
+            face="Arial">Cases:</font></b></td><td><font
+            face="Arial">
+            6</font></td></tr><tr><td><b><font
+            face="Arial">Deaths:</font></b></td><td><font
+            face="Arial">
+            6</font></td></tr><tr><td><b><font
+            face="Arial">Destroyed:</font></b></td><td><font
+            face="Arial">
+            2285</font></td></tr><tr><td><b><font
+            face="Arial">Slaughtered:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Culled:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Vaccined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Examined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td>
+            <a
+            href="#http://www.oie.int/wahid-prod/public.php?page=single_report&pop=1&reportid=4923#"><b><font
+            face="Arial">Source
+            report</font></b></a><b><font
+            face="Arial"><a
+            href="#http://www.oie.int/wahid-prod/public.php?page=single_report&pop=1&reportid=4923#">:</a></font></b></td><td>&nbsp;</td></tr></table><p><font
+            color="#800000" face="Arial"><b>More on this
+            country's
+            outbreaks</b></font></p><p><font
+            face="Arial"><a
+            href="http://www.connotea.org/tag/AvianFlu+Turkey?num=100">News
+            bookmarked at
+            Connotea</a></font><br><font
+            face="Arial"><a
+            href="http://www.topix.net/search/?q=&quot;avian+flu&quot;+Turkey">Recent
+            news
+            </a></font><br><font
+            face="Arial"><a
+            href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=PureSearch&db=pubmed&details_term=h5n1[All
+            Fields] AND (&quot;Turkey&quot;[MeSH Terms] OR
+            Turkey[Text Word])">Articles in Pubmed</a>
+            </font></p><font
+            color="#ffffff">]]></description>
+        <TimeStamp>
+          <when>2007-02-13</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g577">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            41.024,37.799,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="pm578">
+        <name>BATMAN</name>
+        <description><![CDATA[<p><b><font
+            face="Arial" color="#800000">Outbreak
+            summary</font></b></p><table
+            cellpadding="1"
+            cellspacing="1"><tr><td><b><font
+            face="Arial">ID:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Country:</font></b></td><td><font
+            face="Arial">Turkey</font></td></tr><tr><td><b><font
+            face="Arial">District:</font></b></td><td><font
+            face="Arial">BATMAN</font></td></tr><tr><td><b><font
+            face="Arial">Subdistrict:</font></b></td><td><font
+            face="Arial">Besiri</font></td></tr><tr><td><b><font
+            face="Arial">Location:</font></b></td><td><font
+            face="Arial">Cakilli</font></td></tr><tr><td><b><font
+            face="Arial">Start of
+            outbreak:</font></b></td><td><font
+            face="Arial">14/02/2007</font></td></tr><tr><td><b><font
+            face="Arial">Species:</font></b></td><td><font
+            face="Arial">backyard
+            poultry</font></td></tr><tr><td><b><font
+            face="Arial">Risk:</font></b></td><td><font
+            face="Arial">
+            366</font></td></tr><tr><td><b><font
+            face="Arial">Cases:</font></b></td><td><font
+            face="Arial">
+            7</font></td></tr><tr><td><b><font
+            face="Arial">Deaths:</font></b></td><td><font
+            face="Arial">
+            7</font></td></tr><tr><td><b><font
+            face="Arial">Destroyed:</font></b></td><td><font
+            face="Arial">
+            359</font></td></tr><tr><td><b><font
+            face="Arial">Slaughtered:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Culled:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Vaccined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Examined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td>
+            <a
+            href="#http://www.oie.int/wahid-prod/public.php?page=single_report&pop=1&reportid=4923#"><b><font
+            face="Arial">Source
+            report</font></b></a><b><font
+            face="Arial"><a
+            href="#http://www.oie.int/wahid-prod/public.php?page=single_report&pop=1&reportid=4923#">:</a></font></b></td><td>&nbsp;</td></tr></table><p><font
+            color="#800000" face="Arial"><b>More on this
+            country's
+            outbreaks</b></font></p><p><font
+            face="Arial"><a
+            href="http://www.connotea.org/tag/AvianFlu+Turkey?num=100">News
+            bookmarked at
+            Connotea</a></font><br><font
+            face="Arial"><a
+            href="http://www.topix.net/search/?q=&quot;avian+flu&quot;+Turkey">Recent
+            news
+            </a></font><br><font
+            face="Arial"><a
+            href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=PureSearch&db=pubmed&details_term=h5n1[All
+            Fields] AND (&quot;Turkey&quot;[MeSH Terms] OR
+            Turkey[Text Word])">Articles in Pubmed</a>
+            </font></p><font
+            color="#ffffff">]]></description>
+        <TimeStamp>
+          <when>2007-02-14</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g578">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            41.577,37.814,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="pm579">
+        <name>BATMAN</name>
+        <description><![CDATA[<p><b><font
+            face="Arial" color="#800000">Outbreak
+            summary</font></b></p><table
+            cellpadding="1"
+            cellspacing="1"><tr><td><b><font
+            face="Arial">ID:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Country:</font></b></td><td><font
+            face="Arial">Turkey</font></td></tr><tr><td><b><font
+            face="Arial">District:</font></b></td><td><font
+            face="Arial">BATMAN</font></td></tr><tr><td><b><font
+            face="Arial">Subdistrict:</font></b></td><td><font
+            face="Arial">Merkez</font></td></tr><tr><td><b><font
+            face="Arial">Location:</font></b></td><td><font
+            face="Arial">Camlitepe</font></td></tr><tr><td><b><font
+            face="Arial">Start of
+            outbreak:</font></b></td><td><font
+            face="Arial">14/02/2007</font></td></tr><tr><td><b><font
+            face="Arial">Species:</font></b></td><td><font
+            face="Arial">backyard
+            poultry</font></td></tr><tr><td><b><font
+            face="Arial">Risk:</font></b></td><td><font
+            face="Arial">
+            1372</font></td></tr><tr><td><b><font
+            face="Arial">Cases:</font></b></td><td><font
+            face="Arial">
+            11</font></td></tr><tr><td><b><font
+            face="Arial">Deaths:</font></b></td><td><font
+            face="Arial">
+            11</font></td></tr><tr><td><b><font
+            face="Arial">Destroyed:</font></b></td><td><font
+            face="Arial">
+            1361</font></td></tr><tr><td><b><font
+            face="Arial">Slaughtered:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Culled:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Vaccined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Examined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td>
+            <a
+            href="#http://www.oie.int/wahid-prod/public.php?page=single_report&pop=1&reportid=4923#"><b><font
+            face="Arial">Source
+            report</font></b></a><b><font
+            face="Arial"><a
+            href="#http://www.oie.int/wahid-prod/public.php?page=single_report&pop=1&reportid=4923#">:</a></font></b></td><td>&nbsp;</td></tr></table><p><font
+            color="#800000" face="Arial"><b>More on this
+            country's
+            outbreaks</b></font></p><p><font
+            face="Arial"><a
+            href="http://www.connotea.org/tag/AvianFlu+Turkey?num=100">News
+            bookmarked at
+            Connotea</a></font><br><font
+            face="Arial"><a
+            href="http://www.topix.net/search/?q=&quot;avian+flu&quot;+Turkey">Recent
+            news
+            </a></font><br><font
+            face="Arial"><a
+            href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=PureSearch&db=pubmed&details_term=h5n1[All
+            Fields] AND (&quot;Turkey&quot;[MeSH Terms] OR
+            Turkey[Text Word])">Articles in Pubmed</a>
+            </font></p><font
+            color="#ffffff">]]></description>
+        <TimeStamp>
+          <when>2007-02-14</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g579">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            41.1373589028,37.8240795489,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="pm580">
+        <name>BATMAN</name>
+        <description><![CDATA[<p><b><font
+            face="Arial" color="#800000">Outbreak
+            summary</font></b></p><table
+            cellpadding="1"
+            cellspacing="1"><tr><td><b><font
+            face="Arial">ID:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Country:</font></b></td><td><font
+            face="Arial">Turkey</font></td></tr><tr><td><b><font
+            face="Arial">District:</font></b></td><td><font
+            face="Arial">BATMAN</font></td></tr><tr><td><b><font
+            face="Arial">Subdistrict:</font></b></td><td><font
+            face="Arial">Merkez</font></td></tr><tr><td><b><font
+            face="Arial">Location:</font></b></td><td><font
+            face="Arial">Yenikoy</font></td></tr><tr><td><b><font
+            face="Arial">Start of
+            outbreak:</font></b></td><td><font
+            face="Arial">12/02/2007</font></td></tr><tr><td><b><font
+            face="Arial">Species:</font></b></td><td><font
+            face="Arial">backyard
+            poultry</font></td></tr><tr><td><b><font
+            face="Arial">Risk:</font></b></td><td><font
+            face="Arial">
+            841</font></td></tr><tr><td><b><font
+            face="Arial">Cases:</font></b></td><td><font
+            face="Arial">
+            5</font></td></tr><tr><td><b><font
+            face="Arial">Deaths:</font></b></td><td><font
+            face="Arial">
+            5</font></td></tr><tr><td><b><font
+            face="Arial">Destroyed:</font></b></td><td><font
+            face="Arial">
+            836</font></td></tr><tr><td><b><font
+            face="Arial">Slaughtered:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Culled:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Vaccined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Examined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td>
+            <a
+            href="#http://www.oie.int/wahid-prod/public.php?page=single_report&pop=1&reportid=4923#"><b><font
+            face="Arial">Source
+            report</font></b></a><b><font
+            face="Arial"><a
+            href="#http://www.oie.int/wahid-prod/public.php?page=single_report&pop=1&reportid=4923#">:</a></font></b></td><td>&nbsp;</td></tr></table><p><font
+            color="#800000" face="Arial"><b>More on this
+            country's
+            outbreaks</b></font></p><p><font
+            face="Arial"><a
+            href="http://www.connotea.org/tag/AvianFlu+Turkey?num=100">News
+            bookmarked at
+            Connotea</a></font><br><font
+            face="Arial"><a
+            href="http://www.topix.net/search/?q=&quot;avian+flu&quot;+Turkey">Recent
+            news
+            </a></font><br><font
+            face="Arial"><a
+            href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=PureSearch&db=pubmed&details_term=h5n1[All
+            Fields] AND (&quot;Turkey&quot;[MeSH Terms] OR
+            Turkey[Text Word])">Articles in Pubmed</a>
+            </font></p><font
+            color="#ffffff">]]></description>
+        <TimeStamp>
+          <when>2007-02-12</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g580">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            41.1373589028,37.8240795489,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="pm581">
+        <name>BATMAN</name>
+        <description><![CDATA[<p><b><font
+            face="Arial" color="#800000">Outbreak
+            summary</font></b></p><table
+            cellpadding="1"
+            cellspacing="1"><tr><td><b><font
+            face="Arial">ID:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Country:</font></b></td><td><font
+            face="Arial">Turkey</font></td></tr><tr><td><b><font
+            face="Arial">District:</font></b></td><td><font
+            face="Arial">BATMAN</font></td></tr><tr><td><b><font
+            face="Arial">Subdistrict:</font></b></td><td><font
+            face="Arial">Kozluk</font></td></tr><tr><td><b><font
+            face="Arial">Location:</font></b></td><td><font
+            face="Arial">Merkez</font></td></tr><tr><td><b><font
+            face="Arial">Start of
+            outbreak:</font></b></td><td><font
+            face="Arial">19/02/2007</font></td></tr><tr><td><b><font
+            face="Arial">Species:</font></b></td><td><font
+            face="Arial">backyard
+            turkeys</font></td></tr><tr><td><b><font
+            face="Arial">Risk:</font></b></td><td><font
+            face="Arial">
+            4</font></td></tr><tr><td><b><font
+            face="Arial">Cases:</font></b></td><td><font
+            face="Arial">
+            4</font></td></tr><tr><td><b><font
+            face="Arial">Deaths:</font></b></td><td><font
+            face="Arial">
+            4</font></td></tr><tr><td><b><font
+            face="Arial">Destroyed:</font></b></td><td><font
+            face="Arial">
+            0</font></td></tr><tr><td><b><font
+            face="Arial">Slaughtered:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Culled:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Vaccined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Examined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td>
+            <a
+            href="#http://www.oie.int/wahid-prod/public.php?page=single_report&pop=1&reportid=4962#"><b><font
+            face="Arial">Source
+            report</font></b></a><b><font
+            face="Arial"><a
+            href="#http://www.oie.int/wahid-prod/public.php?page=single_report&pop=1&reportid=4962#">:</a></font></b></td><td>&nbsp;</td></tr></table><p><font
+            color="#800000" face="Arial"><b>More on this
+            country's
+            outbreaks</b></font></p><p><font
+            face="Arial"><a
+            href="http://www.connotea.org/tag/AvianFlu+Turkey?num=100">News
+            bookmarked at
+            Connotea</a></font><br><font
+            face="Arial"><a
+            href="http://www.topix.net/search/?q=&quot;avian+flu&quot;+Turkey">Recent
+            news
+            </a></font><br><font
+            face="Arial"><a
+            href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=PureSearch&db=pubmed&details_term=h5n1[All
+            Fields] AND (&quot;Turkey&quot;[MeSH Terms] OR
+            Turkey[Text Word])">Articles in Pubmed</a>
+            </font></p><font
+            color="#ffffff">]]></description>
+        <TimeStamp>
+          <when>2007-02-19</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g581">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            41.4358594279,38.1436987159,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="pm582">
+        <name>BATMAN</name>
+        <description><![CDATA[<p><b><font
+            face="Arial" color="#800000">Outbreak
+            summary</font></b></p><table
+            cellpadding="1"
+            cellspacing="1"><tr><td><b><font
+            face="Arial">ID:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Country:</font></b></td><td><font
+            face="Arial">Turkey</font></td></tr><tr><td><b><font
+            face="Arial">District:</font></b></td><td><font
+            face="Arial">BATMAN</font></td></tr><tr><td><b><font
+            face="Arial">Subdistrict:</font></b></td><td><font
+            face="Arial">Besiri</font></td></tr><tr><td><b><font
+            face="Arial">Location:</font></b></td><td><font
+            face="Arial">Cayyolu</font></td></tr><tr><td><b><font
+            face="Arial">Start of
+            outbreak:</font></b></td><td><font
+            face="Arial">21/02/2007</font></td></tr><tr><td><b><font
+            face="Arial">Species:</font></b></td><td><font
+            face="Arial">backyard
+            chickens</font></td></tr><tr><td><b><font
+            face="Arial">Risk:</font></b></td><td><font
+            face="Arial">
+            20</font></td></tr><tr><td><b><font
+            face="Arial">Cases:</font></b></td><td><font
+            face="Arial">
+            20</font></td></tr><tr><td><b><font
+            face="Arial">Deaths:</font></b></td><td><font
+            face="Arial">
+            20</font></td></tr><tr><td><b><font
+            face="Arial">Destroyed:</font></b></td><td><font
+            face="Arial">
+            0</font></td></tr><tr><td><b><font
+            face="Arial">Slaughtered:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Culled:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Vaccined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Examined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td>
+            <a
+            href="#http://www.oie.int/wahid-prod/public.php?page=single_report&pop=1&reportid=4962#"><b><font
+            face="Arial">Source
+            report</font></b></a><b><font
+            face="Arial"><a
+            href="#http://www.oie.int/wahid-prod/public.php?page=single_report&pop=1&reportid=4962#">:</a></font></b></td><td>&nbsp;</td></tr></table><p><font
+            color="#800000" face="Arial"><b>More on this
+            country's
+            outbreaks</b></font></p><p><font
+            face="Arial"><a
+            href="http://www.connotea.org/tag/AvianFlu+Turkey?num=100">News
+            bookmarked at
+            Connotea</a></font><br><font
+            face="Arial"><a
+            href="http://www.topix.net/search/?q=&quot;avian+flu&quot;+Turkey">Recent
+            news
+            </a></font><br><font
+            face="Arial"><a
+            href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=PureSearch&db=pubmed&details_term=h5n1[All
+            Fields] AND (&quot;Turkey&quot;[MeSH Terms] OR
+            Turkey[Text Word])">Articles in Pubmed</a>
+            </font></p><font
+            color="#ffffff">]]></description>
+        <TimeStamp>
+          <when>2007-02-21</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g582">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            41.4711347696,37.8330243193,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="pm583">
+        <name>BATMAN</name>
+        <description><![CDATA[<p><b><font
+            face="Arial" color="#800000">Outbreak
+            summary</font></b></p><table
+            cellpadding="1"
+            cellspacing="1"><tr><td><b><font
+            face="Arial">ID:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Country:</font></b></td><td><font
+            face="Arial">Turkey</font></td></tr><tr><td><b><font
+            face="Arial">District:</font></b></td><td><font
+            face="Arial">BATMAN</font></td></tr><tr><td><b><font
+            face="Arial">Subdistrict:</font></b></td><td><font
+            face="Arial">Merkez</font></td></tr><tr><td><b><font
+            face="Arial">Location:</font></b></td><td><font
+            face="Arial">Binatli</font></td></tr><tr><td><b><font
+            face="Arial">Start of
+            outbreak:</font></b></td><td><font
+            face="Arial">14/02/2007</font></td></tr><tr><td><b><font
+            face="Arial">Species:</font></b></td><td><font
+            face="Arial">backyard
+            chickens</font></td></tr><tr><td><b><font
+            face="Arial">Risk:</font></b></td><td><font
+            face="Arial">
+            1917</font></td></tr><tr><td><b><font
+            face="Arial">Cases:</font></b></td><td><font
+            face="Arial">
+            7</font></td></tr><tr><td><b><font
+            face="Arial">Deaths:</font></b></td><td><font
+            face="Arial">
+            7</font></td></tr><tr><td><b><font
+            face="Arial">Destroyed:</font></b></td><td><font
+            face="Arial">
+            1910</font></td></tr><tr><td><b><font
+            face="Arial">Slaughtered:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Culled:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Vaccined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Examined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td>
+            <a
+            href="#http://www.oie.int/wahid-prod/public.php?page=single_report&pop=1&reportid=4962#"><b><font
+            face="Arial">Source
+            report</font></b></a><b><font
+            face="Arial"><a
+            href="#http://www.oie.int/wahid-prod/public.php?page=single_report&pop=1&reportid=4962#">:</a></font></b></td><td>&nbsp;</td></tr></table><p><font
+            color="#800000" face="Arial"><b>More on this
+            country's
+            outbreaks</b></font></p><p><font
+            face="Arial"><a
+            href="http://www.connotea.org/tag/AvianFlu+Turkey?num=100">News
+            bookmarked at
+            Connotea</a></font><br><font
+            face="Arial"><a
+            href="http://www.topix.net/search/?q=&quot;avian+flu&quot;+Turkey">Recent
+            news
+            </a></font><br><font
+            face="Arial"><a
+            href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=PureSearch&db=pubmed&details_term=h5n1[All
+            Fields] AND (&quot;Turkey&quot;[MeSH Terms] OR
+            Turkey[Text Word])">Articles in Pubmed</a>
+            </font></p><font
+            color="#ffffff">]]></description>
+        <TimeStamp>
+          <when>2007-02-14</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g583">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            41.217,37.846,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="pm665">
+        <name>Bitlis</name>
+        <description><![CDATA[<p><b><font
+        face="Arial" color="#800000">Outbreak
+        summary</font></b></p><table
+        cellpadding="1"
+        cellspacing="1"><tr><td><b><font
+        face="Arial">ID:</font></b></td><td><font
+        face="Arial">
+        1643</font></td></tr><tr><td><b><font
+        face="Arial">Country:</font></b></td><td><font
+        face="Arial">Turkey</font></td></tr><tr><td><b><font
+        face="Arial">District:</font></b></td><td><font
+        face="Arial">Bitlis</font></td></tr><tr><td><b><font
+        face="Arial">Subdistrict:</font></b></td><td><font
+        face="Arial">Adilcevaz</font></td></tr><tr><td><b><font
+        face="Arial">Location:</font></b></td><td><font
+        face="Arial">Aydinhar</font></td></tr><tr><td><b><font
+        face="Arial">Start of
+        outbreak:</font></b></td><td><font
+        face="Arial">12/01/2006</font></td></tr><tr><td><b><font
+        face="Arial">Species:</font></b></td><td><font
+        face="Arial">fau</font></td></tr><tr><td><b><font
+        face="Arial">Risk:</font></b></td><td><font
+        face="Arial"></font></td></tr><tr><td><b><font
+        face="Arial">Cases:</font></b></td><td><font
+        face="Arial">
+        2</font></td></tr><tr><td><b><font
+        face="Arial">Deaths:</font></b></td><td><font
+        face="Arial">
+        2</font></td></tr><tr><td><b><font
+        face="Arial">Destroyed:</font></b></td><td><font
+        face="Arial"></font></td></tr><tr><td><b><font
+        face="Arial">Slaughtered:</font></b></td><td><font
+        face="Arial"></font></td></tr><tr><td><b><font
+        face="Arial">Culled:</font></b></td><td><font
+        face="Arial"></font></td></tr><tr><td><b><font
+        face="Arial">Vaccined:</font></b></td><td><font
+        face="Arial"></font></td></tr><tr><td><b><font
+        face="Arial">Examined:</font></b></td><td><font
+        face="Arial"></font></td></tr><tr><td>
+        <a
+        href="#http://www.oie.int/eng/info/hebdo/AIS_36.HTM#"><b><font
+        face="Arial">Source
+        report</font></b></a><b><font
+        face="Arial"><a
+        href="#http://www.oie.int/eng/info/hebdo/AIS_36.HTM#">:</a></font></b></td><td>&nbsp;</td></tr></table><p><font
+        color="#800000" face="Arial"><b>More on this
+        country's
+        outbreaks</b></font></p><p><font
+        face="Arial"><a
+        href="http://www.connotea.org/tag/AvianFlu+Turkey?num=100">News
+        bookmarked at
+        Connotea</a></font><br><font
+        face="Arial"><a
+        href="http://www.topix.net/search/?q=&quot;avian+flu&quot;+Turkey">Recent
+        news
+        </a></font><br><font
+        face="Arial"><a
+        href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=PureSearch&db=pubmed&details_term=h5n1[All
+        Fields] AND (&quot;Turkey&quot;[MeSH Terms] OR
+        Turkey[Text Word])">Articles in Pubmed</a>
+        </font></p><font
+        color="#ffffff">]]></description>
+        <TimeStamp>
+          <when>2006-01-12</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g665">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            42.851475708,38.855017285,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="pm666">
+        <name>Bitlis</name>
+        <description><![CDATA[<p><b><font
+        face="Arial" color="#800000">Outbreak
+        summary</font></b></p><table
+        cellpadding="1"
+        cellspacing="1"><tr><td><b><font
+        face="Arial">ID:</font></b></td><td><font
+        face="Arial">
+        1642</font></td></tr><tr><td><b><font
+        face="Arial">Country:</font></b></td><td><font
+        face="Arial">Turkey</font></td></tr><tr><td><b><font
+        face="Arial">District:</font></b></td><td><font
+        face="Arial">Bitlis</font></td></tr><tr><td><b><font
+        face="Arial">Subdistrict:</font></b></td><td><font
+        face="Arial">Adilcevaz</font></td></tr><tr><td><b><font
+        face="Arial">Location:</font></b></td><td><font
+        face="Arial">Evrenpasa</font></td></tr><tr><td><b><font
+        face="Arial">Start of
+        outbreak:</font></b></td><td><font
+        face="Arial">02/01/2006</font></td></tr><tr><td><b><font
+        face="Arial">Species:</font></b></td><td><font
+        face="Arial">backyard
+        poultry</font></td></tr><tr><td><b><font
+        face="Arial">Risk:</font></b></td><td><font
+        face="Arial">
+        8071</font></td></tr><tr><td><b><font
+        face="Arial">Cases:</font></b></td><td><font
+        face="Arial"></font></td></tr><tr><td><b><font
+        face="Arial">Deaths:</font></b></td><td><font
+        face="Arial">
+        0</font></td></tr><tr><td><b><font
+        face="Arial">Destroyed:</font></b></td><td><font
+        face="Arial">
+        8071</font></td></tr><tr><td><b><font
+        face="Arial">Slaughtered:</font></b></td><td><font
+        face="Arial"></font></td></tr><tr><td><b><font
+        face="Arial">Culled:</font></b></td><td><font
+        face="Arial"></font></td></tr><tr><td><b><font
+        face="Arial">Vaccined:</font></b></td><td><font
+        face="Arial"></font></td></tr><tr><td><b><font
+        face="Arial">Examined:</font></b></td><td><font
+        face="Arial"></font></td></tr><tr><td>
+        <a
+        href="#http://www.oie.int/eng/info/hebdo/AIS_29.HTM#"><b><font
+        face="Arial">Source
+        report</font></b></a><b><font
+        face="Arial"><a
+        href="#http://www.oie.int/eng/info/hebdo/AIS_29.HTM#">:</a></font></b></td><td>&nbsp;</td></tr></table><p><font
+        color="#800000" face="Arial"><b>More on this
+        country's
+        outbreaks</b></font></p><p><font
+        face="Arial"><a
+        href="http://www.connotea.org/tag/AvianFlu+Turkey?num=100">News
+        bookmarked at
+        Connotea</a></font><br><font
+        face="Arial"><a
+        href="http://www.topix.net/search/?q=&quot;avian+flu&quot;+Turkey">Recent
+        news
+        </a></font><br><font
+        face="Arial"><a
+        href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=PureSearch&db=pubmed&details_term=h5n1[All
+        Fields] AND (&quot;Turkey&quot;[MeSH Terms] OR
+        Turkey[Text Word])">Articles in Pubmed</a>
+        </font></p><font
+        color="#ffffff">]]></description>
+        <TimeStamp>
+          <when>2006-01-02</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g666">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            42.851475708,38.855017285,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="pm740">
+        <name>Burdur</name>
+        <description><![CDATA[<p><b><font
+        face="Arial" color="#800000">Outbreak
+        summary</font></b></p><table
+        cellpadding="1"
+        cellspacing="1"><tr><td><b><font
+        face="Arial">ID:</font></b></td><td><font
+        face="Arial">
+        2937</font></td></tr><tr><td><b><font
+        face="Arial">Country:</font></b></td><td><font
+        face="Arial">Turkey</font></td></tr><tr><td><b><font
+        face="Arial">District:</font></b></td><td><font
+        face="Arial">Burdur</font></td></tr><tr><td><b><font
+        face="Arial">Subdistrict:</font></b></td><td><font
+        face="Arial">Merkez</font></td></tr><tr><td><b><font
+        face="Arial">Location:</font></b></td><td><font
+        face="Arial">Camlica</font></td></tr><tr><td><b><font
+        face="Arial">Start of
+        outbreak:</font></b></td><td><font
+        face="Arial">15/01/2006</font></td></tr><tr><td><b><font
+        face="Arial">Species:</font></b></td><td><font
+        face="Arial">backyard
+        poultry</font></td></tr><tr><td><b><font
+        face="Arial">Risk:</font></b></td><td><font
+        face="Arial">
+        1300</font></td></tr><tr><td><b><font
+        face="Arial">Cases:</font></b></td><td><font
+        face="Arial">
+        2</font></td></tr><tr><td><b><font
+        face="Arial">Deaths:</font></b></td><td><font
+        face="Arial">
+        2</font></td></tr><tr><td><b><font
+        face="Arial">Destroyed:</font></b></td><td><font
+        face="Arial">
+        1298</font></td></tr><tr><td><b><font
+        face="Arial">Slaughtered:</font></b></td><td><font
+        face="Arial"></font></td></tr><tr><td><b><font
+        face="Arial">Culled:</font></b></td><td><font
+        face="Arial"></font></td></tr><tr><td><b><font
+        face="Arial">Vaccined:</font></b></td><td><font
+        face="Arial"></font></td></tr><tr><td><b><font
+        face="Arial">Examined:</font></b></td><td><font
+        face="Arial"></font></td></tr><tr><td>
+        <a
+        href="#http://www.oie.int/eng/info/hebdo/AIS_33.HTM#"><b><font
+        face="Arial">Source
+        report</font></b></a><b><font
+        face="Arial"><a
+        href="#http://www.oie.int/eng/info/hebdo/AIS_33.HTM#">:</a></font></b></td><td>&nbsp;</td></tr></table><p><font
+        color="#800000" face="Arial"><b>More on this
+        country's
+        outbreaks</b></font></p><p><font
+        face="Arial"><a
+        href="http://www.connotea.org/tag/AvianFlu+Turkey?num=100">News
+        bookmarked at
+        Connotea</a></font><br><font
+        face="Arial"><a
+        href="http://www.topix.net/search/?q=&quot;avian+flu&quot;+Turkey">Recent
+        news
+        </a></font><br><font
+        face="Arial"><a
+        href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=PureSearch&db=pubmed&details_term=h5n1[All
+        Fields] AND (&quot;Turkey&quot;[MeSH Terms] OR
+        Turkey[Text Word])">Articles in Pubmed</a>
+        </font></p><font
+        color="#ffffff">]]></description>
+        <TimeStamp>
+          <when>2006-01-15</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g740">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            30.2102104607,37.6245186182,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="pm747">
+        <name>Bursa</name>
+        <description><![CDATA[<p><b><font
+        face="Arial" color="#800000">Outbreak
+        summary</font></b></p><table
+        cellpadding="1"
+        cellspacing="1"><tr><td><b><font
+        face="Arial">ID:</font></b></td><td><font
+        face="Arial">
+        1665</font></td></tr><tr><td><b><font
+        face="Arial">Country:</font></b></td><td><font
+        face="Arial">Turkey</font></td></tr><tr><td><b><font
+        face="Arial">District:</font></b></td><td><font
+        face="Arial">Bursa</font></td></tr><tr><td><b><font
+        face="Arial">Subdistrict:</font></b></td><td><font
+        face="Arial">Bursa</font></td></tr><tr><td><b><font
+        face="Arial">Location:</font></b></td><td><font
+        face="Arial">Karahidir</font></td></tr><tr><td><b><font
+        face="Arial">Start of
+        outbreak:</font></b></td><td><font
+        face="Arial">06/01/2006</font></td></tr><tr><td><b><font
+        face="Arial">Species:</font></b></td><td><font
+        face="Arial">avi</font></td></tr><tr><td><b><font
+        face="Arial">Risk:</font></b></td><td><font
+        face="Arial">
+        120</font></td></tr><tr><td><b><font
+        face="Arial">Cases:</font></b></td><td><font
+        face="Arial">
+        20</font></td></tr><tr><td><b><font
+        face="Arial">Deaths:</font></b></td><td><font
+        face="Arial">
+        20</font></td></tr><tr><td><b><font
+        face="Arial">Destroyed:</font></b></td><td><font
+        face="Arial">
+        100</font></td></tr><tr><td><b><font
+        face="Arial">Slaughtered:</font></b></td><td><font
+        face="Arial">100</font></td></tr><tr><td><b><font
+        face="Arial">Culled:</font></b></td><td><font
+        face="Arial"></font></td></tr><tr><td><b><font
+        face="Arial">Vaccined:</font></b></td><td><font
+        face="Arial"></font></td></tr><tr><td><b><font
+        face="Arial">Examined:</font></b></td><td><font
+        face="Arial"></font></td></tr><tr><td>
+        <a
+        href="#http://www.oie.int/eng/info/hebdo/AIS_36.HTM#"><b><font
+        face="Arial">Source
+        report</font></b></a><b><font
+        face="Arial"><a
+        href="#http://www.oie.int/eng/info/hebdo/AIS_36.HTM#">:</a></font></b></td><td>&nbsp;</td></tr></table><p><font
+        color="#800000" face="Arial"><b>More on this
+        country's
+        outbreaks</b></font></p><p><font
+        face="Arial"><a
+        href="http://www.connotea.org/tag/AvianFlu+Turkey?num=100">News
+        bookmarked at
+        Connotea</a></font><br><font
+        face="Arial"><a
+        href="http://www.topix.net/search/?q=&quot;avian+flu&quot;+Turkey">Recent
+        news
+        </a></font><br><font
+        face="Arial"><a
+        href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=PureSearch&db=pubmed&details_term=h5n1[All
+        Fields] AND (&quot;Turkey&quot;[MeSH Terms] OR
+        Turkey[Text Word])">Articles in Pubmed</a>
+        </font></p><font
+        color="#ffffff">]]></description>
+        <TimeStamp>
+          <when>2006-01-06</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g747">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            29.25,40.25,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="pm980">
+        <name>Cyprus</name>
+        <description><![CDATA[<p><b><font
+        face="Arial" color="#800000">Outbreak
+        summary</font></b></p><table
+        cellpadding="1"
+        cellspacing="1"><tr><td><b><font
+        face="Arial">ID:</font></b></td><td><font
+        face="Arial">
+        129</font></td></tr><tr><td><b><font
+        face="Arial">Country:</font></b></td><td><font
+        face="Arial">Turkey</font></td></tr><tr><td><b><font
+        face="Arial">District:</font></b></td><td><font
+        face="Arial">Cyprus</font></td></tr><tr><td><b><font
+        face="Arial">Subdistrict:</font></b></td><td><font
+        face="Arial">British
+        Terri</font></td></tr><tr><td><b><font
+        face="Arial">Location:</font></b></td><td><font
+        face="Arial">Dhekelia</font></td></tr><tr><td><b><font
+        face="Arial">Start of
+        outbreak:</font></b></td><td><font
+        face="Arial">26/01/2006</font></td></tr><tr><td><b><font
+        face="Arial">Species:</font></b></td><td><font
+        face="Arial">avi</font></td></tr><tr><td><b><font
+        face="Arial">Risk:</font></b></td><td><font
+        face="Arial">
+        1500</font></td></tr><tr><td><b><font
+        face="Arial">Cases:</font></b></td><td><font
+        face="Arial">
+        2</font></td></tr><tr><td><b><font
+        face="Arial">Deaths:</font></b></td><td><font
+        face="Arial">
+        2</font></td></tr><tr><td><b><font
+        face="Arial">Destroyed:</font></b></td><td><font
+        face="Arial">
+        1500</font></td></tr><tr><td><b><font
+        face="Arial">Slaughtered:</font></b></td><td><font
+        face="Arial"></font></td></tr><tr><td><b><font
+        face="Arial">Culled:</font></b></td><td><font
+        face="Arial"></font></td></tr><tr><td><b><font
+        face="Arial">Vaccined:</font></b></td><td><font
+        face="Arial"></font></td></tr><tr><td><b><font
+        face="Arial">Examined:</font></b></td><td><font
+        face="Arial"></font></td></tr><tr><td>
+        <a
+        href="#http://www.oie.int/eng/info/hebdo/AIS_34.HTM#"><b><font
+        face="Arial">Source
+        report</font></b></a><b><font
+        face="Arial"><a
+        href="#http://www.oie.int/eng/info/hebdo/AIS_34.HTM#">:</a></font></b></td><td>&nbsp;</td></tr></table><p><font
+        color="#800000" face="Arial"><b>More on this
+        country's
+        outbreaks</b></font></p><p><font
+        face="Arial"><a
+        href="http://www.connotea.org/tag/AvianFlu+Turkey?num=100">News
+        bookmarked at
+        Connotea</a></font><br><font
+        face="Arial"><a
+        href="http://www.topix.net/search/?q=&quot;avian+flu&quot;+Turkey">Recent
+        news
+        </a></font><br><font
+        face="Arial"><a
+        href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=PureSearch&db=pubmed&details_term=h5n1[All
+        Fields] AND (&quot;Turkey&quot;[MeSH Terms] OR
+        Turkey[Text Word])">Articles in Pubmed</a>
+        </font></p><font
+        color="#ffffff">]]></description>
+        <TimeStamp>
+          <when>2006-01-26</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g980">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            33,35,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="pm995">
+        <name>Diyarbaki</name>
+        <description><![CDATA[<p><b><font
+            face="Arial" color="#800000">Outbreak
+            summary</font></b></p><table
+            cellpadding="1"
+            cellspacing="1"><tr><td><b><font
+            face="Arial">ID:</font></b></td><td><font
+            face="Arial">
+            1674</font></td></tr><tr><td><b><font
+            face="Arial">Country:</font></b></td><td><font
+            face="Arial">Turkey</font></td></tr><tr><td><b><font
+            face="Arial">District:</font></b></td><td><font
+            face="Arial">Diyarbaki</font></td></tr><tr><td><b><font
+            face="Arial">Subdistrict:</font></b></td><td><font
+            face="Arial">Diyarbaki</font></td></tr><tr><td><b><font
+            face="Arial">Location:</font></b></td><td><font
+            face="Arial">Diyarbaki</font></td></tr><tr><td><b><font
+            face="Arial">Start of
+            outbreak:</font></b></td><td><font
+            face="Arial">06/01/2006</font></td></tr><tr><td><b><font
+            face="Arial">Species:</font></b></td><td><font
+            face="Arial">backyard
+            poultry</font></td></tr><tr><td><b><font
+            face="Arial">Risk:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Cases:</font></b></td><td><font
+            face="Arial">
+            5</font></td></tr><tr><td><b><font
+            face="Arial">Deaths:</font></b></td><td><font
+            face="Arial">
+            5</font></td></tr><tr><td><b><font
+            face="Arial">Destroyed:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Slaughtered:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Culled:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Vaccined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Examined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td>
+            <a href=""><b><font
+            face="Arial">Source
+            report</font></b></a><b><font
+            face="Arial"><a
+            href="">:</a></font></b></td><td>&nbsp;</td></tr></table><p><font
+            color="#800000" face="Arial"><b>More on this
+            country's
+            outbreaks</b></font></p><p><font
+            face="Arial"><a
+            href="http://www.connotea.org/tag/AvianFlu+Turkey?num=100">News
+            bookmarked at
+            Connotea</a></font><br><font
+            face="Arial"><a
+            href="http://www.topix.net/search/?q=&quot;avian+flu&quot;+Turkey">Recent
+            news
+            </a></font><br><font
+            face="Arial"><a
+            href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=PureSearch&db=pubmed&details_term=h5n1[All
+            Fields] AND (&quot;Turkey&quot;[MeSH Terms] OR
+            Turkey[Text Word])">Articles in Pubmed</a>
+            </font></p><font
+            color="#ffffff">]]></description>
+        <TimeStamp>
+          <when>2006-01-06</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g995">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            40.5,38,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="pm996">
+        <name>Diyarbakir</name>
+        <description><![CDATA[<p><b><font
+            face="Arial" color="#800000">Outbreak
+            summary</font></b></p><table
+            cellpadding="1"
+            cellspacing="1"><tr><td><b><font
+            face="Arial">ID:</font></b></td><td><font
+            face="Arial">
+            2938</font></td></tr><tr><td><b><font
+            face="Arial">Country:</font></b></td><td><font
+            face="Arial">Turkey</font></td></tr><tr><td><b><font
+            face="Arial">District:</font></b></td><td><font
+            face="Arial">Diyarbakir</font></td></tr><tr><td><b><font
+            face="Arial">Subdistrict:</font></b></td><td><font
+            face="Arial">Cermik</font></td></tr><tr><td><b><font
+            face="Arial">Location:</font></b></td><td><font
+            face="Arial">Tepe</font></td></tr><tr><td><b><font
+            face="Arial">Start of
+            outbreak:</font></b></td><td><font
+            face="Arial">18/01/2006</font></td></tr><tr><td><b><font
+            face="Arial">Species:</font></b></td><td><font
+            face="Arial">backyard
+            poultry</font></td></tr><tr><td><b><font
+            face="Arial">Risk:</font></b></td><td><font
+            face="Arial">
+            1554</font></td></tr><tr><td><b><font
+            face="Arial">Cases:</font></b></td><td><font
+            face="Arial">
+            6</font></td></tr><tr><td><b><font
+            face="Arial">Deaths:</font></b></td><td><font
+            face="Arial">
+            6</font></td></tr><tr><td><b><font
+            face="Arial">Destroyed:</font></b></td><td><font
+            face="Arial">
+            1549</font></td></tr><tr><td><b><font
+            face="Arial">Slaughtered:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Culled:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Vaccined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Examined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td>
+            <a
+            href="#http://www.oie.int/eng/info/hebdo/AIS_33.HTM#"><b><font
+            face="Arial">Source
+            report</font></b></a><b><font
+            face="Arial"><a
+            href="#http://www.oie.int/eng/info/hebdo/AIS_33.HTM#">:</a></font></b></td><td>&nbsp;</td></tr></table><p><font
+            color="#800000" face="Arial"><b>More on this
+            country's
+            outbreaks</b></font></p><p><font
+            face="Arial"><a
+            href="http://www.connotea.org/tag/AvianFlu+Turkey?num=100">News
+            bookmarked at
+            Connotea</a></font><br><font
+            face="Arial"><a
+            href="http://www.topix.net/search/?q=&quot;avian+flu&quot;+Turkey">Recent
+            news
+            </a></font><br><font
+            face="Arial"><a
+            href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=PureSearch&db=pubmed&details_term=h5n1[All
+            Fields] AND (&quot;Turkey&quot;[MeSH Terms] OR
+            Turkey[Text Word])">Articles in Pubmed</a>
+            </font></p><font
+            color="#ffffff">]]></description>
+        <TimeStamp>
+          <when>2006-01-18</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g996">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            40.7736111,37.7972222,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="pm997">
+        <name>Diyarbakir</name>
+        <description><![CDATA[<p><b><font
+            face="Arial" color="#800000">Outbreak
+            summary</font></b></p><table
+            cellpadding="1"
+            cellspacing="1"><tr><td><b><font
+            face="Arial">ID:</font></b></td><td><font
+            face="Arial">
+            2939</font></td></tr><tr><td><b><font
+            face="Arial">Country:</font></b></td><td><font
+            face="Arial">Turkey</font></td></tr><tr><td><b><font
+            face="Arial">District:</font></b></td><td><font
+            face="Arial">Diyarbakir</font></td></tr><tr><td><b><font
+            face="Arial">Subdistrict:</font></b></td><td><font
+            face="Arial">Egil</font></td></tr><tr><td><b><font
+            face="Arial">Location:</font></b></td><td><font
+            face="Arial">Bahsiler</font></td></tr><tr><td><b><font
+            face="Arial">Start of
+            outbreak:</font></b></td><td><font
+            face="Arial">08/01/2006</font></td></tr><tr><td><b><font
+            face="Arial">Species:</font></b></td><td><font
+            face="Arial">backyard
+            poultry</font></td></tr><tr><td><b><font
+            face="Arial">Risk:</font></b></td><td><font
+            face="Arial">
+            3503</font></td></tr><tr><td><b><font
+            face="Arial">Cases:</font></b></td><td><font
+            face="Arial">
+            3</font></td></tr><tr><td><b><font
+            face="Arial">Deaths:</font></b></td><td><font
+            face="Arial">
+            3</font></td></tr><tr><td><b><font
+            face="Arial">Destroyed:</font></b></td><td><font
+            face="Arial">
+            3500</font></td></tr><tr><td><b><font
+            face="Arial">Slaughtered:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Culled:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Vaccined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Examined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td>
+            <a
+            href="#http://www.oie.int/eng/info/hebdo/AIS_33.HTM#"><b><font
+            face="Arial">Source
+            report</font></b></a><b><font
+            face="Arial"><a
+            href="#http://www.oie.int/eng/info/hebdo/AIS_33.HTM#">:</a></font></b></td><td>&nbsp;</td></tr></table><p><font
+            color="#800000" face="Arial"><b>More on this
+            country's
+            outbreaks</b></font></p><p><font
+            face="Arial"><a
+            href="http://www.connotea.org/tag/AvianFlu+Turkey?num=100">News
+            bookmarked at
+            Connotea</a></font><br><font
+            face="Arial"><a
+            href="http://www.topix.net/search/?q=&quot;avian+flu&quot;+Turkey">Recent
+            news
+            </a></font><br><font
+            face="Arial"><a
+            href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=PureSearch&db=pubmed&details_term=h5n1[All
+            Fields] AND (&quot;Turkey&quot;[MeSH Terms] OR
+            Turkey[Text Word])">Articles in Pubmed</a>
+            </font></p><font
+            color="#ffffff">]]></description>
+        <TimeStamp>
+          <when>2006-01-08</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g997">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            40.1209615775,38.2252029136,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="pm998">
+        <name>Diyarbakir</name>
+        <description><![CDATA[<p><b><font
+            face="Arial" color="#800000">Outbreak
+            summary</font></b></p><table
+            cellpadding="1"
+            cellspacing="1"><tr><td><b><font
+            face="Arial">ID:</font></b></td><td><font
+            face="Arial">
+            2940</font></td></tr><tr><td><b><font
+            face="Arial">Country:</font></b></td><td><font
+            face="Arial">Turkey</font></td></tr><tr><td><b><font
+            face="Arial">District:</font></b></td><td><font
+            face="Arial">Diyarbakir</font></td></tr><tr><td><b><font
+            face="Arial">Subdistrict:</font></b></td><td><font
+            face="Arial">Egil</font></td></tr><tr><td><b><font
+            face="Arial">Location:</font></b></td><td><font
+            face="Arial">Baysu</font></td></tr><tr><td><b><font
+            face="Arial">Start of
+            outbreak:</font></b></td><td><font
+            face="Arial">09/01/2006</font></td></tr><tr><td><b><font
+            face="Arial">Species:</font></b></td><td><font
+            face="Arial">backyard
+            poultry</font></td></tr><tr><td><b><font
+            face="Arial">Risk:</font></b></td><td><font
+            face="Arial">
+            3904</font></td></tr><tr><td><b><font
+            face="Arial">Cases:</font></b></td><td><font
+            face="Arial">
+            4</font></td></tr><tr><td><b><font
+            face="Arial">Deaths:</font></b></td><td><font
+            face="Arial">
+            4</font></td></tr><tr><td><b><font
+            face="Arial">Destroyed:</font></b></td><td><font
+            face="Arial">
+            3900</font></td></tr><tr><td><b><font
+            face="Arial">Slaughtered:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Culled:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Vaccined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Examined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td>
+            <a
+            href="#http://www.oie.int/eng/info/hebdo/AIS_33.HTM#"><b><font
+            face="Arial">Source
+            report</font></b></a><b><font
+            face="Arial"><a
+            href="#http://www.oie.int/eng/info/hebdo/AIS_33.HTM#">:</a></font></b></td><td>&nbsp;</td></tr></table><p><font
+            color="#800000" face="Arial"><b>More on this
+            country's
+            outbreaks</b></font></p><p><font
+            face="Arial"><a
+            href="http://www.connotea.org/tag/AvianFlu+Turkey?num=100">News
+            bookmarked at
+            Connotea</a></font><br><font
+            face="Arial"><a
+            href="http://www.topix.net/search/?q=&quot;avian+flu&quot;+Turkey">Recent
+            news
+            </a></font><br><font
+            face="Arial"><a
+            href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=PureSearch&db=pubmed&details_term=h5n1[All
+            Fields] AND (&quot;Turkey&quot;[MeSH Terms] OR
+            Turkey[Text Word])">Articles in Pubmed</a>
+            </font></p><font
+            color="#ffffff">]]></description>
+        <TimeStamp>
+          <when>2006-01-09</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g998">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            40.1,38.15,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="pm999">
+        <name>Diyarbakir</name>
+        <description><![CDATA[<p><b><font
+            face="Arial" color="#800000">Outbreak
+            summary</font></b></p><table
+            cellpadding="1"
+            cellspacing="1"><tr><td><b><font
+            face="Arial">ID:</font></b></td><td><font
+            face="Arial">
+            2941</font></td></tr><tr><td><b><font
+            face="Arial">Country:</font></b></td><td><font
+            face="Arial">Turkey</font></td></tr><tr><td><b><font
+            face="Arial">District:</font></b></td><td><font
+            face="Arial">Diyarbakir</font></td></tr><tr><td><b><font
+            face="Arial">Subdistrict:</font></b></td><td><font
+            face="Arial">Egil</font></td></tr><tr><td><b><font
+            face="Arial">Location:</font></b></td><td><font
+            face="Arial">Kirkkaya</font></td></tr><tr><td><b><font
+            face="Arial">Start of
+            outbreak:</font></b></td><td><font
+            face="Arial">08/01/2006</font></td></tr><tr><td><b><font
+            face="Arial">Species:</font></b></td><td><font
+            face="Arial">backyard
+            poultry</font></td></tr><tr><td><b><font
+            face="Arial">Risk:</font></b></td><td><font
+            face="Arial">
+            3502</font></td></tr><tr><td><b><font
+            face="Arial">Cases:</font></b></td><td><font
+            face="Arial">
+            2</font></td></tr><tr><td><b><font
+            face="Arial">Deaths:</font></b></td><td><font
+            face="Arial">
+            2</font></td></tr><tr><td><b><font
+            face="Arial">Destroyed:</font></b></td><td><font
+            face="Arial">
+            3500</font></td></tr><tr><td><b><font
+            face="Arial">Slaughtered:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Culled:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Vaccined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Examined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td>
+            <a
+            href="#http://www.oie.int/eng/info/hebdo/AIS_33.HTM#"><b><font
+            face="Arial">Source
+            report</font></b></a><b><font
+            face="Arial"><a
+            href="#http://www.oie.int/eng/info/hebdo/AIS_33.HTM#">:</a></font></b></td><td>&nbsp;</td></tr></table><p><font
+            color="#800000" face="Arial"><b>More on this
+            country's
+            outbreaks</b></font></p><p><font
+            face="Arial"><a
+            href="http://www.connotea.org/tag/AvianFlu+Turkey?num=100">News
+            bookmarked at
+            Connotea</a></font><br><font
+            face="Arial"><a
+            href="http://www.topix.net/search/?q=&quot;avian+flu&quot;+Turkey">Recent
+            news
+            </a></font><br><font
+            face="Arial"><a
+            href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=PureSearch&db=pubmed&details_term=h5n1[All
+            Fields] AND (&quot;Turkey&quot;[MeSH Terms] OR
+            Turkey[Text Word])">Articles in Pubmed</a>
+            </font></p><font
+            color="#ffffff">]]></description>
+        <TimeStamp>
+          <when>2006-01-08</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g999">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            40.1209615775,38.2252029136,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="pm1000">
+        <name>Diyarbakir</name>
+        <description><![CDATA[<p><b><font
+            face="Arial" color="#800000">Outbreak
+            summary</font></b></p><table
+            cellpadding="1"
+            cellspacing="1"><tr><td><b><font
+            face="Arial">ID:</font></b></td><td><font
+            face="Arial">
+            2942</font></td></tr><tr><td><b><font
+            face="Arial">Country:</font></b></td><td><font
+            face="Arial">Turkey</font></td></tr><tr><td><b><font
+            face="Arial">District:</font></b></td><td><font
+            face="Arial">Diyarbakir</font></td></tr><tr><td><b><font
+            face="Arial">Subdistrict:</font></b></td><td><font
+            face="Arial">Ergani</font></td></tr><tr><td><b><font
+            face="Arial">Location:</font></b></td><td><font
+            face="Arial">Boncuklu</font></td></tr><tr><td><b><font
+            face="Arial">Start of
+            outbreak:</font></b></td><td><font
+            face="Arial">11/01/2006</font></td></tr><tr><td><b><font
+            face="Arial">Species:</font></b></td><td><font
+            face="Arial">backyard
+            poultry</font></td></tr><tr><td><b><font
+            face="Arial">Risk:</font></b></td><td><font
+            face="Arial">
+            576</font></td></tr><tr><td><b><font
+            face="Arial">Cases:</font></b></td><td><font
+            face="Arial">
+            1</font></td></tr><tr><td><b><font
+            face="Arial">Deaths:</font></b></td><td><font
+            face="Arial">
+            1</font></td></tr><tr><td><b><font
+            face="Arial">Destroyed:</font></b></td><td><font
+            face="Arial">
+            575</font></td></tr><tr><td><b><font
+            face="Arial">Slaughtered:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Culled:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Vaccined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Examined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td>
+            <a
+            href="#http://www.oie.int/eng/info/hebdo/AIS_33.HTM#"><b><font
+            face="Arial">Source
+            report</font></b></a><b><font
+            face="Arial"><a
+            href="#http://www.oie.int/eng/info/hebdo/AIS_33.HTM#">:</a></font></b></td><td>&nbsp;</td></tr></table><p><font
+            color="#800000" face="Arial"><b>More on this
+            country's
+            outbreaks</b></font></p><p><font
+            face="Arial"><a
+            href="http://www.connotea.org/tag/AvianFlu+Turkey?num=100">News
+            bookmarked at
+            Connotea</a></font><br><font
+            face="Arial"><a
+            href="http://www.topix.net/search/?q=&quot;avian+flu&quot;+Turkey">Recent
+            news
+            </a></font><br><font
+            face="Arial"><a
+            href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=PureSearch&db=pubmed&details_term=h5n1[All
+            Fields] AND (&quot;Turkey&quot;[MeSH Terms] OR
+            Turkey[Text Word])">Articles in Pubmed</a>
+            </font></p><font
+            color="#ffffff">]]></description>
+        <TimeStamp>
+          <when>2006-01-11</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g1000">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            39.773858891,38.1135555785,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="pm1001">
+        <name>Diyarbakir</name>
+        <description><![CDATA[<p><b><font
+            face="Arial" color="#800000">Outbreak
+            summary</font></b></p><table
+            cellpadding="1"
+            cellspacing="1"><tr><td><b><font
+            face="Arial">ID:</font></b></td><td><font
+            face="Arial">
+            2943</font></td></tr><tr><td><b><font
+            face="Arial">Country:</font></b></td><td><font
+            face="Arial">Turkey</font></td></tr><tr><td><b><font
+            face="Arial">District:</font></b></td><td><font
+            face="Arial">Diyarbakir</font></td></tr><tr><td><b><font
+            face="Arial">Subdistrict:</font></b></td><td><font
+            face="Arial">Merkez</font></td></tr><tr><td><b><font
+            face="Arial">Location:</font></b></td><td><font
+            face="Arial">Gommetas</font></td></tr><tr><td><b><font
+            face="Arial">Start of
+            outbreak:</font></b></td><td><font
+            face="Arial">11/01/2006</font></td></tr><tr><td><b><font
+            face="Arial">Species:</font></b></td><td><font
+            face="Arial">backyard
+            poultry</font></td></tr><tr><td><b><font
+            face="Arial">Risk:</font></b></td><td><font
+            face="Arial">
+            2588</font></td></tr><tr><td><b><font
+            face="Arial">Cases:</font></b></td><td><font
+            face="Arial">
+            1</font></td></tr><tr><td><b><font
+            face="Arial">Deaths:</font></b></td><td><font
+            face="Arial">
+            1</font></td></tr><tr><td><b><font
+            face="Arial">Destroyed:</font></b></td><td><font
+            face="Arial">
+            2587</font></td></tr><tr><td><b><font
+            face="Arial">Slaughtered:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Culled:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Vaccined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Examined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td>
+            <a
+            href="#http://www.oie.int/eng/info/hebdo/AIS_33.HTM#"><b><font
+            face="Arial">Source
+            report</font></b></a><b><font
+            face="Arial"><a
+            href="#http://www.oie.int/eng/info/hebdo/AIS_33.HTM#">:</a></font></b></td><td>&nbsp;</td></tr></table><p><font
+            color="#800000" face="Arial"><b>More on this
+            country's
+            outbreaks</b></font></p><p><font
+            face="Arial"><a
+            href="http://www.connotea.org/tag/AvianFlu+Turkey?num=100">News
+            bookmarked at
+            Connotea</a></font><br><font
+            face="Arial"><a
+            href="http://www.topix.net/search/?q=&quot;avian+flu&quot;+Turkey">Recent
+            news
+            </a></font><br><font
+            face="Arial"><a
+            href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=PureSearch&db=pubmed&details_term=h5n1[All
+            Fields] AND (&quot;Turkey&quot;[MeSH Terms] OR
+            Turkey[Text Word])">Articles in Pubmed</a>
+            </font></p><font
+            color="#ffffff">]]></description>
+        <TimeStamp>
+          <when>2006-01-11</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g1001">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            40.05,37.9,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="pm1002">
+        <name>Diyarbakir</name>
+        <description><![CDATA[<p><b><font
+            face="Arial" color="#800000">Outbreak
+            summary</font></b></p><table
+            cellpadding="1"
+            cellspacing="1"><tr><td><b><font
+            face="Arial">ID:</font></b></td><td><font
+            face="Arial">
+            1722</font></td></tr><tr><td><b><font
+            face="Arial">Country:</font></b></td><td><font
+            face="Arial">Turkey</font></td></tr><tr><td><b><font
+            face="Arial">District:</font></b></td><td><font
+            face="Arial">Diyarbakir</font></td></tr><tr><td><b><font
+            face="Arial">Subdistrict:</font></b></td><td><font
+            face="Arial">Merkez</font></td></tr><tr><td><b><font
+            face="Arial">Location:</font></b></td><td><font
+            face="Arial">Havacilar</font></td></tr><tr><td><b><font
+            face="Arial">Start of
+            outbreak:</font></b></td><td><font
+            face="Arial">31/01/2006</font></td></tr><tr><td><b><font
+            face="Arial">Species:</font></b></td><td><font
+            face="Arial">backyard
+            poultry</font></td></tr><tr><td><b><font
+            face="Arial">Risk:</font></b></td><td><font
+            face="Arial">
+            734</font></td></tr><tr><td><b><font
+            face="Arial">Cases:</font></b></td><td><font
+            face="Arial">
+            2</font></td></tr><tr><td><b><font
+            face="Arial">Deaths:</font></b></td><td><font
+            face="Arial">
+            2</font></td></tr><tr><td><b><font
+            face="Arial">Destroyed:</font></b></td><td><font
+            face="Arial">
+            732</font></td></tr><tr><td><b><font
+            face="Arial">Slaughtered:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Culled:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Vaccined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Examined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td>
+            <a
+            href="#http://www.oie.int/eng/info/hebdo/AIS_30.HTM#"><b><font
+            face="Arial">Source
+            report</font></b></a><b><font
+            face="Arial"><a
+            href="#http://www.oie.int/eng/info/hebdo/AIS_30.HTM#">:</a></font></b></td><td>&nbsp;</td></tr></table><p><font
+            color="#800000" face="Arial"><b>More on this
+            country's
+            outbreaks</b></font></p><p><font
+            face="Arial"><a
+            href="http://www.connotea.org/tag/AvianFlu+Turkey?num=100">News
+            bookmarked at
+            Connotea</a></font><br><font
+            face="Arial"><a
+            href="http://www.topix.net/search/?q=&quot;avian+flu&quot;+Turkey">Recent
+            news
+            </a></font><br><font
+            face="Arial"><a
+            href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=PureSearch&db=pubmed&details_term=h5n1[All
+            Fields] AND (&quot;Turkey&quot;[MeSH Terms] OR
+            Turkey[Text Word])">Articles in Pubmed</a>
+            </font></p><font
+            color="#ffffff">]]></description>
+        <TimeStamp>
+          <when>2006-01-31</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g1002">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            40.17101731,38.040808831,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="pm1003">
+        <name>Diyarbakir</name>
+        <description><![CDATA[<p><b><font
+            face="Arial" color="#800000">Outbreak
+            summary</font></b></p><table
+            cellpadding="1"
+            cellspacing="1"><tr><td><b><font
+            face="Arial">ID:</font></b></td><td><font
+            face="Arial">
+            1719</font></td></tr><tr><td><b><font
+            face="Arial">Country:</font></b></td><td><font
+            face="Arial">Turkey</font></td></tr><tr><td><b><font
+            face="Arial">District:</font></b></td><td><font
+            face="Arial">Diyarbakir</font></td></tr><tr><td><b><font
+            face="Arial">Subdistrict:</font></b></td><td><font
+            face="Arial">Merkez</font></td></tr><tr><td><b><font
+            face="Arial">Location:</font></b></td><td><font
+            face="Arial">Karacali</font></td></tr><tr><td><b><font
+            face="Arial">Start of
+            outbreak:</font></b></td><td><font
+            face="Arial">12/01/2006</font></td></tr><tr><td><b><font
+            face="Arial">Species:</font></b></td><td><font
+            face="Arial">commercial
+            poultry</font></td></tr><tr><td><b><font
+            face="Arial">Risk:</font></b></td><td><font
+            face="Arial">
+            1541</font></td></tr><tr><td><b><font
+            face="Arial">Cases:</font></b></td><td><font
+            face="Arial">
+            15</font></td></tr><tr><td><b><font
+            face="Arial">Deaths:</font></b></td><td><font
+            face="Arial">
+            15</font></td></tr><tr><td><b><font
+            face="Arial">Destroyed:</font></b></td><td><font
+            face="Arial">
+            1526</font></td></tr><tr><td><b><font
+            face="Arial">Slaughtered:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Culled:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Vaccined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Examined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td>
+            <a
+            href="#http://www.oie.int/eng/info/hebdo/AIS_28.HTM#"><b><font
+            face="Arial">Source
+            report</font></b></a><b><font
+            face="Arial"><a
+            href="#http://www.oie.int/eng/info/hebdo/AIS_28.HTM#">:</a></font></b></td><td>&nbsp;</td></tr></table><p><font
+            color="#800000" face="Arial"><b>More on this
+            country's
+            outbreaks</b></font></p><p><font
+            face="Arial"><a
+            href="http://www.connotea.org/tag/AvianFlu+Turkey?num=100">News
+            bookmarked at
+            Connotea</a></font><br><font
+            face="Arial"><a
+            href="http://www.topix.net/search/?q=&quot;avian+flu&quot;+Turkey">Recent
+            news
+            </a></font><br><font
+            face="Arial"><a
+            href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=PureSearch&db=pubmed&details_term=h5n1[All
+            Fields] AND (&quot;Turkey&quot;[MeSH Terms] OR
+            Turkey[Text Word])">Articles in Pubmed</a>
+            </font></p><font
+            color="#ffffff">]]></description>
+        <TimeStamp>
+          <when>2006-01-12</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g1003">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            40.3183333,37.9530556,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="pm1004">
+        <name>Diyarbakir</name>
+        <description><![CDATA[<p><b><font
+            face="Arial" color="#800000">Outbreak
+            summary</font></b></p><table
+            cellpadding="1"
+            cellspacing="1"><tr><td><b><font
+            face="Arial">ID:</font></b></td><td><font
+            face="Arial">
+            1723</font></td></tr><tr><td><b><font
+            face="Arial">Country:</font></b></td><td><font
+            face="Arial">Turkey</font></td></tr><tr><td><b><font
+            face="Arial">District:</font></b></td><td><font
+            face="Arial">Diyarbakir</font></td></tr><tr><td><b><font
+            face="Arial">Subdistrict:</font></b></td><td><font
+            face="Arial">Merkez</font></td></tr><tr><td><b><font
+            face="Arial">Location:</font></b></td><td><font
+            face="Arial">Kucukakoren</font></td></tr><tr><td><b><font
+            face="Arial">Start of
+            outbreak:</font></b></td><td><font
+            face="Arial">31/01/2006</font></td></tr><tr><td><b><font
+            face="Arial">Species:</font></b></td><td><font
+            face="Arial">backyard
+            poultry</font></td></tr><tr><td><b><font
+            face="Arial">Risk:</font></b></td><td><font
+            face="Arial">
+            148</font></td></tr><tr><td><b><font
+            face="Arial">Cases:</font></b></td><td><font
+            face="Arial">
+            3</font></td></tr><tr><td><b><font
+            face="Arial">Deaths:</font></b></td><td><font
+            face="Arial">
+            3</font></td></tr><tr><td><b><font
+            face="Arial">Destroyed:</font></b></td><td><font
+            face="Arial">
+            145</font></td></tr><tr><td><b><font
+            face="Arial">Slaughtered:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Culled:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Vaccined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Examined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td>
+            <a
+            href="#http://www.oie.int/eng/info/hebdo/AIS_30.HTM#"><b><font
+            face="Arial">Source
+            report</font></b></a><b><font
+            face="Arial"><a
+            href="#http://www.oie.int/eng/info/hebdo/AIS_30.HTM#">:</a></font></b></td><td>&nbsp;</td></tr></table><p><font
+            color="#800000" face="Arial"><b>More on this
+            country's
+            outbreaks</b></font></p><p><font
+            face="Arial"><a
+            href="http://www.connotea.org/tag/AvianFlu+Turkey?num=100">News
+            bookmarked at
+            Connotea</a></font><br><font
+            face="Arial"><a
+            href="http://www.topix.net/search/?q=&quot;avian+flu&quot;+Turkey">Recent
+            news
+            </a></font><br><font
+            face="Arial"><a
+            href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=PureSearch&db=pubmed&details_term=h5n1[All
+            Fields] AND (&quot;Turkey&quot;[MeSH Terms] OR
+            Turkey[Text Word])">Articles in Pubmed</a>
+            </font></p><font
+            color="#ffffff">]]></description>
+        <TimeStamp>
+          <when>2006-01-31</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g1004">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            40.3666667,38.1666667,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="pm1005">
+        <name>Diyarbakir</name>
+        <description><![CDATA[<p><b><font
+            face="Arial" color="#800000">Outbreak
+            summary</font></b></p><table
+            cellpadding="1"
+            cellspacing="1"><tr><td><b><font
+            face="Arial">ID:</font></b></td><td><font
+            face="Arial">
+            1724</font></td></tr><tr><td><b><font
+            face="Arial">Country:</font></b></td><td><font
+            face="Arial">Turkey</font></td></tr><tr><td><b><font
+            face="Arial">District:</font></b></td><td><font
+            face="Arial">Diyarbakir</font></td></tr><tr><td><b><font
+            face="Arial">Subdistrict:</font></b></td><td><font
+            face="Arial">Merkez</font></td></tr><tr><td><b><font
+            face="Arial">Location:</font></b></td><td><font
+            face="Arial">Merkez</font></td></tr><tr><td><b><font
+            face="Arial">Start of
+            outbreak:</font></b></td><td><font
+            face="Arial">12/02/2006</font></td></tr><tr><td><b><font
+            face="Arial">Species:</font></b></td><td><font
+            face="Arial">backyard
+            poultry</font></td></tr><tr><td><b><font
+            face="Arial">Risk:</font></b></td><td><font
+            face="Arial">
+            576</font></td></tr><tr><td><b><font
+            face="Arial">Cases:</font></b></td><td><font
+            face="Arial">
+            1</font></td></tr><tr><td><b><font
+            face="Arial">Deaths:</font></b></td><td><font
+            face="Arial">
+            1</font></td></tr><tr><td><b><font
+            face="Arial">Destroyed:</font></b></td><td><font
+            face="Arial">
+            575</font></td></tr><tr><td><b><font
+            face="Arial">Slaughtered:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Culled:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Vaccined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Examined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td>
+            <a
+            href="#http://www.oie.int/eng/info/hebdo/AIS_30.HTM#"><b><font
+            face="Arial">Source
+            report</font></b></a><b><font
+            face="Arial"><a
+            href="#http://www.oie.int/eng/info/hebdo/AIS_30.HTM#">:</a></font></b></td><td>&nbsp;</td></tr></table><p><font
+            color="#800000" face="Arial"><b>More on this
+            country's
+            outbreaks</b></font></p><p><font
+            face="Arial"><a
+            href="http://www.connotea.org/tag/AvianFlu+Turkey?num=100">News
+            bookmarked at
+            Connotea</a></font><br><font
+            face="Arial"><a
+            href="http://www.topix.net/search/?q=&quot;avian+flu&quot;+Turkey">Recent
+            news
+            </a></font><br><font
+            face="Arial"><a
+            href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=PureSearch&db=pubmed&details_term=h5n1[All
+            Fields] AND (&quot;Turkey&quot;[MeSH Terms] OR
+            Turkey[Text Word])">Articles in Pubmed</a>
+            </font></p><font
+            color="#ffffff">]]></description>
+        <TimeStamp>
+          <when>2006-02-12</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g1005">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            40.17101731,38.040808831,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="pm1006">
+        <name>Diyarbakir</name>
+        <description><![CDATA[<p><b><font
+            face="Arial" color="#800000">Outbreak
+            summary</font></b></p><table
+            cellpadding="1"
+            cellspacing="1"><tr><td><b><font
+            face="Arial">ID:</font></b></td><td><font
+            face="Arial">
+            1725</font></td></tr><tr><td><b><font
+            face="Arial">Country:</font></b></td><td><font
+            face="Arial">Turkey</font></td></tr><tr><td><b><font
+            face="Arial">District:</font></b></td><td><font
+            face="Arial">Diyarbakir</font></td></tr><tr><td><b><font
+            face="Arial">Subdistrict:</font></b></td><td><font
+            face="Arial">Merkez</font></td></tr><tr><td><b><font
+            face="Arial">Location:</font></b></td><td><font
+            face="Arial">Saridalli</font></td></tr><tr><td><b><font
+            face="Arial">Start of
+            outbreak:</font></b></td><td><font
+            face="Arial">30/01/2006</font></td></tr><tr><td><b><font
+            face="Arial">Species:</font></b></td><td><font
+            face="Arial">backyard
+            poultry</font></td></tr><tr><td><b><font
+            face="Arial">Risk:</font></b></td><td><font
+            face="Arial">
+            536</font></td></tr><tr><td><b><font
+            face="Arial">Cases:</font></b></td><td><font
+            face="Arial">
+            1</font></td></tr><tr><td><b><font
+            face="Arial">Deaths:</font></b></td><td><font
+            face="Arial">
+            1</font></td></tr><tr><td><b><font
+            face="Arial">Destroyed:</font></b></td><td><font
+            face="Arial">
+            535</font></td></tr><tr><td><b><font
+            face="Arial">Slaughtered:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Culled:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Vaccined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Examined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td>
+            <a
+            href="#http://www.oie.int/eng/info/hebdo/AIS_30.HTM#"><b><font
+            face="Arial">Source
+            report</font></b></a><b><font
+            face="Arial"><a
+            href="#http://www.oie.int/eng/info/hebdo/AIS_30.HTM#">:</a></font></b></td><td>&nbsp;</td></tr></table><p><font
+            color="#800000" face="Arial"><b>More on this
+            country's
+            outbreaks</b></font></p><p><font
+            face="Arial"><a
+            href="http://www.connotea.org/tag/AvianFlu+Turkey?num=100">News
+            bookmarked at
+            Connotea</a></font><br><font
+            face="Arial"><a
+            href="http://www.topix.net/search/?q=&quot;avian+flu&quot;+Turkey">Recent
+            news
+            </a></font><br><font
+            face="Arial"><a
+            href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=PureSearch&db=pubmed&details_term=h5n1[All
+            Fields] AND (&quot;Turkey&quot;[MeSH Terms] OR
+            Turkey[Text Word])">Articles in Pubmed</a>
+            </font></p><font
+            color="#ffffff">]]></description>
+        <TimeStamp>
+          <when>2006-01-30</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g1006">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            40.17101731,38.040808831,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="pm1007">
+        <name>Diyarbakir</name>
+        <description><![CDATA[<p><b><font
+            face="Arial" color="#800000">Outbreak
+            summary</font></b></p><table
+            cellpadding="1"
+            cellspacing="1"><tr><td><b><font
+            face="Arial">ID:</font></b></td><td><font
+            face="Arial">
+            1726</font></td></tr><tr><td><b><font
+            face="Arial">Country:</font></b></td><td><font
+            face="Arial">Turkey</font></td></tr><tr><td><b><font
+            face="Arial">District:</font></b></td><td><font
+            face="Arial">Diyarbakir</font></td></tr><tr><td><b><font
+            face="Arial">Subdistrict:</font></b></td><td><font
+            face="Arial">Merkez</font></td></tr><tr><td><b><font
+            face="Arial">Location:</font></b></td><td><font
+            face="Arial">Surici</font></td></tr><tr><td><b><font
+            face="Arial">Start of
+            outbreak:</font></b></td><td><font
+            face="Arial">06/01/2006</font></td></tr><tr><td><b><font
+            face="Arial">Species:</font></b></td><td><font
+            face="Arial">backyard
+            poultry</font></td></tr><tr><td><b><font
+            face="Arial">Risk:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Cases:</font></b></td><td><font
+            face="Arial">
+            5</font></td></tr><tr><td><b><font
+            face="Arial">Deaths:</font></b></td><td><font
+            face="Arial">
+            5</font></td></tr><tr><td><b><font
+            face="Arial">Destroyed:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Slaughtered:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Culled:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Vaccined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Examined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td>
+            <a
+            href="#http://www.oie.int/eng/info/hebdo/AIS_34.HTM#"><b><font
+            face="Arial">Source
+            report</font></b></a><b><font
+            face="Arial"><a
+            href="#http://www.oie.int/eng/info/hebdo/AIS_34.HTM#">:</a></font></b></td><td>&nbsp;</td></tr></table><p><font
+            color="#800000" face="Arial"><b>More on this
+            country's
+            outbreaks</b></font></p><p><font
+            face="Arial"><a
+            href="http://www.connotea.org/tag/AvianFlu+Turkey?num=100">News
+            bookmarked at
+            Connotea</a></font><br><font
+            face="Arial"><a
+            href="http://www.topix.net/search/?q=&quot;avian+flu&quot;+Turkey">Recent
+            news
+            </a></font><br><font
+            face="Arial"><a
+            href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=PureSearch&db=pubmed&details_term=h5n1[All
+            Fields] AND (&quot;Turkey&quot;[MeSH Terms] OR
+            Turkey[Text Word])">Articles in Pubmed</a>
+            </font></p><font
+            color="#ffffff">]]></description>
+        <TimeStamp>
+          <when>2006-01-06</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g1007">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            40.17101731,38.040808831,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="pm1008">
+        <name>DIYARBAKIR</name>
+        <description><![CDATA[<p><b><font
+            face="Arial" color="#800000">Outbreak
+            summary</font></b></p><table
+            cellpadding="1"
+            cellspacing="1"><tr><td><b><font
+            face="Arial">ID:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Country:</font></b></td><td><font
+            face="Arial">Turkey</font></td></tr><tr><td><b><font
+            face="Arial">District:</font></b></td><td><font
+            face="Arial">DIYARBAKIR</font></td></tr><tr><td><b><font
+            face="Arial">Subdistrict:</font></b></td><td><font
+            face="Arial">Silvan</font></td></tr><tr><td><b><font
+            face="Arial">Location:</font></b></td><td><font
+            face="Arial">Yesilalan
+            field</font></td></tr><tr><td><b><font
+            face="Arial">Start of
+            outbreak:</font></b></td><td><font
+            face="Arial">11/02/2007</font></td></tr><tr><td><b><font
+            face="Arial">Species:</font></b></td><td><font
+            face="Arial">backyard
+            poultry</font></td></tr><tr><td><b><font
+            face="Arial">Risk:</font></b></td><td><font
+            face="Arial">
+            340</font></td></tr><tr><td><b><font
+            face="Arial">Cases:</font></b></td><td><font
+            face="Arial">
+            3</font></td></tr><tr><td><b><font
+            face="Arial">Deaths:</font></b></td><td><font
+            face="Arial">
+            3</font></td></tr><tr><td><b><font
+            face="Arial">Destroyed:</font></b></td><td><font
+            face="Arial">
+            331</font></td></tr><tr><td><b><font
+            face="Arial">Slaughtered:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Culled:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Vaccined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Examined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td>
+            <a
+            href="#http://www.oie.int/wahid-prod/public.php?page=single_report&pop=1&reportid=4829#"><b><font
+            face="Arial">Source
+            report</font></b></a><b><font
+            face="Arial"><a
+            href="#http://www.oie.int/wahid-prod/public.php?page=single_report&pop=1&reportid=4829#">:</a></font></b></td><td>&nbsp;</td></tr></table><p><font
+            color="#800000" face="Arial"><b>More on this
+            country's
+            outbreaks</b></font></p><p><font
+            face="Arial"><a
+            href="http://www.connotea.org/tag/AvianFlu+Turkey?num=100">News
+            bookmarked at
+            Connotea</a></font><br><font
+            face="Arial"><a
+            href="http://www.topix.net/search/?q=&quot;avian+flu&quot;+Turkey">Recent
+            news
+            </a></font><br><font
+            face="Arial"><a
+            href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=PureSearch&db=pubmed&details_term=h5n1[All
+            Fields] AND (&quot;Turkey&quot;[MeSH Terms] OR
+            Turkey[Text Word])">Articles in Pubmed</a>
+            </font></p><font
+            color="#ffffff">]]></description>
+        <TimeStamp>
+          <when>2007-02-11</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g1008">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            40.989,37.993,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="pm1009">
+        <name>DIYARBAKIR</name>
+        <description><![CDATA[<p><b><font
+            face="Arial" color="#800000">Outbreak
+            summary</font></b></p><table
+            cellpadding="1"
+            cellspacing="1"><tr><td><b><font
+            face="Arial">ID:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Country:</font></b></td><td><font
+            face="Arial">Turkey</font></td></tr><tr><td><b><font
+            face="Arial">District:</font></b></td><td><font
+            face="Arial">DIYARBAKIR</font></td></tr><tr><td><b><font
+            face="Arial">Subdistrict:</font></b></td><td><font
+            face="Arial">Silvan</font></td></tr><tr><td><b><font
+            face="Arial">Location:</font></b></td><td><font
+            face="Arial">Cigil</font></td></tr><tr><td><b><font
+            face="Arial">Start of
+            outbreak:</font></b></td><td><font
+            face="Arial">12/02/2007</font></td></tr><tr><td><b><font
+            face="Arial">Species:</font></b></td><td><font
+            face="Arial">backyard
+            poultry</font></td></tr><tr><td><b><font
+            face="Arial">Risk:</font></b></td><td><font
+            face="Arial">
+            207</font></td></tr><tr><td><b><font
+            face="Arial">Cases:</font></b></td><td><font
+            face="Arial">
+            64</font></td></tr><tr><td><b><font
+            face="Arial">Deaths:</font></b></td><td><font
+            face="Arial">
+            64</font></td></tr><tr><td><b><font
+            face="Arial">Destroyed:</font></b></td><td><font
+            face="Arial">
+            143</font></td></tr><tr><td><b><font
+            face="Arial">Slaughtered:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Culled:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Vaccined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Examined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td>
+            <a
+            href="#http://www.oie.int/wahid-prod/public.php?page=single_report&pop=1&reportid=4879#"><b><font
+            face="Arial">Source
+            report</font></b></a><b><font
+            face="Arial"><a
+            href="#http://www.oie.int/wahid-prod/public.php?page=single_report&pop=1&reportid=4879#">:</a></font></b></td><td>&nbsp;</td></tr></table><p><font
+            color="#800000" face="Arial"><b>More on this
+            country's
+            outbreaks</b></font></p><p><font
+            face="Arial"><a
+            href="http://www.connotea.org/tag/AvianFlu+Turkey?num=100">News
+            bookmarked at
+            Connotea</a></font><br><font
+            face="Arial"><a
+            href="http://www.topix.net/search/?q=&quot;avian+flu&quot;+Turkey">Recent
+            news
+            </a></font><br><font
+            face="Arial"><a
+            href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=PureSearch&db=pubmed&details_term=h5n1[All
+            Fields] AND (&quot;Turkey&quot;[MeSH Terms] OR
+            Turkey[Text Word])">Articles in Pubmed</a>
+            </font></p><font
+            color="#ffffff">]]></description>
+        <TimeStamp>
+          <when>2007-02-12</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g1009">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            41.15,38,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="pm1010">
+        <name>DIYARBAKIR</name>
+        <description><![CDATA[<p><b><font
+            face="Arial" color="#800000">Outbreak
+            summary</font></b></p><table
+            cellpadding="1"
+            cellspacing="1"><tr><td><b><font
+            face="Arial">ID:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Country:</font></b></td><td><font
+            face="Arial">Turkey</font></td></tr><tr><td><b><font
+            face="Arial">District:</font></b></td><td><font
+            face="Arial">DIYARBAKIR</font></td></tr><tr><td><b><font
+            face="Arial">Subdistrict:</font></b></td><td><font
+            face="Arial">Bismil</font></td></tr><tr><td><b><font
+            face="Arial">Location:</font></b></td><td><font
+            face="Arial">Mirzabey</font></td></tr><tr><td><b><font
+            face="Arial">Start of
+            outbreak:</font></b></td><td><font
+            face="Arial">12/02/2007</font></td></tr><tr><td><b><font
+            face="Arial">Species:</font></b></td><td><font
+            face="Arial">backyard
+            poultry</font></td></tr><tr><td><b><font
+            face="Arial">Risk:</font></b></td><td><font
+            face="Arial">
+            730</font></td></tr><tr><td><b><font
+            face="Arial">Cases:</font></b></td><td><font
+            face="Arial">
+            2</font></td></tr><tr><td><b><font
+            face="Arial">Deaths:</font></b></td><td><font
+            face="Arial">
+            2</font></td></tr><tr><td><b><font
+            face="Arial">Destroyed:</font></b></td><td><font
+            face="Arial">
+            728</font></td></tr><tr><td><b><font
+            face="Arial">Slaughtered:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Culled:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Vaccined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Examined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td>
+            <a
+            href="#http://www.oie.int/wahid-prod/public.php?page=single_report&pop=1&reportid=4879#"><b><font
+            face="Arial">Source
+            report</font></b></a><b><font
+            face="Arial"><a
+            href="#http://www.oie.int/wahid-prod/public.php?page=single_report&pop=1&reportid=4879#">:</a></font></b></td><td>&nbsp;</td></tr></table><p><font
+            color="#800000" face="Arial"><b>More on this
+            country's
+            outbreaks</b></font></p><p><font
+            face="Arial"><a
+            href="http://www.connotea.org/tag/AvianFlu+Turkey?num=100">News
+            bookmarked at
+            Connotea</a></font><br><font
+            face="Arial"><a
+            href="http://www.topix.net/search/?q=&quot;avian+flu&quot;+Turkey">Recent
+            news
+            </a></font><br><font
+            face="Arial"><a
+            href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=PureSearch&db=pubmed&details_term=h5n1[All
+            Fields] AND (&quot;Turkey&quot;[MeSH Terms] OR
+            Turkey[Text Word])">Articles in Pubmed</a>
+            </font></p><font
+            color="#ffffff">]]></description>
+        <TimeStamp>
+          <when>2007-02-12</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g1010">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            41.012,37.916,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="pm1011">
+        <name>DIYARBAKIR</name>
+        <description><![CDATA[<p><b><font
+            face="Arial" color="#800000">Outbreak
+            summary</font></b></p><table
+            cellpadding="1"
+            cellspacing="1"><tr><td><b><font
+            face="Arial">ID:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Country:</font></b></td><td><font
+            face="Arial">Turkey</font></td></tr><tr><td><b><font
+            face="Arial">District:</font></b></td><td><font
+            face="Arial">DIYARBAKIR</font></td></tr><tr><td><b><font
+            face="Arial">Subdistrict:</font></b></td><td><font
+            face="Arial">Bismil</font></td></tr><tr><td><b><font
+            face="Arial">Location:</font></b></td><td><font
+            face="Arial">Kocalar</font></td></tr><tr><td><b><font
+            face="Arial">Start of
+            outbreak:</font></b></td><td><font
+            face="Arial">12/02/2007</font></td></tr><tr><td><b><font
+            face="Arial">Species:</font></b></td><td><font
+            face="Arial">backyard
+            poultry</font></td></tr><tr><td><b><font
+            face="Arial">Risk:</font></b></td><td><font
+            face="Arial">
+            370</font></td></tr><tr><td><b><font
+            face="Arial">Cases:</font></b></td><td><font
+            face="Arial">
+            1</font></td></tr><tr><td><b><font
+            face="Arial">Deaths:</font></b></td><td><font
+            face="Arial">
+            1</font></td></tr><tr><td><b><font
+            face="Arial">Destroyed:</font></b></td><td><font
+            face="Arial">
+            368</font></td></tr><tr><td><b><font
+            face="Arial">Slaughtered:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Culled:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Vaccined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Examined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td>
+            <a
+            href="#http://www.oie.int/wahid-prod/public.php?page=single_report&pop=1&reportid=4879#"><b><font
+            face="Arial">Source
+            report</font></b></a><b><font
+            face="Arial"><a
+            href="#http://www.oie.int/wahid-prod/public.php?page=single_report&pop=1&reportid=4879#">:</a></font></b></td><td>&nbsp;</td></tr></table><p><font
+            color="#800000" face="Arial"><b>More on this
+            country's
+            outbreaks</b></font></p><p><font
+            face="Arial"><a
+            href="http://www.connotea.org/tag/AvianFlu+Turkey?num=100">News
+            bookmarked at
+            Connotea</a></font><br><font
+            face="Arial"><a
+            href="http://www.topix.net/search/?q=&quot;avian+flu&quot;+Turkey">Recent
+            news
+            </a></font><br><font
+            face="Arial"><a
+            href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=PureSearch&db=pubmed&details_term=h5n1[All
+            Fields] AND (&quot;Turkey&quot;[MeSH Terms] OR
+            Turkey[Text Word])">Articles in Pubmed</a>
+            </font></p><font
+            color="#ffffff">]]></description>
+        <TimeStamp>
+          <when>2007-02-12</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g1011">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            40.777,37.865,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="pm1012">
+        <name>DIYARBAKIR</name>
+        <description><![CDATA[<p><b><font
+            face="Arial" color="#800000">Outbreak
+            summary</font></b></p><table
+            cellpadding="1"
+            cellspacing="1"><tr><td><b><font
+            face="Arial">ID:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Country:</font></b></td><td><font
+            face="Arial">Turkey</font></td></tr><tr><td><b><font
+            face="Arial">District:</font></b></td><td><font
+            face="Arial">DIYARBAKIR</font></td></tr><tr><td><b><font
+            face="Arial">Subdistrict:</font></b></td><td><font
+            face="Arial">Bismil</font></td></tr><tr><td><b><font
+            face="Arial">Location:</font></b></td><td><font
+            face="Arial">Akoba</font></td></tr><tr><td><b><font
+            face="Arial">Start of
+            outbreak:</font></b></td><td><font
+            face="Arial">12/02/2007</font></td></tr><tr><td><b><font
+            face="Arial">Species:</font></b></td><td><font
+            face="Arial">backyard
+            poultry</font></td></tr><tr><td><b><font
+            face="Arial">Risk:</font></b></td><td><font
+            face="Arial">
+            557</font></td></tr><tr><td><b><font
+            face="Arial">Cases:</font></b></td><td><font
+            face="Arial">
+            15</font></td></tr><tr><td><b><font
+            face="Arial">Deaths:</font></b></td><td><font
+            face="Arial">
+            15</font></td></tr><tr><td><b><font
+            face="Arial">Destroyed:</font></b></td><td><font
+            face="Arial">
+            542</font></td></tr><tr><td><b><font
+            face="Arial">Slaughtered:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Culled:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Vaccined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Examined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td>
+            <a
+            href="#http://www.oie.int/wahid-prod/public.php?page=single_report&pop=1&reportid=4879#"><b><font
+            face="Arial">Source
+            report</font></b></a><b><font
+            face="Arial"><a
+            href="#http://www.oie.int/wahid-prod/public.php?page=single_report&pop=1&reportid=4879#">:</a></font></b></td><td>&nbsp;</td></tr></table><p><font
+            color="#800000" face="Arial"><b>More on this
+            country's
+            outbreaks</b></font></p><p><font
+            face="Arial"><a
+            href="http://www.connotea.org/tag/AvianFlu+Turkey?num=100">News
+            bookmarked at
+            Connotea</a></font><br><font
+            face="Arial"><a
+            href="http://www.topix.net/search/?q=&quot;avian+flu&quot;+Turkey">Recent
+            news
+            </a></font><br><font
+            face="Arial"><a
+            href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=PureSearch&db=pubmed&details_term=h5n1[All
+            Fields] AND (&quot;Turkey&quot;[MeSH Terms] OR
+            Turkey[Text Word])">Articles in Pubmed</a>
+            </font></p><font
+            color="#ffffff">]]></description>
+        <TimeStamp>
+          <when>2007-02-12</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g1012">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            41.056,37.944,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="pm1013">
+        <name>DIYARBAKIR</name>
+        <description><![CDATA[<p><b><font
+            face="Arial" color="#800000">Outbreak
+            summary</font></b></p><table
+            cellpadding="1"
+            cellspacing="1"><tr><td><b><font
+            face="Arial">ID:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Country:</font></b></td><td><font
+            face="Arial">Turkey</font></td></tr><tr><td><b><font
+            face="Arial">District:</font></b></td><td><font
+            face="Arial">DIYARBAKIR</font></td></tr><tr><td><b><font
+            face="Arial">Subdistrict:</font></b></td><td><font
+            face="Arial">Silvan</font></td></tr><tr><td><b><font
+            face="Arial">Location:</font></b></td><td><font
+            face="Arial">Düzalan</font></td></tr><tr><td><b><font
+            face="Arial">Start of
+            outbreak:</font></b></td><td><font
+            face="Arial">17/02/2007</font></td></tr><tr><td><b><font
+            face="Arial">Species:</font></b></td><td><font
+            face="Arial">backyard
+            chickens</font></td></tr><tr><td><b><font
+            face="Arial">Risk:</font></b></td><td><font
+            face="Arial">
+            229</font></td></tr><tr><td><b><font
+            face="Arial">Cases:</font></b></td><td><font
+            face="Arial">
+            2</font></td></tr><tr><td><b><font
+            face="Arial">Deaths:</font></b></td><td><font
+            face="Arial">
+            2</font></td></tr><tr><td><b><font
+            face="Arial">Destroyed:</font></b></td><td><font
+            face="Arial">
+            227</font></td></tr><tr><td><b><font
+            face="Arial">Slaughtered:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Culled:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Vaccined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td><b><font
+            face="Arial">Examined:</font></b></td><td><font
+            face="Arial"></font></td></tr><tr><td>
+            <a
+            href="#http://www.oie.int/wahid-prod/public.php?page=single_report&pop=1&reportid=4962#"><b><font
+            face="Arial">Source
+            report</font></b></a><b><font
+            face="Arial"><a
+            href="#http://www.oie.int/wahid-prod/public.php?page=single_report&pop=1&reportid=4962#">:</a></font></b></td><td>&nbsp;</td></tr></table><p><font
+            color="#800000" face="Arial"><b>More on this
+            country's
+            outbreaks</b></font></p><p><font
+            face="Arial"><a
+            href="http://www.connotea.org/tag/AvianFlu+Turkey?num=100">News
+            bookmarked at
+            Connotea</a></font><br><font
+            face="Arial"><a
+            href="http://www.topix.net/search/?q=&quot;avian+flu&quot;+Turkey">Recent
+            news
+            </a></font><br><font
+            face="Arial"><a
+            href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=PureSearch&db=pubmed&details_term=h5n1[All
+            Fields] AND (&quot;Turkey&quot;[MeSH Terms] OR
+            Turkey[Text Word])">Articles in Pubmed</a>
+            </font></p><font
+            color="#ffffff">]]></description>
+        <TimeStamp>
+          <when>2007-02-17</when>
+        </TimeStamp>
+        <styleUrl>#Style_13</styleUrl>
+        <Point id="g1013">
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>
+            41.008,38.142,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

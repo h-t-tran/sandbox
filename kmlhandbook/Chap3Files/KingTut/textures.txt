@@ -1,0 +1,16 @@
+<../images/Material1.jpg> <Material1.jpg> <model_5>
+<../images/Material1Stone_Brushed_Khaki_big.jpg> <Material1Stone_Brushed_Khaki_big.jpg> <model_5>
+<../images/Material1Stone_Brushed_Khaki_big1noCulling.jpg> <Material1Stone_Brushed_Khaki_big1noCulling.jpg> <model_5>
+<../images/Stone_Brushed_Khaki.jpg> <Stone_Brushed_Khaki.jpg> <model_5>
+<../images/Stone_Brushed_Khaki1noCulling.jpg> <Stone_Brushed_Khaki1noCulling.jpg> <model_5>
+<../images/Stone_Coursed_Rough.jpg> <Stone_Coursed_Rough.jpg> <model_5>
+<../images/Stone_Sandstone_Natural.jpg> <Stone_Sandstone_Natural.jpg> <model_5>
+<../images/kv9.jpg> <kv9.jpg> <model_5>
+<../images/pared_este.jpg> <pared_este.jpg> <model_5>
+<../images/pared_norte.jpg> <pared_norte.jpg> <model_5>
+<../images/pared_oeste.jpg> <pared_oeste.jpg> <model_5>
+<../images/pared_sur.jpg> <pared_sur.jpg> <model_5>
+<../images/sarcofago.jpg> <sarcofago.jpg> <model_5>
+<../images/sarcofago1.jpg> <sarcofago1.jpg> <model_5>
+<../images/sarcofago2.jpg> <sarcofago2.jpg> <model_5>
+<../images/sarcofago3.jpg> <sarcofago3.jpg> <model_5>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>BalloonStyle Example</name>
+    <open>1</open>
+    <Style id="tan_balloon_style">
+      <BalloonStyle id="ID">
+        <bgColor>ff87d1ec</bgColor>
+        <textColor>ff0055aa</textColor>
+        <text>
+          
+            $[name] 
+            $[description]
+          
+        </text>
+      </BalloonStyle>
+    </Style>
+    <Folder>
+      <name>The Grapes of Wrath</name>
+      <description><![CDATA[<i>by John Steinbeck</i>
+        <p><center>
+        <img src="http://nmxs-images.forbesautos.com/streamer/advice/toptens/cars_literature/grapes_wrath2?WID=225
+        "><br></center>
+        <B>First Published: </b>The Viking Press, 1939
+        <p>
+        <B>Read more about </b><a href="http://nobelprize.org/nobel_prizes/literature/laureates/1962/steinbeck-bio.html">
+        John Steinbeck</a>
+        <p>
+        <i>The Grapes of Wrath</i> by John Steinbeck has been burned, banned, and a best seller. 
+        Explore this <a href="http://www.npr.org/programs/morning/features/patc/grapesofwrath/">
+        National Public Broadcast website</a> to hear interviews, songs, and see clips about this history-making novel.
+        <p>
+        <a href="http://books.google.com/books?q=Books+by+John+Steinbeck&ots=dpyZMKB6wY&sa=X&oi=print&ct=title">
+        Other books by John Steinbeck</a>
+        <center><hr>
+        <font style="font-size: 10pt" >A Google Certified Teacher Literature Project<br>Visit us at<br>
+        http://www.GoogleLitTrips.com</font></center>]]></description>
+      <LookAt>
+        <longitude>-104.492732803477</longitude>
+        <latitude>33.6292096680936</latitude>
+        <altitude>0</altitude>
+        <heading>-58.2589615598971</heading>
+        <tilt>38.1065722637815</tilt>
+        <range>2005783.42286775</range>
+      </LookAt>
+      <styleUrl>#tan_balloon_style</styleUrl>
+    </Folder>
+  </Document>
+</kml>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>LineString with Style</name>
+    <Placemark>
+      <name>Juan de Fuca Plate</name>
+      <Style>
+        <LineStyle>
+          <color>ff0000ff</color>
+          <width>8</width>
+        </LineStyle>
+      </Style>
+      <LineString>
+        <coordinates>
+          -130.597293798645,50.6782920522446,0
+          -129.733457673093,50.1906066049207,0
+          -130.509877427319,49.387208701123,0
+          -128.801553698977,48.6697611186478,0
+          -129.15674561603,47.858658050134,0
+          -128.717835542228,47.7399975698545,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

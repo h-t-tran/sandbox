@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <NetworkLinkControl>
+    <Update>
+      <targetHref>http://localhost:3000/bOnePlacemark.kml</targetHref>
+      <Create>
+        <Folder targetId="targetFolder">
+          <Placemark>
+            <name>Newly Created Placemark</name>
+            <visibility>1</visibility>
+            <Snippet>
+Sydney Australia            </Snippet>
+            <description>
+              
+              new description, new location
+              
+            </description>
+            <Point>
+              <coordinates>
+                151.209522,-33.861718,0
+              </coordinates>
+            </Point>
+          </Placemark>
+        </Folder>
+      </Create>
+    </Update>
+  </NetworkLinkControl>
+</kml>

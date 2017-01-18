@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NetworkLink xmlns="http://www.opengis.net/kml/2.2">
+  <name>Change My Placemark</name>
+  <visibility>0</visibility>
+  <description>Check the box to see the placemark</description>
+  <flyToView>1</flyToView>
+  <Link>
+    <href>http://localhost:3000/updatePlacemark.kml</href>
+    <refreshMode>onInterval</refreshMode>
+    <refreshInterval>6</refreshInterval>
+  </Link>
+</NetworkLink>

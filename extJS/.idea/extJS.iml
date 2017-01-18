@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/cdn" />
+    <content url="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/gbs/gbsUI" />
+    <content url="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nodejs" />
+    <content url="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc" />
+    <content url="file://$MODULE_DIR$/../../books/learn" />
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

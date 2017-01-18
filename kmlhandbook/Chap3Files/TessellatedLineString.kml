@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Tessellated LineString</name>
+    <Placemark>
+      <name>Imaginary Plate</name>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -123.597293,50.678292,0
+          -121.7178358,47.739997,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

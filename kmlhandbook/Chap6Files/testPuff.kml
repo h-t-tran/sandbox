@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ash_Particles_for 200801121000</name>
+    <styleUrl>#check-hide-children</styleUrl>
+    <Style id="PuffBalloon">
+      <BalloonStyle>
+        <text>$[description]</text>
+      </BalloonStyle>
+    </Style>
+    <Style id="check-hide-children">
+      <ListStyle>
+        <listItemType>checkHideChildren</listItemType>
+      </ListStyle>
+    </Style>
+    <Placemark>
+      
+      <description><![CDATA[<html><body align=center><table width=400 align=center><tr><td width=15 align=center><a href="http://puff.images.alaska.edu/"><img src="http://puff.images.alaska.edu/images/puff_1.gif" height=30></a></td><td width=240 align=center><font size=5><u>Puff Volcanic Ash Prediction</u></font></td><td width=15 align=center><a href="http://avo-animate.images.alaska.edu/"><img src="http://puff.images.alaska.edu/images/bluelogo-small.gif" height=30></a></td></tr></table><p></p><table border=1 cellspacing=0 cellpadding=0 width=325 align=center><tr><td align=left border=1 bgcolor=#696969><font size=5 color=white>Volcano</font></td><td align=left><font size=5> Shiveluch </font></td></tr><tr><td align=left border=1 bgcolor=#696969><font size=5 color=white>Ash Location</font></td><td align=left><font size=5> 56.81<sup>o</sup> Lat, 160.70<sup>o</sup> Long</font></td></tr><tr><td align=left border=1 bgcolor=#696969><font size=5 color=white>Ash Altitude</font></td><td align=left><font size=5> 2565.58 m (8417 ft) ASL</font></td></tr><tr><td align=left border=1 bgcolor=#696969><font size=5 color=white>Eruption start</font></td><td align=left><font size=5> 12-Jan-2008 09:00 UTC</font></td></tr><tr><td align=left border=1 bgcolor=#696969><font size=5 color=white>Elapsed time</font></td><td align=left><font size=5> 1 hour</font></tr></td></table></body></html>]]></description>
+      <styleUrl>#PuffBalloon</styleUrl>
+      <Style>
+        <IconStyle>
+          <Icon>
+            <href>ash.tif</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <altitudeMode>absolute</altitudeMode>
+        <coordinates>
+          160.701477,56.811301,2565.582002
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
+

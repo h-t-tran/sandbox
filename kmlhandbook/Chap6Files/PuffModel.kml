@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Shiveluch volcano :: Puff Auto Prediction</name>
+    <visibility>0</visibility>
+    <LookAt>
+      <longitude>161.36</longitude>
+      <latitude>56.653</latitude>
+      <altitude>3283</altitude>
+      <heading>0</heading>
+      <tilt>0</tilt>
+      <range>250000</range>
+      <altitudeMode>absolute</altitudeMode>
+    </LookAt>
+    <Style id="PuffBalloon">
+      <BalloonStyle>
+        <text>$[description]</text>
+      </BalloonStyle>
+    </Style>
+    <Style id="check-hide-children">
+      <ListStyle>
+        <listItemType>checkHideChildren</listItemType>
+      </ListStyle>
+    </Style>
+    <Style id="radio_button">
+      <ListStyle>
+        <listItemType>radioFolder</listItemType>
+      </ListStyle>
+    </Style>
+    <Folder>
+      <name>Eruption info</name>
+      <visibility>0</visibility>
+      <styleUrl>#check-hide-children</styleUrl>
+      <Placemark>
+        <description><![CDATA[<html><body align=center><table width=400 align=center><tr align=center><td width=30% align=center><a href="http://puff.images.alaska.edu/"><img src="http://puff.images.alaska.edu/images/puff_1.gif" height=30></a></td><td width=40% align=center><b>Shiveluch Volcano</b></td><td width=30% align=center><a href="http://avo-animate.images.alaska.edu/"><img src="http://puff.images.alaska.edu/images/bluelogo-small.gif" height=30></a></td></tr></table><p></p><table border=1 width=300 align=center><tr align=center><td bgcolor=#696969><font color=white>Initial Plume Altitude</font></td><td>  16000  m (or 52493 ft) ASL</td></tr><tr align=center><td bgcolor=#696969><font color=white>Eruption start</font></td><td> 06-Nov-2008 21:00 UTC</td></tr><tr align =center><td bgcolor=#696969><font color=white>Eruption length</font></td><td>  3  hours</td></tr><tr align=center><td bgcolor=#696969><font color=white>Simulation length</font></td><td> 24 hours</td></tr></table><p></p><table width=300 align=center><tr align=center><td><a href="http://puff.images.alaska.edu/watch_Shiveluch.shtml" class="noline" alt="Puff Website :: Shiveluch Volcano"> Shiveluch Volcano :: Puff monitoring</a></td></tr></table></body></html>]]></description>
+        <styleUrl>#PuffBalloon</styleUrl>
+        <Style>
+          <IconStyle>
+            <Icon>
+              <href>http://puff.images.alaska.edu/images/volcano2.png</href>
+            </Icon>
+          </IconStyle>
+        </Style>
+        <Point>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>
+            161.36,56.653,3283
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Puff Prediction</name>
+      <NetworkLink>
+        <name>06-Nov-2008 22:00 UTC</name>
+        <visibility>0</visibility>
+        <TimeSpan>
+          <begin>2008-11-06T22:00:00Z</begin>
+          <end>2008-11-06T23:00:00Z</end>
+        </TimeSpan>
+        <styleUrl>#check-hide-children</styleUrl>
+        <Link>
+          <href>http://puff.images.alaska.edu/watch/Shiveluch/latest/avn-gfs/200811062200_kmz.kmz</href>
+        </Link>
+      </NetworkLink>
+      <NetworkLink>
+        <name>06-Nov-2008 23:00 UTC</name>
+        <visibility>0</visibility>
+        <TimeSpan>
+          <begin>2008-11-06T23:00:00Z</begin>
+          <end>2008-11-07T00:00:00Z</end>
+        </TimeSpan>
+        <styleUrl>#check-hide-children</styleUrl>
+        <Link>
+          <href>http://puff.images.alaska.edu/watch/Shiveluch/latest/avn-gfs/200811062300_kmz.kmz</href>
+        </Link>
+      </NetworkLink>
+      <NetworkLink>
+        <name>07-Nov-2008 00:00 UTC</name>
+        <visibility>0</visibility>
+        <TimeSpan>
+          <begin>2008-11-07T00:00:00Z</begin>
+          <end>2008-11-07T01:00:00Z</end>
+        </TimeSpan>
+        <styleUrl>#check-hide-children</styleUrl>
+        <Link>
+          <href>http://puff.images.alaska.edu/watch/Shiveluch/latest/avn-gfs/200811070000_kmz.kmz</href>
+        </Link>
+      </NetworkLink>
+      <NetworkLink>
+        <name>07-Nov-2008 01:00 UTC</name>
+        <visibility>0</visibility>
+        <TimeSpan>
+          <begin>2008-11-07T01:00:00Z</begin>
+          <end>2008-11-07T02:00:00Z</end>
+        </TimeSpan>
+        <styleUrl>#check-hide-children</styleUrl>
+        <Link>
+          <href>http://puff.images.alaska.edu/watch/Shiveluch/latest/avn-gfs/200811070100_kmz.kmz</href>
+        </Link>
+      </NetworkLink>
+      <NetworkLink>
+        <name>07-Nov-2008 02:00 UTC</name>
+        <visibility>0</visibility>
+        <TimeSpan>
+          <begin>2008-11-07T02:00:00Z</begin>
+          <end>2008-11-07T03:00:00Z</end>
+        </TimeSpan>
+        <styleUrl>#check-hide-children</styleUrl>
+        <Link>
+          <href>http://puff.images.alaska.edu/watch/Shiveluch/latest/avn-gfs/200811070200_kmz.kmz</href>
+        </Link>
+      </NetworkLink>
+      <NetworkLink>
+        <name>07-Nov-2008 03:00 UTC</name>
+        <visibility>0</visibility>
+        <TimeSpan>
+          <begin>2008-11-07T03:00:00Z</begin>
+          <end>2008-11-07T04:00:00Z</end>
+        </TimeSpan>
+        <styleUrl>#check-hide-children</styleUrl>
+        <Link>
+          <href>http://puff.images.alaska.edu/watch/Shiveluch/latest/avn-gfs/200811070300_kmz.kmz</href>
+        </Link>
+      </NetworkLink>
+      <NetworkLink>
+        <name>07-Nov-2008 04:00 UTC</name>
+        <visibility>0</visibility>
+        <TimeSpan>
+          <begin>2008-11-07T04:00:00Z</begin>
+          <end>2008-11-07T05:00:00Z</end>
+        </TimeSpan>
+        <styleUrl>#check-hide-children</styleUrl>
+        <Link>
+          <href>http://puff.images.alaska.edu/watch/Shiveluch/latest/avn-gfs/200811070400_kmz.kmz</href>
+        </Link>
+      </NetworkLink>
+      <NetworkLink>
+        <name>07-Nov-2008 05:00 UTC</name>
+        <visibility>0</visibility>
+        <TimeSpan>
+          <begin>2008-11-07T05:00:00Z</begin>
+          <end>2008-11-07T06:00:00Z</end>
+        </TimeSpan>
+        <styleUrl>#check-hide-children</styleUrl>
+        <Link>
+          <href>http://puff.images.alaska.edu/watch/Shiveluch/latest/avn-gfs/200811070500_kmz.kmz</href>
+        </Link>
+      </NetworkLink>
+      <NetworkLink>
+        <name>07-Nov-2008 06:00 UTC</name>
+        <visibility>0</visibility>
+        <TimeSpan>
+          <begin>2008-11-07T06:00:00Z</begin>
+          <end>2008-11-07T07:00:00Z</end>
+        </TimeSpan>
+        <styleUrl>#check-hide-children</styleUrl>
+        <Link>
+          <href>http://puff.images.alaska.edu/watch/Shiveluch/latest/avn-gfs/200811070600_kmz.kmz</href>
+        </Link>
+      </NetworkLink>
+      <NetworkLink>
+        <name>07-Nov-2008 07:00 UTC</name>
+        <visibility>0</visibility>
+        <TimeSpan>
+          <begin>2008-11-07T07:00:00Z</begin>
+          <end>2008-11-07T08:00:00Z</end>
+        </TimeSpan>
+        <styleUrl>#check-hide-children</styleUrl>
+        <Link>
+          <href>http://puff.images.alaska.edu/watch/Shiveluch/latest/avn-gfs/200811070700_kmz.kmz</href>
+        </Link>
+      </NetworkLink>
+      <NetworkLink>
+        <name>07-Nov-2008 08:00 UTC</name>
+        <visibility>0</visibility>
+        <TimeSpan>
+          <begin>2008-11-07T08:00:00Z</begin>
+          <end>2008-11-07T09:00:00Z</end>
+        </TimeSpan>
+        <styleUrl>#check-hide-children</styleUrl>
+        <Link>
+          <href>http://puff.images.alaska.edu/watch/Shiveluch/latest/avn-gfs/200811070800_kmz.kmz</href>
+        </Link>
+      </NetworkLink>
+      <NetworkLink>
+        <name>07-Nov-2008 09:00 UTC</name>
+        <visibility>0</visibility>
+        <TimeSpan>
+          <begin>2008-11-07T09:00:00Z</begin>
+          <end>2008-11-07T10:00:00Z</end>
+        </TimeSpan>
+        <styleUrl>#check-hide-children</styleUrl>
+        <Link>
+          <href>http://puff.images.alaska.edu/watch/Shiveluch/latest/avn-gfs/200811070900_kmz.kmz</href>
+        </Link>
+      </NetworkLink>
+      <NetworkLink>
+        <name>07-Nov-2008 10:00 UTC</name>
+        <visibility>0</visibility>
+        <TimeSpan>
+          <begin>2008-11-07T10:00:00Z</begin>
+          <end>2008-11-07T11:00:00Z</end>
+        </TimeSpan>
+        <styleUrl>#check-hide-children</styleUrl>
+        <Link>
+          <href>http://puff.images.alaska.edu/watch/Shiveluch/latest/avn-gfs/200811071000_kmz.kmz</href>
+        </Link>
+      </NetworkLink>
+      <NetworkLink>
+        <name>07-Nov-2008 11:00 UTC</name>
+        <visibility>0</visibility>
+        <TimeSpan>
+          <begin>2008-11-07T11:00:00Z</begin>
+          <end>2008-11-07T12:00:00Z</end>
+        </TimeSpan>
+        <styleUrl>#check-hide-children</styleUrl>
+        <Link>
+          <href>http://puff.images.alaska.edu/watch/Shiveluch/latest/avn-gfs/200811071100_kmz.kmz</href>
+        </Link>
+      </NetworkLink>
+      <NetworkLink>
+        <name>07-Nov-2008 12:00 UTC</name>
+        <visibility>0</visibility>
+        <TimeSpan>
+          <begin>2008-11-07T12:00:00Z</begin>
+          <end>2008-11-07T13:00:00Z</end>
+        </TimeSpan>
+        <styleUrl>#check-hide-children</styleUrl>
+        <Link>
+          <href>http://puff.images.alaska.edu/watch/Shiveluch/latest/avn-gfs/200811071200_kmz.kmz</href>
+        </Link>
+      </NetworkLink>
+      <NetworkLink>
+        <name>07-Nov-2008 13:00 UTC</name>
+        <visibility>0</visibility>
+        <TimeSpan>
+          <begin>2008-11-07T13:00:00Z</begin>
+          <end>2008-11-07T14:00:00Z</end>
+        </TimeSpan>
+        <styleUrl>#check-hide-children</styleUrl>
+        <Link>
+          <href>http://puff.images.alaska.edu/watch/Shiveluch/latest/avn-gfs/200811071300_kmz.kmz</href>
+        </Link>
+      </NetworkLink>
+      <NetworkLink>
+        <name>07-Nov-2008 14:00 UTC</name>
+        <visibility>0</visibility>
+        <TimeSpan>
+          <begin>2008-11-07T14:00:00Z</begin>
+          <end>2008-11-07T15:00:00Z</end>
+        </TimeSpan>
+        <styleUrl>#check-hide-children</styleUrl>
+        <Link>
+          <href>http://puff.images.alaska.edu/watch/Shiveluch/latest/avn-gfs/200811071400_kmz.kmz</href>
+        </Link>
+      </NetworkLink>
+      <NetworkLink>
+        <name>07-Nov-2008 15:00 UTC</name>
+        <visibility>0</visibility>
+        <TimeSpan>
+          <begin>2008-11-07T15:00:00Z</begin>
+          <end>2008-11-07T16:00:00Z</end>
+        </TimeSpan>
+        <styleUrl>#check-hide-children</styleUrl>
+        <Link>
+          <href>http://puff.images.alaska.edu/watch/Shiveluch/latest/avn-gfs/200811071500_kmz.kmz</href>
+        </Link>
+      </NetworkLink>
+      <NetworkLink>
+        <name>07-Nov-2008 16:00 UTC</name>
+        <visibility>0</visibility>
+        <TimeSpan>
+          <begin>2008-11-07T16:00:00Z</begin>
+          <end>2008-11-07T17:00:00Z</end>
+        </TimeSpan>
+        <styleUrl>#check-hide-children</styleUrl>
+        <Link>
+          <href>http://puff.images.alaska.edu/watch/Shiveluch/latest/avn-gfs/200811071600_kmz.kmz</href>
+        </Link>
+      </NetworkLink>
+      <NetworkLink>
+        <name>07-Nov-2008 17:00 UTC</name>
+        <visibility>0</visibility>
+        <TimeSpan>
+          <begin>2008-11-07T17:00:00Z</begin>
+          <end>2008-11-07T18:00:00Z</end>
+        </TimeSpan>
+        <styleUrl>#check-hide-children</styleUrl>
+        <Link>
+          <href>http://puff.images.alaska.edu/watch/Shiveluch/latest/avn-gfs/200811071700_kmz.kmz</href>
+        </Link>
+      </NetworkLink>
+      <NetworkLink>
+        <name>07-Nov-2008 18:00 UTC</name>
+        <visibility>0</visibility>
+        <TimeSpan>
+          <begin>2008-11-07T18:00:00Z</begin>
+          <end>2008-11-07T19:00:00Z</end>
+        </TimeSpan>
+        <styleUrl>#check-hide-children</styleUrl>
+        <Link>
+          <href>http://puff.images.alaska.edu/watch/Shiveluch/latest/avn-gfs/200811071800_kmz.kmz</href>
+        </Link>
+      </NetworkLink>
+      <NetworkLink>
+        <name>07-Nov-2008 19:00 UTC</name>
+        <visibility>0</visibility>
+        <TimeSpan>
+          <begin>2008-11-07T19:00:00Z</begin>
+          <end>2008-11-07T20:00:00Z</end>
+        </TimeSpan>
+        <styleUrl>#check-hide-children</styleUrl>
+        <Link>
+          <href>http://puff.images.alaska.edu/watch/Shiveluch/latest/avn-gfs/200811071900_kmz.kmz</href>
+        </Link>
+      </NetworkLink>
+      <NetworkLink>
+        <name>07-Nov-2008 20:00 UTC</name>
+        <visibility>0</visibility>
+        <TimeSpan>
+          <begin>2008-11-07T20:00:00Z</begin>
+          <end>2008-11-07T21:00:00Z</end>
+        </TimeSpan>
+        <styleUrl>#check-hide-children</styleUrl>
+        <Link>
+          <href>http://puff.images.alaska.edu/watch/Shiveluch/latest/avn-gfs/200811072000_kmz.kmz</href>
+        </Link>
+      </NetworkLink>
+      <NetworkLink>
+        <name>07-Nov-2008 21:00 UTC</name>
+        <visibility>0</visibility>
+        <TimeSpan>
+          <begin>2008-11-07T21:00:00Z</begin>
+          <end>2008-11-07T21:00:00Z</end>
+        </TimeSpan>
+        <styleUrl>#check-hide-children</styleUrl>
+        <Link>
+          <href>http://puff.images.alaska.edu/watch/Shiveluch/latest/avn-gfs/200811072100_kmz.kmz</href>
+        </Link>
+      </NetworkLink>
+    </Folder>
+  </Document>
+</kml>

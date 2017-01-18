@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <NetworkLink>
+    <name>Delete a Placemark</name>
+    <visibility>0</visibility>
+    <Link>
+      <href>http://localhost:3000/dRemoveOnePlacemark.kml</href>
+    </Link>
+  </NetworkLink>
+</kml>

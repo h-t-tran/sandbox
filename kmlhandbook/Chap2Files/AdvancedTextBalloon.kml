@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Style id="noDrivingDirections">
+      <BalloonStyle>
+        <bgColor>fff8fa00</bgColor>
+        <textColor>ff660000</textColor>
+        <text><![CDATA[
+          $[name]
+          <p>
+          $[description]
+        ]]></text>
+      </BalloonStyle>
+    </Style>
+    <Placemark>
+      <name>9/12/2007 - Disappearing Act</name>
+      <description><![CDATA[
+      <em>After losing Gaia yesterday it was my mission to get her as soon
+      as I could today. We were lucky to catch them fairly early in
+      Kakombe.</em>
+      <p>
+      The two males fled down the tree, leaving Gaia as Kris charged up,
+      but Gaia screamed and ran from Kris.</p>
+      <p>
+      Unfortunately, after they left the <em>mvule</em> tree, they headed to the
+      waterfalls where they effortlesssly climbed up the vines and over
+      the waterfall in a matter of seconds.</p>
+      <p>
+      <a
+      href="http://www.discoverchimpanzees.org">JGI's Center for Primate
+      Studies</a></p>
+      <br />
+      <p><img src="janeGoodall.jpg"  /></p>
+      <br />
+      <b>The Jane Goodall Institute</b>
+    
+    ]]></description>
+      <styleUrl>noDrivingDirections</styleUrl>
+      <Point>
+        <coordinates>
+          18.615106,-4.841399,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

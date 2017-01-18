@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Camera Rotations</name>
+    <Camera>
+      <longitude>31.132959</longitude>
+      <latitude>29.976565</latitude>
+      <altitude>1000</altitude>
+      <heading>0</heading>
+      <tilt>0</tilt>
+      <roll>0</roll>
+      <altitudeMode>relativeToGround</altitudeMode>
+    </Camera>
+    <Placemark id="defaultCamera">
+      <name>Default Camera</name>
+      <description><![CDATA[
+        
+          Default camera orientation.
+        <a href="#changeHeading;balloonFlyto"><em>Change the heading</em></a>
+        <p>
+       
+      ]]></description>
+      <Camera>
+        <longitude>31.132959</longitude>
+        <latitude>29.976565</latitude>
+        <altitude>1000</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <roll>0</roll>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Camera>
+      <Point>
+        <coordinates>
+          31.1324,29.9739,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="changeHeading">
+      <name>Modified heading</name>
+      <description><![CDATA[
+        
+        heading = 90; <a href="#changeTilt;balloonFlyto"><em>Change the tilt</em></a>
+        <p>
+        <a href="#defaultCamera;balloonFlyto"><em>Go back to default Camera</em></a>
+        <p>
+        
+      ]]></description>
+      <Camera>
+        <longitude>31.132959</longitude>
+        <latitude>29.9746</latitude>
+        <altitude>1000</altitude>
+        <heading>90</heading>
+        <tilt>0</tilt>
+        <roll>0</roll>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Camera>
+      <Point>
+        <coordinates>
+          31.133,29.9746,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="changeTilt">
+      <name>Modified tilt</name>
+      <description><![CDATA[
+        
+        heading = 90,
+        tilt = 75
+        <a href="#changeRoll;balloonFlyto"><em>Change the roll</em></a>
+        <p>
+        <a href="#defaultCamera;balloonFlyto"><em>Go back to default Camera</em></a>
+        </p>
+        
+      ]]></description>
+      <Camera>
+        <longitude>31.132959</longitude>
+        <latitude>29.976565</latitude>
+        <altitude>200</altitude>
+        <heading>90</heading>
+        <tilt>75</tilt>
+        <roll>0</roll>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Camera>
+      <Point>
+        <coordinates>
+          31.1337,29.9754,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="changeRoll">
+      <name>Modified roll</name>
+      <description><![CDATA[
+        
+        heading = 90,
+        tilt = 75,
+        roll = 30;
+        <a href="#defaultCamera;balloonFlyto"><em>Go back to default Camera</em></a>
+        <p>
+        
+      ]]></description>
+      <Camera>
+        <longitude>31.132959</longitude>
+        <latitude>29.976565</latitude>
+        <altitude>200</altitude>
+        <heading>90</heading>
+        <tilt>75</tilt>
+        <roll>30</roll>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Camera>
+      <Point>
+        <coordinates>
+          31.1343,29.976,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

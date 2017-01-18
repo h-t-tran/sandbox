@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Folder>
+    <Placemark id="eastMarker">
+      <name>Eastern Placemark</name>
+      <visibility>1</visibility>
+      <Point>
+        <coordinates>
+          -67.99,-54.2312,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="westMarker">
+      <name>Western Placemark</name>
+      <visibility>1</visibility>
+      <Point>
+        <coordinates>
+          -73.0128,-54.3714,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Folder>
+</kml>

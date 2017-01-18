@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <NetworkLinkControl>
+    <Update>
+      <targetHref>http://localhost:3000/bOriginalPlacemarks.kml</targetHref>
+      <Delete>
+        <Placemark targetId="eastMarker"/>
+      </Delete>
+    </Update>
+  </NetworkLinkControl>
+</kml>

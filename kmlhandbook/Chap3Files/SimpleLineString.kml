@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Simple LineString</name>
+    <Placemark>
+      <name>Juan de Fuca Plate</name>
+      <LineString>
+        <coordinates>
+          -130.597293,50.678292,0
+          -129.733457,50.190606,0
+          -130.509877,49.387208,0
+          -128.801553,48.669761,0
+          -129.156745,47.858658,0
+          -128.717835,47.739997,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

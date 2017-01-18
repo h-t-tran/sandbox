@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Extruded LineString</name>
+    <Placemark>
+      <name>Juan de Fuca Plate</name>
+      <LookAt>
+        <longitude>-130.017</longitude>
+        <latitude>49.5147</latitude>
+        <altitude>0</altitude>
+        <heading>10</heading>
+        <tilt>68</tilt>
+        <range>126951</range>
+      </LookAt>
+      <LineString>
+        <extrude>1</extrude>
+        <tessellate>1</tessellate>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -130.597293,50.678292,2800
+          -129.733457,50.190606,2800
+          -130.509877,49.387208,2800
+          -128.801553,48.669761,2800
+          -129.156745,47.858658,2800
+          -128.717835,47.739997,2800
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

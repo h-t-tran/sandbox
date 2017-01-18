@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Placemark>
+    <name>Hello, Earth</name>
+    <description><![CDATA[Here's where we developed Google Earth!]]></description>
+    <Point>
+      <coordinates>
+        -122.084583,37.42227,0
+      </coordinates>
+    </Point>
+  </Placemark>
+</kml>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <NetworkLink>
+    <name>Continents tour</name>
+    <visibility>0</visibility>
+    <description>Enable the check to start the tour</description>
+    <flyToView>1</flyToView>
+    <Link>
+      <href>http://localhost:3000/cgi-bin/continents.py</href>
+      <refreshMode>onInterval</refreshMode>
+      <refreshInterval>6</refreshInterval>
+    </Link>
+  </NetworkLink>
+</kml>

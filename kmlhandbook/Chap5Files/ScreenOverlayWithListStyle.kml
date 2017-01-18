@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <ScreenOverlay>
+    <name>Used by permission of the British Museum</name>
+    <!--
+    <Style>
+      <ListStyle>
+        <ItemIcon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/homegardenbusiness.png</href>
+        </ItemIcon>
+      </ListStyle>
+    </Style>
+    -->
+    <Icon>
+      <href>
+        BritishMuseumLogo.tif
+      </href>
+    </Icon>
+    <overlayXY x="0" xunits="fraction" y="1" yunits="fraction"/>
+    <screenXY x="0" xunits="fraction" y="1" yunits="fraction"/>
+  </ScreenOverlay>
+</kml>

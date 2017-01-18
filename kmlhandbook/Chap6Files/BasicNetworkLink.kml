@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Volcanoes Webcam</name>
+    <NetworkLink>
+      <name>Original Name on Client Side</name>
+      <description>
+        
+      This image is very dark in the winter!
+      
+      </description>
+      <Link>
+        <href>AugustineWebcamRevised.kml</href>
+      </Link>
+    </NetworkLink>
+  </Document>
+</kml>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <GroundOverlay>
+    <name>france region</name>
+    <Icon>
+      <href>kml_feed_small.png</href>
+      <viewBoundScale>0.75</viewBoundScale>
+    </Icon>
+    <LatLonBox>
+      <north>49.6936628301892</north>
+      <south>42.8733871401169</south>
+      <east>7.92566402137257</east>
+      <west>-1.90120889491812</west>
+    </LatLonBox>
+  </GroundOverlay>
+</kml>

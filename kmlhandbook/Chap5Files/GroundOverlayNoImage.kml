@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <GroundOverlay>
+    <altitude>500</altitude>
+    <altitudeMode>absolute</altitudeMode>
+    <LatLonBox>
+      <north>48.25</north>
+      <south>48.24</south>
+      <east>-90.86</east>
+      <west>-90.87</west>
+    </LatLonBox>
+  </GroundOverlay>
+</kml>

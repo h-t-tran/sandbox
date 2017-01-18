@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Text Product KMZ</name>
+    
+    <LookAt id="ID">
+          <longitude>-114.0</longitude>            <!-- kml:angle180 -->
+          <latitude>34</latitude>              <!-- kml:angle90 -->
+          <altitude>10000</altitude>              <!-- double -->
+          <heading>0</heading>                <!-- kml:angle360 -->
+          <tilt>0</tilt>                      <!-- kml:anglepos90 -->
+
+          <altitudeMode>clampToGround</altitudeMode>
+    </LookAt>
+    
+    <Folder>
+      <name>High Res</name>
+      <description>low altitude </description>
+          <Region>          
+            <LatLonAltBox>
+                  <north>36.6936628301892</north>
+                  <south>32.8733871401169</south>
+                  <east>-113.92566402137257</east>
+                  <west>-115.90120889491812</west>
+            </LatLonAltBox>
+            <Lod>
+              <minLodPixels>512</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>     
+        <Placemark>
+          <name>KSAN</name> 
+          <description>obs detail goes here</description>
+          <open>1</open>
+          <Style>
+            <IconStyle>
+              <scale>1.0</scale>
+              <heading>0</heading>
+              <Icon>
+                <href>small-red-circle.png</href>                
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <color>ff00ffaa</color>
+              <scale>1.2</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <coordinates>
+              -114.0,34.00,0
+            </coordinates>
+          </Point>         
+        </Placemark>
+        
+        <Placemark>  
+          <name>1234</name>        
+          <open>1</open>  
+          <Style>
+            <IconStyle>
+              <scale>1.0</scale>
+              <heading>0</heading>
+              <Icon>
+                <href></href>                
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <color>ff00ffaa</color>
+              <scale>1.2</scale>
+            </LabelStyle>
+          </Style>          
+          <Point>
+            <coordinates>
+              -114.02,34.00,0,0
+            </coordinates>
+          </Point>         
+        </Placemark>
+ 
+        <Placemark>  
+          <name></name>        
+          <open>1</open>  
+          <Style>
+            <IconStyle>
+              <scale>1.0</scale>
+              <heading>0</heading>
+              <Icon>
+                <href>medium-yellowbarb.png</href>                
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <color>ff00ffaa</color>
+              <scale>1.2</scale>
+            </LabelStyle>
+          </Style>          
+          <Point>
+            <coordinates>
+              -114.0,34.0,0
+            </coordinates>
+          </Point>         
+        </Placemark>
+      
+    </Folder>
+    
+    
+    <Folder>
+      <name>Low Res</name>
+      <description>high altitude </description>
+          <Region>          
+            <LatLonAltBox>
+                  <north>36.6936628301892</north>
+                  <south>32.8733871401169</south>
+                  <east>-113.92566402137257</east>
+                  <west>-115.90120889491812</west>
+            </LatLonAltBox>
+            <Lod>
+
+              <minLodPixels>10</minLodPixels>
+              <maxLodPixels>412</maxLodPixels>
+            </Lod>
+          </Region> 
+          
+        <Placemark>  
+          <name></name>        
+          <open>1</open>  
+          <Style>
+            <IconStyle>
+              <scale>1.0</scale>
+              <heading>0</heading>
+              <Icon>
+                <href>med-red-barb.png</href>                
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <color>ff00ffaa</color>
+              <scale>1.2</scale>
+            </LabelStyle>
+          </Style>          
+          <Point>
+            <coordinates>
+              -114.0,34.00,1
+            </coordinates>
+          </Point>         
+        </Placemark>          
+          
+        <Placemark>
+          <name></name> 
+          <description>obs detail goes here</description>
+          <open>1</open>
+          <Style>
+            <IconStyle>
+              <scale>1.0</scale>
+              <heading>0</heading>
+              <Icon>
+                <href>small-red-circle.png</href>                
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <color>ff00ffaa</color>
+              <scale>1.2</scale>
+            </LabelStyle>
+          </Style>
+          <Point>
+            <coordinates>
+              -114.0,34.00,0
+            </coordinates>
+          </Point>         
+        </Placemark>
+        
+
+        
+    </Folder> 
+  </Document>
+</kml>

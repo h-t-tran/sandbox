@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Kom Firin</name>
+    <open>1</open>
+    <description>A visit to an excavation at Kom Firin, A Ramesside site in the Nile Delta. Photos taken October 6, 2007.</description>
+    <Style id="sn_1970648449_3e29bceb52_s">
+      <IconStyle>
+        <Icon>
+          <href>http://static.flickr.com/2320/1970648449_3e29bceb52_s.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="sn_1970612807_b7bee5527a_s">
+      <IconStyle>
+        <Icon>
+          <href>http://static.flickr.com/2340/1970612807_b7bee5527a_s.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="sn_1970629355_dfaea1f467_s_copy3">
+      <IconStyle>
+        <Icon>
+          <href>http://static.flickr.com/2207/1970629355_dfaea1f467_s.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="sn_1970600237_4be5fe12e8_s">
+      <IconStyle>
+        <Icon>
+          <href>http://static.flickr.com/2353/1970600237_4be5fe12e8_s.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="sn_1970585661_8b575eb6e2_s">
+      <IconStyle>
+        <Icon>
+          <href>http://static.flickr.com/2070/1970585661_8b575eb6e2_s.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="sn_1970585661_8b575eb6e2_s_copy0">
+      <IconStyle>
+        <Icon>
+          <href>http://static.flickr.com/2070/1970585661_8b575eb6e2_s.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="sn_1970591953_e8a2a04b35_s_copy3">
+      <IconStyle>
+        <Icon>
+          <href>http://static.flickr.com/2187/1970591953_e8a2a04b35_s.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="sn_1971408344_bdce33e6c3_s_copy3">
+      <IconStyle>
+        <Icon>
+          <href>http://static.flickr.com/2048/1971408344_bdce33e6c3_s.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="sn_1970629355_dfaea1f467_s">
+      <IconStyle>
+        <Icon>
+          <href>http://static.flickr.com/2207/1970629355_dfaea1f467_s.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="sn_1971495702_8b3ac9750c_s_copy0">
+      <IconStyle>
+        <Icon>
+          <href>http://static.flickr.com/2067/1971495702_8b3ac9750c_s.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="sn_1970600237_4be5fe12e8_s_copy0">
+      <IconStyle>
+        <Icon>
+          <href>http://static.flickr.com/2353/1970600237_4be5fe12e8_s.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="sn_1971495702_8b3ac9750c_s_copy4">
+      <IconStyle>
+        <Icon>
+          <href>http://static.flickr.com/2067/1971495702_8b3ac9750c_s.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="sn_1970612807_b7bee5527a_s_copy4">
+      <IconStyle>
+        <Icon>
+          <href>http://static.flickr.com/2340/1970612807_b7bee5527a_s.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="sn_1970591953_e8a2a04b35_s_copy4">
+      <IconStyle>
+        <Icon>
+          <href>http://static.flickr.com/2187/1970591953_e8a2a04b35_s.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="sn_1971486690_43e9c67aca_s_copy0">
+      <IconStyle>
+        <Icon>
+          <href>http://static.flickr.com/2058/1971486690_43e9c67aca_s.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="sn_1971486690_43e9c67aca_s">
+      <IconStyle>
+        <Icon>
+          <href>http://static.flickr.com/2058/1971486690_43e9c67aca_s.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="sn_1970585661_8b575eb6e2_s_copy4">
+      <IconStyle>
+        <Icon>
+          <href>http://static.flickr.com/2070/1970585661_8b575eb6e2_s.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="sn_1971467904_a2c13b29c3_s_copy3">
+      <IconStyle>
+        <Icon>
+          <href>http://static.flickr.com/2268/1971467904_a2c13b29c3_s.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="sn_1971495702_8b3ac9750c_s">
+      <IconStyle>
+        <Icon>
+          <href>http://static.flickr.com/2067/1971495702_8b3ac9750c_s.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="sn_1970612807_b7bee5527a_s_copy0">
+      <IconStyle>
+        <Icon>
+          <href>http://static.flickr.com/2340/1970612807_b7bee5527a_s.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="sn_1971486690_43e9c67aca_s_copy4">
+      <IconStyle>
+        <Icon>
+          <href>http://static.flickr.com/2058/1971486690_43e9c67aca_s.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="sn_1971408344_bdce33e6c3_s">
+      <IconStyle>
+        <Icon>
+          <href>http://static.flickr.com/2048/1971408344_bdce33e6c3_s.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="flickr_photo_path">
+      <LineStyle>
+        <color>df0000ff</color>
+        <width>2</width>
+      </LineStyle>
+    </Style>
+    <Style id="sn_1970608921_e638a46408_s_copy0">
+      <IconStyle>
+        <Icon>
+          <href>http://static.flickr.com/2321/1970608921_e638a46408_s.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="sn_1971467904_a2c13b29c3_s">
+      <IconStyle>
+        <Icon>
+          <href>http://static.flickr.com/2268/1971467904_a2c13b29c3_s.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="flickr_photo">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pal4/icon46.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="sn_1971408344_bdce33e6c3_s_copy4">
+      <IconStyle>
+        <Icon>
+          <href>http://static.flickr.com/2048/1971408344_bdce33e6c3_s.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="sn_1970608921_e638a46408_s">
+      <IconStyle>
+        <Icon>
+          <href>http://static.flickr.com/2321/1970608921_e638a46408_s.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="sn_1971450694_8d9a1fa20a_s">
+      <IconStyle>
+        <Icon>
+          <href>http://static.flickr.com/2116/1971450694_8d9a1fa20a_s.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="sn_1970608921_e638a46408_s_copy4">
+      <IconStyle>
+        <Icon>
+          <href>http://static.flickr.com/2321/1970608921_e638a46408_s.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="sn_1970600237_4be5fe12e8_s_copy4">
+      <IconStyle>
+        <Icon>
+          <href>http://static.flickr.com/2353/1970600237_4be5fe12e8_s.jpg</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <PhotoOverlay id="kom_firin_360">
+      <name>Kom Firin 360</name>
+      <description><![CDATA[<p>Panorama view of the excavation of a Ramesside temple site by the British Museum team, visited October 6, 2007.</p><p><a href="#kom_firin_360">Fly into this panorama</a>.</p>]]></description>
+      <Camera>
+        <longitude>30.4882478804576</longitude>
+        <latitude>30.8634158327095</latitude>
+        <altitude>20</altitude>
+        <heading>53.5</heading>
+        <tilt>90</tilt>
+        <roll>0</roll>
+      </Camera>
+      <Style>
+        <IconStyle>
+          <Icon>
+            <href>http://maps.google.com/mapfiles/kml/shapes/camera.png</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+      <Icon>
+        <href>http://www.ogleearth.com/komfirin360/komfirin360_$[level]_$[x]_$[y].jpg</href>
+      </Icon>
+      <ViewVolume>
+        <leftFov>-180</leftFov>
+        <rightFov>180</rightFov>
+        <bottomFov>-24.5</bottomFov>
+        <topFov>12.7</topFov>
+        <near>65</near>
+      </ViewVolume>
+      <ImagePyramid>
+        <maxWidth>16390</maxWidth>
+        <maxHeight>1757</maxHeight>
+        <gridOrigin>upperLeft</gridOrigin>
+      </ImagePyramid>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          30.4882478804576,30.8634158327095,13
+        </coordinates>
+      </Point>
+      <shape>cylinder</shape>
+    </PhotoOverlay>
+    <Folder>
+      <name>Photos</name>
+      <Placemark id="photo1">
+        <name>1</name>
+        <description><![CDATA[<a href='http://www.flickr.com/photos/stefangeens/1971408344/' title='Open photo page on Flickr.'><img src='http://static.flickr.com/2048/1971408344_bdce33e6c3_m.jpg'/></a>
+<p>Pottery found at the site. </p><p><a href="#photo2;balloon">Next photo</a></p><p>Photo by <a href='http://www.flickr.com/people/41072040@N00/' title='Profile on Flickr'>Stefan Geens</a>. <a href='http://www.flickr.com/photos/stefangeens/1971408344/' title='Open photo page on Flickr.'>View on Flickr.</p>]]></description>
+        <styleUrl>#sn_1971408344_bdce33e6c3_s</styleUrl>
+        <Point>
+          <extrude>1</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>
+            30.4888785953534,30.8635135042656,14
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="photo2">
+        <name>2</name>
+        <description><![CDATA[<a href='http://www.flickr.com/photos/stefangeens/1970585661/' title='Open photo page on Flickr.'><img src='http://static.flickr.com/2070/1970585661_8b575eb6e2_m.jpg'/></a>
+<p>Examining the pottery.</p><p><a href="#photo3;balloon">Next photo</a></p><p>Photo by <a href='http://www.flickr.com/people/41072040@N00/' title='Profile on Flickr'>Stefan Geens</a>. <a href='http://www.flickr.com/photos/stefangeens/1970585661/' title='Open photo page on Flickr.'>View on Flickr.</p>]]></description>
+        <styleUrl>#sn_1970585661_8b575eb6e2_s_copy0</styleUrl>
+        <Point>
+          <extrude>1</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>
+            30.4888699443743,30.8635026440814,17
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="photo3">
+        <name>3</name>
+        <open>1</open>
+        <description><![CDATA[<a href='http://www.flickr.com/photos/stefangeens/1970612807/' title='Open photo page on Flickr.'><img src='http://static.flickr.com/2340/1970612807_b7bee5527a_m.jpg'/></a>
+<p>Some more pottery excavated at the site.</p><p><a href="#photo4;balloon">Next photo</a></p><p>Photo by <a href='http://www.flickr.com/people/41072040@N00/' title='Profile on Flickr'>Stefan Geens</a>. <a href='http://www.flickr.com/photos/stefangeens/1970612807/' title='Open photo page on Flickr.'>View on Flickr.</p>]]></description>
+        <styleUrl>#sn_1970612807_b7bee5527a_s_copy4</styleUrl>
+        <Point>
+          <extrude>1</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>
+            30.488888010044,30.8635362195912,16
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="photo4">
+        <name>4</name>
+        <description><![CDATA[<a href='http://www.flickr.com/photos/stefangeens/1970600237/' title='Open photo page on Flickr.'><img src='http://static.flickr.com/2353/1970600237_4be5fe12e8_m.jpg'/></a>
+<p>A doorjamb of Ramses II.</p><p><a href="#photo5;balloon">Next photo</a></p><p>Photo by <a href='http://www.flickr.com/people/41072040@N00/' title='Profile on Flickr'>Stefan Geens</a>. <a href='http://www.flickr.com/photos/stefangeens/1970600237/' title='Open photo page on Flickr.'>View on Flickr.</p>]]></description>
+        <styleUrl>#sn_1970600237_4be5fe12e8_s_copy0</styleUrl>
+        <Point>
+          <extrude>1</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>
+            30.4887504923547,30.8636050916852,14
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="photo5">
+        <name>5</name>
+        <description><![CDATA[<a href='http://www.flickr.com/photos/stefangeens/1970608921/' title='Open photo page on Flickr.'><img src='http://static.flickr.com/2321/1970608921_e638a46408_m.jpg'/></a>
+<p>View of the magazine, doorjamb, and tree.</p><p><a href="#photo6;balloon">Next photo</a></p><p>Photo by <a href='http://www.flickr.com/people/41072040@N00/' title='Profile on Flickr'>Stefan Geens</a>. <a href='http://www.flickr.com/photos/stefangeens/1970608921/' title='Open photo page on Flickr.'>View on Flickr.</p>]]></description>
+        <styleUrl>#sn_1970608921_e638a46408_s_copy4</styleUrl>
+        <Point>
+          <extrude>1</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>
+            30.4886711824109,30.8635845871558,18
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="photo6">
+        <name>6</name>
+        <open>1</open>
+        <description><![CDATA[<a href='http://www.flickr.com/photos/stefangeens/1971486690/' title='Open photo page on Flickr.'><img src='http://static.flickr.com/2058/1971486690_43e9c67aca_m.jpg'/></a>
+<p>Excavation in process.</p><p><a href="#photo7;balloon">Next photo</a></p><p>Photo by <a href='http://www.flickr.com/people/41072040@N00/' title='Profile on Flickr'>Stefan Geens</a>. <a href='http://www.flickr.com/photos/stefangeens/1971486690/' title='Open photo page on Flickr.'>View on Flickr.</p>]]></description>
+        <styleUrl>#sn_1971486690_43e9c67aca_s_copy4</styleUrl>
+        <Point>
+          <extrude>1</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>
+            30.4883,30.8638,16
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="photo7">
+        <name>7</name>
+        <open>1</open>
+        <description><![CDATA[<a href='http://www.flickr.com/photos/stefangeens/1971495702/' title='Open photo page on Flickr.'><img src='http://static.flickr.com/2067/1971495702_8b3ac9750c_m.jpg'/></a>
+<p>The dig to the west of the magazine.</p><p><a href="#photo1;balloon">Next photo</a></p><p>Photo by <a href='http://www.flickr.com/people/41072040@N00/' title='Profile on Flickr'>Stefan Geens</a>. <a href='http://www.flickr.com/photos/stefangeens/1971495702/' title='Open photo page on Flickr.'>View on Flickr.</p>]]></description>
+        <styleUrl>#sn_1971495702_8b3ac9750c_s_copy4</styleUrl>
+        <Point>
+          <extrude>1</extrude>
+          <altitudeMode>absolute</altitudeMode>
+          <coordinates>
+            30.488353070111,30.8636858808616,16
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Map</name>
+        <open>1</open>
+        <description><![CDATA[<a href='http://www.flickr.com/photos/stefangeens/1970591953/' title='Open photo page on Flickr.'><img src='http://static.flickr.com/2187/1970591953_e8a2a04b35_m.jpg'/></a>
+<p>The map.</p><p>Photo by <a href='http://www.flickr.com/people/41072040@N00/' title='Profile on Flickr'>Stefan Geens</a>. <a href='http://www.flickr.com/photos/stefangeens/1970591953/' title='Open photo page on Flickr.'>View on Flickr.</p>]]></description>
+        <styleUrl>#sn_1970591953_e8a2a04b35_s_copy4</styleUrl>
+        <Point>
+          <coordinates>
+            30.4907485006572,30.8636453616649,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kom Firin</name>
+        <description><![CDATA[<a href='http://www.flickr.com/photos/stefangeens/1971450694/' title='Open photo page on Flickr.'><img src='http://static.flickr.com/2116/1971450694_8d9a1fa20a_m.jpg'/></a>
+<p>Enclosure wall</p><p>Photo by <a href='http://www.flickr.com/people/41072040@N00/' title='Profile on Flickr'>Stefan Geens</a>. <a href='http://www.flickr.com/photos/stefangeens/1971450694/' title='Open photo page on Flickr.'>View on Flickr.</p>]]></description>
+        <styleUrl>#sn_1971450694_8d9a1fa20a_s</styleUrl>
+        <Point>
+          <coordinates>
+            30.493,30.8654,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kom Firin</name>
+        <description><![CDATA[<a href='http://www.flickr.com/photos/stefangeens/1970629355/' title='Open photo page on Flickr.'><img src='http://static.flickr.com/2207/1970629355_dfaea1f467_m.jpg'/></a>
+<p>Neal and Ilona.</p><p>Photo by <a href='http://www.flickr.com/people/41072040@N00/' title='Profile on Flickr'>Stefan Geens</a>. <a href='http://www.flickr.com/photos/stefangeens/1970629355/' title='Open photo page on Flickr.'>View on Flickr.</p>]]></description>
+        <styleUrl>#sn_1970629355_dfaea1f467_s</styleUrl>
+        <Point>
+          <coordinates>
+            30.49069926141,30.8635890632594,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kom Firin</name>
+        <description><![CDATA[<a href='http://www.flickr.com/photos/stefangeens/1971467904/' title='Open photo page on Flickr.'><img src='http://static.flickr.com/2268/1971467904_a2c13b29c3_m.jpg'/></a>
+<p>Enclosure wall.</p><p>Photo by <a href='http://www.flickr.com/people/41072040@N00/' title='Profile on Flickr'>Stefan Geens</a>. <a href='http://www.flickr.com/photos/stefangeens/1971467904/' title='Open photo page on Flickr.'>View on Flickr.</p>]]></description>
+        <styleUrl>#sn_1971467904_a2c13b29c3_s_copy3</styleUrl>
+        <Point>
+          <coordinates>
+            30.4909507004331,30.862904075141,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kom Firin</name>
+        <description><![CDATA[<a href='http://www.flickr.com/photos/stefangeens/1970648449/' title='Open photo page on Flickr.'><img src='http://static.flickr.com/2320/1970648449_3e29bceb52_m.jpg'/></a>
+<p>Wall closeup</p><p>Photo by <a href='http://www.flickr.com/people/41072040@N00/' title='Profile on Flickr'>Stefan Geens</a>. <a href='http://www.flickr.com/photos/stefangeens/1970648449/' title='Open photo page on Flickr.'>View on Flickr.</p>]]></description>
+        <styleUrl>#sn_1970648449_3e29bceb52_s</styleUrl>
+        <Point>
+          <coordinates>
+            30.4906399076185,30.8630081751105,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

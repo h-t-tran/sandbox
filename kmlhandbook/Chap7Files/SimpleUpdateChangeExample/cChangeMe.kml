@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <NetworkLink>
+    <name>Change My Placemark</name>
+    <visibility>0</visibility>
+    <description>Check the box to see the placemark</description>
+    <Link>
+      <href>http://localhost:3000/dUpdatePlacemark.kml</href>
+    </Link>
+  </NetworkLink>
+</kml>

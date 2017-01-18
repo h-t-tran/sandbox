@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>List Style Example</name>
+    <Style id="lit_trips_style">
+      <IconStyle>
+        <color>ff66ccff</color>
+        <scale>1.4</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="1" yunits="pixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <color>ff0080ff</color>
+      </LabelStyle>
+      <ListStyle>
+        <listItemType>radioFolder</listItemType>
+        <bgColor>ffb0fffc</bgColor>
+      </ListStyle>
+    </Style>
+    <Folder>
+      <name>Collection of Placemarks</name>
+      <description><![CDATA[<i>by John Steinbeck</i>
+      <center>
+      <img src="http://nmxs-images.forbesautos.com/streamer/advice/toptens/cars_literature/grapes_wrath2?WID=225"><br></center>
+      <B>First Published: </b>The Viking Press, 1939
+      ]]></description>
+      <styleUrl>#lit_trips_style</styleUrl>
+      <Placemark>
+        <name>McAlester, OK</name>
+        <description>Chapter One: Steinbeck focuses on the destruction caused by the dustbowl.</description>
+        <styleUrl>#lit_trips_style</styleUrl>
+        <Point>
+          <coordinates>
+            -95.7694436624162,34.9333328710693,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Joad's Place?]]></name>
+        <description>The banks, the landowners, and even old friends help evict
+          the farmers.</description>
+        <styleUrl>#lit_trips_style</styleUrl>
+        <Point>
+          <coordinates>
+            -94.8617839285501,35.2632608217436,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Uncle John's Place?]]></name>
+        <description><![CDATA[At Uncle John's house, we meet several members of the
+          family who will be making the trip to California.]]></description>
+        <styleUrl>#lit_trips_style</styleUrl>
+        <Point>
+          <coordinates>
+            -94.7253165818111,35.3149226014067,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sallisaw, OK</name>
+        <description>The Joads finally begin their journey.</description>
+        <styleUrl>#lit_trips_style</styleUrl>
+        <Point>
+          <coordinates>
+            -94.7876387110315,35.459897002806,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gore, OK</name>
+        <styleUrl>#lit_trips_style</styleUrl>
+        <Point>
+          <coordinates>
+            -95.1169429897411,35.5291660360979,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Warner, OK</name>
+        <styleUrl>#lit_trips_style</styleUrl>
+        <Point>
+          <coordinates>
+            -95.3009513361342,35.4937000359785,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

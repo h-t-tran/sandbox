@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Folder>
+    <name>Flying to a Placemark</name>
+    <open>1</open>
+    <Placemark id="home">
+      <name>My First Placemark</name>
+      <description>This is the beginning of the journey.</description>
+      <LookAt>
+        <longitude>18.595265</longitude>
+        <latitude>-4.809265</latitude>
+        <altitude>0</altitude>
+        <heading>-146.75992</heading>
+        <tilt>52.843216</tilt>
+        <range>13962.113122</range>
+      </LookAt>
+      <Style>
+        <IconStyle>
+          <Icon>
+            <href>binoculars1.png</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>
+          18.615106,-4.841399,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="lunch">
+      <name>My Second Placemark</name>
+      <description><![CDATA[
+        
+          This is the second stop on the tour. 
+          <a href="#journeyEnd;balloonFlyto">
+          Click here</a> to go to the end of the tour.
+        
+      ]]></description>
+      <LookAt>
+        <longitude>18.598893</longitude>
+        <latitude>-4.833605</latitude>
+        <altitude>0</altitude>
+        <heading>-111.390223</heading>
+        <tilt>52.843802</tilt>
+        <range>11566.909708</range>
+      </LookAt>
+      <Style>
+        <IconStyle>
+          <Icon>
+            <href>binoculars1.png</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>
+          18.605812,-4.856031,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="rest">
+      <name>My Third Placemark</name>
+      <description><![CDATA[
+        
+          Moving right along ... <a href="#lunch;balloonFlyto">
+          Click here</a> to return
+          to the lunch spot.
+        ]]></description>
+      <LookAt>
+        <longitude>18.579639</longitude>
+        <latitude>-4.8470967</latitude>
+        <altitude>0</altitude>
+        <heading>-79.190397</heading>
+        <tilt>52.843246</tilt>
+        <range>7431.249174</range>
+      </LookAt>
+      <Style>
+        <IconStyle>
+          <Icon>
+            <href>binoculars1.png</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>
+          18.59093,-4.863163,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="journeyEnd">
+      <name>My Fourth Placemark</name>
+      <description>This is the last stop.</description>
+      <LookAt>
+        <longitude>18.56632</longitude>
+        <latitude>-4.721962</latitude>
+        <altitude>0</altitude>
+        <heading>-9.00462</heading>
+        <tilt>52.843308</tilt>
+        <range>18890.906055</range>
+      </LookAt>
+      <Style>
+        <IconStyle>
+          <Icon>
+            <href>binoculars1.png</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>
+          18.575425,-4.755368,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Folder>
+</kml>

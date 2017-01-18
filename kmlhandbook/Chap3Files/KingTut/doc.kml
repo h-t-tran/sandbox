@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>Tutankhamon&apos;s tomb 3D.kmz</name>
+  <Style id="khStyle150712442410">
+    <IconStyle id="khIconStyle1508">
+      <color>00ffffff</color>
+      <Icon>
+      </Icon>
+    </IconStyle>
+    <LabelStyle id="khLabelStyle1510">
+      <color>00ffffff</color>
+    </LabelStyle>
+    <LineStyle id="khLineStyle1511">
+      <color>ff000000</color>
+    </LineStyle>
+    <PolyStyle id="khPolyStyle1512">
+      <color>ffdcdcdc</color>
+      <outline>0</outline>
+    </PolyStyle>
+  </Style>
+  <Style id="khStyle1507_copy00">
+    <IconStyle>
+      <color>00ffffff</color>
+      <Icon>
+        <href>files/Tut.jpg</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle id="khLabelStyle1510_copy0">
+      <color>00ffffff</color>
+    </LabelStyle>
+    <LineStyle id="khLineStyle1511_copy0">
+      <color>ff000000</color>
+    </LineStyle>
+    <PolyStyle id="khPolyStyle1512_copy0">
+      <color>ffdcdcdc</color>
+      <outline>0</outline>
+    </PolyStyle>
+  </Style>
+  <Style id="Gainsboro_copy00">
+    <IconStyle>
+      <color>00ffffff</color>
+      <Icon>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <color>00ffffff</color>
+    </LabelStyle>
+    <LineStyle>
+      <color>ff000000</color>
+    </LineStyle>
+    <PolyStyle>
+      <color>ffdcdcdc</color>
+      <outline>0</outline>
+    </PolyStyle>
+  </Style>
+  <Style id="sn_noicon_copy3">
+    <IconStyle id="khIconStyle1508_copy7">
+      <color>00ffffff</color>
+      <Icon>
+      </Icon>
+    </IconStyle>
+    <LabelStyle id="khLabelStyle1510_copy10">
+      <color>00ffffff</color>
+    </LabelStyle>
+    <LineStyle id="khLineStyle1511_copy10">
+      <color>ff000000</color>
+    </LineStyle>
+    <PolyStyle id="khPolyStyle1512_copy10">
+      <color>ffdcdcdc</color>
+      <outline>0</outline>
+    </PolyStyle>
+  </Style>
+  <Style id="sn_noicon_copy4">
+    <IconStyle id="khIconStyle1508_copy8">
+      <color>00ffffff</color>
+      <Icon>
+      </Icon>
+    </IconStyle>
+    <LabelStyle id="khLabelStyle1510_copy11">
+      <color>00ffffff</color>
+    </LabelStyle>
+    <LineStyle id="khLineStyle1511_copy11">
+      <color>ff000000</color>
+    </LineStyle>
+    <PolyStyle id="khPolyStyle1512_copy11">
+      <color>ffdcdcdc</color>
+      <outline>0</outline>
+    </PolyStyle>
+  </Style>
+  <Style id="sn_noicon">
+    <IconStyle id="khIconStyle1508_copy4">
+      <color>00ffffff</color>
+      <Icon>
+      </Icon>
+    </IconStyle>
+    <LabelStyle id="khLabelStyle1510_copy6">
+      <color>00ffffff</color>
+    </LabelStyle>
+    <LineStyle id="khLineStyle1511_copy6">
+      <color>ff000000</color>
+    </LineStyle>
+    <PolyStyle id="khPolyStyle1512_copy6">
+      <color>ffdcdcdc</color>
+      <outline>0</outline>
+    </PolyStyle>
+  </Style>
+  <Style id="khStyle15070">
+    <IconStyle id="khIconStyle15080">
+      <color>00ffffff</color>
+      <Icon>
+      </Icon>
+    </IconStyle>
+    <LabelStyle id="khLabelStyle15100">
+      <color>00ffffff</color>
+    </LabelStyle>
+    <LineStyle id="khLineStyle15110">
+      <color>ff000000</color>
+    </LineStyle>
+    <PolyStyle id="khPolyStyle15120">
+      <color>ffdcdcdc</color>
+      <outline>0</outline>
+    </PolyStyle>
+  </Style>
+  <Folder>
+    <name>Tutankhamon&apos;s tomb 3D</name>
+    <description><![CDATA[KV 62, Tutankhamon tomb, is the most famous tomb in the world because of the treasures it held intact for over three thousand years.<br><br>
+
+<img src ="http://www.kv5.com/images/large/13669.jpg"><br><br>
+
+Data adquired from Theban Mapping Project (www.kv5.com).<br>]]></description>
+    <LookAt>
+      <longitude>32.60119237374853</longitude>
+      <latitude>25.74058827151477</latitude>
+      <altitude>0</altitude>
+      <heading>-32.42328839528552</heading>
+      <tilt>62.91100771628187</tilt>
+      <range>92.54293921253209</range>
+    </LookAt>
+    <ScreenOverlay>
+      <name>Author</name>
+      <Icon>
+        <href>http://www.telefonica.net/web2/altf/media/autor.gif</href>
+      </Icon>
+      <overlayXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+      <screenXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+      <rotationXY x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+      <size x="0" y="0" xunits="fraction" yunits="fraction"/>
+    </ScreenOverlay>
+    <Placemark>
+      <name>Model</name>
+      <Model id="model_5">
+        <altitudeMode>relativeToGround</altitudeMode>
+        <Location>
+          <longitude>32.60133261035</longitude>
+          <latitude>25.740294551876</latitude>
+          <altitude>-15.590778003</altitude>
+        </Location>
+        <Orientation>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <roll>0</roll>
+        </Orientation>
+        <Scale>
+          <x>1</x>
+          <y>1</y>
+          <z>1</z>
+        </Scale>
+        <Link>
+          <href>files/SUPreview2.dae</href>
+        </Link>
+      </Model>
+    </Placemark>
+    <Folder>
+      <name>Views</name>
+      <open>1</open>
+      <description>Click Play button</description>
+      <Placemark>
+        <name>KV9 (Rameses VI) entrance</name>
+        <description><![CDATA[<img src ="http://www.kv5.com/images/large/10636.jpg"><br><br>]]></description>
+        <LookAt id="khLookAt701_copy0">
+          <longitude>32.6011140421633</longitude>
+          <latitude>25.7404292837207</latitude>
+          <altitude>0</altitude>
+          <heading>-62.75578833706991</heading>
+          <tilt>55.02096068253594</tilt>
+          <range>42.98529537406925</range>
+        </LookAt>
+        <styleUrl>#khStyle150712442410</styleUrl>
+        <Point id="khPoint702_copy0">
+          <coordinates>32.60120138741922,25.74041162000696,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Outside entrance</name>
+        <LookAt>
+          <longitude>32.60131689564181</longitude>
+          <latitude>25.74034261555476</latitude>
+          <altitude>0</altitude>
+          <heading>-125.2512876727704</heading>
+          <tilt>46.83146496304828</tilt>
+          <range>41.22806115529043</range>
+        </LookAt>
+        <styleUrl>#Gainsboro_copy00</styleUrl>
+        <Point>
+          <coordinates>32.60141923588512,25.7403264953006,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Entrance</name>
+        <LookAt>
+          <longitude>32.60119882942618</longitude>
+          <latitude>25.74033786980237</latitude>
+          <altitude>0</altitude>
+          <heading>-83.51656211510246</heading>
+          <tilt>60.25901225254297</tilt>
+          <range>32.71434316761129</range>
+        </LookAt>
+        <styleUrl>#khStyle15070</styleUrl>
+        <Point>
+          <coordinates>32.60126045346268,25.74033338184399,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Corridor</name>
+        <LookAt>
+          <longitude>32.6014886745463</longitude>
+          <latitude>25.74022666397091</latitude>
+          <altitude>0</altitude>
+          <heading>123.8349477830894</heading>
+          <tilt>69.95567110496373</tilt>
+          <range>28.37144737673791</range>
+        </LookAt>
+        <styleUrl>#khStyle150712442410</styleUrl>
+        <Point>
+          <coordinates>32.6013655560439,25.74026853263928,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Antechamber</name>
+        <LookAt>
+          <longitude>32.60128027095742</longitude>
+          <latitude>25.74027666385709</latitude>
+          <altitude>0</altitude>
+          <heading>-179.7108951841879</heading>
+          <tilt>52.03963555463389</tilt>
+          <range>14.20429178132809</range>
+        </LookAt>
+        <styleUrl>#sn_noicon_copy3</styleUrl>
+        <Point>
+          <coordinates>32.60123887246742,25.74028223324207,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Annexe chamber</name>
+        <LookAt>
+          <longitude>32.60125170264288</longitude>
+          <latitude>25.74026283913108</latitude>
+          <altitude>0</altitude>
+          <heading>156.7751420484697</heading>
+          <tilt>36.28905370401951</tilt>
+          <range>13.03128641256657</range>
+        </LookAt>
+        <styleUrl>#sn_noicon_copy4</styleUrl>
+        <Point>
+          <coordinates>32.60123887246742,25.74028223324207,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Treasury chamber</name>
+        <LookAt>
+          <longitude>32.60129343834058</longitude>
+          <latitude>25.74033109505779</latitude>
+          <altitude>0</altitude>
+          <heading>-146.8685523237924</heading>
+          <tilt>61.73360453788744</tilt>
+          <range>16.52439305200204</range>
+        </LookAt>
+        <styleUrl>#sn_noicon</styleUrl>
+        <Point>
+          <coordinates>32.60123887246742,25.74028223324207,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Burial chamber 1</name>
+        <LookAt>
+          <longitude>32.60145983726773</longitude>
+          <latitude>25.74042895343943</latitude>
+          <altitude>0</altitude>
+          <heading>69.48508648404669</heading>
+          <tilt>69.46234692999695</tilt>
+          <range>29.96295525042059</range>
+        </LookAt>
+        <styleUrl>#khStyle150712442410</styleUrl>
+        <Point>
+          <coordinates>32.6013380149254,25.7402957988105,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Burial chamber 2</name>
+        <LookAt>
+          <longitude>32.60118504336173</longitude>
+          <latitude>25.74031390747283</latitude>
+          <altitude>0</altitude>
+          <heading>-121.4671913757371</heading>
+          <tilt>64.41713425023228</tilt>
+          <range>18.52027884915852</range>
+        </LookAt>
+        <styleUrl>#khStyle150712442410</styleUrl>
+        <Point>
+          <coordinates>32.60123887246742,25.74028223324207,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Burial chamber 3</name>
+        <LookAt id="khLookAt991_copy5">
+          <longitude>32.60120932872776</longitude>
+          <latitude>25.74050543209503</latitude>
+          <altitude>0</altitude>
+          <heading>-20.6628010935289</heading>
+          <tilt>61.15255532187587</tilt>
+          <range>25.4419305750766</range>
+        </LookAt>
+        <styleUrl>#khStyle1507_copy00</styleUrl>
+        <Point id="khPoint999_copy2">
+          <altitudeMode>relativeToGround</altitudeMode>
+          <coordinates>32.60123973197975,25.74039883262789,5</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Folder>
+</Document>
+</kml>

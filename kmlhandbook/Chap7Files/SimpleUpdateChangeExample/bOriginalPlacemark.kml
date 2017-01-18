@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Placemark id="targetPlacemark">
+    <name>Original Placemark Name</name>
+    <visibility>1</visibility>
+    <Snippet>
+original snippet    </Snippet>
+    <description>original description</description>
+    <Point>
+      <coordinates>
+        -122,37,0
+      </coordinates>
+    </Point>
+  </Placemark>
+</kml>

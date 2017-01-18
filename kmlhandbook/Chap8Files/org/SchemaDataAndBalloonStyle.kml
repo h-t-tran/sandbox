@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>ExtendedData+SchemaData</name>
+    <open>1</open>
+    <Style id="trailhead-balloon-template">
+      <BalloonStyle>
+        <text><![CDATA[
+                   
+          <h2>My favorite trails!</h2>         
+          <br/><br/>         
+          The $[TrailHeadType/TrailHeadName/displayName] is <i>$[TrailHeadType/TrailHeadName]</i>.        
+          The trail is $[TrailHeadType/TrailLength] miles.         <br/>        
+          The climb is $[TrailHeadType/ElevationGain] meters.         <br/><br/>       
+        
+        ]]></text>
+      </BalloonStyle>
+    </Style>
+    <Schema id="TrailHeadTypeId" name="TrailHeadType">
+      <SimpleField name="TrailHeadName" type="string">
+        <displayName><![CDATA[<b>Trail Head Name</b>]]></displayName>
+      </SimpleField>
+      <SimpleField name="TrailLength" type="double">
+        <displayName><![CDATA[<i>The length in miles</i>]]></displayName>
+      </SimpleField>
+      <SimpleField name="ElevationGain" type="int">
+        <displayName><![CDATA[<i>change in altitude</i>]]></displayName>
+      </SimpleField>
+    </Schema>
+    <Placemark>
+      <name>Easy trail</name>
+      <styleUrl>#trailhead-balloon-template</styleUrl>
+      <ExtendedData>
+        <SchemaData schemaUrl="#TrailHeadTypeId">
+          <SimpleData name="TrailHeadName">
+Pi in the sky          </SimpleData>
+          <SimpleData name="TrailLength">
+3.14159          </SimpleData>
+          <SimpleData name="ElevationGain">
+10          </SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -122,37.002,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Difficult trail</name>
+      <styleUrl>#trailhead-balloon-template</styleUrl>
+      <ExtendedData>
+        <SchemaData schemaUrl="#TrailHeadTypeId">
+          <SimpleData name="TrailHeadName">
+Mount Everest          </SimpleData>
+          <SimpleData name="TrailLength">
+347.45          </SimpleData>
+          <SimpleData name="ElevationGain">
+10000          </SimpleData>
+        </SchemaData>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -121.998,37.0078,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

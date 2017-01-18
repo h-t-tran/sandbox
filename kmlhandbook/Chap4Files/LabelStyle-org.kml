@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Label Style Example</name>
+    <Placemark>
+      <name>Topock, AZ</name>
+      <open>1</open>
+      <LookAt>
+        <longitude>-114.486391641715</longitude>
+        <latitude>34.7183318048167</latitude>
+        <altitude>0</altitude>
+        <heading>9.72352284417441e-15</heading>
+        <tilt>3.06638923748042e-12</tilt>
+        <range>9489.36670378269</range>
+      </LookAt>
+      <Style>
+        <IconStyle>
+          <scale>1.2</scale>
+          <Icon>
+            <href>http://www.gbcnet.com/ushighways/logos/99_old_shield.gif</href>
+          </Icon>
+        </IconStyle>
+        <LabelStyle>
+          <color>ff00ffaa</color>
+          <scale>1.2</scale>
+        </LabelStyle>
+      </Style>
+      <Point>
+        <coordinates>
+          -114.486391641715,34.7183318048167,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Placemark>
+      <name>Placemark Name</name>
+      <description><![CDATA[
+      Your first paragraph.
+      <p>
+      
+      Here is how you add a link: <a href="http://code.google.com/apis/kml">Substitute your own link name here.</a>
+
+
+      <p>
+      
+      Here's the syntax to insert an image: <img src="http://code.google.com/images/code_sm.png">
+        <p>
+      
+        <b>Boldface type example.</b>
+        <p>
+      
+        <em>Italic type example.</em>
+      
+    ]]></description>
+    </Placemark>
+  </Document>
+</kml>

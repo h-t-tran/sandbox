@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <PhotoOverlay id="kom_firin_360">
+    <name>Kom Firin 360</name>
+    <description><![CDATA[
+      
+        <p>Panorama view of the excavation of a 
+         Ramesside temple site by the British Museum team, visited 
+         October 6, 2007.</p><p><a href="#kom_firin_360">Fly into this 
+         panorama</a>.</p>
+      
+    ]]></description>
+    <Camera>
+      <longitude>30.4882478804576</longitude>
+      <latitude>30.8634158327095</latitude>
+      <altitude>20</altitude>
+      <heading>53.5</heading>
+      <tilt>90</tilt>
+      <roll>0</roll>
+    </Camera>
+    <Style>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/camera.png
+          </href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Icon>
+      <href>http://www.ogleearth.com/komfirin360/komfirin360_$[level]_$[x]_$[y].jpg</href>
+    </Icon>
+    <ViewVolume>
+      <leftFov>-180</leftFov>
+      <rightFov>180</rightFov>
+      <bottomFov>-24.5</bottomFov>
+      <topFov>12.7</topFov>
+      <near>65</near>
+    </ViewVolume>
+    <ImagePyramid>
+      <maxWidth>16390</maxWidth>
+      <maxHeight>1757</maxHeight>
+      <gridOrigin>upperLeft</gridOrigin>
+    </ImagePyramid>
+    <Point>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>
+        30.4882478804576,30.8634158327095,13
+      </coordinates>
+    </Point>
+    <shape>cylinder</shape>
+  </PhotoOverlay>
+</kml>

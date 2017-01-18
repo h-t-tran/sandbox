@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"
+  xmlns:camp="http://example.com/camp">
+  <!-- Note: there is no http://example.com/camp namespace, but one is required
+  to pass XSD validation -->
+  <Document>
+    <name>Adding Arbitrary Data to KML</name>
+    <Placemark>
+      <name>CampsiteData</name>
+      <ExtendedData>
+        <camp:number>14</camp:number>
+        <camp:parkingSpaces>2</camp:parkingSpaces>
+        <camp:tentSites>4</camp:tentSites>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -114.041,53.7199,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

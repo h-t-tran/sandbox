@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <NetworkLinkControl>
+    <Update>
+      <targetHref>http://localhost:3000/bOriginalPlacemark.kml</targetHref>
+      <Change>
+        <Placemark targetId="targetPlacemark">
+          <name>New Placemark</name>
+          <visibility>1</visibility>
+          <Snippet>
+Moving across the ocean          </Snippet>
+          <description>
+              
+              new description, new location
+              
+            </description>
+          <Point>
+            <coordinates>
+              140.837,-3.26921,0
+            </coordinates>
+          </Point>
+        </Placemark>
+      </Change>
+    </Update>
+  </NetworkLinkControl>
+</kml>

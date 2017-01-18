@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Rulers</name>
+    <open>1</open>
+    <Style id="rf">
+      <ListStyle>
+        <listItemType>radioFolder</listItemType>
+      </ListStyle>
+    </Style>
+    <Folder>
+      <name>Horizontal</name>
+      <open>1</open>
+      <styleUrl>#rf</styleUrl>
+      <Placemark>
+        <name>off</name>
+      </Placemark>
+      <ScreenOverlay>
+        <name>64 px</name>
+        <color>aaaaffaa</color>
+        <Icon>
+          <href></href>
+        </Icon>
+        <overlayXY x="0.5" xunits="fraction" y="0.5" yunits="fraction"/>
+        <screenXY x="0.5" xunits="fraction" y="0.5" yunits="fraction"/>
+        <rotationXY x="0" xunits="fraction" y="0" yunits="fraction"/>
+        <size x="64" xunits="pixels" y="8" yunits="pixels"/>
+      </ScreenOverlay>
+      <ScreenOverlay>
+        <name>128 px</name>
+        <color>aaaaffaa</color>
+        <Icon>
+          <href></href>
+        </Icon>
+        <overlayXY x="0.5" xunits="fraction" y="0.5" yunits="fraction"/>
+        <screenXY x="0.5" xunits="fraction" y="0.5" yunits="fraction"/>
+        <rotationXY x="0" xunits="fraction" y="0" yunits="fraction"/>
+        <size x="128" xunits="pixels" y="8" yunits="pixels"/>
+      </ScreenOverlay>
+      <ScreenOverlay>
+        <name>256 px</name>
+        <color>aaaaffaa</color>
+        <Icon>
+          <href></href>
+        </Icon>
+        <overlayXY x="0.5" xunits="fraction" y="0.5" yunits="fraction"/>
+        <screenXY x="0.5" xunits="fraction" y="0.5" yunits="fraction"/>
+        <rotationXY x="0" xunits="fraction" y="0" yunits="fraction"/>
+        <size x="256" xunits="pixels" y="8" yunits="pixels"/>
+      </ScreenOverlay>
+      <ScreenOverlay>
+        <name>512 px</name>
+        <color>aaaaffaa</color>
+        <Icon>
+          <href></href>
+        </Icon>
+        <overlayXY x="0.5" xunits="fraction" y="0.5" yunits="fraction"/>
+        <screenXY x="0.5" xunits="fraction" y="0.5" yunits="fraction"/>
+        <rotationXY x="0" xunits="fraction" y="0" yunits="fraction"/>
+        <size x="512" xunits="pixels" y="8" yunits="pixels"/>
+      </ScreenOverlay>
+    </Folder>
+    <Folder>
+      <name>Vertical</name>
+      <open>1</open>
+      <styleUrl>#rf</styleUrl>
+      <Placemark>
+        <name>off</name>
+      </Placemark>
+      <ScreenOverlay>
+        <name>64 px</name>
+        <color>aaaaffaa</color>
+        <Icon>
+          <href></href>
+        </Icon>
+        <overlayXY x="0.5" xunits="fraction" y="0.5" yunits="fraction"/>
+        <screenXY x="0.5" xunits="fraction" y="0.5" yunits="fraction"/>
+        <rotationXY x="0" xunits="fraction" y="0" yunits="fraction"/>
+        <size x="8" xunits="pixels" y="64" yunits="pixels"/>
+      </ScreenOverlay>
+      <ScreenOverlay>
+        <name>128 px</name>
+        <color>aaaaffaa</color>
+        <Icon>
+          <href></href>
+        </Icon>
+        <overlayXY x="0.5" xunits="fraction" y="0.5" yunits="fraction"/>
+        <screenXY x="0.5" xunits="fraction" y="0.5" yunits="fraction"/>
+        <rotationXY x="0" xunits="fraction" y="0" yunits="fraction"/>
+        <size x="8" xunits="pixels" y="128" yunits="pixels"/>
+      </ScreenOverlay>
+      <ScreenOverlay>
+        <name>256 px</name>
+        <color>aaaaffaa</color>
+        <Icon>
+          <href></href>
+        </Icon>
+        <overlayXY x="0.5" xunits="fraction" y="0.5" yunits="fraction"/>
+        <screenXY x="0.5" xunits="fraction" y="0.5" yunits="fraction"/>
+        <rotationXY x="0" xunits="fraction" y="0" yunits="fraction"/>
+        <size x="8" xunits="pixels" y="256" yunits="pixels"/>
+      </ScreenOverlay>
+      <ScreenOverlay>
+        <name>512 px</name>
+        <color>aaaaffaa</color>
+        <Icon>
+          <href></href>
+        </Icon>
+        <overlayXY x="0.5" xunits="fraction" y="0.5" yunits="fraction"/>
+        <screenXY x="0.5" xunits="fraction" y="0.5" yunits="fraction"/>
+        <rotationXY x="0" xunits="fraction" y="0" yunits="fraction"/>
+        <size x="8" xunits="pixels" y="512" yunits="pixels"/>
+      </ScreenOverlay>
+    </Folder>
+  </Document>
+</kml>
