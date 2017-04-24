@@ -94,8 +94,11 @@ Ext.define("MyTestApp.view.myViewport", {
 
         {
             xtype: 'textfield',
+            id : 'textfield1Id',
+            reference : 'textfield1',
             placeholder: 'click me',
             fieldLabel: 'field1',
+            width: 400,
             // bind: {
             //     value: '{textvalue}'
             // },
@@ -110,6 +113,13 @@ Ext.define("MyTestApp.view.myViewport", {
                 clickxx: function() {
                     console.debug("clicked");
                 }
+            }
+        },
+        {
+            xtype: 'button',
+            text: 'hide me',
+            listeners: {
+                click: "onHideHandler",
             }
         }
     ]

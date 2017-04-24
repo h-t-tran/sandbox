@@ -1,0 +1,2 @@
+browser-sync start --server --files "css/*.css"
+live-server --entry-file=todoapp.html --port=9124
