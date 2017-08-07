@@ -5,7 +5,6 @@
     <content url="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/gbs/gbsUI" />
     <content url="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nodejs" />
     <content url="file://C:/bit9prog/dev/NITES-Next/nn-dev1/code/nrdb/nrdb-svc" />
-    <content url="file://$MODULE_DIR$/../../books/learn" />
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

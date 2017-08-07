@@ -26,7 +26,9 @@ Ext.onReady(function() {
 
             // either will work
             Ext.create("widget.viewport");
-
+setTimeout(function() {
+    Ext.tip.QuickTipManager.init();
+}, 2000);
             // Ext.create('Ext.panel.Panel', {
             //     renderTo: Ext.getBody(),
             //     width: 800,

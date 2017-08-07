@@ -31,6 +31,7 @@ Ext.define("MyTestApp.view.myViewport", {
         {
             xtype: 'button',
             text: 'click me',
+            //disabled : true,
             tooltip: 'my tooltip',
             listeners: {
                 click: "onKeyPress",
