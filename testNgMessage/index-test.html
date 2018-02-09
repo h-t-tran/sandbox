@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Online Class Scheduler</title>
+
+    <!-- Style sheets -->
+    <!--<link href="css/bootstrap.css" rel="stylesheet"/>-->
+    <!--<link href="css/app.css" rel="stylesheet"/>-->
+
+</head>
+
+<body ng-app="onlineClassSchedulerXX">
+
+<div class="container">
+
+    <form name="myform">
+        <input class="form-control"
+               name="inputEndDate2"
+               type="text"
+               ng-model="vm.class.className"
+               required
+        />
+        <span>{{myform.inputEndDate2.$error}}</span>
+
+        <span class="help-block has-error"
+              ng-messages="myform.inputEndDate2.$error">
+                    <span ng-message="required">
+                        foo bar error classForm.inputEndDate.$erro={{myform.inputEndDate2.$error}}
+                    </span>
+                </span>
+    </form>
+
+</div>
+
+    <!-- Library Scripts -->
+    <!--<script src="js/jquery-2.1.1.js"></script>-->
+    <script src="angular/latest/angular.js"></script>
+    <script type="text/javascript" src="angular/latest/angular-messages.js"></script>
+    <!--<script src="js/angular-route.js"></script>-->
+    <!--<script src="js/angular-resource.js"></script>-->
+    <!--<script src="js/angular-mocks.js"></script>-->
+    <!--<script src="js/bootstrap.js"></script>-->
+
+    <!-- Application Script -->
+    <script src="ufs-components/ufs-filters/latest/testFilters/app-test.js"></script>
+
+</body>
+
+</html>
