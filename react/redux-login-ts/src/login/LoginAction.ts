@@ -10,15 +10,12 @@
 import { LOGIN_REQUEST, LOGIN_SUCCESS, LOGIN_FAILURE} from '../actions/ActionTypes';
 import AccessApi  from '../api/AccessApis'
 
-export const loginSuccessActionFactory = (result) => {
-    console.log("loginSuccessActionFactory action result ", result);
-
-    return {
-        type: LOGIN_SUCCESS,
-        loggedInStatus: { status: result.msg, loggedIn : result.isLoggedIn }
-    }
-};
-
+/**
+ * request login
+ * @param user
+ * @param password
+ * @returns {(dispatch) => Promise<void>}
+ */
 export const loginActionFactory = (user, password) => {
     console.log("loginActionFactory action ");
 
@@ -32,7 +29,8 @@ export const loginActionFactory = (user, password) => {
             // Tell thunk to trigger success action
             dispatch(loginSuccessActionFactory(msg));
         }).catch(error => {
-            throw(error);
+            dispatch(loginFailedActionFactory(error));
+            //throw(error);
         });
     };
 
@@ -41,3 +39,19 @@ export const loginActionFactory = (user, password) => {
     //     credential: { user, password }
     // }
 }
+
+export const loginSuccessActionFactory = (result) => {
+    console.log("loginSuccessActionFactory action result ", result);
+    return {
+        type: LOGIN_SUCCESS,
+        loggedInStatus: { status: result.msg, loggedIn : result.isLoggedIn }
+    }
+};
+
+export const loginFailedActionFactory = (result) => {
+    console.log("loginSuccessActionFactory action result ", result);
+    return {
+        type: LOGIN_FAILURE,
+        loggedInStatus: { status: result.msg, loggedIn : result.isLoggedIn }
+    }
+};
