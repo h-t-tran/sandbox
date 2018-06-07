@@ -1,0 +1,39 @@
+{
+  "rules": [
+    {
+      "id": 1,
+      "title": "wind spd",
+      "desc": "F15 desc"
+    },
+    {
+      "id": 2,
+      "title": "humidiy",
+      "desc": "F16 desc"
+    }
+  ],
+  "assets": [
+    {
+      "id": 1,
+      "title": "F15"
+    },
+    {
+      "id": 2,
+      "title": "RIB"
+    }
+  ],
+  "tracks": [
+    {
+      "id": 1,
+      "where": "where clause 1"
+    },
+    {
+      "id": 2,
+      "where": "where clause 2"
+    },
+    {
+      "p": "json",
+      "where": "TRACK_GUID=\"11\" OR TRACK_GUID=\"222\"",
+      "id": 7
+    }
+  ]
+}
