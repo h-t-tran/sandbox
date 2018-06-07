@@ -10,12 +10,12 @@
 import { LOGIN_REQUEST, LOGIN_SUCCESS, LOGIN_FAILURE} from '../actions/ActionTypes';
 import AccessApi  from '../api/AccessApis'
 
-export const loginSuccessActionFactory = (msg) => {
-    console.log("loginSuccessActionFactory action msg ", msg);
+export const loginSuccessActionFactory = (result) => {
+    console.log("loginSuccessActionFactory action result ", result);
 
     return {
         type: LOGIN_SUCCESS,
-        credential: { status: msg }
+        loggedInStatus: { status: result.msg, loggedIn : result.isLoggedIn }
     }
 };
 

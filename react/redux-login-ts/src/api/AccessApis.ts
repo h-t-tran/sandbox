@@ -8,12 +8,13 @@
  *----------------------------------------------------------------------------*/
 
 class AccessApi {
+    static _isLogin : boolean = false;
     static login(user: string, password : string) {
         return new Promise((resolve, reject) => {
             console.log('Mocking logging in attempt....');
             setTimeout(() => {
                 console.log('Mocking logging is successful.');
-                resolve(Object.assign([], 'Login Success'));
+                resolve(Object.assign([], { isLoggedIn: true, msg : "Login Success" } ));
             }, 2000);
         });
     }

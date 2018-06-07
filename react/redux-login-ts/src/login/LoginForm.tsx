@@ -10,21 +10,23 @@
 import * as React from 'react';
 
 
-const LoginFormView = ({ name, password, status, userNameChanged, passwordChanged, loginHandler }) =>
-    <div>
+const LoginFormView = ({ name, password, status, loggedIn, userNameChanged, passwordChanged, loginHandler }) => {
+    let loggedInStr: string = loggedIn.toString();
+    return <div>
         <h1>Please Login</h1>
         <br/>
         <label>Name:</label>
-        <input type="text" value={name} onChange={userNameChanged}  />
+        <input type="text" value={name} onChange={userNameChanged}/>
         <br/>
         <label>Password:</label>
-        <input type="text" value={password} onChange={passwordChanged} />
+        <input type="text" value={password} onChange={passwordChanged}/>
         <br/>
-        <div>Status: {status}</div>
+        <div>Logged In: {loggedInStr} &nbsp;&nbsp;  Msg: {status}</div>
         <br/>
-        <button onClick={loginHandler} >Login</button>
+        <button onClick={loginHandler}>Login</button>
 
     </div>;
+}
 
 
 export default LoginFormView

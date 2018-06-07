@@ -52,6 +52,7 @@ class LoginFormContainer extends React.Component<LoginProps, undefined> {
 
         this._state.username = props.username;
         this._state.password = props.password;
+        //this._state.status = "not login";
 
         this._onUserNameChanged = this._onUserNameChanged.bind(this);
         this._onPasswordChanged = this._onPasswordChanged.bind(this);
@@ -92,13 +93,15 @@ class LoginFormContainer extends React.Component<LoginProps, undefined> {
     render() {
         // get the login status from the store.  Is this a good design??  There is probably a cleaner way.
         let state = this.props.store.getState();
-        let loginStatusMsg : string = state.login.status || '--';
+        let loginStatusMsg : string = state.login.status || "--";
+        let isLoggedIn : boolean = state.login.loggedIn || false;
 
         return (
             <div>
                 <LoginForm name={this._state.username}
                                password={this._state.password}
                                status={loginStatusMsg}
+                               loggedIn={isLoggedIn}
                                passwordChanged={this._onPasswordChanged}
                                userNameChanged={this._onUserNameChanged}
                                loginHandler={this._loginHandler.bind(this, 'abc')}
@@ -113,7 +116,8 @@ const mapStateToProps = (state, props) => {
     return {
         username: state.login.username,
         password: state.login.password,
-        status: state.login.status || 'NA'
+        status: state.login.status || 'NA',
+        loggedIn : state.login.loggedIn
     };
 };
 

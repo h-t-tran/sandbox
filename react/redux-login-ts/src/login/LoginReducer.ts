@@ -21,7 +21,8 @@ function LoginReducer (state = { username: 'james', password: 'mypass' }, action
 
         case LOGIN_SUCCESS:
             newState = {
-                status: "Logged in success!"
+                status: action.loggedInStatus.status, // "Logged in success!"
+                loggedIn : action.loggedInStatus.loggedIn
             };
             break;
 
