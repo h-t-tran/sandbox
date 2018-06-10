@@ -7,16 +7,18 @@
  * Description:
  *----------------------------------------------------------------------------*/
 
-import { LOGIN_REQUEST, LOGIN_SUCCESS, LOGIN_FAILURE} from '../actions/ActionTypes';
+import {LOGIN_REQUEST, LOGIN_SUCCESS, LOGIN_FAILURE, FAKE_ACTION} from "../actions/ActionTypes";
 import AccessApi  from '../api/AccessApis'
+import {LoginResponseData, default as IAccessApi} from "../api/IAccessApis";
 
 /**
  * request login
  * @param user
  * @param password
+ * @param api
  * @returns {(dispatch) => Promise<void>}
  */
-export const loginActionFactory = (user, password) => {
+export const loginActionFactory = (user : string, password : string, api : IAccessApi) => {
     console.log("loginActionFactory action ");
 
     if (!user || !password) {
@@ -25,33 +27,45 @@ export const loginActionFactory = (user, password) => {
 
     // return a function so that Thunk will trigger to invoke the async call.
     return function(dispatch) {
-        return AccessApi.login(user, password).then((msg) => {
+        return api.login(user, password).then((rsp) => {
             // Tell thunk to trigger success action
-            dispatch(loginSuccessActionFactory(msg));
+            if (rsp.isLoggedIn === true) {
+                dispatch(loginSuccessActionFactory(rsp));
+            }
+            else {
+                dispatch(loginFailedActionFactory(rsp));
+            }
         }).catch(error => {
-            dispatch(loginFailedActionFactory(error));
-            //throw(error);
+            dispatch(loginFailedActionFactory( error ));
         });
     };
+};
 
-    // return {
-    //     type: LOGIN_REQUEST,
-    //     credential: { user, password }
-    // }
-}
 
-export const loginSuccessActionFactory = (result) => {
+export const loginSuccessActionFactory = (result : LoginResponseData) => {
     console.log("loginSuccessActionFactory action result ", result);
     return {
         type: LOGIN_SUCCESS,
         loggedInStatus: { status: result.msg, loggedIn : result.isLoggedIn }
-    }
+    };
 };
 
-export const loginFailedActionFactory = (result) => {
-    console.log("loginSuccessActionFactory action result ", result);
+export const loginFailedActionFactory = (result : LoginResponseData) => {
+    console.log("loginFailedActionFactory action result ", result);
     return {
         type: LOGIN_FAILURE,
         loggedInStatus: { status: result.msg, loggedIn : result.isLoggedIn }
-    }
+    };
+};
+
+export const fakeActionFactory = () => {
+    console.log("fakeActionFactory action");
+    // return {
+    //     type: FAKE_ACTION
+    // };// return a function so that Thunk will trigger to invoke the async call.
+    return function(dispatch) {
+         //dispatch( { type: LOGIN_FAILURE, loggedInStatus: { status:"a", loggedIn:false }});
+
+        dispatch( { type: FAKE_ACTION, loggedInStatus: { status:"a", loggedIn:false }});
+    };
 };

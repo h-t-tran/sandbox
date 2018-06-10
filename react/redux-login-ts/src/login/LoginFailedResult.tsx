@@ -4,12 +4,17 @@
  *                      53560 Hull St, San Diego, California 92152-5001, U.S.A
  *                      Property of the U.S. Government
  *
- * Description: Define all actions used by the UI
+ * Description: the presentation component.  Put only markup.  No TS or JS code
  *----------------------------------------------------------------------------*/
 
-export const LOGIN_REQUEST = 'LOGIN_REQUEST';
-export const LOGIN_SUCCESS = 'LOGIN_SUCCESS';
-export const LOGIN_FAILURE = 'LOGIN_FAILURE';
+import * as React from 'react';
 
-export const FAKE_ACTION = 'FAKE_ACTION';
+const LoginFailedResult = ({ statusMsg }) => {
+    return <div style={{backgroundColor:"red"}}>
+        <h3>Login Failed:</h3>
+        <button>ReTry</button>
+    </div>;
+};
 
+
+export default LoginFailedResult;

@@ -7,7 +7,7 @@
  * Description:
  *----------------------------------------------------------------------------*/
 
-import {LOGIN_REQUEST, LOGIN_SUCCESS, LOGIN_FAILURE} from "../actions/ActionTypes";
+import {LOGIN_REQUEST, LOGIN_SUCCESS, LOGIN_FAILURE, FAKE_ACTION} from "../actions/ActionTypes";
 
 function LoginReducer (state = { username: 'james', password: 'mypass' }, action) {
     console.log("*** LoginReducer state ", state, ", action ", action );
@@ -32,6 +32,17 @@ function LoginReducer (state = { username: 'james', password: 'mypass' }, action
                 loggedIn : action.loggedInStatus.loggedIn
             };
             break;
+
+        case FAKE_ACTION:
+
+            newState =  {
+                fakeData: 123, //(new Date()).getTime(),
+                status: state.status,
+                loggedIn : state.loggedIn
+            };
+            console.info("&&&&& FAKE_ACTION in reducer");
+            break;
+
         default:
             return state
     }

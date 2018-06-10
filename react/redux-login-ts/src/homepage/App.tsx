@@ -14,6 +14,9 @@ import AppReducer from "./AppReducer";
 import { createStore, applyMiddleware } from 'redux'
 //import reduxImmutableStateInvariant from 'redux-immutable-state-invariant';
 import thunk from 'redux-thunk';
+import {BrowserRouter as Router} from 'react-router-dom';
+import {Route, Switch} from 'react-router-dom';
+import LoginResult from "../login/LoginResult";
 
 let store = createStore(
     AppReducer,
@@ -43,11 +46,13 @@ export default class App extends React.Component<AppProps, undefined> {
     }
     render() {
         return (
-            <div className="app">
-                <h1>React Typescript Seed Project</h1>
-                <img src={reactLogo} height="100"/>
-                <LoginFormContainer store={store} onLoginSuccessful={this._onLoginCallback} />
-            </div>
+            <Router>
+                <div className="app">
+                    <h1>React Typescript Seed Project</h1>
+                    <img src={reactLogo} height="100"/>
+                    <LoginFormContainer store={store} onLoginSuccessful={this._onLoginCallback} />
+                </div>
+            </Router>
         );
     }
 }
