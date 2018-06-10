@@ -7,7 +7,7 @@
  * Description:
  *----------------------------------------------------------------------------*/
 
-import {LOGIN_REQUEST, LOGIN_SUCCESS, LOGIN_FAILURE, FAKE_ACTION} from "../actions/ActionTypes";
+import {LOGIN_REQUEST, LOGIN_SUCCESS, LOGIN_FAILURE, REFRESH_VIEW_ACTION} from "../actions/ActionTypes";
 
 function LoginReducer (state = { username: 'james', password: 'mypass' }, action) {
     console.log("*** LoginReducer state ", state, ", action ", action );
@@ -33,7 +33,7 @@ function LoginReducer (state = { username: 'james', password: 'mypass' }, action
             };
             break;
 
-        case FAKE_ACTION:
+        case REFRESH_VIEW_ACTION:
             newState =  {
                 // Hack...
                 // Genernate some random data as it is needed to trigger a render of the route.

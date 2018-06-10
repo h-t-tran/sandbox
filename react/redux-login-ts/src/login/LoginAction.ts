@@ -7,7 +7,7 @@
  * Description:
  *----------------------------------------------------------------------------*/
 
-import {LOGIN_REQUEST, LOGIN_SUCCESS, LOGIN_FAILURE, FAKE_ACTION} from "../actions/ActionTypes";
+import {LOGIN_REQUEST, LOGIN_SUCCESS, LOGIN_FAILURE, REFRESH_VIEW_ACTION} from "../actions/ActionTypes";
 import AccessApi  from '../api/AccessApis'
 import {LoginResponseData, default as IAccessApi} from "../api/IAccessApis";
 
@@ -61,6 +61,6 @@ export const loginFailedActionFactory = (result : LoginResponseData) => {
 export const fakeActionFactory = () => {
     console.log("fakeActionFactory action");
     return function(dispatch) {
-        dispatch( { type: FAKE_ACTION, loggedInStatus: { status:"a", loggedIn:false }});
+        dispatch( { type: REFRESH_VIEW_ACTION, loggedInStatus: { status:"a", loggedIn:false }});
     };
 };

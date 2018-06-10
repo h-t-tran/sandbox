@@ -11,5 +11,5 @@ export const LOGIN_REQUEST = 'LOGIN_REQUEST';
 export const LOGIN_SUCCESS = 'LOGIN_SUCCESS';
 export const LOGIN_FAILURE = 'LOGIN_FAILURE';
 
-export const FAKE_ACTION = 'FAKE_ACTION';
+export const REFRESH_VIEW_ACTION = 'REFRESH_VIEW_ACTION';
 

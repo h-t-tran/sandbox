@@ -181,7 +181,6 @@ const mapStateToProps = (state, props) => {
 
         // this is needed to trigger the route refresh
         // We need something that is different so that React will detect the delta and render the route.
-        //fakeData1 : (new Date()).getTime() //state.login.fakeData
         fakeData : state.login.fakeData || ''
     };
 };
