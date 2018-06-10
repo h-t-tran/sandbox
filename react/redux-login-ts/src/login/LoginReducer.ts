@@ -34,13 +34,16 @@ function LoginReducer (state = { username: 'james', password: 'mypass' }, action
             break;
 
         case FAKE_ACTION:
-
             newState =  {
-                fakeData: 123, //(new Date()).getTime(),
+                // Hack...
+                // Genernate some random data as it is needed to trigger a render of the route.
+                // A new data value will cause mapStateToProps() to run and refresh the view and router
+                fakeData: Math.random(),
+
+                // for some reason spread operator "...state" doesn't work.  So extract each property.
                 status: state.status,
                 loggedIn : state.loggedIn
             };
-            console.info("&&&&& FAKE_ACTION in reducer");
             break;
 
         default:

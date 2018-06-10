@@ -171,12 +171,18 @@ class LoginFormContainer extends React.Component<LoginProps, undefined> {
 
 const mapStateToProps = (state, props) => {
     console.log("*** mapStateToProps: state ", state, ", props ", props);
+
+
     return {
         username: state.login.username,
         password: state.login.password,
         status: state.login.status || 'NA',
         loggedIn : state.login.loggedIn,
-        fakeData : state.login.fakeData || 5678
+
+        // this is needed to trigger the route refresh
+        // We need something that is different so that React will detect the delta and render the route.
+        //fakeData1 : (new Date()).getTime() //state.login.fakeData
+        fakeData : state.login.fakeData || ''
     };
 };
 

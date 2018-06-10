@@ -60,12 +60,7 @@ export const loginFailedActionFactory = (result : LoginResponseData) => {
 
 export const fakeActionFactory = () => {
     console.log("fakeActionFactory action");
-    // return {
-    //     type: FAKE_ACTION
-    // };// return a function so that Thunk will trigger to invoke the async call.
     return function(dispatch) {
-         //dispatch( { type: LOGIN_FAILURE, loggedInStatus: { status:"a", loggedIn:false }});
-
         dispatch( { type: FAKE_ACTION, loggedInStatus: { status:"a", loggedIn:false }});
     };
 };
