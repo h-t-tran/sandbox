@@ -5,19 +5,30 @@ import AlertFailed from "./AlertFailed";
 import {Route} from 'react-router-dom';
 import Button from "react-bootstrap/es/Button";
 
-
 class CreateAlertForm extends React.Component {
     
     constructor(props) {
         super(props);
+        this.onSubmit = this.onSubmit.bind(this);
     }
     
+    // onClick={this.onSubmit}
+    // onClick={() => {  }}
+    
+    onSubmit(history) {
+        console.log('onSubmit ', history);
+        history.push("/createAlert/success");
+    }
     render = () => {
         return (
             <div>
-                <Link to={"/createAlert/success"}>
-                    <Button className={'btn btn-primary'} onClick={this.onSubmit}>Submit</Button>
-                </Link>
+                <Route render={({ history}) => (
+                    <Button className={'btn btn-primary'}
+                            onClick={this.onSubmit.bind(this, history) }
+                            >
+                        Submit
+                    </Button>
+                    )} />
                 <br/>
                 
                 <Link to={"/createAlert/success"}>Success</Link>
