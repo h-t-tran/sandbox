@@ -15,8 +15,8 @@ class AccessApis implements IAccessApi {
     login(user: string, password: string): Promise<LoginResponseData> {
         console.log("Making ajax call to login");
 
-        let promiseResolve : any = null;
-        let promiseReject : any = null;
+        let promiseResolve = null;
+        let promiseReject = null;
         let promise = new Promise<LoginResponseData>((resolve, reject) => {
             promiseResolve = resolve;
             promiseReject = reject;

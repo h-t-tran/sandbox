@@ -10,7 +10,7 @@
 export class LoginResponseData {
     isLoggedIn : boolean;
     msg : string;
-    status : number;  // HTTP status code eg. 200
+    //status : number;  // HTTP status code eg. 200
 
     constructor(isLoggedIn : boolean, msg : string) {
         this.isLoggedIn = isLoggedIn;
