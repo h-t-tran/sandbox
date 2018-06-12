@@ -41,7 +41,7 @@ function LoginReducer (state = { username: 'james', password: 'mypass' }, action
                 fakeData: Math.random(),
 
                 // for some reason spread operator "...state" doesn't work.  So extract each property.
-                status: 'foobar-start", //state.status,
+                status: "foobar-start", //state.status,
                 loggedIn : true //state.loggedIn
             };
             break;

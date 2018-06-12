@@ -1,5 +1,5 @@
 import * as React from 'react';
-import * as style from './style.css';
+import  "./style.scss";
 import { connect } from 'react-redux';
 import { bindActionCreators, Dispatch } from 'redux';
 import { RouteComponentProps } from 'react-router';
@@ -66,7 +66,7 @@ export class App extends React.Component<App.Props> {
     const completedCount = todos.reduce((count, todo) => (todo.completed ? count + 1 : count), 0);
 
     return (
-      <div className={style.normal}>
+      <div className="normal">
         <Header addTodo={actions.addTodo} />
         <TodoList todos={filteredTodos} actions={actions} />
         <Footer
