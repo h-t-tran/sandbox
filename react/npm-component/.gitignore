@@ -1,0 +1,12 @@
+/vendor/
+/bower_components/
+/node_modules/
+/.idea
+/dist/
+/build/
+.DS_Store
+npm-debug.log
+.eslintcache
+/.env
+/coverage/
+/npm-debug.log.*

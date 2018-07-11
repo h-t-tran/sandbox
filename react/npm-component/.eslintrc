@@ -1,0 +1,72 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true
+  },
+  "globals": {
+    "__CONFIG__": true,
+    "__ENV__": true
+  },
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      // Enabled object spread
+      "experimentalObjectRestSpread": true
+    }
+  },
+  // Rule changes from Airbnb's eslint config
+  "rules": {
+    "arrow-body-style": 0,
+    "brace-style": ["off", "stroustrup", { "allowSingleLine": true }],
+    "comma-dangle": [2, "always-multiline"],
+    "import/no-unresolved": 0,
+    "import/prefer-default-export": 0,
+
+    // I turn the indent off b/c it enforces the endentation of the markup also.   Thus the following fails ESLint
+    //     <div   id='myid"
+    //            class='myClass'>
+    // because the indentation of "class" is too deep.  However I want to keep the indentation of regular JS code like this
+    //      if(...) {
+    //          const x = 1;    <<<<< indentation of 4.
+    //      }
+    // How do we enforce the 4-space indentation for JS code but not for markup?
+    // for now I just turn it off.
+    "indent": ["off", 4],
+    "keyword-spacing": 0,
+    "global-require": 0,
+    "jsx-a11y/href-no-hash": 0,
+    "jsx-a11y/anchor-is-valid": [ "error", {
+        "components": [ "Link" ],
+        "specialLink": [ "to", "hrefLeft", "hrefRight" ],
+        "aspects": [ "noHref", "invalidHref", "preferButton" ]
+      }],
+    "jsx-quotes": ["error", "prefer-double"],
+    "linebreak-style": 0,
+    "max-len": [2, { "code": 120 }],
+    "new-cap": 0,
+    "no-param-reassign": 0,
+    "no-underscore-dangle": 0,
+    "no-console": 0,
+    "object-curly-spacing" : 0,
+    "quotes": [0, "single", { "avoidEscape": true }],
+
+    // we want to allow the closing bracket to be on next line
+    // ex:      <DockMonitor toggleVisibilityKey="ctrl-h" changePositionKey="ctrl-q"
+    //                        defaultIsVisible="true" >
+    "react/jsx-closing-bracket-location" : 0,
+    "react/forbid-prop-types": 0,
+    "react/prop-types": 0,
+    "react/jsx-max-props-per-line": 0,
+    "react/jsx-filename-extension": 0,
+    "react/jsx-indent": 0,
+    "react/jsx-indent-props": 0,
+    "react/jsx-first-prop-new-line" : 0,
+    "semi" : 2,
+    "spaced-comment" : 0,
+    "space-in-parens" : 0,
+    "space-unary-ops" : 0,
+
+  }
+}
